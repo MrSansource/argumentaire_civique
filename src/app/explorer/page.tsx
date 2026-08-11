@@ -58,8 +58,10 @@ export default function ExplorerPage() {
         argumentsList={corpus.arguments}
         claims={corpus.claims}
         episodes={corpus.episodes}
+        references={corpus.references}
         sources={corpus.sources}
         themes={corpus.themes}
+        verifications={corpus.verifications}
       />
     </main>
   );

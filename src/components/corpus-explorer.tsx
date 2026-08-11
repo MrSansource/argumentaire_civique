@@ -5,8 +5,10 @@ import type {
   CorpusArgument,
   CorpusClaim,
   CorpusEpisode,
+  CorpusReference,
   CorpusSource,
   CorpusTheme,
+  CorpusVerification,
 } from "@/lib/corpus";
 import { formatTimestamp, youtubeUrlAt } from "@/lib/corpus";
 
@@ -14,8 +16,10 @@ type Props = {
   argumentsList: CorpusArgument[];
   claims: CorpusClaim[];
   episodes: CorpusEpisode[];
+  references: CorpusReference[];
   sources: CorpusSource[];
   themes: CorpusTheme[];
+  verifications: CorpusVerification[];
 };
 
 const statusLabels = {
@@ -26,9 +30,28 @@ const statusLabels = {
   reviewed: "Relu",
   validated: "Validé",
   rejected: "Rejeté",
+  open: "À instruire",
+  supported: "Étayé",
+  qualified: "Conclusion nuancée",
+  contradicted: "Contredit",
+  inconclusive: "Non concluant",
 } as const;
 
-export function CorpusExplorer({ argumentsList, claims, episodes, sources, themes }: Props) {
+const verificationModeLabels: Record<string, string> = {
+  empirical: "Empirique",
+  conceptual: "Conceptuelle",
+  discourse: "Analyse du discours",
+};
+
+export function CorpusExplorer({
+  argumentsList,
+  claims,
+  episodes,
+  references,
+  sources,
+  themes,
+  verifications,
+}: Props) {
   const [query, setQuery] = useState("");
   const [themeId, setThemeId] = useState("all");
 
@@ -38,22 +61,30 @@ export function CorpusExplorer({ argumentsList, claims, episodes, sources, theme
     [episodes],
   );
   const sourceById = useMemo(() => new Map(sources.map((source) => [source.id, source])), [sources]);
+  const referenceById = useMemo(
+    () => new Map(references.map((reference) => [reference.id, reference])),
+    [references],
+  );
 
   const filteredArguments = useMemo(() => {
     const normalizedQuery = query.trim().toLocaleLowerCase("fr");
     return argumentsList.filter((argument) => {
       const matchesTheme = themeId === "all" || argument.themeIds.includes(themeId);
+      const relatedVerifications = verifications.filter((verification) =>
+        argument.premiseClaimIds.includes(verification.claimId),
+      );
       const searchable = [
         argument.title,
         argument.thesisFr,
         ...argument.objections.map((item) => item.title),
         ...(argument.rhetoricalMoves ?? []).map((item) => item.device),
+        ...relatedVerifications.flatMap((item) => [item.questionFr, item.findingFr, ...item.caveats]),
       ]
         .join(" ")
         .toLocaleLowerCase("fr");
       return matchesTheme && (!normalizedQuery || searchable.includes(normalizedQuery));
     });
-  }, [argumentsList, query, themeId]);
+  }, [argumentsList, query, themeId, verifications]);
 
   return (
     <div className="explorer-layout">
@@ -125,6 +156,9 @@ export function CorpusExplorer({ argumentsList, claims, episodes, sources, theme
                 evidenceWithDuplicates.map((item) => [item.segment.id, item]),
               ).values(),
             ];
+            const argumentVerifications = verifications.filter((verification) =>
+              argument.premiseClaimIds.includes(verification.claimId),
+            );
 
             return (
               <article key={argument.id} className="argument-card">
@@ -171,6 +205,39 @@ export function CorpusExplorer({ argumentsList, claims, episodes, sources, theme
                           <h3>{move.device}</h3>
                           <p><strong>Effet</strong>{move.effectFr}</p>
                           <p><strong>Risque</strong>{move.riskFr}</p>
+                        </article>
+                      ))}
+                    </div>
+                  </details>
+                ) : null}
+
+                {argumentVerifications.length ? (
+                  <details className="verification-panel">
+                    <summary>Consulter les {argumentVerifications.length} vérifications externes</summary>
+                    <div className="verification-list">
+                      {argumentVerifications.map((verification) => (
+                        <article key={verification.id}>
+                          <div>
+                            <span className={`verification-status verification-${verification.status}`}>
+                              {statusLabels[verification.status]}
+                            </span>
+                            <small>{verificationModeLabels[verification.mode] ?? verification.mode}</small>
+                          </div>
+                          <h3>{verification.questionFr}</h3>
+                          <p>{verification.findingFr}</p>
+                          <ul>
+                            {verification.caveats.map((caveat) => <li key={caveat}>{caveat}</li>)}
+                          </ul>
+                          <div className="verification-sources">
+                            {verification.referenceIds.map((referenceId) => {
+                              const reference = referenceById.get(referenceId);
+                              return reference ? (
+                                <a key={reference.id} href={reference.url} target="_blank" rel="noreferrer">
+                                  {reference.publisher} · {reference.title} ↗
+                                </a>
+                              ) : null;
+                            })}
+                          </div>
                         </article>
                       ))}
                     </div>

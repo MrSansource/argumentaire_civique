@@ -39,6 +39,38 @@
       "description": "Capacité d'agir, échelles d'action et sentiment d'efficacité politique."
     }
   ],
+  "references": [
+    {
+      "id": "insee-salaires-generations-2021",
+      "publisher": "Insee",
+      "title": "Salaires des générations 1940 à 1980 : des effets différenciés du contexte économique et du diplôme sur les trajectoires salariales",
+      "url": "https://www.insee.fr/fr/statistiques/5392032?sommaire=5392045",
+      "publishedAt": "2021-06-29",
+      "accessedAt": "2026-08-12",
+      "kind": "official-statistical-publication",
+      "scopeNote": "Salariés du privé nés autour de 1940 à 1980, avec carrière peu interrompue ; comparaison des salaires réels et relatifs selon l'âge et le diplôme."
+    },
+    {
+      "id": "insee-salaires-formation-2025",
+      "publisher": "Insee",
+      "title": "Salaires selon le diplôme et la durée depuis la sortie de formation initiale",
+      "url": "https://www.insee.fr/fr/statistiques/8305524",
+      "publishedAt": "2025-02-12",
+      "accessedAt": "2026-08-12",
+      "kind": "official-statistical-table",
+      "scopeNote": "Salariés de France hors Mayotte vivant en logement ordinaire ; moyennes 2021 à 2023, salaires nets médians selon diplôme et ancienneté."
+    },
+    {
+      "id": "insee-niveau-vie-age-2026",
+      "publisher": "Insee",
+      "title": "Niveau de vie selon l'âge",
+      "url": "https://www.insee.fr/fr/statistiques/2416878",
+      "publishedAt": "2026-07-09",
+      "accessedAt": "2026-08-12",
+      "kind": "official-statistical-series",
+      "scopeNote": "Niveaux de vie annuels en euros constants selon l'âge ; le niveau de vie est une mesure de ménage distincte du salaire individuel."
+    }
+  ],
   "sources": [
     {
       "id": "democracy-at-work",
@@ -323,6 +355,35 @@
       "epistemicNote": "L'effet discursif peut être étudié ; l'intention attribuée à un groupe social demeure spéculative sans éléments supplémentaires.",
       "status": "draft",
       "review": null
+    }
+  ],
+  "verifications": [
+    {
+      "id": "verification-rendement-diplome-generations",
+      "claimId": "claim-young-graduates-economic-compression",
+      "mode": "empirical",
+      "status": "qualified",
+      "questionFr": "À âge et diplôme comparables, les générations récentes reçoivent-elles un rendement économique inférieur de leurs qualifications ?",
+      "findingFr": "L'Insee observe des salaires réels plus élevés à âge donné pour les générations récentes, mais une position salariale relative plus basse à 30 ans et un diplôme moins rémunérateur relativement au reste du marché du travail.",
+      "referenceIds": ["insee-salaires-generations-2021"],
+      "caveats": [
+        "Le résultat dépend du choix entre euros constants et position relative dans la distribution.",
+        "L'étude s'arrête aux salariés nés autour de 1980 et ne mesure pas directement la génération évoquée en 2026.",
+        "Le champ exclut notamment les carrières très interrompues et ne couvre pas le coût du logement."
+      ]
+    },
+    {
+      "id": "verification-comparateur-revenu",
+      "claimId": "claim-income-evaluation-is-contextual",
+      "mode": "empirical",
+      "status": "qualified",
+      "questionFr": "Quels comparateurs permettent d'évaluer sérieusement si un revenu individuel est élevé ou insuffisant ?",
+      "findingFr": "Les tableaux disponibles distinguent salaire individuel, ancienneté, diplôme et niveau de vie du ménage. Une somme mensuelle isolée ne peut donc être située sans préciser net ou brut, composition du ménage, âge, temps de travail et territoire.",
+      "referenceIds": ["insee-salaires-formation-2025", "insee-niveau-vie-age-2026"],
+      "caveats": [
+        "Ces références décrivent des distributions objectives mais ne mesurent pas directement le ressenti ni la comparaison sociale.",
+        "La série de niveau de vie ne permet pas à elle seule d'isoler les dépenses de logement ou les écarts territoriaux."
+      ]
     }
   ],
   "arguments": [

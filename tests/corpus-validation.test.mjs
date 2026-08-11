@@ -38,3 +38,10 @@ test("les sous-titres automatiques publient une note de fiabilité", () => {
 
   assert.match(validateCorpus(invalidCorpus).join("\n"), /note de fiabilité absente/);
 });
+
+test("une vérification doit citer une référence externe connue", () => {
+  const invalidCorpus = structuredClone(corpus);
+  invalidCorpus.verifications[0].referenceIds = ["reference-inconnue"];
+
+  assert.match(validateCorpus(invalidCorpus).join("\n"), /référence inconnue/);
+});

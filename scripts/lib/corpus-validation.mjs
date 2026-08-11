@@ -2,6 +2,13 @@ import { wordCount } from "./transcript.mjs";
 
 const ALLOWED_SOURCE_STATUSES = new Set(["identified", "candidate", "unresolved"]);
 const ALLOWED_REVIEW_STATUSES = new Set(["draft", "reviewed", "validated", "rejected"]);
+const ALLOWED_VERIFICATION_STATUSES = new Set([
+  "open",
+  "supported",
+  "qualified",
+  "contradicted",
+  "inconclusive",
+]);
 
 export function validateCorpus(corpus) {
   const errors = [];
@@ -35,12 +42,27 @@ export function validateCorpus(corpus) {
   const claims = collection("claims");
   const argumentsList = collection("arguments");
   const themes = collection("themes");
+  const references = collection("references");
+  const verifications = collection("verifications");
 
   const sourceIds = indexIds("sources", sources);
   const episodeIds = indexIds("episodes", episodes);
   const claimIds = indexIds("claims", claims);
   indexIds("arguments", argumentsList);
   const themeIds = indexIds("themes", themes);
+  const referenceIds = indexIds("references", references);
+  indexIds("verifications", verifications);
+
+  for (const reference of references) {
+    try {
+      new URL(reference.url);
+    } catch {
+      errors.push(`Référence ${reference.id} : URL invalide.`);
+    }
+    if (!reference.publisher || !reference.scopeNote) {
+      errors.push(`Référence ${reference.id} : éditeur ou périmètre absent.`);
+    }
+  }
 
   for (const source of sources) {
     if (!ALLOWED_SOURCE_STATUSES.has(source.status)) {
@@ -104,6 +126,26 @@ export function validateCorpus(corpus) {
     }
     if (claim.status === "validated" && !claim.review?.reviewedBy) {
       errors.push(`Affirmation ${claim.id} : validation sans relecteur.`);
+    }
+  }
+
+  for (const verification of verifications) {
+    if (!claimIds.has(verification.claimId)) {
+      errors.push(`Vérification ${verification.id} : affirmation inconnue ${verification.claimId}.`);
+    }
+    if (!ALLOWED_VERIFICATION_STATUSES.has(verification.status)) {
+      errors.push(`Vérification ${verification.id} : statut invalide ${verification.status}.`);
+    }
+    if (!verification.questionFr || !verification.findingFr || !verification.caveats?.length) {
+      errors.push(`Vérification ${verification.id} : question, résultat ou limites absents.`);
+    }
+    if (!verification.referenceIds?.length) {
+      errors.push(`Vérification ${verification.id} : au moins une référence externe est requise.`);
+    }
+    for (const referenceId of verification.referenceIds ?? []) {
+      if (!referenceIds.has(referenceId)) {
+        errors.push(`Vérification ${verification.id} : référence inconnue ${referenceId}.`);
+      }
     }
   }
 

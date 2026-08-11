@@ -18,6 +18,10 @@ Passage ou segment précisément localisé dans une source. Il permet de rattach
 
 Proposition factuelle ou interprétative. Elle porte un type, un niveau de confiance, un statut de validation et des liens vers ses extraits justificatifs ou contradictoires.
 
+### Vérification
+
+Question éditoriale reliant une affirmation à des références externes. Son verdict peut étayer, nuancer ou contredire la formulation initiale ; il conserve le périmètre des données et les limites de comparaison.
+
 ### Argument
 
 Unité de raisonnement reliant prémisses, conclusion, thème, intention et principales objections. Il référence des affirmations plutôt que recopier leurs données.

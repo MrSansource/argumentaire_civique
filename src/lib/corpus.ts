@@ -2,6 +2,12 @@ import corpusData from "../../content/corpus.json";
 
 export type SourceStatus = "identified" | "candidate" | "unresolved";
 export type ReviewStatus = "draft" | "reviewed" | "validated" | "rejected";
+export type VerificationStatus =
+  | "open"
+  | "supported"
+  | "qualified"
+  | "contradicted"
+  | "inconclusive";
 
 export type CorpusSource = {
   id: string;
@@ -66,13 +72,37 @@ export type CorpusTheme = {
   description: string;
 };
 
+export type CorpusReference = {
+  id: string;
+  publisher: string;
+  title: string;
+  url: string;
+  publishedAt: string;
+  accessedAt: string;
+  kind: string;
+  scopeNote: string;
+};
+
+export type CorpusVerification = {
+  id: string;
+  claimId: string;
+  mode: string;
+  status: VerificationStatus;
+  questionFr: string;
+  findingFr: string;
+  referenceIds: string[];
+  caveats: string[];
+};
+
 export type Corpus = {
   schemaVersion: number;
   updatedAt: string;
   themes: CorpusTheme[];
+  references: CorpusReference[];
   sources: CorpusSource[];
   episodes: CorpusEpisode[];
   claims: CorpusClaim[];
+  verifications: CorpusVerification[];
   arguments: CorpusArgument[];
 };
 

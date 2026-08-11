@@ -762,6 +762,97 @@ footer .brand-mark {
   text-transform: uppercase;
 }
 
+.verification-panel {
+  margin-top: 38px;
+  border-top: 1px solid var(--line);
+}
+
+.verification-panel summary {
+  padding: 18px 0;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.verification-list {
+  display: grid;
+  gap: 12px;
+}
+
+.verification-list article {
+  padding: 22px;
+  border: 1px solid var(--line);
+  background: #f7f4ee;
+}
+
+.verification-list article > div:first-child {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.verification-status {
+  display: inline-flex;
+  padding: 6px 9px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.verification-qualified {
+  border-color: var(--orange);
+  color: var(--orange);
+}
+
+.verification-list small {
+  color: var(--muted);
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.verification-list h3 {
+  max-width: 760px;
+  margin: 20px 0 12px;
+  font-size: 18px;
+  line-height: 1.35;
+}
+
+.verification-list p,
+.verification-list li {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.verification-list ul {
+  display: grid;
+  gap: 6px;
+  margin: 16px 0 0;
+  padding-left: 18px;
+}
+
+.verification-sources {
+  display: grid;
+  gap: 7px;
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+}
+
+.verification-sources a {
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.verification-sources a:hover {
+  color: var(--orange);
+}
+
 .evidence-panel {
   margin-top: 38px;
   border-top: 1px solid var(--line);
