@@ -78,6 +78,7 @@ export function CorpusExplorer({
         argument.thesisFr,
         ...argument.objections.map((item) => item.title),
         ...(argument.rhetoricalMoves ?? []).map((item) => item.device),
+        ...argument.adaptationConstraints,
         ...relatedVerifications.flatMap((item) => [item.questionFr, item.findingFr, ...item.caveats]),
       ]
         .join(" ")
@@ -195,6 +196,18 @@ export function CorpusExplorer({
                     </ul>
                   </section>
                 </div>
+
+                <section className="adaptation-guardrails" aria-labelledby={`guardrails-${argument.id}`}>
+                  <div>
+                    <span>Usage responsable</span>
+                    <h3 id={`guardrails-${argument.id}`}>Garde-fous d’adaptation</h3>
+                  </div>
+                  <ul>
+                    {argument.adaptationConstraints.map((constraint) => (
+                      <li key={constraint}>{constraint}</li>
+                    ))}
+                  </ul>
+                </section>
 
                 {argument.rhetoricalMoves?.length ? (
                   <details className="rhetoric-panel">
