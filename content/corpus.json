@@ -44,6 +44,11 @@
       "description": "Capacité d'agir, échelles d'action et sentiment d'efficacité politique."
     },
     {
+      "id": "psychologie-typologies",
+      "label": "Psychologie et typologies",
+      "description": "Mesures de personnalité, préférences déclarées, limites psychométriques et usages sociaux."
+    },
+    {
       "id": "culture-pouvoir",
       "label": "Culture et pouvoir",
       "description": "Pratiques culturelles, éducation populaire, légitimité et rapports sociaux."
@@ -129,6 +134,36 @@
       "accessedAt": "2026-08-12",
       "kind": "academic-review",
       "scopeNote": "Compte rendu du livre collectif dirigé par Pierre Bourdieu sur les conditions sociales de la pratique photographique ; ne confirme pas l'anecdote précise racontée dans la vidéo."
+    },
+    {
+      "id": "mccrae-costa-mbti-five-factor-1989",
+      "publisher": "Journal of Personality — Wiley",
+      "title": "Reinterpreting the Myers-Briggs Type Indicator From the Perspective of the Five-Factor Model of Personality",
+      "url": "https://doi.org/10.1111/j.1467-6494.1989.tb00759.x",
+      "publishedAt": "1989-03-01",
+      "accessedAt": "2026-08-12",
+      "kind": "peer-reviewed-psychometric-study",
+      "scopeNote": "Étude de 468 adultes comparant les indices du MBTI au NEO-PI : elle observe des corrélations dimensionnelles, mais pas de soutien aux préférences réellement dichotomiques ni aux types qualitativement distincts."
+    },
+    {
+      "id": "stein-swan-mbti-theory-2019",
+      "publisher": "Social and Personality Psychology Compass — Wiley",
+      "title": "Evaluating the validity of Myers-Briggs Type Indicator theory: A teaching tool and window into intuitive psychology",
+      "url": "https://swanpsych.com/publications/SteinSwanMBTITheory_2019.pdf",
+      "publishedAt": "2019-02-01",
+      "accessedAt": "2026-08-12",
+      "kind": "peer-reviewed-theory-review",
+      "scopeNote": "Évaluation de la théorie des types et de la pile de fonctions selon des critères de cohérence, de testabilité et d'accord avec les données ; ce n'est pas une nouvelle validation expérimentale d'un usage précis."
+    },
+    {
+      "id": "erford-mbti-form-m-synthesis-2025",
+      "publisher": "Journal of Counseling & Development — résumé Myers & Briggs Foundation",
+      "title": "A 25-Year Review and Psychometric Synthesis of the Myers-Briggs Type Indicator (MBTI) — Form M",
+      "url": "https://www.myersbriggs.org/research-and-library/journal-psychological-type/a-25-year-review-and-psychometric-synthesis-of-the-myers-briggs-type-indicator-form-m/",
+      "publishedAt": "2025-01-01",
+      "accessedAt": "2026-08-12",
+      "kind": "psychometric-review-affiliated-summary",
+      "scopeNote": "Synthèse de 193 études rapportant une forte cohérence interne et des convergences avec d'autres instruments ; la page est publiée par une organisation liée au MBTI et signale l'absence d'études de validité structurelle dans son échantillon."
     }
   ],
   "sources": [
@@ -157,7 +192,7 @@
       "kind": "chaine-createur",
       "url": "https://www.youtube.com/channel/UCELhS3lbQQ8GVa2UeoVXAkQ",
       "languages": ["en"],
-      "editorialNote": "Source utile pour étudier un discours MBTI, pas pour établir la validité scientifique de cette typologie."
+      "editorialNote": "Un épisode est analysé comme discours sur le MBTI et la persuasion. Il ne constitue pas une validation scientifique de la typologie ni de ses prédictions comportementales."
     },
     {
       "id": "aurelien-barrau",
@@ -515,6 +550,96 @@
           "speakerRole": "speaker-commentary"
         }
       ]
+    },
+    {
+      "id": "csjoseph-introverted-feeling-2018",
+      "sourceId": "cs-joseph",
+      "title": "What Is Introverted Feeling? (Fi) | Cognitive Functions | CS Joseph",
+      "url": "https://www.youtube.com/watch?v=NoM14YF2wTs",
+      "publishedAt": "2018-03-14",
+      "language": "en",
+      "transcript": {
+        "kind": "youtube-auto-captions",
+        "language": "en",
+        "acquiredAt": "2026-08-12",
+        "retention": "short-excerpts-only",
+        "acquisitionTool": "yt-dlp metadata and automatic subtitle export",
+        "reliabilityNote": "Sous-titres automatiques anglais : les extraits ont été raccourcis et doivent être contrôlés dans l'audio grâce aux liens horodatés."
+      },
+      "segments": [
+        {
+          "id": "csj-fi-001",
+          "startMs": 113369,
+          "endMs": 133830,
+          "excerpt": "introverted feeling is known as morals",
+          "paraphraseFr": "Joseph présente la fonction Fi comme une faculté de jugement moral.",
+          "speakerRole": "host-commentary"
+        },
+        {
+          "id": "csj-fi-002",
+          "startMs": 133830,
+          "endMs": 161700,
+          "excerpt": "the personal good or bad judgment",
+          "paraphraseFr": "Il décrit Fi comme un jugement personnel sur ce qui est bon ou mauvais.",
+          "speakerRole": "host-commentary"
+        },
+        {
+          "id": "csj-fi-003",
+          "startMs": 303919,
+          "endMs": 333500,
+          "excerpt": "I am morally unaware [...] I actually have no moral sense",
+          "paraphraseFr": "À partir de son propre type déclaré, il s'attribue une faible conscience morale.",
+          "speakerRole": "host-commentary"
+        },
+        {
+          "id": "csj-fi-004",
+          "startMs": 392300,
+          "endMs": 414650,
+          "excerpt": "you just make them uncomfortable and they'll do what you need",
+          "paraphraseFr": "Il recommande de rendre une personne supposée INFP inconfortable afin d'obtenir une action.",
+          "speakerRole": "host-commentary"
+        },
+        {
+          "id": "csj-fi-005",
+          "startMs": 414650,
+          "endMs": 442430,
+          "excerpt": "as long as you're persistent you will win",
+          "paraphraseFr": "Il prolonge ce conseil en valorisant la persistance de la pression.",
+          "speakerRole": "host-commentary"
+        },
+        {
+          "id": "csj-fi-006",
+          "startMs": 591410,
+          "endMs": 620250,
+          "excerpt": "change one's communication [...] to get a better outcome with somebody of a certain type",
+          "paraphraseFr": "Il annonce une adaptation de la communication visant un meilleur résultat selon le type attribué.",
+          "speakerRole": "host-commentary"
+        },
+        {
+          "id": "csj-fi-007",
+          "startMs": 753840,
+          "endMs": 781440,
+          "excerpt": "planning around or working around the fi users and kind of gaming the system",
+          "paraphraseFr": "Il présente l'anticipation des réactions supposées de Fi comme une manière de contourner ou jouer avec le système social.",
+          "speakerRole": "host-commentary"
+        },
+        {
+          "id": "csj-fi-008",
+          "startMs": 781440,
+          "endMs": 800790,
+          "excerpt": "it's a form of manipulation to be honest",
+          "paraphraseFr": "Il qualifie lui-même cette planification de manipulation, puis neutralise le terme.",
+          "speakerRole": "host-commentary"
+        },
+        {
+          "id": "csj-fi-009",
+          "startMs": 914220,
+          "endMs": 940470,
+          "excerpt": "doesn't really care what's true",
+          "paraphraseFr": "Il attribue à un ensemble de types un désintérêt pour la vérité au profit des croyances perçues.",
+          "speakerRole": "host-commentary"
+        }
+      ]
     }
   ],
   "claims": [
@@ -667,6 +792,46 @@
       "epistemicNote": "Orientation normative qui doit préserver le pluralisme, la contradiction et la capacité des participants à refuser l'interprétation proposée.",
       "status": "draft",
       "review": null
+    },
+    {
+      "id": "claim-fi-models-moral-judgment",
+      "episodeId": "csjoseph-introverted-feeling-2018",
+      "segmentIds": ["csj-fi-001", "csj-fi-002"],
+      "type": "theory-description",
+      "statementFr": "Dans le modèle exposé, la fonction cognitive Fi désigne un jugement personnel sur le bien et le mal et sa position dans une pile de fonctions caractérise chaque type.",
+      "epistemicNote": "Description interne de la théorie présentée dans la vidéo ; elle ne vaut pas validation psychométrique ni définition générale de la moralité.",
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "claim-function-position-predicts-character",
+      "episodeId": "csjoseph-introverted-feeling-2018",
+      "segmentIds": ["csj-fi-003", "csj-fi-009"],
+      "type": "behavioral-prediction-claim",
+      "statementFr": "L'épisode déduit de la position supposée d'une fonction des traits tels que la conscience morale ou l'intérêt pour la vérité.",
+      "epistemicNote": "La vidéo ne présente ni protocole, ni échantillon, ni mesure permettant d'estimer la validité ou l'incertitude de ces prédictions individuelles.",
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "claim-type-inference-guides-compliance-tactics",
+      "episodeId": "csjoseph-introverted-feeling-2018",
+      "segmentIds": ["csj-fi-004", "csj-fi-005", "csj-fi-006", "csj-fi-007", "csj-fi-008"],
+      "type": "persuasion-practice-claim",
+      "statementFr": "L'épisode transforme le type attribué en tactiques de communication, jusqu'à recommander l'inconfort et la persistance pour obtenir un comportement souhaité.",
+      "epistemicNote": "Le constat porte sur le conseil effectivement formulé, pas sur son efficacité. Le projet rejette une telle pression, indépendamment de son efficacité supposée.",
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "claim-explicit-preferences-before-personality-labels",
+      "episodeId": "csjoseph-introverted-feeling-2018",
+      "segmentIds": ["csj-fi-006", "csj-fi-007", "csj-fi-008"],
+      "type": "normative-safeguard-claim",
+      "statementFr": "Adapter une conversation devrait partir de préférences explicitement exprimées, révisables et refusables, plutôt que d'un type de personnalité inféré à distance.",
+      "epistemicNote": "Règle normative de conception dérivée des risques observés ; demander une préférence n'empêche pas toute influence et exige encore transparence et consentement.",
+      "status": "draft",
+      "review": null
     }
   ],
   "verifications": [
@@ -747,6 +912,34 @@
       "caveats": [
         "Une association statistique ne transforme pas chaque goût individuel en simple effet de classe.",
         "Les sources ne confirment pas l'exemple précis du pneu, du visage et du paysage raconté par Lepage."
+      ]
+    },
+    {
+      "id": "verification-mbti-types-and-function-predictions",
+      "claimId": "claim-function-position-predicts-character",
+      "mode": "psychometric-literature",
+      "status": "qualified",
+      "questionFr": "Les résultats psychométriques disponibles autorisent-ils à déduire la moralité ou le rapport à la vérité d'une personne depuis un type MBTI et une position de fonction ?",
+      "findingFr": "Certaines échelles MBTI présentent une cohérence interne et des convergences avec d'autres mesures de personnalité. En revanche, McCrae et Costa ne trouvent pas de soutien à des types réellement dichotomiques, et Stein et Swan contestent la validité de la théorie des types et fonctions. Ces résultats ne valident pas les prédictions déterministes formulées dans l'épisode.",
+      "referenceIds": ["mccrae-costa-mbti-five-factor-1989", "stein-swan-mbti-theory-2019", "erford-mbti-form-m-synthesis-2025"],
+      "caveats": [
+        "Une corrélation entre scores continus et traits établis ne valide pas automatiquement les seize types ni une pile de fonctions.",
+        "Le résumé favorable de 2025 est diffusé par la Myers & Briggs Foundation et doit être lu avec cette affiliation en tête.",
+        "Les études citées évaluent surtout l'instrument ou sa théorie, pas chacune des affirmations morales de cette vidéo."
+      ]
+    },
+    {
+      "id": "verification-mbti-compliance-tactic",
+      "claimId": "claim-type-inference-guides-compliance-tactics",
+      "mode": "evidence-audit",
+      "status": "inconclusive",
+      "questionFr": "L'épisode fournit-il des preuves qu'une pression fondée sur un type attribué permet d'obtenir de façon fiable le comportement recherché ?",
+      "findingFr": "Aucun protocole ni résultat empirique n'est présenté dans l'épisode. Les travaux psychométriques consultés ne testent pas cette tactique. Son efficacité demeure donc non établie, tandis que son caractère coercitif suffit à l'exclure des usages du projet.",
+      "referenceIds": ["mccrae-costa-mbti-five-factor-1989", "stein-swan-mbti-theory-2019"],
+      "caveats": [
+        "L'absence de preuve dans ces sources ne démontre pas l'inefficacité de toute adaptation conversationnelle.",
+        "La conclusion éthique ne dépend pas d'une mesure d'efficacité : obtenir une conformité par inconfort persistant n'est pas un objectif acceptable.",
+        "Une préférence déclarée peut elle aussi être instrumentalisée si l'objectif d'influence reste caché."
       ]
     }
   ],
@@ -976,6 +1169,73 @@
         "Reconnaître les effets propres possibles de l'art et des institutions culturelles.",
         "Écarter les généralisations non vérifiées de la vidéo sur les médias, les élections ou la violence.",
         "Formuler l'éducation politique comme une invitation contradictoire, pas comme un endoctrinement."
+      ],
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "argument-demander-preferences-sans-inferer-type",
+      "title": "Demander les préférences, ne pas inférer un type",
+      "thesisFr": "Une aide à la discussion peut proposer plusieurs registres — concret ou abstrait, bref ou détaillé, centré sur les valeurs ou sur les conséquences — mais elle doit laisser la personne choisir. Un type MBTI attribué ne justifie ni d'inférer sa moralité, sa crédulité ou sa vulnérabilité, ni de concevoir une pression destinée à obtenir sa conformité.",
+      "premiseClaimIds": [
+        "claim-fi-models-moral-judgment",
+        "claim-function-position-predicts-character",
+        "claim-type-inference-guides-compliance-tactics",
+        "claim-explicit-preferences-before-personality-labels"
+      ],
+      "themeIds": ["psychologie-typologies", "culture-pouvoir"],
+      "reasoningPattern": "remplacer-inference-identitaire-par-preference-consentie",
+      "objections": [
+        {
+          "title": "Un vocabulaire utile pour l'introspection",
+          "summaryFr": "Certaines personnes utilisent les types comme langage souple pour réfléchir à leurs habitudes ou ouvrir un dialogue. Cet usage volontaire n'exige pas de transformer l'étiquette en prédiction individuelle."
+        },
+        {
+          "title": "Des qualités psychométriques partielles",
+          "summaryFr": "La cohérence de certaines échelles et leurs corrélations avec des traits continus interdisent de réduire tout le MBTI à du hasard, sans valider pour autant les types discrets ni la pile de fonctions."
+        },
+        {
+          "title": "Les préférences déclarées sont imparfaites",
+          "summaryFr": "Une réponse explicite varie avec le contexte, le désir de plaire et la connaissance de soi ; elle doit rester révisable plutôt que devenir une nouvelle identité fixe."
+        },
+        {
+          "title": "Toute adaptation peut manipuler",
+          "summaryFr": "Demander le registre préféré ne suffit pas si l'objectif réel, les informations retenues ou la pression exercée restent cachés. La transparence sur l'intention demeure nécessaire."
+        }
+      ],
+      "rhetoricalMoves": [
+        {
+          "device": "Naturalisation d'une architecture typologique",
+          "effectFr": "Le vocabulaire de fonctions et de positions transforme rapidement une convention théorique en description apparemment évidente de la personne.",
+          "riskFr": "La précision du système peut être confondue avec une validation empirique de ses catégories et prédictions.",
+          "segmentIds": ["csj-fi-001", "csj-fi-002"]
+        },
+        {
+          "device": "Auto-attribution exemplaire",
+          "effectFr": "L'orateur mobilise son propre type déclaré comme illustration concrète et mémorable du modèle.",
+          "riskFr": "Une interprétation autobiographique circulaire ne permet pas de tester si la théorie prédit mieux qu'une autre explication.",
+          "segmentIds": ["csj-fi-003"]
+        },
+        {
+          "device": "Impératif de pression et promesse de victoire",
+          "effectFr": "Le conseil opérationnel donne à la typologie une utilité immédiate pour obtenir un comportement.",
+          "riskFr": "Il convertit une étiquette contestée en permis de provoquer l'inconfort et de persister malgré la résistance.",
+          "segmentIds": ["csj-fi-004", "csj-fi-005"]
+        },
+        {
+          "device": "Neutralisation sémantique de la manipulation",
+          "effectFr": "En étendant le terme à toute interaction sociale, l'orateur réduit la gravité particulière du conseil précédent.",
+          "riskFr": "Cette généralisation efface les différences entre dialogue transparent, influence ordinaire, tromperie et coercition.",
+          "segmentIds": ["csj-fi-007", "csj-fi-008"]
+        }
+      ],
+      "adaptationConstraints": [
+        "Ne jamais inférer un type de personnalité depuis un comportement, un texte ou une transcription.",
+        "Ne jamais déduire d'une typologie la moralité, la sincérité, la crédulité, la vulnérabilité ou l'opinion politique d'une personne.",
+        "Ne jamais provoquer ou prolonger l'inconfort pour obtenir une conformité.",
+        "Proposer explicitement plusieurs formats de discussion et permettre le refus ou la révision du choix.",
+        "Présenter le MBTI comme une typologie contestée et non comme un diagnostic clinique.",
+        "Rendre visible l'objectif de la conversation et distinguer adaptation bienveillante, persuasion et pression."
       ],
       "status": "draft",
       "review": null
