@@ -46,6 +46,10 @@ Une dimension est une nomenclature versionnée. Ses catégories documentent leur
 
 Valeur agrégée reliant des catégories à une zone, une période, une méthode, des hypothèses et un intervalle d'incertitude.
 
+### Observation de population
+
+Cellule ou marge directement publiée par un producteur statistique. Elle conserve son unité, sa date de mesure, sa géographie, son statut et sa règle d'arrondi. Une observation publiée reste une estimation statistique lorsqu'elle provient d'une estimation de population.
+
 ## Relations importantes
 
 ```text
@@ -58,6 +62,19 @@ Dimension -> Catégorie -> Estimation de population
 Dimension -> Catégorie -> Règle d'adaptation explicite
 ```
 
+## Croisements de population
+
+Le fichier `content/population.json` contient des dimensions versionnées et des jeux de données agrégés. Une dimension porte un statut d'usage :
+
+- `active` : définition et données suffisantes pour le laboratoire ;
+- `planned` : nomenclature envisagée, mais non exploitable ;
+- `research-only` : objet d'étude sans usage de personnalisation ;
+- `restricted` : usage limité à des statistiques agrégées explicitement justifiées.
+
+Lorsqu'une cellule croisée est publiée, elle est prioritaire. Lorsque seules les marges sont disponibles, le produit des proportions peut servir de scénario d'indépendance, jamais d'observation. Les bornes de Fréchet indiquent l'intervalle logique compatible avec les seules marges et rendent visible l'information manquante.
+
+Le pilote utilise la table Insee 2026 par groupe d'âge et sexe statistique : 28 cellules publiées, en milliers, avec des arrondis séparés. Le validateur tolère donc les petits écarts de sommation induits par cet arrondi.
+
 ## Conséquence
 
 La génération à la demande sélectionne des arguments validés, récupère leurs preuves et applique des règles de formulation explicites. Elle ne fabrique pas une vérité différente pour chaque public.
@@ -68,4 +85,4 @@ Le fichier `content/corpus.json` constitue la première représentation portable
 
 La transcription complète n'est jamais un champ du corpus publié. Elle reste dans `.workbench/` pendant le traitement, puis seuls les extraits nécessaires et leurs paraphrases sont promus.
 
-Les invariants sont vérifiés par `scripts/validate-corpus.mjs` avant publication. Une base de données remplacera éventuellement ce fichier lorsque les workflows d'édition seront stabilisés.
+Les invariants sont vérifiés par `scripts/validate-corpus.mjs` et `scripts/validate-population.mjs` avant publication. Une base de données remplacera éventuellement ces fichiers lorsque les workflows d'édition seront stabilisés.

@@ -17,6 +17,7 @@ export default function Home() {
         <nav aria-label="Navigation principale">
           <a href="#methode">Méthode</a>
           <a href="#dimensions">Dimensions</a>
+          <a href="/population">Population</a>
           <a href="#feuille-de-route">Feuille de route</a>
         </nav>
         <a
@@ -51,6 +52,9 @@ export default function Home() {
           </a>
           <a className="button button-secondary" href="#methode">
             Découvrir la méthode
+          </a>
+          <a className="button button-secondary" href="/population">
+            Tester les croisements
           </a>
         </div>
         <div className="hero-note">

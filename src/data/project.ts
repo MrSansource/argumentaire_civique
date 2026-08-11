@@ -51,17 +51,23 @@ export const roadmap = [
   {
     title: "Socle et principes",
     description: "Formaliser la vision, les limites d'usage, les décisions et le vocabulaire partagé.",
-    status: "En cours",
+    status: "Disponible",
   },
   {
     title: "Modèle éditorial",
     description: "Décrire sources, affirmations, arguments, objections, thèmes et relations entre objets.",
-    status: "À suivre",
+    status: "Disponible",
   },
   {
     title: "Explorateur",
     description: "Naviguer dans un petit corpus vérifié et filtrer les contenus par thème et contexte.",
-    status: "À suivre",
+    status: "Disponible",
+  },
+  {
+    title: "Laboratoire population",
+    description:
+      "Comparer des croisements publiés, des estimations factorisées et leurs limites d'incertitude.",
+    status: "Disponible",
   },
   {
     title: "Contribution",

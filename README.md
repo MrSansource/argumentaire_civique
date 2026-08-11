@@ -2,7 +2,12 @@
 
 Une base collaborative pour relier données de population agrégées, thèmes civiques, arguments sourcés et styles d'explication.
 
-Le projet est dans une phase de cadrage. Le site actuel rend visibles sa méthode, ses limites et sa feuille de route avant le développement de fonctions éditoriales ou génératives.
+Le projet est dans une phase de prototype. Le site rend visibles sa méthode, ses limites, un corpus argumentatif pilote et un premier laboratoire de croisements démographiques.
+
+## Modules disponibles
+
+- `/explorer` : parcourir les sources, affirmations, arguments, objections et vérifications externes ;
+- `/population` : comparer une table Insee directement publiée à une estimation sous hypothèse d'indépendance et aux bornes logiques permises par les marges.
 
 ## Principes
 
@@ -26,6 +31,7 @@ Le site est alors disponible sur [http://localhost:3000](http://localhost:3000).
 ```bash
 npm test
 npm run corpus:validate
+npm run population:validate
 npm run lint
 npm run build
 ```
@@ -50,4 +56,4 @@ npm run transcript:batch -- --input .workbench/transcripts/video-test.json
 
 ## État
 
-`v0.1` — socle web et cadrage initial.
+`v0.2` — corpus pilote, vérifications externes et laboratoire de population.

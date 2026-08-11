@@ -47,3 +47,15 @@ Une vidéo est découpée en lots qui conservent les identifiants des segments. 
 **Statut :** accepté provisoirement
 
 Le corpus pilote utilise un fichier JSON validé par script. Cette solution rend le schéma révisable et vérifiable dans Git avant d'engager un choix de base de données et d'interface d'administration.
+
+## D-009 — Observations avant factorisation
+
+**Statut :** accepté
+
+Le moteur de population privilégie les cellules directement publiées. Le produit des marges n'est présenté que comme une hypothèse d'indépendance explicite et comparable à l'observation lorsqu'elle existe. Les bornes de Fréchet accompagnent les estimations afin de montrer ce que les marges seules ne permettent pas de déduire.
+
+## D-010 — Catalogue de dimensions avec statuts d'usage
+
+**Statut :** accepté
+
+Chaque nomenclature est versionnée et classée comme active, planifiée, réservée à la recherche ou restreinte. Le statut scientifique, les limites et les usages autorisés font partie du modèle. Une dimension psychologique controversée ne peut pas devenir un attribut de profil individuel ou un levier de ciblage politique.
