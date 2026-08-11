@@ -24,8 +24,19 @@ Le site est alors disponible sur [http://localhost:3000](http://localhost:3000).
 ## Validation
 
 ```bash
+npm test
+npm run corpus:validate
 npm run lint
 npm run build
+```
+
+## Analyse de sous-titres
+
+Les transcriptions complètes restent dans `.workbench/` et ne sont jamais publiées. Le pipeline d'import, de découpage et de validation est décrit dans [docs/YOUTUBE_PIPELINE.md](docs/YOUTUBE_PIPELINE.md).
+
+```bash
+npm run transcript:import -- --input video.vtt --episode-id video-test --source-id source-test --title "Titre" --url "https://www.youtube.com/watch?v=..." --language fr
+npm run transcript:batch -- --input .workbench/transcripts/video-test.json
 ```
 
 ## Documentation
@@ -34,6 +45,7 @@ npm run build
 - [Principes éthiques](docs/ETHICS.md)
 - [Modèle de données](docs/DATA_MODEL.md)
 - [Périmètre du MVP](docs/MVP.md)
+- [Pipeline YouTube](docs/YOUTUBE_PIPELINE.md)
 - [Journal des décisions](docs/DECISIONS.md)
 
 ## État

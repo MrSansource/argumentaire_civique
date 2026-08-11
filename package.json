@@ -6,7 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test": "node --test tests/*.test.mjs",
+    "corpus:validate": "node scripts/validate-corpus.mjs",
+    "transcript:import": "node scripts/import-transcript.mjs",
+    "transcript:batch": "node scripts/create-analysis-batches.mjs"
   },
   "dependencies": {
     "next": "16.3.0",

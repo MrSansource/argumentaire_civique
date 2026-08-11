@@ -45,12 +45,12 @@ export default function Home() {
           arguments sourcés et façons d&apos;expliquer — sans réduire les personnes à un profil.
         </p>
         <div className="hero-actions">
-          <a className="button button-primary" href="#methode">
-            Découvrir l&apos;approche
+          <a className="button button-primary" href="/explorer">
+            Explorer le corpus
             <Arrow />
           </a>
-          <a className="button button-secondary" href="#feuille-de-route">
-            Voir le MVP
+          <a className="button button-secondary" href="#methode">
+            Découvrir la méthode
           </a>
         </div>
         <div className="hero-note">

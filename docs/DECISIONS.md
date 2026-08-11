@@ -29,3 +29,21 @@ Le dépôt GitHub est actuellement public. Aucun secret, corpus sous licence res
 **Statut :** ouvert
 
 Le choix entre fichiers versionnés, PostgreSQL et approche hybride sera fait après validation du schéma et des workflows éditoriaux.
+
+## D-006 — Transcriptions complètes hors Git
+
+**Statut :** accepté
+
+Les fichiers VTT, SRT et transcriptions canoniques complètes restent dans `.workbench/`, ignoré par Git. Le corpus publié ne conserve que les courts extraits nécessaires à la vérification, leurs horodatages et des paraphrases.
+
+## D-007 — Analyse par lots traçables
+
+**Statut :** accepté
+
+Une vidéo est découpée en lots qui conservent les identifiants des segments. Toute affirmation candidate doit référencer ses segments. La génération ne peut attribuer elle-même un statut supérieur à `draft`.
+
+## D-008 — Fichier JSON avant base de données
+
+**Statut :** accepté provisoirement
+
+Le corpus pilote utilise un fichier JSON validé par script. Cette solution rend le schéma révisable et vérifiable dans Git avant d'engager un choix de base de données et d'interface d'administration.

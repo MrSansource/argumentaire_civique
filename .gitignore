@@ -24,6 +24,7 @@
 .DS_Store
 *.pem
 *-check.png
+.workbench/
 
 # debug
 npm-debug.log*

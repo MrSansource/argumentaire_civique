@@ -53,3 +53,11 @@ Dimension -> Catégorie -> Règle d'adaptation explicite
 ## Conséquence
 
 La génération à la demande sélectionne des arguments validés, récupère leurs preuves et applique des règles de formulation explicites. Elle ne fabrique pas une vérité différente pour chaque public.
+
+## Implémentation pilote
+
+Le fichier `content/corpus.json` constitue la première représentation portable du modèle. Il contient les sources repérées, un épisode pilote, de courts segments horodatés, des affirmations candidates et un argument structuré.
+
+La transcription complète n'est jamais un champ du corpus publié. Elle reste dans `.workbench/` pendant le traitement, puis seuls les extraits nécessaires et leurs paraphrases sont promus.
+
+Les invariants sont vérifiés par `scripts/validate-corpus.mjs` avant publication. Une base de données remplacera éventuellement ce fichier lorsque les workflows d'édition seront stabilisés.

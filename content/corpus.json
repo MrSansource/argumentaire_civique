@@ -1,0 +1,252 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-08-12",
+  "publicationPolicy": {
+    "fullTranscriptsCommitted": false,
+    "maxExcerptWords": 25,
+    "humanReviewRequired": true,
+    "sensitivePoliticalTargetingAllowed": false
+  },
+  "themes": [
+    {
+      "id": "democratie-travail",
+      "label": "Démocratie au travail",
+      "description": "Pouvoir de décision, organisation des entreprises et participation des travailleurs."
+    },
+    {
+      "id": "economie",
+      "label": "Économie",
+      "description": "Institutions, production, propriété, revenus et contradictions économiques."
+    },
+    {
+      "id": "ecologie",
+      "label": "Écologie",
+      "description": "Limites biophysiques, transformations collectives et conditions matérielles."
+    },
+    {
+      "id": "ia-travail",
+      "label": "IA et avenir du travail",
+      "description": "Automatisation, pouvoir économique, métiers et répartition des gains."
+    },
+    {
+      "id": "impuissance-politique",
+      "label": "Impuissance politique",
+      "description": "Capacité d'agir, échelles d'action et sentiment d'efficacité politique."
+    }
+  ],
+  "sources": [
+    {
+      "id": "democracy-at-work",
+      "name": "Democracy at Work",
+      "status": "identified",
+      "kind": "organisation-media",
+      "url": "https://www.youtube.com/@democracyatwrk",
+      "languages": ["en"],
+      "editorialNote": "Chaîne identifiée. Les propos restent à distinguer des faits externes et à confronter à d'autres sources."
+    },
+    {
+      "id": "paduteam",
+      "name": "PaduTeam",
+      "status": "identified",
+      "kind": "chaine-createur",
+      "url": "https://www.youtube.com/channel/UCbbmy1wFvL1Xq0G9I-mLtQg",
+      "languages": ["fr"],
+      "editorialNote": "Chaîne retrouvée par correspondance exacte du nom ; corpus non encore sélectionné."
+    },
+    {
+      "id": "cs-joseph",
+      "name": "C.S. Joseph",
+      "status": "identified",
+      "kind": "chaine-createur",
+      "url": "https://www.youtube.com/channel/UCELhS3lbQQ8GVa2UeoVXAkQ",
+      "languages": ["en"],
+      "editorialNote": "Source utile pour étudier un discours MBTI, pas pour établir la validité scientifique de cette typologie."
+    },
+    {
+      "id": "aurelien-barrau",
+      "name": "Aurélien Barrau",
+      "status": "identified",
+      "kind": "chaine-createur",
+      "url": "https://www.youtube.com/channel/UCwgqYNmYaij2_8hq_tOFyZw",
+      "languages": ["fr", "en"],
+      "editorialNote": "Chaîne personnelle identifiée ; sélection thématique à effectuer."
+    },
+    {
+      "id": "alexandre-duclos",
+      "name": "Alexandre Duclos",
+      "status": "candidate",
+      "kind": "chaine-createur",
+      "url": "https://www.youtube.com/channel/UChMTDpfZ9HcXB0K_MHhd_ag",
+      "languages": ["fr", "en"],
+      "editorialNote": "Correspondance de nom et de thèmes anthropologiques ; identité éditoriale à confirmer."
+    },
+    {
+      "id": "franck-lepage",
+      "name": "Franck Lepage",
+      "status": "candidate",
+      "kind": "auteur-multicanal",
+      "url": "https://www.youtube.com/channel/UCjc-o9YKPibPm-OMBK4ImgQ",
+      "languages": ["fr"],
+      "editorialNote": "La chaîne candidate diffuse ses conférences mais n'est pas nécessairement une chaîne personnelle officielle."
+    },
+    {
+      "id": "benjamin-schoendorff",
+      "name": "Benjamin Schoendorff",
+      "status": "candidate",
+      "kind": "auteur-multicanal",
+      "url": "https://www.youtube.com/channel/UCr4zQkTLMR7gw286o6LTLbA",
+      "languages": ["fr"],
+      "editorialNote": "Chaîne candidate « Vos valeurs en action » ; attribution à vérifier avant ingestion."
+    },
+    {
+      "id": "ismail-mounir",
+      "name": "Ismaïl Mounir",
+      "status": "candidate",
+      "kind": "auteur-multicanal",
+      "url": "https://www.youtube.com/channel/UCScD33YfKR7OsWbNnILyOKQ",
+      "languages": ["fr"],
+      "editorialNote": "Au moins deux chaînes homonymes ou associées apparaissent ; propriété et périmètre à confirmer."
+    },
+    {
+      "id": "dany-raz",
+      "name": "Dany & Raz",
+      "status": "unresolved",
+      "kind": "source-a-identifier",
+      "url": null,
+      "languages": ["fr"],
+      "editorialNote": "Le nom ne permet pas encore une identification fiable. Aucun contenu ne doit être attribué sans URL fournie ou preuve supplémentaire."
+    },
+    {
+      "id": "emmanuel-todd",
+      "name": "Emmanuel Todd",
+      "status": "unresolved",
+      "kind": "auteur-multicanal",
+      "url": null,
+      "languages": ["fr"],
+      "editorialNote": "Interventions diffusées par de nombreuses chaînes ; sélectionner les vidéos à l'unité."
+    },
+    {
+      "id": "juan-branco",
+      "name": "Juan Branco",
+      "status": "unresolved",
+      "kind": "auteur-multicanal",
+      "url": null,
+      "languages": ["fr"],
+      "editorialNote": "Étudier les procédés argumentatifs sans confondre efficacité rhétorique et solidité factuelle."
+    }
+  ],
+  "episodes": [
+    {
+      "id": "daw-capitalism-vs-democracy-2021",
+      "sourceId": "democracy-at-work",
+      "title": "Economic Update: Capitalism vs. Democracy",
+      "url": "https://www.youtube.com/watch?v=NdPPfB636jg",
+      "publishedAt": "2021-05-10",
+      "language": "en",
+      "transcript": {
+        "kind": "creator-subtitles",
+        "language": "en",
+        "acquiredAt": "2026-08-12",
+        "retention": "short-excerpts-only",
+        "acquisitionTool": "yt-dlp metadata and subtitle export"
+      },
+      "segments": [
+        {
+          "id": "daw-cvd-001",
+          "startMs": 73040,
+          "endMs": 81920,
+          "excerpt": "decisions that affect people's lives must be made by those people",
+          "paraphraseFr": "Wolff définit ici la démocratie comme la participation des personnes aux décisions qui les affectent."
+        },
+        {
+          "id": "daw-cvd-002",
+          "startMs": 199360,
+          "endMs": 208080,
+          "excerpt": "you enter a workplace from which democracy is excluded",
+          "paraphraseFr": "Il affirme que l'entrée dans l'entreprise marque généralement la sortie d'un espace démocratique."
+        },
+        {
+          "id": "daw-cvd-003",
+          "startMs": 270800,
+          "endMs": 278640,
+          "excerpt": "whoever runs the enterprise in a capitalist system makes all the key decisions",
+          "paraphraseFr": "Il attribue les décisions structurantes de l'entreprise au groupe qui la dirige."
+        },
+        {
+          "id": "daw-cvd-004",
+          "startMs": 438400,
+          "endMs": 444800,
+          "excerpt": "if you're going to call yourself a democracy, you would have had to have a democratic workplace",
+          "paraphraseFr": "Sa conclusion normative lie la cohérence démocratique d'une société à celle de ses lieux de travail."
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-democracy-participation-definition",
+      "episodeId": "daw-capitalism-vs-democracy-2021",
+      "segmentIds": ["daw-cvd-001"],
+      "type": "definition",
+      "statementFr": "Dans l'argument étudié, la démocratie désigne la participation aux décisions qui affectent directement la vie des personnes.",
+      "epistemicNote": "Définition normative proposée par l'orateur, non fait empirique.",
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "claim-workplace-decision-concentration",
+      "episodeId": "daw-capitalism-vs-democracy-2021",
+      "segmentIds": ["daw-cvd-002", "daw-cvd-003"],
+      "type": "structural-claim",
+      "statementFr": "Dans l'entreprise capitaliste décrite, les décisions clés sont concentrées entre les mains des propriétaires ou dirigeants plutôt que de l'ensemble des travailleurs.",
+      "epistemicNote": "Affirmation générale à confronter au droit des sociétés, aux institutions représentatives et à la diversité des formes d'entreprise.",
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "claim-democracy-requires-workplace-democracy",
+      "episodeId": "daw-capitalism-vs-democracy-2021",
+      "segmentIds": ["daw-cvd-001", "daw-cvd-004"],
+      "type": "normative-claim",
+      "statementFr": "Une société ne serait pleinement démocratique que si les travailleurs participaient aussi aux décisions de leur entreprise.",
+      "epistemicNote": "Conclusion normative dépendant de la définition retenue de la démocratie.",
+      "status": "draft",
+      "review": null
+    }
+  ],
+  "arguments": [
+    {
+      "id": "argument-democratie-lieu-travail",
+      "title": "Étendre l'exigence démocratique au lieu de travail",
+      "thesisFr": "La démocratie politique reste incomplète si une part centrale de la vie adulte demeure organisée sans participation aux décisions structurantes.",
+      "premiseClaimIds": [
+        "claim-democracy-participation-definition",
+        "claim-workplace-decision-concentration",
+        "claim-democracy-requires-workplace-democracy"
+      ],
+      "themeIds": ["democratie-travail", "economie"],
+      "reasoningPattern": "application-coherente-dun-principe",
+      "objections": [
+        {
+          "title": "Confusion entre démocratie politique et gouvernance économique",
+          "summaryFr": "Une entreprise poursuit une fonction différente de l'État ; l'analogie démocratique pourrait donc être limitée."
+        },
+        {
+          "title": "Participation indirecte déjà existante",
+          "summaryFr": "Le droit du travail, les syndicats et les instances représentatives introduisent des degrés de participation absents de la formulation la plus forte."
+        },
+        {
+          "title": "Efficacité et responsabilité",
+          "summaryFr": "Une gouvernance plus participative doit encore démontrer comment elle répartit expertise, risque financier et responsabilité des décisions."
+        }
+      ],
+      "adaptationConstraints": [
+        "Présenter l'argument comme un raisonnement discutable, pas comme un fait établi.",
+        "Faire apparaître au moins une objection avant toute formulation persuasive.",
+        "Ne pas cibler une personne selon son origine, sa santé ou une inférence psychologique."
+      ],
+      "status": "draft",
+      "review": null
+    }
+  ]
+}
