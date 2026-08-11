@@ -42,7 +42,7 @@ npm run transcript:import -- \
   --auto false
 ```
 
-Le résultat canonique conserve pour chaque segment : `id`, `startMs`, `endMs` et `text`.
+Le résultat canonique conserve pour chaque segment : `id`, `startMs`, `endMs` et `text`. Les sous-titres roulants de YouTube sont dédupliqués par chevauchement lexical et bornés à 30 secondes ou 90 mots pour préserver des unités analysables.
 
 ## Étape 3 — Créer des lots d'analyse
 
@@ -100,4 +100,6 @@ Le validateur refuse notamment les références inexistantes, les extraits trop 
 
 La vidéo `Economic Update: Capitalism vs. Democracy` de Democracy at Work sert de premier test. Le corpus ne conserve que quatre courts passages horodatés, trois affirmations candidates et un argument avec trois objections.
 
-Ce pilote démontre la méthode ; il ne constitue pas encore une validation de la thèse économique présentée.
+Un second cas, l'épisode PaduTeam sur la « dysmorphie financière », éprouve le pipeline sur des sous-titres automatiques français et un registre polémique. L'analyse distingue les affirmations empiriques, la critique de cadrage et les procédés rhétoriques, avec leurs risques.
+
+Ces pilotes démontrent la méthode ; ils ne constituent pas encore une validation des thèses économiques présentées.

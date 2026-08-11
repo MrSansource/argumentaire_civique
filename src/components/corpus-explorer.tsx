@@ -43,7 +43,12 @@ export function CorpusExplorer({ argumentsList, claims, episodes, sources, theme
     const normalizedQuery = query.trim().toLocaleLowerCase("fr");
     return argumentsList.filter((argument) => {
       const matchesTheme = themeId === "all" || argument.themeIds.includes(themeId);
-      const searchable = [argument.title, argument.thesisFr, ...argument.objections.map((item) => item.title)]
+      const searchable = [
+        argument.title,
+        argument.thesisFr,
+        ...argument.objections.map((item) => item.title),
+        ...(argument.rhetoricalMoves ?? []).map((item) => item.device),
+      ]
         .join(" ")
         .toLocaleLowerCase("fr");
       return matchesTheme && (!normalizedQuery || searchable.includes(normalizedQuery));
@@ -156,6 +161,21 @@ export function CorpusExplorer({ argumentsList, claims, episodes, sources, theme
                     </ul>
                   </section>
                 </div>
+
+                {argument.rhetoricalMoves?.length ? (
+                  <details className="rhetoric-panel">
+                    <summary>Analyser les procédés rhétoriques</summary>
+                    <div className="rhetoric-grid">
+                      {argument.rhetoricalMoves.map((move) => (
+                        <article key={move.device}>
+                          <h3>{move.device}</h3>
+                          <p><strong>Effet</strong>{move.effectFr}</p>
+                          <p><strong>Risque</strong>{move.riskFr}</p>
+                        </article>
+                      ))}
+                    </div>
+                  </details>
+                ) : null}
 
                 <details className="evidence-panel">
                   <summary>Voir les {evidence.length} passages sources</summary>

@@ -11,7 +11,7 @@ if (errors.length) {
   process.exitCode = 1;
 } else {
   console.log(
-    `Corpus valide : ${corpus.sources.length} sources, ${corpus.episodes.length} épisode, ` +
-      `${corpus.claims.length} affirmations et ${corpus.arguments.length} argument.`,
+    `Corpus valide : ${corpus.sources.length} sources, ${corpus.episodes.length} épisode${corpus.episodes.length > 1 ? "s" : ""}, ` +
+      `${corpus.claims.length} affirmations et ${corpus.arguments.length} argument${corpus.arguments.length > 1 ? "s" : ""}.`,
   );
 }

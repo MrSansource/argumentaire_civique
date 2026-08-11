@@ -27,6 +27,48 @@ Deuxième phrase.
   ]);
 });
 
+test("fusionne les sous-titres roulants de YouTube sans répéter le texte", () => {
+  const segments = parseTranscript(`WEBVTT
+
+00:00:00.000 --> 00:00:02.000
+Le point parle des prolétaires,
+
+00:00:02.000 --> 00:00:04.000
+Le point parle des prolétaires, et des couches moyennes
+
+00:00:04.000 --> 00:00:04.010
+et des couches moyennes
+
+00:00:04.010 --> 00:00:06.000
+et des couches moyennes intermédiaires.
+`);
+
+  assert.deepEqual(segments, [
+    {
+      id: "seg-00001",
+      startMs: 0,
+      endMs: 6_000,
+      text: "Le point parle des prolétaires, et des couches moyennes intermédiaires.",
+    },
+  ]);
+});
+
+test("borne la durée d'un segment roulant", () => {
+  const segments = parseTranscript(`WEBVTT
+
+00:00:00.000 --> 00:00:20.000
+Une première idée assez longue
+
+00:00:20.000 --> 00:00:40.000
+Une première idée assez longue puis une idée nouvelle
+`);
+
+  assert.deepEqual(segments, [
+    { id: "seg-00001", startMs: 0, endMs: 20_000, text: "Une première idée assez longue" },
+    { id: "seg-00002", startMs: 20_000, endMs: 40_000, text: "puis une idée nouvelle" },
+  ]);
+});
+
 test("regroupe les segments en lots sans perdre leurs identifiants", () => {
   const segments = [
     { id: "a", text: "un ".repeat(40).trim() },

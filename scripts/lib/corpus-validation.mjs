@@ -63,6 +63,15 @@ export function validateCorpus(corpus) {
     if (Object.hasOwn(episode, "fullTranscript")) {
       errors.push(`Épisode ${episode.id} : fullTranscript est interdit dans le corpus publié.`);
     }
+    if (episode.transcript?.retention !== "short-excerpts-only") {
+      errors.push(`Épisode ${episode.id} : la rétention doit être short-excerpts-only.`);
+    }
+    if (
+      episode.transcript?.kind === "youtube-auto-captions" &&
+      !episode.transcript.reliabilityNote
+    ) {
+      errors.push(`Épisode ${episode.id} : note de fiabilité absente pour les sous-titres automatiques.`);
+    }
     let previousStart = -1;
     for (const segment of episode.segments ?? []) {
       if (segmentIds.has(segment.id)) errors.push(`Segment dupliqué ${segment.id}.`);
@@ -114,6 +123,19 @@ export function validateCorpus(corpus) {
     }
     if (!argument.objections?.length) {
       errors.push(`Argument ${argument.id} : au moins une objection sérieuse est requise.`);
+    }
+    for (const move of argument.rhetoricalMoves ?? []) {
+      if (!move.device || !move.effectFr || !move.riskFr) {
+        errors.push(`Argument ${argument.id} : procédé rhétorique incomplet.`);
+      }
+      if (!move.segmentIds?.length) {
+        errors.push(`Argument ${argument.id} : procédé rhétorique sans passage source.`);
+      }
+      for (const segmentId of move.segmentIds ?? []) {
+        if (!segmentIds.has(segmentId)) {
+          errors.push(`Argument ${argument.id} : procédé rhétorique lié à un segment inconnu ${segmentId}.`);
+        }
+      }
     }
   }
 

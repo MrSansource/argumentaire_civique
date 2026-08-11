@@ -19,6 +19,7 @@ export type CorpusSegment = {
   endMs: number;
   excerpt: string;
   paraphraseFr: string;
+  speakerRole?: string;
 };
 
 export type CorpusEpisode = {
@@ -49,6 +50,12 @@ export type CorpusArgument = {
   themeIds: string[];
   reasoningPattern: string;
   objections: Array<{ title: string; summaryFr: string }>;
+  rhetoricalMoves?: Array<{
+    device: string;
+    effectFr: string;
+    riskFr: string;
+    segmentIds: string[];
+  }>;
   adaptationConstraints: string[];
   status: ReviewStatus;
 };

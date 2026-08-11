@@ -19,6 +19,11 @@
       "description": "Institutions, production, propriété, revenus et contradictions économiques."
     },
     {
+      "id": "pauvrete-inegalites",
+      "label": "Pauvreté et inégalités",
+      "description": "Niveaux de vie, déclassement, privations et distribution des ressources."
+    },
+    {
       "id": "ecologie",
       "label": "Écologie",
       "description": "Limites biophysiques, transformations collectives et conditions matérielles."
@@ -51,7 +56,7 @@
       "kind": "chaine-createur",
       "url": "https://www.youtube.com/channel/UCbbmy1wFvL1Xq0G9I-mLtQg",
       "languages": ["fr"],
-      "editorialNote": "Chaîne retrouvée par correspondance exacte du nom ; corpus non encore sélectionné."
+      "editorialNote": "Un épisode pilote est analysé. Son registre polémique est traité comme un objet rhétorique, distinct d'une vérification factuelle."
     },
     {
       "id": "cs-joseph",
@@ -180,6 +185,72 @@
           "paraphraseFr": "Sa conclusion normative lie la cohérence démocratique d'une société à celle de ses lieux de travail."
         }
       ]
+    },
+    {
+      "id": "paduteam-pauvrete-dans-la-tete-2026",
+      "sourceId": "paduteam",
+      "title": "LE POINT NOUS EXPLIQUE QUE LA PAUVRETÉ C’EST DANS LA TÊTE",
+      "url": "https://www.youtube.com/watch?v=H4LMqFLFZSw",
+      "publishedAt": "2026-08-06",
+      "language": "fr",
+      "transcript": {
+        "kind": "youtube-auto-captions",
+        "language": "fr",
+        "acquiredAt": "2026-08-12",
+        "retention": "short-excerpts-only",
+        "acquisitionTool": "yt-dlp metadata and automatic subtitle export",
+        "reliabilityNote": "Sous-titres automatiques : les formulations et noms propres peuvent contenir des erreurs. Les liens horodatés permettent de contrôler l'audio."
+      },
+      "segments": [
+        {
+          "id": "padu-pdt-001",
+          "startMs": 416280,
+          "endMs": 419110,
+          "excerpt": "c'est pas du tout objectif. Ça dépend des gens, ça dépend des classes sociales.",
+          "paraphraseFr": "Les intervenants soutiennent que l'appréciation d'un revenu dépend du contexte social plutôt que d'un seuil universel.",
+          "speakerRole": "host-commentary"
+        },
+        {
+          "id": "padu-pdt-002",
+          "startMs": 746360,
+          "endMs": 751670,
+          "excerpt": "vous avez les mêmes qualifications, voire plus que les générations d'avant et vous avez un retour en euros beaucoup moindre",
+          "paraphraseFr": "Ils avancent l'hypothèse d'un rendement économique plus faible des qualifications pour les jeunes générations.",
+          "speakerRole": "host-commentary"
+        },
+        {
+          "id": "padu-pdt-003",
+          "startMs": 1693600,
+          "endMs": 1697669,
+          "excerpt": "comment faire comprendre une situation sociale par la psychologie individuelle ?",
+          "paraphraseFr": "La critique centrale vise le passage d'une explication sociale à un diagnostic centré sur l'individu.",
+          "speakerRole": "host-commentary"
+        },
+        {
+          "id": "padu-pdt-004",
+          "startMs": 1896200,
+          "endMs": 1898470,
+          "excerpt": "C'est littéralement le mode de production néolibérale",
+          "paraphraseFr": "Les intervenants proposent une explication structurelle des difficultés financières évoquées dans l'article commenté.",
+          "speakerRole": "host-commentary"
+        },
+        {
+          "id": "padu-pdt-005",
+          "startMs": 2014679,
+          "endMs": 2018830,
+          "excerpt": "la bourgeoisie va s'en emparer pour faire dévier les colères sociales",
+          "paraphraseFr": "Ils attribuent à la psychologisation un effet politique : détourner une colère visant des structures sociales.",
+          "speakerRole": "host-commentary"
+        },
+        {
+          "id": "padu-pdt-006",
+          "startMs": 2076990,
+          "endMs": 2082589,
+          "excerpt": "Seuls les bourgeois peuvent dire le réel et toutes les contestations de leur ordre est de l'ordre du ressenti.",
+          "paraphraseFr": "Une opposition polémique est construite entre la prétention au réel du groupe dominant et la disqualification des contestations comme simples ressentis.",
+          "speakerRole": "host-commentary"
+        }
+      ]
     }
   ],
   "claims": [
@@ -210,6 +281,46 @@
       "type": "normative-claim",
       "statementFr": "Une société ne serait pleinement démocratique que si les travailleurs participaient aussi aux décisions de leur entreprise.",
       "epistemicNote": "Conclusion normative dépendant de la définition retenue de la démocratie.",
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "claim-income-evaluation-is-contextual",
+      "episodeId": "paduteam-pauvrete-dans-la-tete-2026",
+      "segmentIds": ["padu-pdt-001"],
+      "type": "contextual-claim",
+      "statementFr": "L'évaluation subjective d'un revenu varie avec le coût de la vie, la position sociale et les groupes de comparaison.",
+      "epistemicNote": "Le passage établit le cadrage des intervenants, mais ne démontre pas à lui seul le poids respectif de chaque facteur.",
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "claim-young-graduates-economic-compression",
+      "episodeId": "paduteam-pauvrete-dans-la-tete-2026",
+      "segmentIds": ["padu-pdt-002"],
+      "type": "empirical-claim",
+      "statementFr": "Les jeunes diplômés connaîtraient un rendement économique de leurs qualifications inférieur à celui des générations précédentes.",
+      "epistemicNote": "Affirmation empirique non vérifiée ici ; elle exige des séries sur salaires, diplômes, logement et cohortes à définition constante.",
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "claim-social-problems-psychologized",
+      "episodeId": "paduteam-pauvrete-dans-la-tete-2026",
+      "segmentIds": ["padu-pdt-003", "padu-pdt-004"],
+      "type": "framing-claim",
+      "statementFr": "Le cadrage psychologique d'une difficulté financière peut rendre moins visibles ses déterminants économiques et sociaux.",
+      "epistemicNote": "C'est une critique de cadrage plausible, pas une preuve que toute explication psychologique serait fausse ou politiquement motivée.",
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "claim-psychologization-deflects-conflict",
+      "episodeId": "paduteam-pauvrete-dans-la-tete-2026",
+      "segmentIds": ["padu-pdt-005", "padu-pdt-006"],
+      "type": "political-effect-claim",
+      "statementFr": "Présenter une contestation matérielle comme un problème de perception peut déplacer la discussion des institutions vers les conduites individuelles.",
+      "epistemicNote": "L'effet discursif peut être étudié ; l'intention attribuée à un groupe social demeure spéculative sans éléments supplémentaires.",
       "status": "draft",
       "review": null
     }
@@ -244,6 +355,71 @@
         "Présenter l'argument comme un raisonnement discutable, pas comme un fait établi.",
         "Faire apparaître au moins une objection avant toute formulation persuasive.",
         "Ne pas cibler une personne selon son origine, sa santé ou une inférence psychologique."
+      ],
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "argument-tester-materiel-avant-psychologiser",
+      "title": "Tester la situation matérielle avant de psychologiser",
+      "thesisFr": "Face à un sentiment de précarité, il faut d'abord comparer revenus, dépenses contraintes et trajectoires aux données disponibles, puis examiner les facteurs psychologiques sans substituer un niveau d'explication à l'autre.",
+      "premiseClaimIds": [
+        "claim-income-evaluation-is-contextual",
+        "claim-young-graduates-economic-compression",
+        "claim-social-problems-psychologized",
+        "claim-psychologization-deflects-conflict"
+      ],
+      "themeIds": ["economie", "pauvrete-inegalites"],
+      "reasoningPattern": "diagnostic-differentiel-des-explications",
+      "objections": [
+        {
+          "title": "Les mécanismes psychologiques peuvent être réels",
+          "summaryFr": "Comparaison sociale, anxiété et habitudes de dépense peuvent aggraver une difficulté, même lorsque des contraintes structurelles existent."
+        },
+        {
+          "title": "Position relative objectivement favorable",
+          "summaryFr": "Un revenu supérieur à la médiane peut justifier d'examiner aussi le budget et le mode de vie ; le contexte n'annule pas les ordres de grandeur."
+        },
+        {
+          "title": "Causalité et intention ne se confondent pas",
+          "summaryFr": "Un cadrage individualisant peut avoir un effet politique sans avoir été conçu intentionnellement pour détourner une colère sociale."
+        },
+        {
+          "title": "Données encore manquantes",
+          "summaryFr": "L'hypothèse générationnelle doit être testée sur des séries comparables ; les exemples et statistiques cités dans la vidéo ne suffisent pas."
+        }
+      ],
+      "rhetoricalMoves": [
+        {
+          "device": "Sarcasme et hyperbole",
+          "effectFr": "Rendent la contradiction mémorable et entretiennent l'énergie de l'échange.",
+          "riskFr": "Peuvent caricaturer la position critiquée et décourager un public non acquis.",
+          "segmentIds": ["padu-pdt-004"]
+        },
+        {
+          "device": "Attribution de classe",
+          "effectFr": "Replace le discours médiatique dans des intérêts et une position sociale supposés.",
+          "riskFr": "Glisse facilement vers l'homogénéisation d'un groupe et la lecture d'intention.",
+          "segmentIds": ["padu-pdt-005", "padu-pdt-006"]
+        },
+        {
+          "device": "Renversement du diagnostic",
+          "effectFr": "Retourne l'étiquette psychologique contre le cadrage qui individualise le problème.",
+          "riskFr": "Le contraste binaire peut masquer l'interaction entre facteurs matériels et psychologiques.",
+          "segmentIds": ["padu-pdt-003", "padu-pdt-004"]
+        },
+        {
+          "device": "Comparaisons sociales concrètes",
+          "effectFr": "Montre intuitivement qu'une même somme ne signifie pas la même chose selon le contexte.",
+          "riskFr": "Les exemples parlants restent anecdotiques tant qu'ils ne sont pas confrontés à des distributions observées.",
+          "segmentIds": ["padu-pdt-001"]
+        }
+      ],
+      "adaptationConstraints": [
+        "Commencer par des questions vérifiables sur revenus, logement et dépenses contraintes.",
+        "Ne jamais présenter une inférence psychologique ou une appartenance de classe comme un diagnostic individuel.",
+        "Conserver l'objection selon laquelle facteurs matériels et psychologiques peuvent coexister.",
+        "Éviter le sarcasme dans une reformulation destinée à ouvrir le dialogue."
       ],
       "status": "draft",
       "review": null

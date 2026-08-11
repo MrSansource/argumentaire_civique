@@ -35,7 +35,10 @@ export default function ExplorerPage() {
           </div>
           <div>
             <dt>{corpus.episodes.length}</dt>
-            <dd>vidéo analysée</dd>
+            <dd>
+              vidéo{corpus.episodes.length > 1 ? "s" : ""} analysée
+              {corpus.episodes.length > 1 ? "s" : ""}
+            </dd>
           </div>
           <div>
             <dt>{corpus.claims.length}</dt>
@@ -43,7 +46,10 @@ export default function ExplorerPage() {
           </div>
           <div>
             <dt>{corpus.arguments.length}</dt>
-            <dd>argument structuré</dd>
+            <dd>
+              argument{corpus.arguments.length > 1 ? "s" : ""} structuré
+              {corpus.arguments.length > 1 ? "s" : ""}
+            </dd>
           </div>
         </dl>
       </section>

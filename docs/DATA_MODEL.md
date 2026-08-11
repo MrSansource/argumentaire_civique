@@ -26,6 +26,10 @@ Unité de raisonnement reliant prémisses, conclusion, thème, intention et prin
 
 Critique structurée d'un argument. Elle peut cibler une prémisse, une inférence, une source ou une conséquence normative.
 
+### Procédé rhétorique
+
+Description sourcée d'un choix de langage ou de cadrage. Elle sépare l'effet recherché ou observable de son risque argumentatif et reste liée aux passages concernés.
+
 ### Formulation
 
 Présentation d'un argument selon un registre, une longueur, un niveau de technicité et un contexte de dialogue. Elle ne modifie pas les faits sous-jacents.
@@ -56,7 +60,7 @@ La génération à la demande sélectionne des arguments validés, récupère le
 
 ## Implémentation pilote
 
-Le fichier `content/corpus.json` constitue la première représentation portable du modèle. Il contient les sources repérées, un épisode pilote, de courts segments horodatés, des affirmations candidates et un argument structuré.
+Le fichier `content/corpus.json` constitue la première représentation portable du modèle. Il contient les sources repérées, des épisodes pilotes, de courts segments horodatés, des affirmations candidates, des arguments structurés et, lorsque c'est pertinent, leurs procédés rhétoriques.
 
 La transcription complète n'est jamais un champ du corpus publié. Elle reste dans `.workbench/` pendant le traitement, puis seuls les extraits nécessaires et leurs paraphrases sont promus.
 
