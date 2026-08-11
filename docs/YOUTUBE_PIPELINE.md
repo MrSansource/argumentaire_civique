@@ -102,4 +102,6 @@ La vidéo `Economic Update: Capitalism vs. Democracy` de Democracy at Work sert 
 
 Un second cas, l'épisode PaduTeam sur la « dysmorphie financière », éprouve le pipeline sur des sous-titres automatiques français et un registre polémique. L'analyse distingue les affirmations empiriques, la critique de cadrage et les procédés rhétoriques, avec leurs risques.
 
-Ces pilotes démontrent la méthode ; ils ne constituent pas encore une validation des thèses économiques présentées.
+Un troisième cas, un entretien d'Aurélien Barrau sur l'écologie, teste la distinction entre constat scientifique, moyen technique et finalité normative. Deux affirmations sont confrontées à des évaluations de l'IPBES et du GIEC afin de documenter ce qui est étayé et ce qui demande à être nuancé.
+
+Ces pilotes démontrent la méthode ; ils ne constituent pas à eux seuls une validation des thèses présentées.

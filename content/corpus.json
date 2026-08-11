@@ -29,6 +29,11 @@
       "description": "Limites biophysiques, transformations collectives et conditions matérielles."
     },
     {
+      "id": "sens-vie",
+      "label": "Sens de la vie",
+      "description": "Valeurs, finalités collectives, désirabilité des modes de vie et rapport au vivant."
+    },
+    {
       "id": "ia-travail",
       "label": "IA et avenir du travail",
       "description": "Automatisation, pouvoir économique, métiers et répartition des gains."
@@ -69,6 +74,26 @@
       "accessedAt": "2026-08-12",
       "kind": "official-statistical-series",
       "scopeNote": "Niveaux de vie annuels en euros constants selon l'âge ; le niveau de vie est une mesure de ménage distincte du salaire individuel."
+    },
+    {
+      "id": "ipbes-global-assessment-2019",
+      "publisher": "IPBES",
+      "title": "Global assessment report on biodiversity and ecosystem services — Summary for policymakers",
+      "url": "https://files.ipbes.net/ipbes-web-prod-public-files/ipbes_global_assessment_report_summary_for_policymakers.pdf",
+      "publishedAt": "2019-05-06",
+      "accessedAt": "2026-08-12",
+      "kind": "intergovernmental-assessment",
+      "scopeNote": "Évaluation mondiale de la biodiversité et des services écosystémiques ; synthèse des facteurs directs et indirects de déclin de la nature."
+    },
+    {
+      "id": "ipcc-ar6-wg3-technical-summary-2022",
+      "publisher": "GIEC",
+      "title": "AR6 Working Group III — Technical Summary",
+      "url": "https://www.ipcc.ch/report/ar6/wg3/chapter/technical-summary/",
+      "publishedAt": "2022-04-04",
+      "accessedAt": "2026-08-12",
+      "kind": "intergovernmental-assessment",
+      "scopeNote": "Synthèse mondiale des options d'atténuation ; évalue conjointement technologies, infrastructures, institutions, comportements et risques d'effet rebond."
     }
   ],
   "sources": [
@@ -106,7 +131,7 @@
       "kind": "chaine-createur",
       "url": "https://www.youtube.com/channel/UCwgqYNmYaij2_8hq_tOFyZw",
       "languages": ["fr", "en"],
-      "editorialNote": "Chaîne personnelle identifiée ; sélection thématique à effectuer."
+      "editorialNote": "Un entretien pilote est analysé sur l'écologie, les limites de la technique et la distinction entre faits et valeurs."
     },
     {
       "id": "alexandre-duclos",
@@ -283,6 +308,96 @@
           "speakerRole": "host-commentary"
         }
       ]
+    },
+    {
+      "id": "barrau-vivants-aiment-plus-vie-2023",
+      "sourceId": "aurelien-barrau",
+      "title": "Aurélien Barrau : Nous sommes des vivants qui n’aimons plus la vie",
+      "url": "https://www.youtube.com/watch?v=y5UkC45Bnzs",
+      "publishedAt": "2023-12-08",
+      "language": "fr",
+      "transcript": {
+        "kind": "youtube-auto-captions",
+        "language": "fr",
+        "acquiredAt": "2026-08-12",
+        "retention": "short-excerpts-only",
+        "acquisitionTool": "yt-dlp metadata and automatic subtitle export",
+        "reliabilityNote": "Sous-titres automatiques : la ponctuation et certains mots peuvent être erronés. Les liens horodatés permettent de contrôler l'audio."
+      },
+      "segments": [
+        {
+          "id": "barrau-vie-001",
+          "startMs": 137160,
+          "endMs": 138790,
+          "excerpt": "ce sont l'ensemble des piliers qui définissent l'habitabilité de cette planète",
+          "paraphraseFr": "Barrau élargit le diagnostic écologique au-delà du seul réchauffement climatique.",
+          "speakerRole": "guest-commentary"
+        },
+        {
+          "id": "barrau-vie-005",
+          "startMs": 167840,
+          "endMs": 172149,
+          "excerpt": "il suffit de regarder les effets rebonds",
+          "paraphraseFr": "Barrau invoque les effets rebond pour contester l'efficacité automatique des solutions techniques.",
+          "speakerRole": "guest-commentary"
+        },
+        {
+          "id": "barrau-vie-002",
+          "startMs": 183239,
+          "endMs": 186789,
+          "excerpt": "face à un problème de vision du monde la science peut intervenir au niveau du constat",
+          "paraphraseFr": "Il distingue le constat scientifique de la vision du monde qui oriente les choix collectifs.",
+          "speakerRole": "guest-commentary"
+        },
+        {
+          "id": "barrau-vie-003",
+          "startMs": 192040,
+          "endMs": 193750,
+          "excerpt": "elle ne peut pas nous dire ce que l'on veut",
+          "paraphraseFr": "La science ne déterminerait pas à elle seule les finalités souhaitables.",
+          "speakerRole": "guest-commentary"
+        },
+        {
+          "id": "barrau-vie-004",
+          "startMs": 269199,
+          "endMs": 274500,
+          "excerpt": "le prosaïque c'est l'utilisation d'une chose le poétique c'est la chose en tant que telle",
+          "paraphraseFr": "L'antithèse entre prosaïque et poétique oppose une relation utilitaire au monde à une relation attentive à son existence propre.",
+          "speakerRole": "guest-commentary"
+        },
+        {
+          "id": "barrau-vie-006",
+          "startMs": 1061360,
+          "endMs": 1065000,
+          "excerpt": "doit-on continuer à larguer des bombes atomiques sur les êtres vivants",
+          "paraphraseFr": "Une métaphore militaire dramatise l'écart entre améliorer les moyens et remettre en cause la trajectoire elle-même.",
+          "speakerRole": "guest-commentary"
+        },
+        {
+          "id": "barrau-vie-007",
+          "startMs": 1345279,
+          "endMs": 1346870,
+          "excerpt": "revenir à l'axiologie c'est-à-dire aux valeurs",
+          "paraphraseFr": "Il propose de replacer les valeurs en amont de la décision technique et politique.",
+          "speakerRole": "guest-commentary"
+        },
+        {
+          "id": "barrau-vie-008",
+          "startMs": 1641440,
+          "endMs": 1643950,
+          "excerpt": "la description ne peut jamais logiquement engendrer une action",
+          "paraphraseFr": "Il formule la distinction philosophique entre un énoncé descriptif et une prescription.",
+          "speakerRole": "guest-commentary"
+        },
+        {
+          "id": "barrau-vie-009",
+          "startMs": 1692360,
+          "endMs": 1696029,
+          "excerpt": "pourquoi tenter de rendre durable un monde qui n'est pas même souhaitable",
+          "paraphraseFr": "Sa conclusion invite à évaluer la désirabilité du système avant de chercher seulement à le prolonger.",
+          "speakerRole": "guest-commentary"
+        }
+      ]
     }
   ],
   "claims": [
@@ -355,6 +470,46 @@
       "epistemicNote": "L'effet discursif peut être étudié ; l'intention attribuée à un groupe social demeure spéculative sans éléments supplémentaires.",
       "status": "draft",
       "review": null
+    },
+    {
+      "id": "claim-ecological-crisis-multiple-drivers",
+      "episodeId": "barrau-vivants-aiment-plus-vie-2023",
+      "segmentIds": ["barrau-vie-001"],
+      "type": "empirical-framing-claim",
+      "statementFr": "La crise écologique ne se réduit pas au climat : l'habitabilité et la biodiversité dépendent de plusieurs systèmes et facteurs de pression.",
+      "epistemicNote": "La formulation générale est vérifiable ; les chiffres précis avancés ailleurs dans l'entretien nécessitent des contrôles séparés.",
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "claim-science-does-not-set-ends",
+      "episodeId": "barrau-vivants-aiment-plus-vie-2023",
+      "segmentIds": ["barrau-vie-002", "barrau-vie-003", "barrau-vie-008"],
+      "type": "conceptual-claim",
+      "statementFr": "Les constats scientifiques contraignent les choix possibles mais ne suffisent pas à déterminer les finalités collectives souhaitables.",
+      "epistemicNote": "Thèse philosophique sur le passage du descriptif au normatif ; elle ne nie pas la pertinence de l'expertise pour éclairer l'action.",
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "claim-technology-alone-insufficient",
+      "episodeId": "barrau-vivants-aiment-plus-vie-2023",
+      "segmentIds": ["barrau-vie-005", "barrau-vie-006"],
+      "type": "causal-policy-claim",
+      "statementFr": "Une réponse exclusivement technologique peut réduire certains impacts tout en maintenant des usages, infrastructures et objectifs incompatibles avec la transition écologique.",
+      "epistemicNote": "L'insuffisance d'une stratégie uniquement technique est distincte de l'affirmation plus forte selon laquelle les technologies seraient inutiles ou toujours nuisibles.",
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "claim-ecological-action-requires-values",
+      "episodeId": "barrau-vivants-aiment-plus-vie-2023",
+      "segmentIds": ["barrau-vie-004", "barrau-vie-007", "barrau-vie-009"],
+      "type": "normative-claim",
+      "statementFr": "Une politique écologique cohérente doit expliciter le monde qu'elle juge désirable, au lieu de prendre la prolongation de l'existant pour objectif implicite.",
+      "epistemicNote": "Conclusion normative : son acceptation dépend des valeurs retenues et de leur traduction institutionnelle.",
+      "status": "draft",
+      "review": null
     }
   ],
   "verifications": [
@@ -383,6 +538,32 @@
       "caveats": [
         "Ces références décrivent des distributions objectives mais ne mesurent pas directement le ressenti ni la comparaison sociale.",
         "La série de niveau de vie ne permet pas à elle seule d'isoler les dépenses de logement ou les écarts territoriaux."
+      ]
+    },
+    {
+      "id": "verification-crise-ecologique-multifactorielle",
+      "claimId": "claim-ecological-crisis-multiple-drivers",
+      "mode": "empirical",
+      "status": "supported",
+      "questionFr": "Les évaluations internationales décrivent-elles une crise de la biodiversité causée par plusieurs facteurs au-delà du climat ?",
+      "findingFr": "L'IPBES distingue cinq grands facteurs directs : changements d'usage des terres et des mers, exploitation des organismes, changement climatique, pollution et espèces exotiques envahissantes. Le climat n'est donc qu'une composante d'un diagnostic plus large.",
+      "referenceIds": ["ipbes-global-assessment-2019"],
+      "caveats": [
+        "Le poids relatif des facteurs varie selon les écosystèmes et évolue dans le temps.",
+        "Ce verdict n'étaye pas automatiquement chaque chiffre ou métaphore employés dans l'entretien."
+      ]
+    },
+    {
+      "id": "verification-technologie-transition-systemique",
+      "claimId": "claim-technology-alone-insufficient",
+      "mode": "empirical",
+      "status": "qualified",
+      "questionFr": "Les technologies d'atténuation sont-elles une impasse, ou une composante insuffisante mais nécessaire de la transition ?",
+      "findingFr": "Le GIEC documente les risques d'effet rebond et la nécessité de transformations sociales, institutionnelles et infrastructurelles. Il conclut aussi qu'un large portefeuille de technologies bas-carbone doit être déployé : la critique du tout-technologique est étayée, leur rejet catégorique ne l'est pas.",
+      "referenceIds": ["ipcc-ar6-wg3-technical-summary-2022"],
+      "caveats": [
+        "L'efficacité nette dépend de la technologie, de son cycle de vie, des usages induits et des politiques qui l'encadrent.",
+        "Le GIEC évalue surtout l'atténuation climatique ; l'argument de Barrau vise une crise écologique et axiologique plus large."
       ]
     }
   ],
@@ -481,6 +662,71 @@
         "Ne jamais présenter une inférence psychologique ou une appartenance de classe comme un diagnostic individuel.",
         "Conserver l'objection selon laquelle facteurs matériels et psychologiques peuvent coexister.",
         "Éviter le sarcasme dans une reformulation destinée à ouvrir le dialogue."
+      ],
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "argument-definir-finalites-avant-optimiser",
+      "title": "Définir les finalités avant d'optimiser l'existant",
+      "thesisFr": "Les outils scientifiques et techniques sont indispensables pour connaître les contraintes et agir, mais leur sélection doit suivre un débat explicite sur les modes de vie, les institutions et le rapport au vivant que la collectivité souhaite préserver ou transformer.",
+      "premiseClaimIds": [
+        "claim-ecological-crisis-multiple-drivers",
+        "claim-science-does-not-set-ends",
+        "claim-technology-alone-insufficient",
+        "claim-ecological-action-requires-values"
+      ],
+      "themeIds": ["ecologie", "sens-vie"],
+      "reasoningPattern": "distinction-des-moyens-et-des-finalites",
+      "objections": [
+        {
+          "title": "Urgence de déployer les solutions disponibles",
+          "summaryFr": "Attendre un accord complet sur le monde souhaitable peut retarder des réductions d'émissions et des protections écologiques immédiatement utiles."
+        },
+        {
+          "title": "Fausse opposition entre technique et transformation",
+          "summaryFr": "Des technologies bien gouvernées peuvent accompagner sobriété, changements institutionnels et restauration des écosystèmes plutôt que les remplacer."
+        },
+        {
+          "title": "Finalités trop abstraites",
+          "summaryFr": "L'appel au poétique et au désirable doit encore devenir des critères arbitrables, des institutions et une trajectoire socialement juste."
+        },
+        {
+          "title": "Risque de généralisation culturelle",
+          "summaryFr": "Opposer un Occident prédateur à d'autres cultures peut idéaliser ces dernières et masquer leurs conflits, transformations et diversités internes."
+        }
+      ],
+      "rhetoricalMoves": [
+        {
+          "device": "Antithèse prosaïque / poétique",
+          "effectFr": "Donne une forme mémorable à l'opposition entre valeur d'usage et valeur d'existence.",
+          "riskFr": "Les catégories restent polysémiques et peuvent produire une fausse alternative si elles ne sont pas opérationnalisées.",
+          "segmentIds": ["barrau-vie-004"]
+        },
+        {
+          "device": "Métaphore du bombardement",
+          "effectFr": "Rend sensible l'écart entre verdir un moyen et remettre en cause une trajectoire destructrice.",
+          "riskFr": "L'analogie dramatique peut disqualifier trop vite des améliorations techniques réellement bénéfiques.",
+          "segmentIds": ["barrau-vie-006"]
+        },
+        {
+          "device": "Question de renversement",
+          "effectFr": "Déplace le débat de la durabilité technique vers la désirabilité politique du système.",
+          "riskFr": "La force de la question peut masquer l'absence de critères concrets pour comparer les mondes possibles.",
+          "segmentIds": ["barrau-vie-009"]
+        },
+        {
+          "device": "Distinction fait / valeur",
+          "effectFr": "Empêche de présenter une prescription politique comme la conséquence automatique d'un résultat scientifique.",
+          "riskFr": "Mal comprise, elle peut sous-estimer la force normative de certains risques, droits ou engagements déjà adoptés.",
+          "segmentIds": ["barrau-vie-002", "barrau-vie-003", "barrau-vie-008"]
+        }
+      ],
+      "adaptationConstraints": [
+        "Reconnaître explicitement que technologies et transformations systémiques peuvent être complémentaires.",
+        "Traduire chaque valeur invoquée en critère de décision discutable et vérifiable.",
+        "Éviter les généralisations homogènes sur des civilisations ou des cultures.",
+        "Séparer les faits écologiques vérifiés des métaphores destinées à mobiliser."
       ],
       "status": "draft",
       "review": null
