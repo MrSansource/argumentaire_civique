@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { PopulationLab } from "@/components/population-lab";
+import { ScaleEstimator } from "@/components/scale-estimator";
 import { formatPopulation, getDimension, population } from "@/lib/population";
 
 export const metadata: Metadata = {
@@ -23,6 +24,7 @@ export default function PopulationPage() {
         <nav aria-label="Navigation du laboratoire">
           <Link href="/explorer">Corpus</Link>
           <a href="#matrice">Matrice</a>
+          <a href="#echelle">Échelle</a>
           <a href="#dimensions-population">Dimensions</a>
         </nav>
         <Link className="github-link" href="/">← Retour au manifeste</Link>
@@ -53,6 +55,8 @@ export default function PopulationPage() {
           sexDimension={sexDimension}
         />
       </div>
+
+      <ScaleEstimator />
     </main>
   );
 }
