@@ -1,0 +1,51 @@
+name: Proposition de contribution
+description: Proposer une source, un argument ou une correction pour relecture.
+title: "[Contribution] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci de ne publier aucune donnée personnelle ou sensible. Une proposition reste un brouillon jusqu'à sa validation éditoriale.
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      options:
+        - Nouvelle source
+        - Argument structuré
+        - Correction documentée
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source principale
+      placeholder: https://…
+  - type: textarea
+    id: summary
+    attributes:
+      label: Résumé de la proposition
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Justification et éléments à vérifier
+    validations:
+      required: true
+  - type: textarea
+    id: objection
+    attributes:
+      label: Objection la plus sérieuse
+    validations:
+      required: true
+  - type: checkboxes
+    id: safeguards
+    attributes:
+      label: Garde-fous
+      options:
+        - label: Je comprends que cette proposition sera publique.
+          required: true
+        - label: Cette proposition ne contient pas de profilage ou ciblage sensible individuel.
+          required: true

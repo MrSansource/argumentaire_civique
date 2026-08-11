@@ -975,6 +975,338 @@ footer .brand-mark {
   color: var(--orange);
 }
 
+.contribution-page {
+  min-height: 100vh;
+  background: var(--paper);
+}
+
+.contribution-header {
+  background: rgba(245, 241, 232, 0.94);
+}
+
+.contribution-hero {
+  min-height: 590px;
+  padding: clamp(84px, 11vw, 150px) 7vw 88px;
+  border-bottom: 1px solid var(--line);
+  background-image: radial-gradient(rgba(23, 32, 27, 0.09) 0.65px, transparent 0.65px);
+  background-size: 14px 14px;
+}
+
+.contribution-hero h1 {
+  max-width: 1050px;
+  margin: 30px 0 34px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(54px, 8vw, 112px);
+  font-weight: 400;
+  letter-spacing: -0.06em;
+  line-height: 0.9;
+}
+
+.contribution-hero h1 em {
+  color: var(--orange);
+  font-weight: 400;
+}
+
+.contribution-hero > p:last-child {
+  max-width: 720px;
+  margin: 0;
+  color: var(--muted);
+  font-size: 19px;
+  line-height: 1.6;
+}
+
+.contribution-rules {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  border-bottom: 1px solid var(--line);
+}
+
+.contribution-rules article {
+  min-height: 250px;
+  padding: 34px 4vw;
+  border-right: 1px solid var(--line);
+}
+
+.contribution-rules article:last-child {
+  border-right: 0;
+}
+
+.contribution-rules span {
+  color: var(--orange);
+  font-family: var(--font-geist-mono), monospace;
+  font-size: 11px;
+}
+
+.contribution-rules h2 {
+  margin: 62px 0 12px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 27px;
+  font-weight: 400;
+}
+
+.contribution-rules p {
+  max-width: 420px;
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.contribution-workspace {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(340px, 0.75fr);
+  gap: 6vw;
+  padding: 100px 7vw 120px;
+}
+
+.contribution-form {
+  display: grid;
+  gap: 24px;
+}
+
+.contribution-form-heading {
+  margin-bottom: 20px;
+}
+
+.contribution-form-heading h2,
+.contribution-preview h2 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(38px, 4.5vw, 62px);
+  font-weight: 400;
+  letter-spacing: -0.04em;
+  line-height: 1;
+}
+
+.contribution-form-heading > p:last-child {
+  max-width: 640px;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.contribution-field-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.contribution-form > label,
+.contribution-field-grid label {
+  display: grid;
+  gap: 9px;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 750;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.contribution-form input,
+.contribution-form select,
+.contribution-form textarea {
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 0;
+  background: #fbf8f1;
+  color: var(--ink);
+  font: inherit;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.55;
+  text-transform: none;
+}
+
+.contribution-form input,
+.contribution-form select {
+  min-height: 50px;
+  padding: 0 14px;
+}
+
+.contribution-form textarea {
+  min-height: 110px;
+  padding: 14px;
+  resize: vertical;
+}
+
+.contribution-form input:focus,
+.contribution-form select:focus,
+.contribution-form textarea:focus {
+  border-color: var(--orange);
+  outline: 2px solid rgba(233, 93, 42, 0.16);
+}
+
+.contribution-form label > small {
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.contribution-policy {
+  display: grid;
+  gap: 14px;
+  margin: 10px 0 0;
+  padding: 22px;
+  border: 1px solid var(--ink);
+}
+
+.contribution-policy legend {
+  padding: 0 8px;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.contribution-policy label {
+  display: grid;
+  grid-template-columns: 18px minmax(0, 1fr);
+  gap: 12px;
+  align-items: start;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.contribution-policy input {
+  width: 16px;
+  min-height: 16px;
+  margin-top: 2px;
+  accent-color: var(--green);
+}
+
+.contribution-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.contribution-actions button {
+  cursor: pointer;
+}
+
+.contribution-error,
+.contribution-feedback {
+  margin: 0;
+  padding: 14px 16px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.contribution-error {
+  border-left: 3px solid var(--orange);
+  background: #f3ddd3;
+  color: #742a15;
+}
+
+.contribution-feedback {
+  margin-top: 18px;
+  background: #dce8df;
+  color: var(--green);
+}
+
+.contribution-preview {
+  position: sticky;
+  top: 32px;
+  align-self: start;
+  min-width: 0;
+  padding: 30px;
+  border: 1px solid var(--ink);
+  background: var(--paper-deep);
+}
+
+.contribution-preview h2 {
+  font-size: 40px;
+}
+
+.proposal-status {
+  display: inline-flex;
+  margin-top: 28px;
+  padding: 7px 9px;
+  background: var(--green);
+  color: var(--paper);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.contribution-preview dl {
+  display: grid;
+  gap: 10px;
+  margin: 26px 0;
+}
+
+.contribution-preview dl div {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding-bottom: 9px;
+  border-bottom: 1px solid var(--line);
+  font-size: 11px;
+}
+
+.contribution-preview dt {
+  color: var(--muted);
+}
+
+.contribution-preview dd {
+  margin: 0;
+  font-weight: 700;
+  text-align: right;
+}
+
+.contribution-preview pre {
+  overflow: auto;
+  max-height: 460px;
+  padding: 18px;
+  background: var(--ink);
+  color: var(--paper);
+  font-family: var(--font-geist-mono), monospace;
+  font-size: 10px;
+  line-height: 1.55;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.contribution-github-button {
+  width: 100%;
+  margin-top: 12px;
+}
+
+.contribution-preview-note {
+  margin: 14px 0 0;
+  color: var(--muted);
+  font-size: 10px;
+  line-height: 1.5;
+}
+
+.contribution-empty-preview {
+  display: grid;
+  place-items: center;
+  min-height: 330px;
+  margin-top: 28px;
+  padding: 40px;
+  border: 1px dashed var(--muted);
+  color: var(--muted);
+  text-align: center;
+}
+
+.contribution-empty-preview span {
+  color: var(--orange);
+  font-family: var(--font-geist-mono), monospace;
+  font-size: 11px;
+}
+
+.contribution-empty-preview p {
+  max-width: 260px;
+  font-size: 13px;
+  line-height: 1.55;
+}
+
 .population-page {
   min-height: 100vh;
   background-image: radial-gradient(rgba(23, 32, 27, 0.08) 0.65px, transparent 0.65px);
@@ -1547,6 +1879,14 @@ footer .brand-mark {
   .population-selectors {
     max-width: 600px;
   }
+
+  .contribution-workspace {
+    grid-template-columns: 1fr;
+  }
+
+  .contribution-preview {
+    position: static;
+  }
 }
 
 @media (max-width: 560px) {
@@ -1677,6 +2017,48 @@ footer .brand-mark {
 
   .population-source-note a {
     text-align: left;
+  }
+
+  .contribution-hero,
+  .contribution-workspace {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .contribution-hero {
+    min-height: auto;
+    padding-top: 72px;
+    padding-bottom: 58px;
+  }
+
+  .contribution-hero h1 {
+    font-size: 48px;
+  }
+
+  .contribution-rules,
+  .contribution-field-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contribution-rules article {
+    min-height: 220px;
+    padding: 30px 24px;
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .contribution-workspace {
+    padding-top: 70px;
+    padding-bottom: 80px;
+  }
+
+  .contribution-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .contribution-preview {
+    padding: 22px;
   }
 }
 

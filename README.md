@@ -8,6 +8,7 @@ Le projet est dans une phase de prototype. Le site rend visibles sa méthode, se
 
 - `/explorer` : parcourir les sources, affirmations, arguments, objections et vérifications externes ;
 - `/population` : comparer une table Insee directement publiée à une estimation sous hypothèse d'indépendance et aux bornes logiques permises par les marges.
+- `/contribuer` : préparer une proposition structurée, l'exporter localement ou ouvrir une issue GitHub préremplie pour relecture.
 
 ## Principes
 
@@ -52,6 +53,7 @@ npm run transcript:batch -- --input .workbench/transcripts/video-test.json
 - [Modèle de données](docs/DATA_MODEL.md)
 - [Périmètre du MVP](docs/MVP.md)
 - [Pipeline YouTube](docs/YOUTUBE_PIPELINE.md)
+- [Cycle de contribution](docs/CONTRIBUTING.md)
 - [Journal des décisions](docs/DECISIONS.md)
 
 ## État

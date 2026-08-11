@@ -18,7 +18,7 @@ export default function Home() {
           <a href="#methode">Méthode</a>
           <a href="#dimensions">Dimensions</a>
           <a href="/population">Population</a>
-          <a href="#feuille-de-route">Feuille de route</a>
+          <a href="/contribuer">Contribuer</a>
         </nav>
         <a
           className="github-link"
@@ -55,6 +55,9 @@ export default function Home() {
           </a>
           <a className="button button-secondary" href="/population">
             Tester les croisements
+          </a>
+          <a className="button button-secondary" href="/contribuer">
+            Proposer un contenu
           </a>
         </div>
         <div className="hero-note">
@@ -150,8 +153,8 @@ export default function Home() {
           Chaque proposition doit pouvoir être discutée, sourcée, amendée et replacée dans
           son contexte. Le dépôt GitHub constitue pour l&apos;instant l&apos;espace de travail commun.
         </p>
-        <a className="button button-light" href="https://github.com/MrSansource/argumentaire_civique">
-          Ouvrir le dépôt
+        <a className="button button-light" href="/contribuer">
+          Préparer une proposition
           <Arrow />
         </a>
       </section>

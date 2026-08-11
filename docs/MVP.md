@@ -15,6 +15,8 @@ Prouver qu'un petit corpus peut être exploré, vérifié et enrichi sans matric
 7. formulaire de proposition soumis à validation ;
 8. historique minimal des changements.
 
+Le formulaire de proposition et l'historique minimal sont actuellement assurés par `/contribuer`, les issues GitHub et les commits associés. Une proposition y reste explicitement distincte d'un contenu validé.
+
 ## Thèmes pilotes proposés
 
 - écologie et conditions matérielles ;

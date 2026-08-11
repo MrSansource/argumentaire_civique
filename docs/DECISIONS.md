@@ -59,3 +59,9 @@ Le moteur de population privilégie les cellules directement publiées. Le produ
 **Statut :** accepté
 
 Chaque nomenclature est versionnée et classée comme active, planifiée, réservée à la recherche ou restreinte. Le statut scientifique, les limites et les usages autorisés font partie du modèle. Une dimension psychologique controversée ne peut pas devenir un attribut de profil individuel ou un levier de ciblage politique.
+
+## D-011 — GitHub Issues avant un backend éditorial
+
+**Statut :** accepté provisoirement
+
+Le premier flux de contribution produit un objet JSON local et ouvre, sur demande explicite, une issue GitHub préremplie. Cette solution rend la proposition, la discussion et l'historique publics sans collecter d'identité dans l'application ni introduire une base de données et une authentification avant d'avoir observé les besoins éditoriaux réels.

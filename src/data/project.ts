@@ -72,7 +72,7 @@ export const roadmap = [
   {
     title: "Contribution",
     description: "Proposer une source ou un argument, comparer les versions et organiser la validation humaine.",
-    status: "À suivre",
+    status: "Disponible",
   },
   {
     title: "Assistance générative",
