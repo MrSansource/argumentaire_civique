@@ -42,6 +42,11 @@
       "id": "impuissance-politique",
       "label": "Impuissance politique",
       "description": "Capacité d'agir, échelles d'action et sentiment d'efficacité politique."
+    },
+    {
+      "id": "culture-pouvoir",
+      "label": "Culture et pouvoir",
+      "description": "Pratiques culturelles, éducation populaire, légitimité et rapports sociaux."
     }
   ],
   "references": [
@@ -94,6 +99,36 @@
       "accessedAt": "2026-08-12",
       "kind": "intergovernmental-assessment",
       "scopeNote": "Synthèse mondiale des options d'atténuation ; évalue conjointement technologies, infrastructures, institutions, comportements et risques d'effet rebond."
+    },
+    {
+      "id": "insee-segregation-quartiers-2023",
+      "publisher": "Insee",
+      "title": "En 15 ans, les disparités entre quartiers, mesurées selon le revenu, se sont accentuées dans la plupart des grandes villes",
+      "url": "https://www.insee.fr/fr/statistiques/6680439",
+      "publishedAt": "2023-01-11",
+      "accessedAt": "2026-08-12",
+      "kind": "official-statistical-analysis",
+      "scopeNote": "Analyse de la ségrégation spatiale selon le revenu dans les zones denses des principales villes françaises entre 2004 et 2019."
+    },
+    {
+      "id": "ministere-culture-pratiques-2020",
+      "publisher": "Ministère de la Culture — DEPS",
+      "title": "Cinquante ans de pratiques culturelles en France",
+      "url": "https://www.culture.gouv.fr/espace-documentation/statistiques-ministerielles-de-la-culture2/publications/collections-de-synthese/culture-etudes-2007-2026/Cinquante-ans-de-pratiques-culturelles-en-France-CE-2020-2",
+      "publishedAt": "2020-07-10",
+      "accessedAt": "2026-08-12",
+      "kind": "official-survey",
+      "scopeNote": "Enquête nationale sur les pratiques culturelles de 9 200 personnes, analysées notamment selon leurs caractéristiques sociodémographiques."
+    },
+    {
+      "id": "persee-un-art-moyen-review-1967",
+      "publisher": "Persée — Annales",
+      "title": "Compte rendu de Un art moyen, essai sur les usages sociaux de la photographie",
+      "url": "https://www.persee.fr/doc/ahess_0395-2649_1967_num_22_3_421561_t1_0641_0000_2",
+      "publishedAt": "1967-01-01",
+      "accessedAt": "2026-08-12",
+      "kind": "academic-review",
+      "scopeNote": "Compte rendu du livre collectif dirigé par Pierre Bourdieu sur les conditions sociales de la pratique photographique ; ne confirme pas l'anecdote précise racontée dans la vidéo."
     }
   ],
   "sources": [
@@ -145,11 +180,11 @@
     {
       "id": "franck-lepage",
       "name": "Franck Lepage",
-      "status": "candidate",
+      "status": "identified",
       "kind": "auteur-multicanal",
       "url": "https://www.youtube.com/channel/UCjc-o9YKPibPm-OMBK4ImgQ",
       "languages": ["fr"],
-      "editorialNote": "La chaîne candidate diffuse ses conférences mais n'est pas nécessairement une chaîne personnelle officielle."
+      "editorialNote": "Un extrait direct de conférence est analysé depuis la chaîne Kaina Médias ; les généralisations historiques et politiques restent à vérifier séparément."
     },
     {
       "id": "benjamin-schoendorff",
@@ -398,6 +433,88 @@
           "speakerRole": "guest-commentary"
         }
       ]
+    },
+    {
+      "id": "lepage-incultures-culture-2017",
+      "sourceId": "franck-lepage",
+      "title": "Conférence gesticulée de Franck Lepage — Inculture(s) 1",
+      "url": "https://www.youtube.com/watch?v=4_yI0t2ZxlM",
+      "publishedAt": "2017-12-18",
+      "language": "fr",
+      "transcript": {
+        "kind": "youtube-auto-captions",
+        "language": "fr",
+        "acquiredAt": "2026-08-12",
+        "retention": "short-excerpts-only",
+        "acquisitionTool": "yt-dlp metadata and automatic subtitle export",
+        "reliabilityNote": "Sous-titres automatiques très bruités : seuls de courts passages intelligibles sont publiés avec leur lien horodaté."
+      },
+      "segments": [
+        {
+          "id": "lepage-culture-001",
+          "startMs": 33330,
+          "endMs": 63390,
+          "excerpt": "le terme de quartiers défavorisés [est] absolument scandaleux",
+          "paraphraseFr": "Lepage conteste un vocabulaire territorial qui décrit un manque sans nommer les mécanismes sociaux qui le produisent.",
+          "speakerRole": "speaker-commentary"
+        },
+        {
+          "id": "lepage-culture-002",
+          "startMs": 75490,
+          "endMs": 95900,
+          "excerpt": "le sens c'est le conflit social",
+          "paraphraseFr": "Son jeu sur les quartiers « sensibles » transforme l'étiquette administrative en invitation à lire le conflit social.",
+          "speakerRole": "speaker-commentary"
+        },
+        {
+          "id": "lepage-culture-003",
+          "startMs": 153640,
+          "endMs": 176210,
+          "excerpt": "faire de la politique c'est sortir un peu des inégalités",
+          "paraphraseFr": "Il oppose une action politique sur les inégalités à l'attente qu'une politique culturelle suffise à réduire la pauvreté.",
+          "speakerRole": "speaker-commentary"
+        },
+        {
+          "id": "lepage-culture-004",
+          "startMs": 176210,
+          "endMs": 204310,
+          "excerpt": "on faisait de l'explication politique, c'est-à-dire de l'éducation politique",
+          "paraphraseFr": "Il définit l'éducation politique comme une mise en intelligibilité des positions sociales et de leurs causes.",
+          "speakerRole": "speaker-commentary"
+        },
+        {
+          "id": "lepage-culture-005",
+          "startMs": 217900,
+          "endMs": 240730,
+          "excerpt": "expliquer pourquoi il y a des inégalités, d'où elles viennent",
+          "paraphraseFr": "Le cœur de la proposition consiste à rendre discutables les mécanismes de production des inégalités.",
+          "speakerRole": "speaker-commentary"
+        },
+        {
+          "id": "lepage-culture-006",
+          "startMs": 868130,
+          "endMs": 915560,
+          "excerpt": "en encourageant des formes d'expression non politiques",
+          "paraphraseFr": "Il soutient que la définition institutionnelle de la culture peut favoriser des expressions détachées du conflit social.",
+          "speakerRole": "speaker-commentary"
+        },
+        {
+          "id": "lepage-culture-007",
+          "startMs": 915560,
+          "endMs": 944290,
+          "excerpt": "l'art ne doit parler de rien",
+          "paraphraseFr": "Une formule volontairement excessive critique l'idéal d'un art entièrement autonome du social.",
+          "speakerRole": "speaker-commentary"
+        },
+        {
+          "id": "lepage-culture-008",
+          "startMs": 944290,
+          "endMs": 986500,
+          "excerpt": "la culture [...] est une représentation qui sert à se différencier socialement",
+          "paraphraseFr": "En invoquant Bourdieu, Lepage relie les goûts et pratiques culturelles aux positions sociales.",
+          "speakerRole": "speaker-commentary"
+        }
+      ]
     }
   ],
   "claims": [
@@ -510,6 +627,46 @@
       "epistemicNote": "Conclusion normative : son acceptation dépend des valeurs retenues et de leur traduction institutionnelle.",
       "status": "draft",
       "review": null
+    },
+    {
+      "id": "claim-territorial-labels-can-depoliticize",
+      "episodeId": "lepage-incultures-culture-2017",
+      "segmentIds": ["lepage-culture-001", "lepage-culture-002"],
+      "type": "interpretive-framing-claim",
+      "statementFr": "Des étiquettes territoriales centrées sur le déficit ou la sensibilité peuvent décrire une situation tout en laissant hors champ les rapports économiques et politiques qui l'organisent.",
+      "epistemicNote": "Thèse d'analyse du discours : l'effet d'un terme dépend de son contexte et ne se déduit pas de sa seule forme lexicale.",
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "claim-territorial-inequality-has-material-structure",
+      "episodeId": "lepage-incultures-culture-2017",
+      "segmentIds": ["lepage-culture-003", "lepage-culture-005"],
+      "type": "structural-claim",
+      "statementFr": "Les écarts entre quartiers ont des dimensions matérielles mesurables — revenus, logement, emploi, transports ou offre scolaire — qu'une action culturelle ne peut pas remplacer à elle seule.",
+      "epistemicNote": "La première partie est vérifiable ; l'insuffisance d'une action culturelle isolée ne signifie ni son inutilité ni l'absence d'effets sociaux propres.",
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "claim-cultural-practices-socially-situated",
+      "episodeId": "lepage-incultures-culture-2017",
+      "segmentIds": ["lepage-culture-006", "lepage-culture-007", "lepage-culture-008"],
+      "type": "sociological-claim",
+      "statementFr": "Les pratiques, goûts et institutions culturels sont socialement situés ; ils ne forment pas un domaine entièrement extérieur aux rapports de classe et de légitimité.",
+      "epistemicNote": "Les régularités sociales n'annulent pas l'autonomie individuelle, la pluralité des œuvres ni les transformations historiques des publics.",
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "claim-political-education-connects-causes",
+      "episodeId": "lepage-incultures-culture-2017",
+      "segmentIds": ["lepage-culture-004", "lepage-culture-005"],
+      "type": "normative-claim",
+      "statementFr": "Une éducation politique émancipatrice devrait relier les expériences vécues aux mécanismes institutionnels et économiques plutôt que réduire les difficultés à des déficits individuels ou culturels.",
+      "epistemicNote": "Orientation normative qui doit préserver le pluralisme, la contradiction et la capacité des participants à refuser l'interprétation proposée.",
+      "status": "draft",
+      "review": null
     }
   ],
   "verifications": [
@@ -564,6 +721,32 @@
       "caveats": [
         "L'efficacité nette dépend de la technologie, de son cycle de vie, des usages induits et des politiques qui l'encadrent.",
         "Le GIEC évalue surtout l'atténuation climatique ; l'argument de Barrau vise une crise écologique et axiologique plus large."
+      ]
+    },
+    {
+      "id": "verification-structure-materielle-quartiers",
+      "claimId": "claim-territorial-inequality-has-material-structure",
+      "mode": "empirical",
+      "status": "qualified",
+      "questionFr": "Les disparités entre quartiers renvoient-elles à des structures matérielles que la seule politique culturelle ne peut résumer ?",
+      "findingFr": "L'Insee mesure une ségrégation spatiale selon le revenu et relie ses variations au logement, aux transports, à l'école, à l'emploi et à l'aménagement. Cela étaye la nécessité d'un diagnostic matériel, sans mesurer directement l'effet causal des politiques culturelles.",
+      "referenceIds": ["insee-segregation-quartiers-2023"],
+      "caveats": [
+        "L'étude porte principalement sur les revenus et ne décrit pas toute l'expérience sociale d'un quartier.",
+        "Elle ne permet pas de conclure que les actions culturelles sont inefficaces ou apolitiques."
+      ]
+    },
+    {
+      "id": "verification-pratiques-culturelles-position-sociale",
+      "claimId": "claim-cultural-practices-socially-situated",
+      "mode": "empirical",
+      "status": "supported",
+      "questionFr": "Les pratiques culturelles varient-elles durablement selon les caractéristiques sociales ?",
+      "findingFr": "L'enquête du ministère de la Culture analyse des écarts persistants selon le diplôme, la catégorie sociale, l'âge et la génération. Le compte rendu de l'enquête dirigée par Bourdieu confirme que les usages de la photographie ont été étudiés dans leurs conditions sociales.",
+      "referenceIds": ["ministere-culture-pratiques-2020", "persee-un-art-moyen-review-1967"],
+      "caveats": [
+        "Une association statistique ne transforme pas chaque goût individuel en simple effet de classe.",
+        "Les sources ne confirment pas l'exemple précis du pneu, du visage et du paysage raconté par Lepage."
       ]
     }
   ],
@@ -727,6 +910,72 @@
         "Traduire chaque valeur invoquée en critère de décision discutable et vérifiable.",
         "Éviter les généralisations homogènes sur des civilisations ou des cultures.",
         "Séparer les faits écologiques vérifiés des métaphores destinées à mobiliser."
+      ],
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "argument-nommer-rapports-sociaux",
+      "title": "Nommer les rapports sociaux sans culturaliser la pauvreté",
+      "thesisFr": "Une politique culturelle peut ouvrir des espaces d'expression et de pouvoir d'agir, mais elle ne doit pas servir de substitut à l'analyse ni à l'action sur les causes matérielles des inégalités territoriales. L'éducation politique gagne à relier les expériences aux institutions sans enfermer les habitants dans une identité déficitaire.",
+      "premiseClaimIds": [
+        "claim-territorial-labels-can-depoliticize",
+        "claim-territorial-inequality-has-material-structure",
+        "claim-cultural-practices-socially-situated",
+        "claim-political-education-connects-causes"
+      ],
+      "themeIds": ["culture-pouvoir", "pauvrete-inegalites", "impuissance-politique"],
+      "reasoningPattern": "distinguer-expression-culturelle-et-transformation-materielle",
+      "objections": [
+        {
+          "title": "La culture produit aussi des capacités politiques",
+          "summaryFr": "Pratiques artistiques, lieux culturels et récits communs peuvent renforcer la confiance, l'organisation et la visibilité de groupes dominés."
+        },
+        {
+          "title": "Risque d'instrumentaliser l'art",
+          "summaryFr": "Exiger de toute œuvre qu'elle explicite un conflit social peut réduire la liberté esthétique et la pluralité des usages de l'art."
+        },
+        {
+          "title": "Réductionnisme de classe",
+          "summaryFr": "Les rapports de classe structurent des pratiques sans épuiser les effets du genre, de l'âge, de l'histoire migratoire ou des trajectoires individuelles."
+        },
+        {
+          "title": "Causalité non démontrée",
+          "summaryFr": "Les données sur ségrégation et pratiques culturelles ne prouvent pas à elles seules que telle politique culturelle dépolitise ou échoue."
+        }
+      ],
+      "rhetoricalMoves": [
+        {
+          "device": "Détournement d'étiquette",
+          "effectFr": "Le contraste entre quartiers sensibles et insensibles rend visible la charge politique d'un vocabulaire apparemment descriptif.",
+          "riskFr": "Le jeu de mots simplifie les usages administratifs et médiatiques réels de ces catégories.",
+          "segmentIds": ["lepage-culture-001", "lepage-culture-002"]
+        },
+        {
+          "device": "Opposition culture / politique",
+          "effectFr": "Force à distinguer l'expression symbolique d'une intervention directe sur la distribution des ressources.",
+          "riskFr": "Produit une fausse alternative si l'on oublie que certaines pratiques culturelles sont elles-mêmes politiques.",
+          "segmentIds": ["lepage-culture-003", "lepage-culture-006"]
+        },
+        {
+          "device": "Formule absolue",
+          "effectFr": "La phrase sur un art qui ne parlerait de rien condense une critique de l'autonomie esthétique.",
+          "riskFr": "Caricature des œuvres non explicitement militantes et attribue trop vite une intention aux institutions.",
+          "segmentIds": ["lepage-culture-007"]
+        },
+        {
+          "device": "Appel à l'autorité sociologique",
+          "effectFr": "La référence à Bourdieu donne un cadre explicatif aux différences de goût et de légitimité.",
+          "riskFr": "L'anecdote précise est invérifiée et ne doit pas être reprise comme résultat établi.",
+          "segmentIds": ["lepage-culture-008"]
+        }
+      ],
+      "adaptationConstraints": [
+        "Ne jamais décrire les habitants d'un quartier comme un bloc culturel ou politique homogène.",
+        "Présenter les données territoriales avant toute interprétation des causes ou des intentions.",
+        "Reconnaître les effets propres possibles de l'art et des institutions culturelles.",
+        "Écarter les généralisations non vérifiées de la vidéo sur les médias, les élections ou la violence.",
+        "Formuler l'éducation politique comme une invitation contradictoire, pas comme un endoctrinement."
       ],
       "status": "draft",
       "review": null
