@@ -73,6 +73,11 @@
       "argumentId": "argument-lire-gestes-comme-adaptations",
       "values": { "evidenceValues": 34, "individualSystemic": 72, "deliberationAction": 38, "accessibleTechnical": 58 },
       "editorialNote": "Lecture contextuelle des gestes, fondée sur la socialisation et l’organisation du travail, avec une visée surtout interprétative."
+    },
+    {
+      "argumentId": "argument-vote-levier-sans-assignation",
+      "values": { "evidenceValues": 40, "individualSystemic": 76, "deliberationAction": 70, "accessibleTechnical": 52 },
+      "editorialNote": "Argument civique orienté vers l’action, mais encadré par le pluralisme, le secret du vote et la diversité des moyens de participation."
     }
   ]
 }

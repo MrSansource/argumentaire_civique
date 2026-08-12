@@ -57,6 +57,11 @@
       "id": "anthropologie-nature-humaine",
       "label": "Anthropologie et nature humaine",
       "description": "Apprentissages corporels, socialisation, diversité culturelle et limites des explications naturalisantes."
+    },
+    {
+      "id": "participation-civique",
+      "label": "Participation civique",
+      "description": "Vote, délibération, action collective, représentation et pluralisme démocratique."
     }
   ],
   "references": [
@@ -239,6 +244,76 @@
       "accessedAt": "2026-08-12",
       "kind": "peer-reviewed-cohort-study",
       "scopeNote": "Étude de 5 317 personnes de 65 ans ou plus opérationnalisant un phénotype physique de fragilité par cinq critères ; elle ne vérifie pas l'anecdote de contournement d'un appareil racontée dans la vidéo."
+    },
+    {
+      "id": "ansari-husayn-caliphate-imamate-2023",
+      "publisher": "Cambridge University Press",
+      "title": "Caliphate and Imamate: An Anthology of Medieval Muslim Texts on Political Theology",
+      "url": "https://www.cambridge.org/core/books/caliphate-and-imamate/93727020916F4855058FD7DC472C8EBD",
+      "publishedAt": "2023-10-19",
+      "accessedAt": "2026-08-12",
+      "kind": "academic-anthology",
+      "scopeNote": "Anthologie et introduction à des conceptions concurrentes de l'autorité politique dans six traditions théologiques musulmanes ; elle établit la pluralité historique des doctrines sans vérifier chaque épisode raconté dans la vidéo."
+    },
+    {
+      "id": "arjomand-medina-constitution-2009",
+      "publisher": "International Journal of Middle East Studies — Cambridge University Press",
+      "title": "The Constitution of Medina: A Sociolegal Interpretation of Muhammad's Acts of Foundation of the Umma",
+      "url": "https://doi.org/10.1017/S002074380999033X",
+      "publishedAt": "2009-10-26",
+      "accessedAt": "2026-08-12",
+      "kind": "peer-reviewed-historical-study",
+      "scopeNote": "Interprétation du document de Médine comme un ensemble composite daté de 622 à 627, incluant une confédération et une garantie de liberté religieuse pour des alliés juifs ; l'article ne transpose pas ce pacte à la citoyenneté française contemporaine."
+    },
+    {
+      "id": "islamic-fiqh-council-elections-2007",
+      "publisher": "Islam Question & Answer — reproduction d'une résolution du Conseil islamique de jurisprudence",
+      "title": "Muslim taking part in elections with non-Muslims",
+      "url": "https://islamqa.info/en/answers/111898",
+      "publishedAt": null,
+      "accessedAt": "2026-08-12",
+      "kind": "republication-of-religious-ruling",
+      "scopeNote": "Reproduction en anglais d'une résolution adoptée en novembre 2007 par un organe de la Ligue islamique mondiale, autorisant sous conditions la participation électorale ; ce texte confessionnel ne représente pas toutes les écoles ni toutes les consciences musulmanes."
+    },
+    {
+      "id": "legifrance-constitution-article-3",
+      "publisher": "Légifrance",
+      "title": "Constitution du 4 octobre 1958 — article 3",
+      "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000019240995",
+      "publishedAt": "2008-07-25",
+      "accessedAt": "2026-08-12",
+      "kind": "constitutional-text",
+      "scopeNote": "Texte constitutionnel établissant la souveraineté nationale et un suffrage universel, égal et secret ; il définit le cadre juridique, pas l'efficacité politique d'un vote individuel."
+    },
+    {
+      "id": "vie-publique-vote-devoir",
+      "publisher": "Vie publique — Direction de l'information légale et administrative",
+      "title": "Le vote est-il un devoir, le vote est-il obligatoire ?",
+      "url": "https://www.vie-publique.fr/fiches/23909-le-vote-est-il-un-devoir-le-vote-est-il-obligatoire",
+      "publishedAt": null,
+      "accessedAt": "2026-08-12",
+      "kind": "official-civic-explainer",
+      "scopeNote": "Fiche rappelant qu'en France le vote est un droit et un devoir civique mais n'est pas juridiquement obligatoire ; elle ne tranche pas les justifications morales de l'abstention."
+    },
+    {
+      "id": "insee-participation-electorale-2022",
+      "publisher": "Insee",
+      "title": "Vingt ans de participation électorale : en 2022, les écarts selon l'âge et le diplôme continuent de se creuser",
+      "url": "https://www.insee.fr/fr/statistiques/6658143",
+      "publishedAt": "2022-11-17",
+      "accessedAt": "2026-08-12",
+      "kind": "official-statistical-analysis",
+      "scopeNote": "Analyse des enquêtes de participation électorale de 2002 à 2022 parmi les personnes inscrites, montrant notamment des écarts croissants selon l'âge et le diplôme ; elle ne mesure pas les convictions religieuses."
+    },
+    {
+      "id": "ajala-muslim-vote-france-2011",
+      "publisher": "Journal of Islamic Law and Culture — Taylor & Francis",
+      "title": "The Muslim vote and Muslim lobby in France: myths and realities",
+      "url": "https://doi.org/10.1080/1528817X.2010.574390",
+      "publishedAt": "2011-06-09",
+      "accessedAt": "2026-08-12",
+      "kind": "peer-reviewed-political-study",
+      "scopeNote": "Analyse contestant l'hypothèse d'un bloc électoral musulman homogène en France ; son champ et ses données précèdent les recompositions électorales récentes."
     }
   ],
   "sources": [
@@ -308,11 +383,11 @@
     {
       "id": "ismail-mounir",
       "name": "Ismaïl Mounir",
-      "status": "candidate",
+      "status": "identified",
       "kind": "auteur-multicanal",
       "url": "https://www.youtube.com/channel/UCScD33YfKR7OsWbNnILyOKQ",
       "languages": ["fr"],
-      "editorialNote": "Au moins deux chaînes homonymes ou associées apparaissent ; propriété et périmètre à confirmer."
+      "editorialNote": "Chaîne identifiée par son identifiant, son handle et son auto-description publique. Un épisode sur le vote est analysé comme argument civique et théologique, sans supposer une opinion commune aux personnes musulmanes."
     },
     {
       "id": "dany-raz",
@@ -887,6 +962,112 @@
           "speakerRole": "teacher-commentary"
         }
       ]
+    },
+    {
+      "id": "ismail-vote-2024",
+      "sourceId": "ismail-mounir",
+      "title": "Les musulmans doivent-ils voter ?",
+      "url": "https://www.youtube.com/watch?v=F04WFy6viy4",
+      "publishedAt": "2024-06-21",
+      "language": "fr",
+      "transcript": {
+        "kind": "youtube-auto-captions",
+        "language": "fr",
+        "acquiredAt": "2026-08-12",
+        "retention": "short-excerpts-only",
+        "acquisitionTool": "yt-dlp metadata and automatic subtitle export",
+        "reliabilityNote": "Sous-titres automatiques français : les extraits sont courts, normalisés avec prudence et reliés à l'audio horodaté."
+      },
+      "segments": [
+        {
+          "id": "ismail-vote-001",
+          "startMs": 29460,
+          "endMs": 57500,
+          "excerpt": "une vision complètement fantasmée de l'approche de la politique en Islam",
+          "paraphraseFr": "Mounir ouvre son argument en contestant le récit d'une histoire politique musulmane univoque et consensuelle.",
+          "speakerRole": "host-commentary"
+        },
+        {
+          "id": "ismail-vote-002",
+          "startMs": 84300,
+          "endMs": 112000,
+          "excerpt": "jamais les musulmans ont été en mesure de mettre en place un système [...] sans faire couler le sang",
+          "paraphraseFr": "Il résume une thèse contemporaine selon laquelle les successions politiques précoces n'ont pas produit de procédure pacifiée durable.",
+          "speakerRole": "host-historical-account"
+        },
+        {
+          "id": "ismail-vote-003",
+          "startMs": 392000,
+          "endMs": 417000,
+          "excerpt": "faire triompher l'intérêt général, le bien, la justice, le respect des droits humains pour tout le monde",
+          "paraphraseFr": "Son interprétation religieuse élargit la recherche du bien commun et des droits à l'ensemble de la société.",
+          "speakerRole": "host-theological-argument"
+        },
+        {
+          "id": "ismail-vote-004",
+          "startMs": 482000,
+          "endMs": 507000,
+          "excerpt": "les juifs et les musulmans forment une seule et même [...] communauté",
+          "paraphraseFr": "Il mobilise le document de Médine comme précédent d'une communauté politique incluant des appartenances religieuses distinctes.",
+          "speakerRole": "host-historical-theological-argument"
+        },
+        {
+          "id": "ismail-vote-005",
+          "startMs": 507000,
+          "endMs": 534000,
+          "excerpt": "communauté nationale, de cohésion nationale",
+          "paraphraseFr": "Il transpose ce précédent à une conception française de la citoyenneté commune.",
+          "speakerRole": "host-commentary"
+        },
+        {
+          "id": "ismail-vote-006",
+          "startMs": 714000,
+          "endMs": 741000,
+          "excerpt": "un savant [...] qui ne connaît pas le système politique français",
+          "paraphraseFr": "Il soutient qu'un avis pratique sur le vote exige une connaissance du contexte politique dans lequel il s'applique.",
+          "speakerRole": "host-theological-argument"
+        },
+        {
+          "id": "ismail-vote-007",
+          "startMs": 741000,
+          "endMs": 796000,
+          "excerpt": "il était possible [...] de participer aux élections",
+          "paraphraseFr": "Il cite une résolution religieuse autorisant sous conditions la participation électorale dans un pays non musulman.",
+          "speakerRole": "host-theological-argument"
+        },
+        {
+          "id": "ismail-vote-008",
+          "startMs": 796000,
+          "endMs": 826000,
+          "excerpt": "faire des élections [...] une solution ultime à nos problèmes, c'est tout à fait faux",
+          "paraphraseFr": "Il refuse de présenter l'élection comme une solution suffisante aux problèmes politiques.",
+          "speakerRole": "host-commentary"
+        },
+        {
+          "id": "ismail-vote-009",
+          "startMs": 826000,
+          "endMs": 850000,
+          "excerpt": "voter [...] comme un moyen de pression [...] c'est un levier parmi d'autres",
+          "paraphraseFr": "Il situe le vote parmi plusieurs moyens possibles d'expression et de pression civiques.",
+          "speakerRole": "host-commentary"
+        },
+        {
+          "id": "ismail-vote-010",
+          "startMs": 1101000,
+          "endMs": 1124000,
+          "excerpt": "participer aux réunions publiques [...] écrire à nos politiques pour faire entendre notre voix",
+          "paraphraseFr": "Il complète le vote par des formes continues de dialogue avec les institutions et les élus.",
+          "speakerRole": "host-call-to-action"
+        },
+        {
+          "id": "ismail-vote-011",
+          "startMs": 1124000,
+          "endMs": 1137000,
+          "excerpt": "cette vision-là va nous pousser à notre destruction",
+          "paraphraseFr": "La conclusion dramatise les conséquences de la non-participation pour renforcer l'appel à agir.",
+          "speakerRole": "host-call-to-action"
+        }
+      ]
     }
   ],
   "claims": [
@@ -1159,6 +1340,56 @@
       "epistemicNote": "Garde-fou éditorial dérivé du risque d'essentialisation : l'observation produit une question contextuelle, pas un diagnostic individuel ni une attribution identitaire.",
       "status": "draft",
       "review": null
+    },
+    {
+      "id": "claim-islamic-political-authority-historically-contested",
+      "episodeId": "ismail-vote-2024",
+      "segmentIds": ["ismail-vote-001", "ismail-vote-002"],
+      "type": "historical-framing-claim",
+      "statementFr": "Les doctrines musulmanes de l'autorité et les successions politiques précoces ont été disputées ; elles ne fournissent pas une procédure politique unique et unanimement transmise.",
+      "epistemicNote": "La pluralité doctrinale et les conflits sont documentés, mais la formule selon laquelle aucune succession n'aurait jamais été pacifiée est trop absolue et dépend du périmètre historique retenu.",
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "claim-medina-pact-supports-plural-community",
+      "episodeId": "ismail-vote-2024",
+      "segmentIds": ["ismail-vote-003", "ismail-vote-004", "ismail-vote-005"],
+      "type": "historical-normative-analogy",
+      "statementFr": "Le document de Médine peut être lu comme un précédent historique d'alliance politique et de liberté religieuse entre groupes distincts, mobilisable pour penser une communauté civique pluraliste.",
+      "epistemicNote": "Le contenu historique du pacte est discuté par les spécialistes et son transfert vers l'État-nation français contemporain demeure une analogie normative, non une conséquence nécessaire.",
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "claim-election-ruling-depends-on-context",
+      "episodeId": "ismail-vote-2024",
+      "segmentIds": ["ismail-vote-006", "ismail-vote-007"],
+      "type": "religious-legal-description",
+      "statementFr": "Dans le courant juridique cité, la participation électorale des musulmans minoritaires peut être autorisée après appréciation du contexte, des bénéfices attendus et des risques.",
+      "epistemicNote": "Description d'une résolution confessionnelle particulière, pas avis juridique français, consensus théologique universel ni obligation pesant sur toute personne musulmane.",
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "claim-vote-is-one-civic-lever",
+      "episodeId": "ismail-vote-2024",
+      "segmentIds": ["ismail-vote-008", "ismail-vote-009", "ismail-vote-010"],
+      "type": "civic-practice-claim",
+      "statementFr": "Le vote peut être un levier de participation parmi d'autres — délibération, interpellation des élus, association ou action collective — sans garantir à lui seul une influence politique.",
+      "epistemicNote": "Proposition de pratique civique : l'effet de chaque moyen varie selon l'élection, les institutions, les ressources, la mobilisation et la réponse des décideurs.",
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "claim-civic-participation-requires-individual-pluralism",
+      "episodeId": "ismail-vote-2024",
+      "segmentIds": ["ismail-vote-005", "ismail-vote-008", "ismail-vote-009", "ismail-vote-010"],
+      "type": "normative-safeguard-claim",
+      "statementFr": "Encourager la participation civique doit préserver le caractère individuel, libre, secret et pluraliste du vote, sans déduire une préférence politique d'une religion ni constituer les croyants en bloc électoral.",
+      "epistemicNote": "Garde-fou éditorial fondé sur le droit du suffrage et sur l'hétérogénéité documentée des comportements ; il limite la rhétorique collective de la vidéo sans nier les expériences communes.",
+      "status": "draft",
+      "review": null
     }
   ],
   "verifications": [
@@ -1327,6 +1558,81 @@
         "Une inadéquation entre mesure et besoin perçu ne prouve ni fraude généralisée ni intention trompeuse.",
         "Le phénotype de Fried a été étudié dans une cohorte donnée et ne valide pas tous les dispositifs ultérieurs.",
         "L'accès aux droits peut dépendre de plusieurs évaluations, décisions professionnelles et règles locales."
+      ]
+    },
+    {
+      "id": "verification-islamic-authority-contested",
+      "claimId": "claim-islamic-political-authority-historically-contested",
+      "mode": "academic-history-review",
+      "status": "qualified",
+      "questionFr": "L'histoire des doctrines politiques musulmanes correspond-elle à une succession consensuelle et à un modèle unique d'autorité ?",
+      "findingFr": "L'anthologie d'Ansari et Husayn présente des conceptions concurrentes de l'imamat et du califat dans six écoles théologiques, issues d'une histoire durablement disputée du pouvoir après Muhammad. Elle soutient la critique d'un récit uniforme, sans valider toutes les anecdotes ni la formule absolue d'une incapacité permanente à organiser une succession pacifique.",
+      "referenceIds": ["ansari-husayn-caliphate-imamate-2023"],
+      "caveats": [
+        "L'anthologie porte surtout sur des textes théologiques médiévaux, pas sur toutes les pratiques politiques des sociétés musulmanes.",
+        "Les sources narratives anciennes exigent une critique historique propre à chaque événement.",
+        "Pluralité et conflit n'impliquent pas qu'aucun compromis ou transfert non violent n'ait existé.",
+        "Une histoire religieuse disputée ne détermine pas la conduite électorale contemporaine."
+      ]
+    },
+    {
+      "id": "verification-medina-plural-community",
+      "claimId": "claim-medina-pact-supports-plural-community",
+      "mode": "historical-analogy-audit",
+      "status": "qualified",
+      "questionFr": "Le document de Médine établit-il un précédent de communauté politique multiconfessionnelle transposable à la France ?",
+      "findingFr": "Arjomand analyse le document comme une confédération composite dont une partie garantit la liberté religieuse à des alliés juifs. Cela étaye l'existence d'un arrangement politique pluraliste dans ce contexte. En revanche, la citoyenneté nationale, l'égalité constitutionnelle et le suffrage moderne relèvent d'institutions différentes : la transposition proposée par la vidéo reste une analogie.",
+      "referenceIds": ["arjomand-medina-constitution-2009", "legifrance-constitution-article-3"],
+      "caveats": [
+        "Le document est reconstruit depuis des sources anciennes et sa composition exacte fait l'objet de débats.",
+        "Une confédération de clans et d'alliés n'est pas un État-nation démocratique contemporain.",
+        "La liberté religieuse décrite ne suffit pas à établir une égalité politique au sens actuel.",
+        "Un précédent interne à une tradition peut nourrir une délibération sans s'imposer aux autres citoyens."
+      ]
+    },
+    {
+      "id": "verification-election-ruling-context",
+      "claimId": "claim-election-ruling-depends-on-context",
+      "mode": "religious-source-check",
+      "status": "qualified",
+      "questionFr": "La résolution religieuse invoquée autorise-t-elle effectivement la participation aux élections dans un pays non musulman ?",
+      "findingFr": "La reproduction consultée attribue au Conseil islamique de jurisprudence de la Ligue islamique mondiale une résolution adoptée en novembre 2007. Elle présente la participation comme une question politique dont l'avis varie avec le temps, le lieu, les bénéfices et les risques, puis l'autorise sous conditions pour des citoyens musulmans de pays non musulmans.",
+      "referenceIds": ["islamic-fiqh-council-elections-2007"],
+      "caveats": [
+        "La page consultée reproduit la résolution ; elle n'est pas l'archive officielle originale du Conseil.",
+        "Il s'agit d'une autorisation conditionnelle, non d'une obligation universelle de voter.",
+        "D'autres autorités et personnes musulmanes peuvent soutenir des interprétations différentes.",
+        "Une résolution religieuse ne remplace ni le droit électoral français ni la décision de conscience individuelle."
+      ]
+    },
+    {
+      "id": "verification-vote-one-lever",
+      "claimId": "claim-vote-is-one-civic-lever",
+      "mode": "official-civic-and-statistical-review",
+      "status": "qualified",
+      "questionFr": "Les sources publiques permettent-elles de présenter le vote comme un levier utile mais non suffisant ?",
+      "findingFr": "Le droit français organise le vote comme exercice du suffrage, libre de fait puisque l'abstention n'est pas sanctionnée. L'Insee observe en outre une participation intermittente dominante en 2022 et des écarts marqués selon l'âge et le diplôme. Ces données établissent l'importance et l'inégale mobilisation de ce canal, mais elles ne prouvent pas qu'un vote individuel garantit l'attention d'un élu ou une politique donnée.",
+      "referenceIds": ["legifrance-constitution-article-3", "vie-publique-vote-devoir", "insee-participation-electorale-2022"],
+      "caveats": [
+        "Les statistiques portent sur les inscrits et n'incluent pas toutes les personnes résidant en France.",
+        "Elles décrivent la participation sans identifier ses causes ni son effet causal sur les décisions publiques.",
+        "Vote blanc, abstention, manifestation, association et interpellation ont des sens et des effets différents.",
+        "L'épisode de 2024 ne constitue pas un conseil électoral valable pour un scrutin ultérieur."
+      ]
+    },
+    {
+      "id": "verification-no-homogeneous-muslim-vote",
+      "claimId": "claim-civic-participation-requires-individual-pluralism",
+      "mode": "constitutional-and-political-study",
+      "status": "supported",
+      "questionFr": "Peut-on traiter les personnes musulmanes de France comme un bloc électoral homogène ?",
+      "findingFr": "L'article 3 de la Constitution garantit un suffrage universel, égal et secret, ce qui protège la décision individuelle. L'étude d'Ajala conteste explicitement le mythe d'un vote musulman homogène en France et souligne que l'identité religieuse ne suffit pas à expliquer les comportements politiques. Le garde-fou contre l'assignation collective est donc solidement justifié.",
+      "referenceIds": ["legifrance-constitution-article-3", "ajala-muslim-vote-france-2011"],
+      "caveats": [
+        "L'étude d'Ajala est ancienne et ne décrit pas toutes les évolutions partisanes depuis 2011.",
+        "Rejeter l'homogénéité n'interdit pas d'étudier des expériences de discrimination ou des préoccupations partagées.",
+        "Le secret du vote protège le choix mais n'empêche pas les pressions sociales en amont.",
+        "Aucune préférence politique ne doit être inférée depuis un nom, une pratique ou une appartenance religieuse supposée."
       ]
     }
   ],
@@ -1761,6 +2067,85 @@
         "Inclure les facteurs biologiques, matériels, ergonomiques, développementaux et liés au handicap.",
         "Ne pas romantiser comme résistance toute adaptation à une contrainte ni culpabiliser les stratégies de protection.",
         "Interdire l'usage des conduites corporelles pour construire un profil politique individuel ou cibler une persuasion."
+      ],
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "argument-vote-levier-sans-assignation",
+      "title": "Faire du vote un levier, jamais une assignation",
+      "thesisFr": "Le vote peut compter comme un levier parmi d'autres pour exprimer des préférences, sanctionner des choix et entrer dans la délibération publique. L'encourager exige toutefois de préserver le libre arbitre, le secret et la pluralité : une conviction religieuse peut nourrir les raisons d'une personne, mais ne permet ni de prédire son bulletin ni de parler au nom d'un bloc homogène.",
+      "premiseClaimIds": [
+        "claim-islamic-political-authority-historically-contested",
+        "claim-medina-pact-supports-plural-community",
+        "claim-election-ruling-depends-on-context",
+        "claim-vote-is-one-civic-lever",
+        "claim-civic-participation-requires-individual-pluralism"
+      ],
+      "themeIds": ["participation-civique", "impuissance-politique", "culture-pouvoir"],
+      "reasoningPattern": "encourager-la-participation-sans-homogeneiser-le-groupe",
+      "objections": [
+        {
+          "title": "L'abstention peut être délibérée",
+          "summaryFr": "Refuser les candidatures disponibles, contester les institutions ou privilégier d'autres actions peut relever d'un choix politique plutôt que du fatalisme."
+        },
+        {
+          "title": "Le vote reste intermittent et limité",
+          "summaryFr": "Un scrutin ponctuel ne contrôle pas seul l'action des élus, l'agenda médiatique, les administrations, les intérêts économiques ni les rapports de force sociaux."
+        },
+        {
+          "title": "Tous les résidents ne votent pas",
+          "summaryFr": "Nationalité, inscription, âge et droits civiques excluent certaines personnes du corps électoral ; leur participation doit pouvoir emprunter d'autres voies."
+        },
+        {
+          "title": "Analogie historique contestable",
+          "summaryFr": "Le pacte de Médine et les catégories juridiques religieuses ne décrivent pas directement la citoyenneté constitutionnelle française."
+        },
+        {
+          "title": "Risque de pression communautaire",
+          "summaryFr": "Transformer une permission ou une exhortation religieuse en devoir collectif peut culpabiliser les abstentionnistes et masquer la diversité des préférences."
+        }
+      ],
+      "rhetoricalMoves": [
+        {
+          "device": "Déconstruction d'un âge d'or",
+          "effectFr": "Le rappel des conflits historiques rend discutable une interdiction du vote présentée comme héritage politique évident.",
+          "riskFr": "L'accumulation rapide d'épisodes complexes peut remplacer un récit simplifié par un autre et exagérer la permanence de la violence.",
+          "segmentIds": ["ismail-vote-001", "ismail-vote-002"]
+        },
+        {
+          "device": "Raisonnement interne à la tradition",
+          "effectFr": "Textes, précédent de Médine et résolution juridique répondent dans le vocabulaire de l'objection religieuse visée.",
+          "riskFr": "L'autorité de ces références varie selon les personnes et ne peut être convertie en consigne politique collective.",
+          "segmentIds": ["ismail-vote-003", "ismail-vote-004", "ismail-vote-006", "ismail-vote-007"]
+        },
+        {
+          "device": "Modération instrumentale",
+          "effectFr": "Présenter le vote comme un levier parmi d'autres évite la promesse irréaliste d'une solution électorale totale.",
+          "riskFr": "Le mot levier reste abstrait tant que les objectifs, alternatives, coûts et critères d'efficacité ne sont pas précisés.",
+          "segmentIds": ["ismail-vote-008", "ismail-vote-009", "ismail-vote-010"]
+        },
+        {
+          "device": "Adresse communautaire au nous",
+          "effectFr": "Le langage collectif donne une portée concrète à la cohésion et à l'expérience de minorisation.",
+          "riskFr": "Il peut homogénéiser des croyances, situations juridiques et préférences politiques très diverses.",
+          "segmentIds": ["ismail-vote-005", "ismail-vote-007", "ismail-vote-009"]
+        },
+        {
+          "device": "Dramatisation de l'inaction",
+          "effectFr": "La menace de destruction crée une urgence forte et clôt le raisonnement par un appel au partage.",
+          "riskFr": "La peur et la culpabilisation affaiblissent la possibilité d'une abstention argumentée ou d'un désaccord théologique légitime.",
+          "segmentIds": ["ismail-vote-011"]
+        }
+      ],
+      "adaptationConstraints": [
+        "Ne jamais inférer une religion, une intention de vote ou une préférence partisane depuis un nom, un lieu, une tenue ou une pratique.",
+        "Ne jamais concevoir un message électoral ciblé à partir d'une appartenance religieuse réelle ou supposée.",
+        "Présenter le vote comme un droit individuel et non comme une preuve de loyauté, de foi ou d'intégration.",
+        "Reconnaître le vote blanc, l'abstention argumentée et les formes non électorales de participation sans les réduire au fatalisme.",
+        "Distinguer raison confessionnelle, argument civique partageable, donnée historique et règle juridique française.",
+        "Ne citer aucun parti ou candidat sans actualiser les faits, exposer les alternatives et conserver une présentation contradictoire.",
+        "Employer les catégories collectives uniquement pour décrire des données agrégées avec leur incertitude, jamais pour assigner un individu."
       ],
       "status": "draft",
       "review": null

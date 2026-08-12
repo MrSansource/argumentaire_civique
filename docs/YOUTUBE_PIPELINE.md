@@ -110,4 +110,6 @@ L'épisode de Benjamin Schoendorff sur les valeurs fournit un contrepoint centr�
 
 Le cours d'Alexandre Duclos sur les techniques du corps éprouve la méthode sur un exposé mêlant théorie anthropologique et exemples de terrain. L'analyse retient l'apprentissage social et les effets possibles de l'organisation du travail, mais qualifie le déterminisme corporel, laisse l'anecdote de contournement d'un appareil non corroborée et interdit toute inférence identitaire depuis un geste individuel.
 
+L'épisode d'Ismaïl Mounir sur le vote confronte une argumentation civique à des références théologiques, historiques et juridiques. Le corpus distingue l'existence d'une permission religieuse de toute obligation, traite le vote comme un levier parmi d'autres et oppose à toute mobilisation communautaire le secret du suffrage, l'hétérogénéité politique et l'interdiction du ciblage religieux.
+
 Ces pilotes démontrent la méthode ; ils ne constituent pas à eux seuls une validation des thèses présentées.
