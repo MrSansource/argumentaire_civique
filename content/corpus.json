@@ -414,6 +414,66 @@
       "accessedAt": "2026-08-12",
       "kind": "official-data-protection-guidance",
       "scopeNote": "Doctrine française à jour sur la prospection politique : les opinions politiques sont des données sensibles, leur profilage est interdit dans le cadre du règlement sur la publicité politique et le ciblage en ligne exige notamment un consentement explicite."
+    },
+    {
+      "id": "senat-media-concentration-2022",
+      "publisher": "Sénat — commission d'enquête sur la concentration dans les médias",
+      "title": "À l'heure du numérique, la concentration des médias en question ?",
+      "url": "https://www.senat.fr/rap/r21-593-1/r21-593-1.html",
+      "publishedAt": "2022-03-29",
+      "accessedAt": "2026-08-12",
+      "kind": "parliamentary-inquiry-report",
+      "scopeNote": "Rapport documentant une concentration médiatique française protéiforme, ses logiques économiques et des risques discutés pour le pluralisme ; les membres de la commission n'apprécient pas uniformément les effets constatés."
+    },
+    {
+      "id": "arcom-media-ownership-database-2026",
+      "publisher": "Arcom",
+      "title": "Base de données sur la transparence des médias",
+      "url": "https://www.arcom.fr/nous-connaitre-notre-institution/regulation-europeenne-et-internationale/base-de-donnees-sur-la-transparence-des-medias",
+      "publishedAt": null,
+      "accessedAt": "2026-08-12",
+      "kind": "official-media-ownership-database",
+      "scopeNote": "Préfiguration française de la base prévue par l'European Media Freedom Act : propriétaires directs et indirects des radios et télévisions hertziennes ; la couverture reste partielle et ne mesure pas les interventions éditoriales."
+    },
+    {
+      "id": "ipp-grandes-ecoles-democratisation-2021",
+      "publisher": "Institut des politiques publiques",
+      "title": "Grandes écoles : quelle « ouverture » depuis le milieu des années 2000 ?",
+      "url": "https://www.ipp.eu/rapport-note-ipp-quelle-democratisation-des-grandes-ecoles-depuis-le-milieu-des-annees-2000/",
+      "publishedAt": "2021-01-19",
+      "accessedAt": "2026-08-12",
+      "kind": "publicly-funded-quantitative-research",
+      "scopeNote": "Étude financée dans le cadre d'un appel DEPP-SIES : environ deux tiers des étudiants des grandes écoles sont d'origine très favorisée et le recrutement social a peu évolué ; elle ne valide pas un chiffre isolé sans définition de l'école, de la cohorte et du groupe de comparaison."
+    },
+    {
+      "id": "legifrance-public-life-transparency-2013",
+      "publisher": "Légifrance",
+      "title": "Loi du 11 octobre 2013 relative à la transparence de la vie publique",
+      "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000028056315/",
+      "publishedAt": "2013-10-11",
+      "accessedAt": "2026-08-12",
+      "kind": "official-legislation",
+      "scopeNote": "L'article 2 définit le conflit d'intérêts comme une interférence de nature à influencer ou à paraître influencer l'exercice indépendant, impartial et objectif d'une fonction ; cette notion préventive ne prouve pas à elle seule une corruption pénale."
+    },
+    {
+      "id": "hatvp-lobbying-open-data-2026",
+      "publisher": "Haute Autorité pour la transparence de la vie publique",
+      "title": "Open data du répertoire des représentants d'intérêts",
+      "url": "https://www.hatvp.fr/open-data-repertoire/",
+      "publishedAt": null,
+      "accessedAt": "2026-08-12",
+      "kind": "official-lobbying-register-open-data",
+      "scopeNote": "Données déclaratives mises à jour chaque nuit sur les représentants d'intérêts, leurs actions et leurs moyens ; elles permettent d'étudier une influence déclarée mais ne recensent pas nécessairement chaque contact ni son effet sur une décision."
+    },
+    {
+      "id": "ohchr-berkeley-open-source-protocol-2022",
+      "publisher": "Haut-Commissariat des Nations unies aux droits de l'homme et Human Rights Center de Berkeley",
+      "title": "Berkeley Protocol on Digital Open Source Investigations",
+      "url": "https://digitallibrary.un.org/record/3973652",
+      "publishedAt": "2022-01-01",
+      "accessedAt": "2026-08-12",
+      "kind": "international-open-source-investigation-protocol",
+      "scopeNote": "Guide de collecte, préservation, analyse et présentation d'informations numériques ouvertes ; son standard vise les enquêtes internationales et distingue explicitement information publique et élément doté d'une valeur probante."
     }
   ],
   "sources": [
@@ -510,11 +570,11 @@
     {
       "id": "juan-branco",
       "name": "Juan Branco",
-      "status": "unresolved",
+      "status": "identified",
       "kind": "auteur-multicanal",
-      "url": null,
+      "url": "https://juan-branco.fr/",
       "languages": ["fr"],
-      "editorialNote": "Étudier les procédés argumentatifs sans confondre efficacité rhétorique et solidité factuelle."
+      "editorialNote": "Auteur identifié par son site personnel. L'entretien retenu a été publié en 2021 par Livre Noir sur une chaîne désormais nommée Frontières : l'attribution du diffuseur et les affirmations portant sur des personnes doivent être vérifiées épisode par épisode."
     }
   ],
   "episodes": [
@@ -1412,6 +1472,144 @@
           "speakerRole": "guest-societal-interpretation"
         }
       ]
+    },
+    {
+      "id": "branco-oligarchie-2021",
+      "sourceId": "juan-branco",
+      "title": "Juan Branco : abattre l'oligarchie",
+      "url": "https://www.youtube.com/watch?v=2J9Inz9kAZ0",
+      "publishedAt": "2021-09-12",
+      "language": "fr",
+      "transcript": {
+        "kind": "youtube-auto-captions",
+        "language": "fr",
+        "acquiredAt": "2026-08-12",
+        "retention": "short-excerpts-only",
+        "acquisitionTool": "yt-dlp metadata and automatic subtitle export",
+        "reliabilityNote": "Sous-titres automatiques français sans diarisation fiable : les extraits sont courts, normalisés avec prudence et reliés à l'audio horodaté. L'entretien est introduit sous la marque Livre Noir sur une chaîne désormais nommée Frontières."
+      },
+      "segments": [
+        {
+          "id": "branco-oligarchie-001",
+          "startMs": 1061240,
+          "endMs": 1088920,
+          "excerpt": "soit parce qu'on vous absorbe complètement, soit parce que [...] vous êtes sorti de l'espace social",
+          "paraphraseFr": "Branco décrit les institutions d'élite comme un espace qui socialise les entrants ou retire de la légitimité à ceux qui refusent ses codes.",
+          "speakerRole": "guest-insider-account"
+        },
+        {
+          "id": "branco-oligarchie-002",
+          "startMs": 1465020,
+          "endMs": 1504710,
+          "excerpt": "la seule façon d'être dangereux dans l'espace médiatique actuel [...] c'est en s'attaquant à l'intimité",
+          "paraphraseFr": "Il présente l'exposition de l'intimité comme moyen de contourner les protections sociales des dominants, procédé dont la légitimité et les dommages doivent être contestés.",
+          "speakerRole": "guest-strategic-claim"
+        },
+        {
+          "id": "branco-oligarchie-003",
+          "startMs": 2461790,
+          "endMs": 2481290,
+          "excerpt": "comment est-ce qu'on fait pour que ce système bascule vers une autre réalité",
+          "paraphraseFr": "La critique est explicitement orientée vers la recherche d'une transformation structurelle plutôt que vers la seule dénonciation de personnes.",
+          "speakerRole": "guest-strategic-question"
+        },
+        {
+          "id": "branco-oligarchie-004",
+          "startMs": 3826210,
+          "endMs": 3853130,
+          "excerpt": "qui dépend de l'orientation d'un oligarque, d'un milliardaire qui achète des médias pour ça",
+          "paraphraseFr": "Branco relie directement propriété d'un média et orientation politique, formulation forte qui appelle une mesure distincte de la propriété et de l'intervention éditoriale.",
+          "speakerRole": "guest-media-power-claim"
+        },
+        {
+          "id": "branco-oligarchie-005",
+          "startMs": 3853130,
+          "endMs": 3897980,
+          "excerpt": "vous êtes en train de reproduire l'existant",
+          "paraphraseFr": "Il soutient qu'accepter les ressources d'un pouvoir économique peut reproduire les dépendances que le projet politique prétend combattre.",
+          "speakerRole": "guest-strategic-claim"
+        },
+        {
+          "id": "branco-oligarchie-006",
+          "startMs": 3897980,
+          "endMs": 3921230,
+          "excerpt": "vous ne pouvez pas être libre dans la constitution de votre appareil politique",
+          "paraphraseFr": "Le financement et l'infrastructure d'un mouvement sont présentés comme des contraintes possibles sur ses choix futurs.",
+          "speakerRole": "guest-structural-claim"
+        },
+        {
+          "id": "branco-oligarchie-007",
+          "startMs": 3921230,
+          "endMs": 3947240,
+          "excerpt": "il y a quand même des questions à se poser sur [...] le rapport au politique",
+          "paraphraseFr": "La propriété croisée de médias et d'activités industrielles est formulée comme une question de pouvoir à documenter, non comme une preuve automatique d'instruction éditoriale.",
+          "speakerRole": "guest-media-power-claim"
+        },
+        {
+          "id": "branco-oligarchie-008",
+          "startMs": 4100620,
+          "endMs": 4126150,
+          "excerpt": "on n'a même pas parlé des questions, des idées [...] c'est ce qui détermine les idées",
+          "paraphraseFr": "Branco donne la priorité aux conditions matérielles de production de la parole sur le contenu idéologique affiché.",
+          "speakerRole": "guest-structural-claim"
+        },
+        {
+          "id": "branco-oligarchie-009",
+          "startMs": 4126150,
+          "endMs": 4149609,
+          "excerpt": "un débat qui finalement devient du spectacle, une distraction pour le peuple",
+          "paraphraseFr": "Il décrit la polarisation médiatique comme diversion possible par rapport aux mécanismes institutionnels et économiques.",
+          "speakerRole": "guest-media-critique"
+        },
+        {
+          "id": "branco-oligarchie-010",
+          "startMs": 5243610,
+          "endMs": 5269829,
+          "excerpt": "un système de reconnaissance et d'auto-reconnaissance de leurs mérites à travers les grandes écoles",
+          "paraphraseFr": "Les grandes écoles sont présentées comme mécanisme de sélection et de légitimation interne des élites.",
+          "speakerRole": "guest-social-reproduction-claim"
+        },
+        {
+          "id": "branco-oligarchie-011",
+          "startMs": 5338429,
+          "endMs": 5359140,
+          "excerpt": "quarante-cinq fois moins de chance de rentrer dans une des écoles considérées comme supérieures",
+          "paraphraseFr": "Branco avance un rapport de chances très élevé sans préciser dans l'extrait l'école, la cohorte, le groupe social ni le dénominateur comparés.",
+          "speakerRole": "guest-quantitative-claim"
+        },
+        {
+          "id": "branco-oligarchie-012",
+          "startMs": 5531570,
+          "endMs": 5560730,
+          "excerpt": "ces gens-là vivent dans l'illusion que leur mention très bien au bac [...] donne de la légitimité",
+          "paraphraseFr": "Il oppose le mérite scolaire vécu individuellement aux avantages sociaux qui contribuent à la trajectoire de sélection.",
+          "speakerRole": "guest-meritocracy-critique"
+        },
+        {
+          "id": "branco-oligarchie-013",
+          "startMs": 6643280,
+          "endMs": 6664640,
+          "excerpt": "on grandit tous dans des silos [...] où il y a des ennemis",
+          "paraphraseFr": "La fin de l'entretien reconnaît que chaque milieu politique entretient ses propres frontières et préjugés.",
+          "speakerRole": "guest-self-critical-observation"
+        },
+        {
+          "id": "branco-oligarchie-014",
+          "startMs": 6664640,
+          "endMs": 6693980,
+          "excerpt": "ça m'a permis de sortir des clichés de ma classe",
+          "paraphraseFr": "Branco attribue à des rencontres transpartisanes une révision partielle de ses propres catégories de jugement.",
+          "speakerRole": "guest-self-critical-observation"
+        },
+        {
+          "id": "branco-oligarchie-015",
+          "startMs": 6755140,
+          "endMs": 6783170,
+          "excerpt": "devenir une personnalité publique exposée, c'est très difficile de préserver sa sincérité, son humanité",
+          "paraphraseFr": "Il termine par une réflexion personnelle sur les incitations et responsabilités qui accompagnent l'acquisition d'une audience politique.",
+          "speakerRole": "guest-personal-reflection"
+        }
+      ]
     }
   ],
   "claims": [
@@ -1844,6 +2042,76 @@
       "epistemicNote": "Garde-fou éditorial fondé sur la distinction statistique des niveaux d'analyse et sur le statut particulièrement protégé des opinions politiques dans le droit des données personnelles.",
       "status": "draft",
       "review": null
+    },
+    {
+      "id": "claim-media-ownership-relevant-not-sufficient",
+      "episodeId": "branco-oligarchie-2021",
+      "segmentIds": ["branco-oligarchie-004", "branco-oligarchie-006", "branco-oligarchie-007", "branco-oligarchie-009"],
+      "type": "media-power-claim",
+      "statementFr": "La propriété et le financement d'un média sont des informations pertinentes pour étudier son indépendance et le pluralisme, mais ils ne suffisent pas à prouver une instruction éditoriale, un biais uniforme ou l'effet causal d'un propriétaire sur chaque contenu.",
+      "epistemicNote": "Le Sénat et l'Arcom traitent la concentration et la transparence comme des enjeux démocratiques tout en distinguant structure de propriété, protections journalistiques, risques et effets constatés.",
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "claim-grandes-ecoles-social-recruitment-skewed",
+      "episodeId": "branco-oligarchie-2021",
+      "segmentIds": ["branco-oligarchie-001", "branco-oligarchie-010", "branco-oligarchie-012"],
+      "type": "social-reproduction-claim",
+      "statementFr": "Le recrutement des grandes écoles françaises reste fortement marqué par l'origine sociale et géographique ; cette sélection soutient une hypothèse de reproduction des élites sans démontrer que tous les diplômés partagent les mêmes intérêts ou coordonnent leurs décisions.",
+      "epistemicNote": "L'étude IPP porte sur des distributions de cohortes et d'établissements. Elle mesure des inégalités d'accès, pas la psychologie, la moralité ni les relations futures de chaque diplômé.",
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "claim-branco-forty-five-ratio-underdefined",
+      "episodeId": "branco-oligarchie-2021",
+      "segmentIds": ["branco-oligarchie-011"],
+      "type": "quantitative-claim-audit",
+      "statementFr": "Le rapport de quarante-cinq avancé dans l'entretien n'est pas interprétable sans identifier précisément la population, la période, les écoles, la catégorie sociale et le groupe de référence comparés.",
+      "epistemicNote": "Un chiffre peut illustrer une inégalité réelle tout en restant invérifiable dans sa formulation orale ; il ne doit pas être republié comme mesure générale des chances d'accès.",
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "claim-conflict-interest-is-risk-not-corruption-proof",
+      "episodeId": "branco-oligarchie-2021",
+      "segmentIds": ["branco-oligarchie-005", "branco-oligarchie-006", "branco-oligarchie-007", "branco-oligarchie-008"],
+      "type": "legal-and-methodological-safeguard-claim",
+      "statementFr": "Un lien d'intérêt peut créer ou faire apparaître un risque d'influence et justifier transparence ou déport ; il ne constitue pas, à lui seul, la preuve d'une corruption, d'une contrepartie ou d'une décision illégale.",
+      "epistemicNote": "La définition légale française est préventive et inclut l'apparence d'influence. Qualifier une infraction exige des éléments et une procédure distincts.",
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "claim-public-link-does-not-prove-coordination",
+      "episodeId": "branco-oligarchie-2021",
+      "segmentIds": ["branco-oligarchie-005", "branco-oligarchie-008", "branco-oligarchie-010"],
+      "type": "network-inference-safeguard-claim",
+      "statementFr": "Une école commune, un emploi, une propriété, une rencontre ou un financement établissent un lien de nature déterminée ; leur accumulation ne prouve pas automatiquement une intention partagée, une chaîne de commandement ou un complot coordonné.",
+      "epistemicNote": "Le graphe décrit ce qui relie des entités. L'interprétation demande de dater chaque lien, d'en préciser la direction, de rechercher le mécanisme et de tester des explications concurrentes.",
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "claim-open-source-power-audit-needs-provenance",
+      "episodeId": "branco-oligarchie-2021",
+      "segmentIds": ["branco-oligarchie-003", "branco-oligarchie-007", "branco-oligarchie-011"],
+      "type": "open-source-investigation-safeguard-claim",
+      "statementFr": "Une enquête citoyenne sur le pouvoir doit conserver pour chaque élément sa source, sa date, sa définition, son niveau de preuve et les étapes de transformation, puis distinguer information publique, inférence, allégation et fait établi.",
+      "epistemicNote": "Adaptation à l'enquête civique de principes du Protocole de Berkeley, dont le champ d'origine est plus exigeant et concerne les enquêtes internationales de responsabilité.",
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "claim-power-audit-must-protect-intimacy-and-reply",
+      "episodeId": "branco-oligarchie-2021",
+      "segmentIds": ["branco-oligarchie-002", "branco-oligarchie-013", "branco-oligarchie-014", "branco-oligarchie-015"],
+      "type": "ethical-safeguard-claim",
+      "statementFr": "Contrôler des institutions et des responsables publics ne justifie ni l'exposition de leur intimité sans intérêt public démontré, ni le harcèlement, ni la culpabilité par association ; la contradiction et la possibilité de réponse doivent rester visibles.",
+      "epistemicNote": "Garde-fou éditorial : l'efficacité rhétorique d'une révélation ou d'une mise en réseau ne suffit pas à établir sa nécessité, sa proportionnalité ou son exactitude.",
+      "status": "draft",
+      "review": null
     }
   ],
   "verifications": [
@@ -2221,6 +2489,109 @@
         "Une communication générale fondée sur des statistiques agrégées n'est pas identique à un ciblage individualisé.",
         "La conformité juridique minimale ne garantit ni la loyauté méthodologique, ni l'absence de manipulation.",
         "Les règles et recommandations doivent être vérifiées à nouveau avant tout usage opérationnel."
+      ]
+    },
+    {
+      "id": "verification-media-ownership-and-pluralism",
+      "claimId": "claim-media-ownership-relevant-not-sufficient",
+      "mode": "official-regulatory-and-parliamentary-audit",
+      "status": "qualified",
+      "questionFr": "La propriété des médias est-elle un fait pertinent et suffit-elle à établir leur orientation éditoriale ?",
+      "findingFr": "Le Sénat décrit une concentration française protéiforme et examine des risques pour la crédibilité, l'indépendance et le pluralisme. L'Arcom publie désormais des propriétaires directs et indirects pour une partie de l'audiovisuel. Ces sources justifient la transparence et l'enquête, mais elles ne mesurent pas une instruction éditoriale dans chaque rédaction ni un effet uniforme sur chaque contenu.",
+      "referenceIds": ["senat-media-concentration-2022", "arcom-media-ownership-database-2026"],
+      "caveats": [
+        "La base Arcom est une préfiguration limitée aux radios et télévisions hertziennes et ne couvre pas encore toutes les informations prévues par l'EMFA.",
+        "Une propriété peut produire dépendance économique, autocensure, garanties internes ou effets variables selon les rédactions.",
+        "Le rapport sénatorial rend visibles des désaccords sur l'interprétation et l'ampleur des effets constatés.",
+        "L'orientation d'un média doit être étudiée avec ses contenus, sa gouvernance, ses chartes, ses nominations et les témoignages contradictoires."
+      ]
+    },
+    {
+      "id": "verification-grandes-ecoles-social-selection",
+      "claimId": "claim-grandes-ecoles-social-recruitment-skewed",
+      "mode": "quantitative-cohort-study-audit",
+      "status": "supported",
+      "questionFr": "Les données confirment-elles une forte sélection sociale et géographique des grandes écoles ?",
+      "findingFr": "L'IPP observe qu'environ deux tiers des étudiants des grandes écoles sont d'origine sociale très favorisée, qu'un tiers a étudié en Île-de-France et que la composition sociale a peu changé depuis le milieu des années 2000. La sélectivité scolaire et la géographie expliquent une partie, mais pas toute, des écarts d'accès.",
+      "referenceIds": ["ipp-grandes-ecoles-democratisation-2021"],
+      "caveats": [
+        "Les résultats agrègent des établissements de sélectivité, statut et spécialité différents.",
+        "L'origine sociale est mesurée par catégories statistiques et ne décrit pas toute la trajectoire d'un étudiant.",
+        "Une surreprésentation dans la formation ne prouve ni homogénéité idéologique, ni solidarité future, ni coordination politique.",
+        "Les cohortes étudiées précèdent les évolutions les plus récentes des admissions et doivent être actualisées."
+      ]
+    },
+    {
+      "id": "verification-branco-forty-five-ratio",
+      "claimId": "claim-branco-forty-five-ratio-underdefined",
+      "mode": "quantitative-traceability-audit",
+      "status": "inconclusive",
+      "questionFr": "Peut-on confirmer le rapport de quarante-cinq avancé dans l'entretien ?",
+      "findingFr": "La transcription ne précise ni les deux groupes comparés, ni l'établissement, ni la période, ni si le rapport porte sur des probabilités brutes ou conditionnelles. L'IPP confirme des écarts sociaux très importants, mais ses résultats publiés ne permettent pas d'identifier ce rapport oral comme mesure générale reproductible.",
+      "referenceIds": ["ipp-grandes-ecoles-democratisation-2021"],
+      "caveats": [
+        "Le nombre peut provenir d'une école très sélective, d'une catégorie particulière ou d'une publication non citée dans l'extrait.",
+        "Rapport de chances, rapport de probabilités et écart en points de pourcentage ne sont pas interchangeables.",
+        "La correction du chiffre ne remet pas en cause le constat général de sous-représentation sociale.",
+        "Le chiffre ne doit pas être republié sans retrouver sa source et sa définition exactes."
+      ]
+    },
+    {
+      "id": "verification-conflict-interest-distinction",
+      "claimId": "claim-conflict-interest-is-risk-not-corruption-proof",
+      "mode": "official-legal-definition-audit",
+      "status": "supported",
+      "questionFr": "Un lien d'intérêt ou une apparence d'influence prouvent-ils une corruption ?",
+      "findingFr": "La loi française définit le conflit d'intérêts comme une interférence susceptible d'influencer ou de paraître influencer l'exercice impartial d'une fonction. Cette définition sert à prévenir et faire cesser un risque, notamment par le déport ; elle ne qualifie pas automatiquement une contrepartie, une décision illégale ou une infraction pénale.",
+      "referenceIds": ["legifrance-public-life-transparency-2013"],
+      "caveats": [
+        "L'absence de condamnation ne signifie pas qu'un risque déontologique ou institutionnel est inexistant.",
+        "La qualification pénale dépend de faits, d'éléments intentionnels et d'une procédure qui ne peuvent être remplacés par un graphe relationnel.",
+        "Une apparence de conflit peut justifier transparence et prévention même sans avantage matériel démontré."
+      ]
+    },
+    {
+      "id": "verification-public-links-and-coordination",
+      "claimId": "claim-public-link-does-not-prove-coordination",
+      "mode": "open-data-and-inference-audit",
+      "status": "qualified",
+      "questionFr": "Que permet réellement d'établir une base publique de liens et d'actions d'influence ?",
+      "findingFr": "Le répertoire HATVP permet d'identifier des représentants d'intérêts, des actions déclarées, des responsables visés et des moyens mobilisés. Il rend donc certains liens d'influence observables. Il ne mesure toutefois pas automatiquement l'effet d'un contact sur une décision, et un lien scolaire, professionnel ou financier extérieur au registre ne suffit pas à établir une coordination.",
+      "referenceIds": ["hatvp-lobbying-open-data-2026"],
+      "caveats": [
+        "Les données sont déclaratives et leur niveau de détail dépend du cadre légal et de la qualité des déclarations.",
+        "L'absence d'un lien dans le registre ne prouve pas l'absence de tout contact ou de toute influence.",
+        "La présence d'un lien ne démontre ni accord, ni résultat, ni illégalité.",
+        "Il faut relier chaque interaction à une décision datée et rechercher les positions divergentes ou les échecs d'influence."
+      ]
+    },
+    {
+      "id": "verification-open-source-investigation-standards",
+      "claimId": "claim-open-source-power-audit-needs-provenance",
+      "mode": "international-methodological-protocol-audit",
+      "status": "supported",
+      "questionFr": "Quelles disciplines minimales rendent une enquête en sources ouvertes contrôlable ?",
+      "findingFr": "Le Protocole de Berkeley formalise l'identification, la collecte, la préservation, l'analyse et la présentation d'informations numériques ouvertes. Il distingue l'information publique de l'élément doté d'une valeur probante et exige une méthode traçable, ce qui soutient la séparation éditoriale entre fait, inférence et allégation.",
+      "referenceIds": ["ohchr-berkeley-open-source-protocol-2022"],
+      "caveats": [
+        "Le protocole vise d'abord les violations du droit international pénal, des droits humains et du droit humanitaire.",
+        "Son adaptation à une enquête civique ordinaire doit rester proportionnée et ne transforme pas un corpus public en preuve judiciaire.",
+        "La conservation de provenance ne corrige pas à elle seule les biais de sélection, de cadrage ou d'interprétation."
+      ]
+    },
+    {
+      "id": "verification-intimacy-and-reply-safeguard",
+      "claimId": "claim-power-audit-must-protect-intimacy-and-reply",
+      "mode": "ethical-scope-audit",
+      "status": "qualified",
+      "questionFr": "Une enquête en sources ouvertes peut-elle négliger la sécurité, la proportionnalité et la contradiction ?",
+      "findingFr": "Le Protocole de Berkeley inclut des mesures de sécurité numérique, physique et psychosociale pour les personnes exposées par l'enquête. Son champ ne tranche pas chaque conflit français entre vie privée et intérêt public, mais il contredit l'idée que l'efficacité d'une exposition dispenserait d'évaluer les dommages, la nécessité et la qualité de la preuve.",
+      "referenceIds": ["ohchr-berkeley-open-source-protocol-2022"],
+      "caveats": [
+        "Les règles juridiques applicables dépendent du statut de la personne, de la nature de l'information et du contexte de publication.",
+        "L'intérêt public peut justifier certaines révélations sans autoriser le harcèlement ni la diffusion de détails sans pertinence.",
+        "La possibilité de réponse ne rend pas une accusation initiale exacte ou proportionnée.",
+        "Ce garde-fou demande une revue humaine avant toute publication concernant une personne identifiable."
       ]
     }
   ],
@@ -2912,6 +3283,102 @@
         "Ne fournir aucun conseil visant un candidat ou un électorat actuel à partir de ces résultats historiques.",
         "Respecter les exigences de consentement, de transparence et de protection des opinions politiques rappelées par la CNIL.",
         "Ne pas réduire une préoccupation climatique à une anxiété économique sans mesure directe et modèle causal explicite."
+      ],
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "argument-cartographier-pouvoirs-sans-complot",
+      "title": "Cartographier les pouvoirs sans inventer un complot",
+      "thesisFr": "Les rapports de pouvoir ne sont ni invisibles ni réductibles à des intentions secrètes : propriétés, financements, formations, nominations, activités de lobbying et décisions peuvent être documentés. Une cartographie utile attribue à chaque lien une source, une date, une nature et un niveau de preuve. Elle distingue ensuite concentration, dépendance, conflit d'intérêts, coordination et infraction. Cette discipline renforce la critique structurelle au lieu de la diluer dans la culpabilité par association.",
+      "premiseClaimIds": [
+        "claim-media-ownership-relevant-not-sufficient",
+        "claim-grandes-ecoles-social-recruitment-skewed",
+        "claim-branco-forty-five-ratio-underdefined",
+        "claim-conflict-interest-is-risk-not-corruption-proof",
+        "claim-public-link-does-not-prove-coordination",
+        "claim-open-source-power-audit-needs-provenance",
+        "claim-power-audit-must-protect-intimacy-and-reply"
+      ],
+      "themeIds": ["culture-pouvoir", "participation-civique", "economie", "pauvrete-inegalites", "impuissance-politique"],
+      "reasoningPattern": "passer-du-reseau-public-au-mecanisme-prouve",
+      "objections": [
+        {
+          "title": "Les réseaux peuvent réellement coordonner",
+          "summaryFr": "Des échanges, financements ou recrutements répétés peuvent former une coalition organisée ; refuser l'inférence automatique ne doit pas empêcher de rechercher une chaîne de décision."
+        },
+        {
+          "title": "Les registres officiels sont incomplets",
+          "summaryFr": "Déclarations tardives, catégories larges, prête-noms, relations informelles et activités hors périmètre limitent ce que les bases publiques permettent d'observer."
+        },
+        {
+          "title": "La responsabilité publique n'attend pas toujours le pénal",
+          "summaryFr": "Une dépendance, une opacité ou une apparence de conflit peut justifier une critique et une réforme sans qu'une infraction soit judiciairement établie."
+        },
+        {
+          "title": "La méthode peut devenir une diversion technicienne",
+          "summaryFr": "Exiger une preuve inaccessible pour chaque mécanisme peut protéger le statu quo ; le niveau d'exigence doit rester proportionné à la portée de l'affirmation."
+        },
+        {
+          "title": "La propriété n'épuise pas le pouvoir médiatique",
+          "summaryFr": "Publicité, plateformes, précarité, routines professionnelles, accès aux sources et attentes du public peuvent orienter l'information sans instruction directe d'un actionnaire."
+        },
+        {
+          "title": "Le témoignage interne peut révéler l'invisible",
+          "summaryFr": "Une expérience personnelle située peut signaler une pratique absente des bases ; elle doit être conservée comme témoignage à corroborer plutôt que rejetée ou convertie immédiatement en fait général."
+        }
+      ],
+      "rhetoricalMoves": [
+        {
+          "device": "Ethos de l'initié dissident",
+          "effectFr": "Le récit d'un parcours dans les grandes écoles et institutions donne accès à des codes sociaux rarement décrits depuis l'intérieur.",
+          "riskFr": "L'expérience personnelle peut être reçue comme preuve suffisante d'un système général et rendre difficiles la contradiction ou la vérification indépendante.",
+          "segmentIds": ["branco-oligarchie-001", "branco-oligarchie-010", "branco-oligarchie-015"]
+        },
+        {
+          "device": "Enchaînement de dépendances",
+          "effectFr": "Relier propriété médiatique, financement et appareil politique rend visibles des contraintes structurelles souvent traitées séparément.",
+          "riskFr": "La proximité narrative entre plusieurs liens peut donner l'impression d'une coordination prouvée alors que chaque mécanisme possède un statut différent.",
+          "segmentIds": ["branco-oligarchie-004", "branco-oligarchie-005", "branco-oligarchie-006", "branco-oligarchie-007"]
+        },
+        {
+          "device": "Primauté du système sur les idées",
+          "effectFr": "Déplacer l'attention vers les conditions de production de la parole évite de réduire la politique à un duel de positions affichées.",
+          "riskFr": "Affirmer que le système détermine les idées peut rendre toute parole adverse suspecte par origine et sous-estimer autonomie, désaccords internes et changements de position.",
+          "segmentIds": ["branco-oligarchie-008", "branco-oligarchie-009"]
+        },
+        {
+          "device": "Chiffre de contraste spectaculaire",
+          "effectFr": "Le rapport de quarante-cinq transforme une inégalité abstraite en écart immédiatement mémorisable.",
+          "riskFr": "Sans dénominateur, source et population comparée, la précision produit une autorité supérieure à sa vérifiabilité.",
+          "segmentIds": ["branco-oligarchie-011", "branco-oligarchie-012"]
+        },
+        {
+          "device": "Transgression de l'intimité",
+          "effectFr": "L'exposition personnelle est présentée comme moyen de franchir les protections institutionnelles et de créer un choc public.",
+          "riskFr": "Le procédé peut causer des dommages disproportionnés, déplacer le débat vers la personne et normaliser harcèlement ou publication sans intérêt public suffisant.",
+          "segmentIds": ["branco-oligarchie-002"]
+        },
+        {
+          "device": "Autocritique des silos",
+          "effectFr": "Reconnaître ses propres préjugés et l'effet des rencontres transpartisanes ouvre une possibilité de révision du récit.",
+          "riskFr": "La valorisation du franchissement des camps ne garantit ni la qualité des nouveaux alliés, ni l'examen symétrique de leurs affirmations.",
+          "segmentIds": ["branco-oligarchie-013", "branco-oligarchie-014"]
+        }
+      ],
+      "adaptationConstraints": [
+        "N'utiliser que des informations obtenues légalement et pertinentes pour une question d'intérêt public ; exclure adresses privées, données de santé, sexualité, famille et autres détails sans nécessité démontrée.",
+        "Étiqueter séparément fait vérifié, donnée déclarative, témoignage, inférence, allégation contestée, qualification juridique et décision de justice.",
+        "Associer à chaque lien sa nature, sa direction, sa date, sa source primaire, sa portée et sa date de dernière vérification.",
+        "Ne jamais déduire une intention, une opinion, une coordination ou une culpabilité de la seule fréquentation d'une école, d'un emploi, d'une relation familiale ou d'une rencontre.",
+        "Distinguer conflit d'intérêts, apparence de conflit, influence déclarée, dépendance économique, corruption alléguée et infraction établie.",
+        "Présenter les explications concurrentes, les liens absents, les désaccords internes et les cas qui contredisent le récit du réseau.",
+        "Offrir une possibilité de réponse visible aux personnes ou organisations mises en cause et conserver les corrections avec leur historique.",
+        "Ne jamais utiliser une cartographie pour harceler, intimider, doxer ou coordonner une pression contre une personne.",
+        "Ne jamais convertir les liens documentés en ciblage politique individualisé ou en estimation de vulnérabilité persuasive.",
+        "Soumettre toute publication nominative à une revue humaine de proportionnalité, de sécurité, de droit applicable et de solidité des preuves.",
+        "Ne pas appeler à la violence, à l'intrusion, au vol de données ou à toute autre action illégale pour compléter le graphe.",
+        "Préférer les mécanismes institutionnels et les réformes vérifiables à la désignation morale d'un groupe homogène d'ennemis."
       ],
       "status": "draft",
       "review": null

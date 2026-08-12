@@ -88,6 +88,11 @@
       "argumentId": "argument-lire-cartes-sans-fabriquer-electeur",
       "values": { "evidenceValues": 26, "individualSystemic": 88, "deliberationAction": 18, "accessibleTechnical": 92 },
       "editorialNote": "Argument méthodologique centré sur les données agrégées, les niveaux d'inférence et la prévention du profilage politique individuel."
+    },
+    {
+      "argumentId": "argument-cartographier-pouvoirs-sans-complot",
+      "values": { "evidenceValues": 12, "individualSystemic": 96, "deliberationAction": 40, "accessibleTechnical": 86 },
+      "editorialNote": "Méthode d'enquête structurelle très systémique et technique, centrée sur la provenance, les mécanismes et les niveaux de preuve."
     }
   ]
 }
