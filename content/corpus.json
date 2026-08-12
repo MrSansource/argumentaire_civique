@@ -364,6 +364,56 @@
       "accessedAt": "2026-08-12",
       "kind": "peer-reviewed-preregistered-experiments",
       "scopeNote": "Deux expériences en ligne sur les mouvements animaliste et climatique observent qu'un flanc aux tactiques radicales peut accroître par contraste le soutien à une faction modérée ; elles ne justifient aucune violence et ne fournissent pas une règle générale de stratégie."
+    },
+    {
+      "id": "interieur-election-results-archive",
+      "publisher": "Ministère de l'Intérieur",
+      "title": "Les résultats de toutes les élections",
+      "url": "https://www.elections.interieur.gouv.fr/resultats-de-toutes-elections",
+      "publishedAt": null,
+      "accessedAt": "2026-08-12",
+      "kind": "official-election-results-archive",
+      "scopeNote": "Archive des résultats proclamés par scrutin et territoire, dont la présidentielle de 2022 ; elle décrit des suffrages agrégés et ne contient ni diplôme, ni revenu, ni motivation individuelle."
+    },
+    {
+      "id": "ipsos-electorates-first-round-2022",
+      "publisher": "Ipsos & Sopra Steria pour France Télévisions et Radio France",
+      "title": "Présidentielle 2022 — profil des abstentionnistes et sociologie des électorats",
+      "url": "https://www.ipsos.com/fr-fr/presidentielle-2022/1er-tour-abstentionnistes-sociologie-electorat",
+      "publishedAt": "2022-04-10",
+      "accessedAt": "2026-08-12",
+      "kind": "representative-election-survey",
+      "scopeNote": "Enquête auprès de 4 000 personnes inscrites, interrogées du 6 au 9 avril 2022, présentant séparément des votes selon âge, profession, revenu et diplôme ; les tableaux marginaux ne suffisent pas à reconstruire un portrait conjoint ni les motivations de chaque électeur."
+    },
+    {
+      "id": "robinson-ecological-correlations-1950",
+      "publisher": "American Sociological Review — American Sociological Association",
+      "title": "Ecological Correlations and the Behavior of Individuals",
+      "url": "https://doi.org/10.2307/2087176",
+      "publishedAt": "1950-06-01",
+      "accessedAt": "2026-08-12",
+      "kind": "peer-reviewed-methodological-article",
+      "scopeNote": "Article fondateur montrant que les corrélations calculées entre unités agrégées ne peuvent pas être substituées aux relations entre individus ; ses calculs historiques ont fait l'objet de corrections ultérieures sans annuler ce principe."
+    },
+    {
+      "id": "ademe-climate-representations-2022",
+      "publisher": "ADEME — Agence de la transition écologique",
+      "title": "Baromètre Les représentations sociales du changement climatique 2022",
+      "url": "https://www.ademe.fr/presse/communique-national/barometre-les-representations-sociales-du-changement-climatique-2022-les-francais-de-plus-en-plus-pessimistes-quant-au-rechauffement-climatique-et-enclins-a-plus-de-sobriete/",
+      "publishedAt": "2022-11-07",
+      "accessedAt": "2026-08-12",
+      "kind": "official-representative-opinion-survey",
+      "scopeNote": "Baromètre représentatif des personnes de 15 ans et plus : en 2022, la menace climatique arrive derrière la hausse des prix et 81 % attribuent le réchauffement aux activités humaines ; cette coexistence ne démontre ni identité ni substitution causale entre préoccupations."
+    },
+    {
+      "id": "cnil-electoral-data-rights-2026",
+      "publisher": "CNIL",
+      "title": "Respecter les droits des électeurs sur leurs données personnelles",
+      "url": "https://www.cnil.fr/fr/respecter-les-droits-des-electeurs-sur-leurs-donnees-personnelles",
+      "publishedAt": "2026-01-30",
+      "accessedAt": "2026-08-12",
+      "kind": "official-data-protection-guidance",
+      "scopeNote": "Doctrine française à jour sur la prospection politique : les opinions politiques sont des données sensibles, leur profilage est interdit dans le cadre du règlement sur la publicité politique et le ciblage en ligne exige notamment un consentement explicite."
     }
   ],
   "sources": [
@@ -451,11 +501,11 @@
     {
       "id": "emmanuel-todd",
       "name": "Emmanuel Todd",
-      "status": "unresolved",
+      "status": "identified",
       "kind": "auteur-multicanal",
-      "url": null,
+      "url": "https://emmanueltodd.substack.com/",
       "languages": ["fr"],
-      "editorialNote": "Interventions diffusées par de nombreuses chaînes ; sélectionner les vidéos à l'unité."
+      "editorialNote": "Auteur identifié par sa publication personnelle et par l'entretien Élucid retenu. Ses interventions restent diffusées par de nombreux médias : chaque épisode doit être attribué à son diffuseur et ses modèles historiques, cartes et prédictions contrôlés séparément."
     },
     {
       "id": "juan-branco",
@@ -1240,6 +1290,128 @@
           "speakerRole": "co-host-commentary"
         }
       ]
+    },
+    {
+      "id": "todd-stratification-vote-2022",
+      "sourceId": "emmanuel-todd",
+      "title": "Le macronisme est un populisme",
+      "url": "https://www.youtube.com/watch?v=m1x_HjDJQU8",
+      "publishedAt": "2022-04-16",
+      "language": "fr",
+      "transcript": {
+        "kind": "youtube-auto-captions",
+        "language": "fr",
+        "acquiredAt": "2026-08-12",
+        "retention": "short-excerpts-only",
+        "acquisitionTool": "yt-dlp metadata and automatic subtitle export",
+        "reliabilityNote": "Sous-titres automatiques français sans diarisation fiable : les extraits sont courts, normalisés avec prudence et rattachés à l'audio horodaté de l'entretien diffusé par Élucid."
+      },
+      "segments": [
+        {
+          "id": "todd-vote-001",
+          "startMs": 177110,
+          "endMs": 187810,
+          "excerpt": "une France assez unitaire qui se réorganise selon des critères de classe et d'éducation",
+          "paraphraseFr": "Todd propose de lire la recomposition électorale française principalement par la classe et le niveau d'éducation.",
+          "speakerRole": "guest-interpretation"
+        },
+        {
+          "id": "todd-vote-002",
+          "startMs": 291420,
+          "endMs": 307920,
+          "excerpt": "positionnement géographique, d'éducation, de revenus",
+          "paraphraseFr": "Il annonce une analyse croisant géographie électorale et caractéristiques sociales agrégées.",
+          "speakerRole": "guest-methodological-claim"
+        },
+        {
+          "id": "todd-vote-003",
+          "startMs": 394569,
+          "endMs": 423020,
+          "excerpt": "la carte qui l'explique le mieux — pas totalement — c'est la carte des gens qui ont fait des études supérieures",
+          "paraphraseFr": "Il présente la part de diplômés du supérieur comme la carte la plus proche du vote étudié, tout en signalant que l'explication reste partielle.",
+          "speakerRole": "guest-aggregate-analysis"
+        },
+        {
+          "id": "todd-vote-004",
+          "startMs": 454559,
+          "endMs": 477839,
+          "excerpt": "l'omniprésence des grandes villes universitaires",
+          "paraphraseFr": "La présence de villes universitaires sert d'indice territorial au raisonnement sur le diplôme.",
+          "speakerRole": "guest-aggregate-analysis"
+        },
+        {
+          "id": "todd-vote-005",
+          "startMs": 507219,
+          "endMs": 566170,
+          "excerpt": "le vote Mélenchon est assez homogène sur les catégories éducatives",
+          "paraphraseFr": "Todd affirme une distribution relativement homogène de ce vote selon l'éducation avant de comparer les moyennes entre électorats.",
+          "speakerRole": "guest-aggregate-analysis"
+        },
+        {
+          "id": "todd-vote-006",
+          "startMs": 566170,
+          "endMs": 594910,
+          "excerpt": "éduqués et pas privilégiés [...] l'image de jeunes diplômés pauvres",
+          "paraphraseFr": "Il condense plusieurs variables en une figure sociale de diplômés jeunes et matériellement fragilisés.",
+          "speakerRole": "guest-ideal-type"
+        },
+        {
+          "id": "todd-vote-007",
+          "startMs": 648629,
+          "endMs": 704589,
+          "excerpt": "une corrélation de 0,93 [...] pouvait prédire presque exactement",
+          "paraphraseFr": "Il invoque une corrélation départementale très forte entre deux résultats électoraux pour soutenir une relation prédictive territoriale.",
+          "speakerRole": "guest-aggregate-analysis"
+        },
+        {
+          "id": "todd-vote-008",
+          "startMs": 704589,
+          "endMs": 732350,
+          "excerpt": "la détermination fondamentale du vote Macron, c'était le vote contre Le Pen",
+          "paraphraseFr": "Todd passe de la proximité territoriale des résultats à une interprétation du motif individuel dominant.",
+          "speakerRole": "guest-causal-interpretation"
+        },
+        {
+          "id": "todd-vote-009",
+          "startMs": 1640360,
+          "endMs": 1669050,
+          "excerpt": "fragmenté par classe sociale ou par niveau éducatif",
+          "paraphraseFr": "Il souligne que la catégorie de vote musulman recouvre des positions sociales et éducatives diverses.",
+          "speakerRole": "guest-heterogeneity-claim"
+        },
+        {
+          "id": "todd-vote-010",
+          "startMs": 1854760,
+          "endMs": 1877649,
+          "excerpt": "des facteurs d'âge, de niveau éducatif, de niveau de richesse",
+          "paraphraseFr": "Il résume son modèle électoral autour de trois dimensions sociales mesurables.",
+          "speakerRole": "guest-methodological-claim"
+        },
+        {
+          "id": "todd-vote-011",
+          "startMs": 1980630,
+          "endMs": 2032310,
+          "excerpt": "le type idéal [...] c'est un jeune éduqué en voie d'appauvrissement",
+          "paraphraseFr": "Il présente explicitement un type idéal combinant âge, éducation et trajectoire économique.",
+          "speakerRole": "guest-ideal-type"
+        },
+        {
+          "id": "todd-vote-012",
+          "startMs": 2039840,
+          "endMs": 2092100,
+          "excerpt": "l'inquiétude climatique est une métaphore de l'inquiétude économique",
+          "paraphraseFr": "Todd interprète la préoccupation climatique de ce type idéal comme expression indirecte d'une insécurité économique.",
+          "speakerRole": "guest-psychological-interpretation"
+        },
+        {
+          "id": "todd-vote-013",
+          "startMs": 3795429,
+          "endMs": 3828589,
+          "excerpt": "une société de plus en plus homogène",
+          "paraphraseFr": "Il conclut que les différences d'origine, de religion et de culture perdraient de leur pouvoir explicatif face aux stratifications communes.",
+          "speakerRole": "guest-societal-interpretation"
+        }
+      ]
     }
   ],
   "claims": [
@@ -1612,6 +1784,66 @@
       "epistemicNote": "Garde-fou ajouté à la thèse de la vidéo : les recherches consultées montrent des relations contextuelles et parfois complémentaires entre récits ou factions modérées et radicales, pas une hiérarchie universelle des tactiques.",
       "status": "draft",
       "review": null
+    },
+    {
+      "id": "claim-2022-vote-associated-with-social-variables",
+      "episodeId": "todd-stratification-vote-2022",
+      "segmentIds": ["todd-vote-001", "todd-vote-002", "todd-vote-003", "todd-vote-004", "todd-vote-005", "todd-vote-010"],
+      "type": "descriptive-electoral-sociology-claim",
+      "statementFr": "Au premier tour de l'élection présidentielle française de 2022, l'âge, le diplôme, le revenu et la position professionnelle sont associés à des distributions de vote différentes, sans former des blocs homogènes ni déterminer un bulletin individuel.",
+      "epistemicNote": "Les écarts sont observables dans une enquête individuelle et dans les résultats agrégés, mais leur ampleur dépend du candidat, de la catégorie, du scrutin, de l'échantillon et des interactions entre variables.",
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "claim-electoral-geography-describes-territories-not-people",
+      "episodeId": "todd-stratification-vote-2022",
+      "segmentIds": ["todd-vote-003", "todd-vote-004", "todd-vote-007"],
+      "type": "methodological-safeguard-claim",
+      "statementFr": "Une corrélation entre résultats électoraux et caractéristiques sociales de territoires décrit ces territoires ; elle ne permet pas, à elle seule, de savoir quels individus ont voté pour qui.",
+      "epistemicNote": "Principe classique de l'erreur écologique : une relation agrégée peut différer de la relation individuelle et doit être confrontée à des données individuelles adaptées.",
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "claim-marginal-tables-do-not-establish-joint-voter-type",
+      "episodeId": "todd-stratification-vote-2022",
+      "segmentIds": ["todd-vote-006", "todd-vote-010", "todd-vote-011"],
+      "type": "methodological-safeguard-claim",
+      "statementFr": "Des tableaux séparés par âge, diplôme et revenu ne suffisent pas à mesurer la fréquence d'un profil conjoint tel que « jeune, diplômé et en voie d'appauvrissement » dans un électorat.",
+      "epistemicNote": "Un type idéal peut organiser une hypothèse, mais sa présence empirique exige une analyse croisée sur les mêmes personnes, avec effectifs, pondérations et incertitude.",
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "claim-aggregate-correlation-does-not-establish-motive",
+      "episodeId": "todd-stratification-vote-2022",
+      "segmentIds": ["todd-vote-007", "todd-vote-008"],
+      "type": "causal-inference-safeguard-claim",
+      "statementFr": "Même une forte corrélation départementale entre deux résultats électoraux n'établit ni le parcours des mêmes électeurs entre scrutins, ni leur motif psychologique, ni un vote individuel contre un autre candidat.",
+      "epistemicNote": "La corrélation agrégée peut susciter une hypothèse de transfert ou de vote stratégique ; la tester demande au minimum des données individuelles longitudinales ou des questions directes sur les motivations.",
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "claim-climate-concern-not-reducible-to-economic-anxiety",
+      "episodeId": "todd-stratification-vote-2022",
+      "segmentIds": ["todd-vote-011", "todd-vote-012"],
+      "type": "interpretive-safeguard-claim",
+      "statementFr": "La coexistence d'une inquiétude économique et d'une préoccupation climatique ne démontre pas que la seconde serait une métaphore, une fausse conscience ou un substitut psychologique de la première.",
+      "epistemicNote": "Le baromètre consulté mesure la hiérarchie et le contenu des préoccupations, pas le mécanisme psychologique individuel allégué par Todd.",
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "claim-electoral-analysis-must-not-enable-individual-profiling",
+      "episodeId": "todd-stratification-vote-2022",
+      "segmentIds": ["todd-vote-001", "todd-vote-009", "todd-vote-010", "todd-vote-013"],
+      "type": "legal-and-ethical-safeguard-claim",
+      "statementFr": "L'analyse civique peut étudier des tendances agrégées, mais ne doit pas servir à inférer, prédire ou cibler l'opinion politique d'une personne depuis son âge, son diplôme, son revenu, son adresse, son origine ou sa religion.",
+      "epistemicNote": "Garde-fou éditorial fondé sur la distinction statistique des niveaux d'analyse et sur le statut particulièrement protégé des opinions politiques dans le droit des données personnelles.",
+      "status": "draft",
+      "review": null
     }
   ],
   "verifications": [
@@ -1915,6 +2147,80 @@
         "Le soutien à une faction n'est pas équivalent à une réforme adoptée, une redistribution ou un changement de régime.",
         "Les effets d'un flanc radical dépendent des tactiques, de la distinction entre factions et du contexte médiatique.",
         "Aucun résultat ne justifie la violence, la mise en danger d'autrui ni le mépris des règles démocratiques."
+      ]
+    },
+    {
+      "id": "verification-2022-social-electoral-associations",
+      "claimId": "claim-2022-vote-associated-with-social-variables",
+      "mode": "official-results-and-individual-survey",
+      "status": "qualified",
+      "questionFr": "Les données disponibles confirment-elles des différences de vote selon l'âge, le diplôme et le revenu en 2022 ?",
+      "findingFr": "L'enquête Ipsos menée auprès de 4 000 inscrits du 6 au 9 avril 2022 montre des répartitions différentes selon l'âge, la profession, le revenu et le diplôme. Les résultats officiels fixent les dénominateurs territoriaux du scrutin. Ces sources soutiennent des associations sociales, pas un profil déterministe ni une cause unique du vote.",
+      "referenceIds": ["ipsos-electorates-first-round-2022", "interieur-election-results-archive"],
+      "caveats": [
+        "L'enquête repose sur un échantillon pondéré et reste exposée à l'erreur d'échantillonnage, à la non-réponse et aux déclarations imparfaites.",
+        "Les tableaux publics présentent surtout des distributions marginales et ne décrivent pas toutes les interactions entre âge, diplôme, revenu et territoire.",
+        "Les catégories sociales et les coalitions électorales peuvent évoluer rapidement d'un scrutin à l'autre.",
+        "Une différence moyenne entre groupes ne permet pas de prévoir le bulletin d'une personne appartenant à l'un de ces groupes."
+      ]
+    },
+    {
+      "id": "verification-ecological-inference-limit",
+      "claimId": "claim-electoral-geography-describes-territories-not-people",
+      "mode": "methodological-literature-audit",
+      "status": "supported",
+      "questionFr": "Une relation observée entre départements permet-elle d'inférer la relation entre électeurs individuels ?",
+      "findingFr": "Robinson a montré que les corrélations écologiques et individuelles peuvent différer fortement et qu'on ne peut pas substituer automatiquement les premières aux secondes. Les résultats du ministère de l'Intérieur sont utiles pour décrire communes et départements, mais ne contiennent ni diplôme individuel, ni revenu individuel, ni motif de vote.",
+      "referenceIds": ["robinson-ecological-correlations-1950", "interieur-election-results-archive"],
+      "caveats": [
+        "Les méthodes d'inférence écologique ont progressé depuis 1950, mais exigent des hypothèses et une quantification explicite de l'incertitude.",
+        "Le contexte territorial peut avoir des effets réels ; le garde-fou interdit seulement de les convertir sans preuve en comportements individuels.",
+        "Une carte reste descriptive tant que le mécanisme causal et le niveau d'analyse ne sont pas établis séparément."
+      ]
+    },
+    {
+      "id": "verification-joint-voter-profile",
+      "claimId": "claim-marginal-tables-do-not-establish-joint-voter-type",
+      "mode": "survey-table-structure-audit",
+      "status": "inconclusive",
+      "questionFr": "Les tableaux publiés établissent-ils l'existence et le poids d'un électeur-type à la fois jeune, diplômé et en appauvrissement ?",
+      "findingFr": "Ipsos publie séparément des distributions par âge, revenu, catégorie professionnelle et diplôme. Elles rendent le portrait proposé plausible comme hypothèse, mais ne donnent pas la distribution conjointe de ces caractéristiques chez les mêmes électeurs et ne mesurent pas directement une trajectoire d'appauvrissement.",
+      "referenceIds": ["ipsos-electorates-first-round-2022"],
+      "caveats": [
+        "Un type idéal est un outil analytique et n'a pas besoin de correspondre à la majorité pour être conceptuellement utile.",
+        "Sa portée empirique doit néanmoins être distinguée d'une image rhétorique et accompagnée d'effectifs ou de proportions.",
+        "Le revenu courant, le patrimoine, le niveau de vie et la trajectoire d'appauvrissement sont des mesures différentes.",
+        "Les interactions peuvent modifier ou inverser les associations visibles dans les tableaux séparés."
+      ]
+    },
+    {
+      "id": "verification-climate-anxiety-economic-metaphor",
+      "claimId": "claim-climate-concern-not-reducible-to-economic-anxiety",
+      "mode": "representative-opinion-survey-audit",
+      "status": "inconclusive",
+      "questionFr": "Les données établissent-elles que l'inquiétude climatique exprime en réalité une inquiétude économique ?",
+      "findingFr": "Le baromètre ADEME 2022 place la hausse des prix au premier rang des préoccupations et le changement climatique au second ; 81 % des répondants attribuent le réchauffement aux activités humaines. Il documente la coexistence de préoccupations économiques et climatiques, mais ne permet pas de réduire l'une à la métaphore psychologique de l'autre.",
+      "referenceIds": ["ademe-climate-representations-2022"],
+      "caveats": [
+        "Le classement national des préoccupations ne décrit pas les motivations d'un électorat particulier.",
+        "Une même personne peut avoir plusieurs préoccupations sincères, liées ou indépendantes.",
+        "Tester une médiation psychologique demanderait des mesures individuelles et un modèle causal préspécifié.",
+        "L'absence de preuve pour la métaphore n'établit pas que la situation économique n'influence jamais les attitudes climatiques."
+      ]
+    },
+    {
+      "id": "verification-no-individual-political-profiling",
+      "claimId": "claim-electoral-analysis-must-not-enable-individual-profiling",
+      "mode": "official-legal-guidance-audit",
+      "status": "supported",
+      "questionFr": "Quelles limites protègent les personnes contre le profilage et le ciblage politiques ?",
+      "findingFr": "La CNIL rappelle que les opinions politiques sont des données sensibles et indique que leur profilage est interdit dans le cadre européen de la publicité politique. Le ciblage politique en ligne est en outre soumis à des conditions renforcées, notamment un consentement explicite et des obligations de transparence.",
+      "referenceIds": ["cnil-electoral-data-rights-2026"],
+      "caveats": [
+        "Ce résumé éditorial ne remplace pas une analyse juridique d'un traitement de données précis.",
+        "Une communication générale fondée sur des statistiques agrégées n'est pas identique à un ciblage individualisé.",
+        "La conformité juridique minimale ne garantit ni la loyauté méthodologique, ni l'absence de manipulation.",
+        "Les règles et recommandations doivent être vérifiées à nouveau avant tout usage opérationnel."
       ]
     }
   ],
@@ -2519,6 +2825,93 @@
         "Rendre visibles financement, intérêts, dépendance aux plateformes et critères d'échec de l'action proposée.",
         "Traiter les témoignages d'audience et les récits personnels comme indices, jamais comme mesure d'impact suffisante.",
         "Présenter l'objection la plus forte à la stratégie retenue et préciser ce qui conduirait à la modifier ou à l'abandonner."
+      ],
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "argument-lire-cartes-sans-fabriquer-electeur",
+      "title": "Lire les cartes électorales sans fabriquer l'électeur-type",
+      "thesisFr": "Les cartes électorales peuvent révéler des associations territoriales et suggérer des hypothèses sur les rapports entre vote, âge, diplôme, revenu ou cadre de vie. Pour raisonner correctement, il faut toujours distinguer territoire, groupe et individu, puis confronter les résultats agrégés à des enquêtes individuelles. Une carte ne permet jamais de deviner le vote, le motif ou la sensibilité d'une personne, encore moins de la cibler politiquement.",
+      "premiseClaimIds": [
+        "claim-2022-vote-associated-with-social-variables",
+        "claim-electoral-geography-describes-territories-not-people",
+        "claim-marginal-tables-do-not-establish-joint-voter-type",
+        "claim-aggregate-correlation-does-not-establish-motive",
+        "claim-climate-concern-not-reducible-to-economic-anxiety",
+        "claim-electoral-analysis-must-not-enable-individual-profiling"
+      ],
+      "themeIds": ["participation-civique", "pauvrete-inegalites", "culture-pouvoir", "psychologie-typologies"],
+      "reasoningPattern": "passer-de-la-carte-a-lhypothese-sans-profilage",
+      "objections": [
+        {
+          "title": "Les régularités agrégées restent informatives",
+          "summaryFr": "Refuser l'erreur écologique ne rend pas les cartes inutiles : elles décrivent des territoires, repèrent des contrastes et orientent des questions vérifiables."
+        },
+        {
+          "title": "Le contexte local peut agir",
+          "summaryFr": "Institutions, voisinage, marché du travail, offre politique et médias locaux peuvent influencer les comportements au-delà des caractéristiques individuelles."
+        },
+        {
+          "title": "Les enquêtes individuelles ont aussi des limites",
+          "summaryFr": "Échantillonnage, non-réponse, mémoire, désirabilité sociale et formulation des questions empêchent d'en faire une vérité sans incertitude."
+        },
+        {
+          "title": "Les coalitions électorales changent",
+          "summaryFr": "Une association observée en 2017 ou 2022 ne constitue pas une essence durable d'un groupe, d'un territoire ou d'une candidature."
+        },
+        {
+          "title": "Le type idéal peut éclairer",
+          "summaryFr": "Une figure synthétique peut aider à formuler une hypothèse si elle est annoncée comme construction, confrontée aux cas contraires et jamais assimilée à une personne réelle."
+        },
+        {
+          "title": "Toute communication agrégée n'est pas du ciblage",
+          "summaryFr": "Publier une analyse générale et transparente diffère d'un message personnalisé destiné à infléchir l'opinion politique d'une personne identifiée ou identifiable."
+        }
+      ],
+      "rhetoricalMoves": [
+        {
+          "device": "Simplification cartographique",
+          "effectFr": "Cartes et grands blocs rendent immédiatement visibles des contrastes territoriaux difficiles à saisir dans des tableaux.",
+          "riskFr": "Le découpage spatial peut transformer des continuités en frontières, masquer l'hétérogénéité interne et faire prendre une ressemblance visuelle pour une explication.",
+          "segmentIds": ["todd-vote-001", "todd-vote-003", "todd-vote-004"]
+        },
+        {
+          "device": "Autorité du coefficient précis",
+          "effectFr": "Un coefficient élevé donne au raisonnement une apparence de mesure forte et falsifiable.",
+          "riskFr": "Sans signe, variables exactes, pondération, niveau géographique, graphique reproductible et intervalle d'incertitude, la précision numérique peut dépasser l'information disponible.",
+          "segmentIds": ["todd-vote-007", "todd-vote-008"]
+        },
+        {
+          "device": "Portrait par type idéal",
+          "effectFr": "La figure du jeune diplômé en appauvrissement rassemble plusieurs dimensions dans une image mémorable.",
+          "riskFr": "Le public peut confondre une construction analytique avec le profil conjoint réellement majoritaire ou avec la description de tout électeur concerné.",
+          "segmentIds": ["todd-vote-006", "todd-vote-010", "todd-vote-011"]
+        },
+        {
+          "device": "Psychologisation par la fausse conscience",
+          "effectFr": "Interpréter une préoccupation déclarée comme métaphore relie rapidement attitudes culturelles et situation économique.",
+          "riskFr": "Le procédé rend la thèse difficile à réfuter et peut disqualifier la parole des personnes sans mesurer directement leurs motifs.",
+          "segmentIds": ["todd-vote-011", "todd-vote-012"]
+        },
+        {
+          "device": "Récit d'homogénéisation sociale",
+          "effectFr": "L'idée d'une stratification commune conteste les lectures qui essentialisent origine, religion ou culture.",
+          "riskFr": "Présentée sans indicateurs précis, elle peut sous-estimer des discriminations, trajectoires migratoires et appartenances qui interagissent avec la classe.",
+          "segmentIds": ["todd-vote-009", "todd-vote-013"]
+        }
+      ],
+      "adaptationConstraints": [
+        "Ne jamais inférer le vote, l'opinion ou le motif d'une personne depuis son âge, son diplôme, son revenu, son adresse, son origine, sa religion ou sa préoccupation climatique.",
+        "Ne jamais concevoir une persuasion politique individualisée à partir de ces catégories, seules ou croisées.",
+        "Indiquer pour chaque chiffre le niveau d'analyse, le dénominateur, la date, la source, l'échantillon, la pondération et l'incertitude disponibles.",
+        "Confronter les résultats territoriaux à des enquêtes individuelles avant de parler des caractéristiques ou motivations des électeurs.",
+        "Distinguer explicitement association, capacité prédictive agrégée, explication causale et motif déclaré.",
+        "Ne pas transformer des tableaux marginaux séparés en profil conjoint sans analyse croisée sur les mêmes observations.",
+        "Actualiser l'analyse pour chaque scrutin et documenter les changements de candidatures, d'offre politique, de participation et de contexte.",
+        "Ne fournir aucun conseil visant un candidat ou un électorat actuel à partir de ces résultats historiques.",
+        "Respecter les exigences de consentement, de transparence et de protection des opinions politiques rappelées par la CNIL.",
+        "Ne pas réduire une préoccupation climatique à une anxiété économique sans mesure directe et modèle causal explicite."
       ],
       "status": "draft",
       "review": null
