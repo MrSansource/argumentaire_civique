@@ -116,6 +116,8 @@ Un second cas, l'épisode PaduTeam sur la « dysmorphie financière », éprouve
 
 Le thème IA et travail est ouvert avec un court extrait de Democracy At Work disposant de sous-titres créateur. L'analyse conserve le recadrage institutionnel de l'automatisation, mais qualifie explicitement les affirmations absolues sur le motif unique du profit et le nombre d'emplois supprimés à partir d'études de l'OCDE, de l'OIT et de travaux évalués par les pairs.
 
+Un clip diffusé par À gauche apporte une deuxième source au thème IA et travail. Sa description attribue les propos à Irracible et relie l'épisode original : le corpus distingue donc diffuseur et orateur. L'expérience de pensée sur le partage des gains de productivité est conservée, tandis que sa définition de la productivité, sa liste de scénarios et l'exemple des 35 heures sont vérifiés et qualifiés avec l'OCDE, l'OIT et l'Insee.
+
 Un troisième cas, un entretien d'Aurélien Barrau sur l'écologie, teste la distinction entre constat scientifique, moyen technique et finalité normative. Deux affirmations sont confrontées à des évaluations de l'IPBES et du GIEC afin de documenter ce qui est étayé et ce qui demande à être nuancé.
 
 L'analyse de C.S. Joseph traite le MBTI comme un objet de discours plutôt que comme une vérité psychométrique. Elle montre comment une typologie peut glisser d'un vocabulaire d'introspection vers des prédictions morales et des tactiques de pression, puis impose des garde-fous contre l'inférence de profils individuels.

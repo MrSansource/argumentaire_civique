@@ -45,6 +45,11 @@
       "editorialNote": "Argument institutionnel et empirique pour distinguer capacités techniques, décisions de déploiement et effets distributifs sur le travail."
     },
     {
+      "argumentId": "argument-partager-gains-productivite-ia",
+      "values": { "evidenceValues": 30, "individualSystemic": 88, "deliberationAction": 72, "accessibleTechnical": 68 },
+      "editorialNote": "Argument économique et institutionnel orienté vers une négociation explicite du partage des gains de productivité et des conditions de travail."
+    },
+    {
       "argumentId": "argument-democratie-lieu-travail",
       "values": { "evidenceValues": 48, "individualSystemic": 92, "deliberationAction": 62, "accessibleTechnical": 56 },
       "editorialNote": "Argument institutionnel et normatif, orienté vers une transformation de la gouvernance du travail."

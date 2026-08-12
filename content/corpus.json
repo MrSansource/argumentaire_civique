@@ -804,6 +804,56 @@
       "accessedAt": "2026-08-12",
       "kind": "peer-reviewed-field-study",
       "scopeNote": "Déploiement échelonné d'un assistant génératif auprès d'agents de support client. L'étude observe un gain de productivité moyen, surtout chez les moins expérimentés ; ce contexte unique ne permet pas de généraliser à tous les métiers ni aux effets agrégés sur l'emploi."
+    },
+    {
+      "id": "oecd-ai-labour-market-2021",
+      "publisher": "OCDE",
+      "title": "The impact of Artificial Intelligence on the labour market: What do we know so far?",
+      "url": "https://doi.org/10.1787/7c895724-en",
+      "publishedAt": "2021-01-25",
+      "accessedAt": "2026-08-12",
+      "kind": "intergovernmental-evidence-review",
+      "scopeNote": "Revue de littérature sur l'emploi, les salaires, les compétences et l'environnement de travail. Elle souligne que les gains de productivité liés à l'IA ne garantissent pas leur transmission aux travailleurs et que les effets agrégés sur l'emploi restent incertains."
+    },
+    {
+      "id": "ilo-productivity-measurement-2024",
+      "publisher": "Organisation internationale du Travail",
+      "title": "Productivity measurement and analysis: A guidance note",
+      "url": "https://www.ilo.org/publications/productivity-measurement-and-analysis-guidance-note",
+      "publishedAt": "2024-03-05",
+      "accessedAt": "2026-08-12",
+      "kind": "intergovernmental-measurement-guidance",
+      "scopeNote": "Guide de mesure de la productivité du travail et multifactorielle. Il permet de distinguer un ratio de production et d'intrants de ses usages sociaux, sans attribuer automatiquement un gain à une baisse d'effectifs."
+    },
+    {
+      "id": "oecd-productivity-labour-income-2024",
+      "publisher": "OCDE",
+      "title": "Labour income and productivity — OECD Compendium of Productivity Indicators 2024",
+      "url": "https://www.oecd.org/en/publications/oecd-compendium-of-productivity-indicators-2024_b96cd88a-en/full-report/component-9.html",
+      "publishedAt": null,
+      "accessedAt": "2026-08-12",
+      "kind": "intergovernmental-statistical-compendium",
+      "scopeNote": "Comparaison internationale entre valeur ajoutée réelle par heure, rémunération réelle moyenne par heure et part du travail. Elle documente des décrochages dans certains pays, avec des résultats et mécanismes hétérogènes."
+    },
+    {
+      "id": "insee-working-time-2019",
+      "publisher": "Insee",
+      "title": "Depuis 1975, le temps de travail annuel a baissé de 350 heures, mais avec des horaires moins réguliers et plus contrôlés",
+      "url": "https://www.insee.fr/fr/statistiques/4238439",
+      "publishedAt": "2019-11-19",
+      "accessedAt": "2026-08-12",
+      "kind": "official-longitudinal-statistical-study",
+      "scopeNote": "Séries longues issues notamment des enquêtes Emploi. L'étude attribue aux 35 heures une baisse moyenne d'environ 125 heures annuelles entre 2000 et 2003 pour les salariés à temps complet, puis observe une remontée partielle et des organisations plus contraintes."
+    },
+    {
+      "id": "insee-rtt-employment-2005",
+      "publisher": "Insee",
+      "title": "Les effets de la RTT sur l'emploi : des estimations ex ante aux évaluations ex post",
+      "url": "https://www.insee.fr/fr/statistiques/1376464?sommaire=1376476",
+      "publishedAt": "2005-06-01",
+      "accessedAt": "2026-08-12",
+      "kind": "official-policy-evaluation-review",
+      "scopeNote": "Revue des évaluations françaises de la réduction du temps de travail. Elle estime près de 350 000 emplois supplémentaires sur 1998-2002 via une combinaison de baisse des heures, modération salariale, gains de productivité et aides publiques ; elle n'isole pas un effet simple de la seule durée légale."
     }
   ],
   "sources": [
@@ -815,6 +865,15 @@
       "url": "https://www.youtube.com/@democracyatwrk",
       "languages": ["en"],
       "editorialNote": "Chaîne identifiée. Deux épisodes sont analysés : démocratie au travail, puis automatisation et emploi. Le second distingue décisions de déploiement et capacités techniques ; ses absolus sur le profit et le volume d'emplois supprimés sont explicitement qualifiés par des recherches externes."
+    },
+    {
+      "id": "a-gauche",
+      "name": "À gauche",
+      "status": "identified",
+      "kind": "media-curation",
+      "url": "https://www.youtube.com/channel/UClDye0T4xTEq46sA5evq9fA",
+      "languages": ["fr"],
+      "editorialNote": "Chaîne de diffusion et de sélection d'extraits. Le clip analysé crédite et relie explicitement l'épisode original d'Irracible ; À gauche est donc enregistré comme diffuseur, non comme auteur des propos."
     },
     {
       "id": "paduteam",
@@ -1031,6 +1090,88 @@
           "excerpt": "It had to do with profit because that's the system we live in, and that's how it works.",
           "paraphraseFr": "Il clôt l'extrait en opposant une explication par la recherche du profit à un récit de remplacement démographique.",
           "speakerRole": "host-commentary"
+        }
+      ]
+    },
+    {
+      "id": "a-gauche-ia-capitalistes-2023",
+      "sourceId": "a-gauche",
+      "title": "L'utilisation de l'intelligence artificielle par les capitalistes - @irracible",
+      "url": "https://www.youtube.com/watch?v=FsfBGoSFCEk",
+      "publishedAt": "2023-03-10",
+      "language": "fr",
+      "provenance": {
+        "publisherName": "À gauche",
+        "publisherUrl": "https://www.youtube.com/channel/UClDye0T4xTEq46sA5evq9fA",
+        "speakers": ["Irracible"],
+        "attributionStatus": "confirmed",
+        "sourceRole": "publisher",
+        "attributionNote": "La description du clip crédite Irracible et relie l'épisode original « L'impact qu'a l'intelligence artificielle sur le rap ». La voix et les propos sont attribués à Irracible ; À gauche assure la diffusion de l'extrait."
+      },
+      "transcript": {
+        "kind": "youtube-auto-captions",
+        "language": "fr",
+        "acquiredAt": "2026-08-12",
+        "retention": "short-excerpts-only",
+        "acquisitionTool": "yt-dlp metadata and automatic subtitle export",
+        "reliabilityNote": "Sous-titres automatiques du clip : ponctuation et quelques mots deviennent incertains, surtout après 1 min 40. Les extraits publiés sont courts et reliés à l'audio horodaté."
+      },
+      "segments": [
+        {
+          "id": "ag-ia-001",
+          "startMs": 0,
+          "endMs": 24359,
+          "excerpt": "vous n'avez pas peur qu'une machine charbonne à votre place vous avez peur d'être au chômage et de ne plus percevoir votre salaire",
+          "paraphraseFr": "Irracible distingue la disparition d'une tâche de la peur de perdre l'emploi et le revenu qui en dépend.",
+          "speakerRole": "original-creator-commentary"
+        },
+        {
+          "id": "ag-ia-002",
+          "startMs": 24359,
+          "endMs": 50340,
+          "excerpt": "tâches n'est pas un problème en soi le vrai problème c'est que ces technologies surviennent dans une économie de marché capitaliste",
+          "paraphraseFr": "Il soutient que les effets sociaux de l'automatisation dépendent du cadre économique et des décisions qui l'organisent.",
+          "speakerRole": "original-creator-commentary"
+        },
+        {
+          "id": "ag-ia-003",
+          "startMs": 24359,
+          "endMs": 50340,
+          "excerpt": "les entreprises se servent de ces innovations pour maximiser leur profit en diminuant la masse salariale",
+          "paraphraseFr": "Il associe l'usage capitaliste des innovations à une baisse de la masse salariale destinée à accroître le profit.",
+          "speakerRole": "original-creator-commentary"
+        },
+        {
+          "id": "ag-ia-004",
+          "startMs": 79740,
+          "endMs": 101400,
+          "excerpt": "travailler autant qu'auparavant et verra donc son salaire significativement augmenté scénario 2 il travaillera significativement moins pour le même salaire",
+          "paraphraseFr": "Son expérience de pensée oppose une hausse du salaire à une réduction du temps de travail à revenu constant.",
+          "speakerRole": "original-creator-commentary"
+        },
+        {
+          "id": "ag-ia-005",
+          "startMs": 79740,
+          "endMs": 101400,
+          "excerpt": "il travaillera tout aussi longtemps pour le même salaire et permettra donc à son patron et aux actionnaires de sa boîte de réaliser",
+          "paraphraseFr": "Le troisième scénario maintient temps et salaire et attribue le surplus aux propriétaires de l'entreprise.",
+          "speakerRole": "original-creator-commentary"
+        },
+        {
+          "id": "ag-ia-006",
+          "startMs": 112450,
+          "endMs": 140900,
+          "excerpt": "dans un contexte communiste non productiviste nous pourrions idéalement nous servir du gain de productivité pour diminuer le temps de travail",
+          "paraphraseFr": "Il propose de convertir les gains de productivité en temps libéré plutôt qu'en production supplémentaire.",
+          "speakerRole": "original-creator-commentary"
+        },
+        {
+          "id": "ag-ia-007",
+          "startMs": 112450,
+          "endMs": 140900,
+          "excerpt": "rééquilibrer la balance capitale travail en votant la fameuse loi des 35 heures",
+          "paraphraseFr": "Il cite les 35 heures comme précédent français d'un partage institutionnel en faveur du temps non travaillé.",
+          "speakerRole": "original-creator-commentary"
         }
       ]
     },
@@ -2175,6 +2316,56 @@
       "review": null
     },
     {
+      "id": "claim-ai-fear-is-income-loss",
+      "episodeId": "a-gauche-ia-capitalistes-2023",
+      "segmentIds": ["ag-ia-001"],
+      "type": "interpretive-framing-claim",
+      "statementFr": "La peur sociale associée à l'automatisation tient moins à l'exécution d'une tâche par une machine qu'au risque de perdre emploi et revenu.",
+      "epistemicNote": "Le recadrage distingue utilement tâche, poste et revenu, mais ne décrit pas toutes les inquiétudes possibles : autonomie, sens, surveillance, compétences ou qualité du travail peuvent aussi compter.",
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "claim-automation-impact-depends-on-institutions",
+      "episodeId": "a-gauche-ia-capitalistes-2023",
+      "segmentIds": ["ag-ia-002"],
+      "type": "institutional-causal-claim",
+      "statementFr": "Les effets sociaux d'une technologie de productivité ne découlent pas de sa capacité technique seule : organisation du travail, droits et institutions influencent leur distribution.",
+      "epistemicNote": "Le cadre économique compte sans constituer une cause unique ; demande, prix, compétences, réglementation, architecture de l'outil et choix sectoriels interviennent également.",
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "claim-productivity-is-payroll-reduction",
+      "episodeId": "a-gauche-ia-capitalistes-2023",
+      "segmentIds": ["ag-ia-003"],
+      "type": "economic-definition-claim",
+      "statementFr": "Dans le passage, le gain de productivité est assimilé à l'usage d'une innovation pour réduire la masse salariale et augmenter le profit.",
+      "epistemicNote": "Cette formulation restitue le discours étudié, mais ne correspond pas à la définition statistique générale de la productivité comme rapport entre production et intrants.",
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "claim-productivity-gains-have-distributive-options",
+      "episodeId": "a-gauche-ia-capitalistes-2023",
+      "segmentIds": ["ag-ia-004", "ag-ia-005", "ag-ia-006"],
+      "type": "distributive-framing-claim",
+      "statementFr": "Un gain de productivité ouvre plusieurs usages distributifs, dont une hausse des salaires, une baisse du temps de travail ou une hausse du revenu du capital.",
+      "epistemicNote": "L'expérience de pensée rend un arbitrage visible, mais sa liste n'est pas exhaustive : prix, investissement, embauches, fiscalité, qualité, réserves et survie de l'entreprise peuvent aussi absorber le gain.",
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "claim-35-hours-rebalanced-productivity-gains",
+      "episodeId": "a-gauche-ia-capitalistes-2023",
+      "segmentIds": ["ag-ia-007"],
+      "type": "historical-policy-claim",
+      "statementFr": "La réduction française du temps de travail à 35 heures constitue un précédent de transformation institutionnelle d'une partie des gains économiques en temps libéré.",
+      "epistemicNote": "Le précédent est réel, mais ses effets résultent d'un ensemble de lois, accords, réorganisations, aides publiques, modération salariale et gains de productivité variables selon les entreprises.",
+      "status": "draft",
+      "review": null
+    },
+    {
       "id": "claim-income-evaluation-is-contextual",
       "episodeId": "paduteam-pauvrete-dans-la-tete-2026",
       "segmentIds": ["padu-pdt-001"],
@@ -2700,6 +2891,76 @@
         "L'absence de validation d'un chiffre agrégé ne signifie pas qu'aucun travailleur ni territoire ne subit de déplacement.",
         "Une estimation d'exposition technique n'est pas une prévision d'emploi et dépend des choix d'adoption.",
         "Les créations de tâches et d'emplois, les ajustements de production et les délais doivent être séparés des suppressions brutes."
+      ]
+    },
+    {
+      "id": "verification-peur-ia-revenu",
+      "claimId": "claim-ai-fear-is-income-loss",
+      "mode": "worker-survey-and-scope-audit",
+      "status": "qualified",
+      "questionFr": "La crainte de l'IA au travail se réduit-elle au risque de perdre son emploi et son revenu ?",
+      "findingFr": "Les enquêtes de l'OCDE confirment que la perte d'emploi et de salaire fait partie des inquiétudes des travailleurs. Elles documentent aussi des attentes positives et d'autres préoccupations relatives aux compétences, à l'intensité, à la vie privée et à l'autonomie : le recadrage éclaire un mécanisme central sans épuiser les motifs de crainte.",
+      "referenceIds": ["oecd-ai-workplace-surveys-2023", "oecd-ai-labour-market-2021"],
+      "caveats": [
+        "Les enquêtes portent sur des travailleurs et entreprises ayant déjà adopté l'IA dans un nombre limité de secteurs et de pays.",
+        "Une inquiétude déclarée ne mesure pas la probabilité objective d'une perte d'emploi.",
+        "Le revenu peut être affecté sans suppression de poste, notamment par les horaires, la classification ou le pouvoir de négociation."
+      ]
+    },
+    {
+      "id": "verification-effets-ia-institutions",
+      "claimId": "claim-automation-impact-depends-on-institutions",
+      "mode": "institutional-and-workplace-evidence",
+      "status": "supported",
+      "questionFr": "Les institutions et l'organisation du travail influencent-elles la distribution des effets de l'IA ?",
+      "findingFr": "Les études de cas de l'OCDE montrent que des choix d'organisation, de formation et de répartition des tâches accompagnent le déploiement. Sa revue sur le dialogue social relie la voix des travailleurs à des modalités d'adoption différentes. Ces travaux étayent une causalité institutionnelle partielle, non l'idée que la technique serait sans contraintes propres.",
+      "referenceIds": ["oecd-ai-workplace-case-studies-2023", "oecd-ai-social-dialogue-2023", "oecd-ai-labour-market-2021"],
+      "caveats": [
+        "Les études qualitatives ne mesurent pas un effet moyen généralisable à tous les secteurs.",
+        "Consultation, négociation et codécision désignent des pouvoirs différents.",
+        "Concurrence, demande, droit et fournisseurs limitent les options réellement ouvertes dans une organisation."
+      ]
+    },
+    {
+      "id": "verification-productivite-masse-salariale",
+      "claimId": "claim-productivity-is-payroll-reduction",
+      "mode": "definition-and-counterexample",
+      "status": "qualified",
+      "questionFr": "Un gain de productivité se définit-il par une réduction de la masse salariale au profit des propriétaires ?",
+      "findingFr": "Non comme définition générale : l'OIT mesure la productivité par la production rapportée aux intrants. Elle peut augmenter par davantage de production, une meilleure organisation, du capital, de la qualité ou moins d'heures, sans licenciement. La baisse de masse salariale est un usage ou un mécanisme possible, pas le sens statistique du terme.",
+      "referenceIds": ["ilo-productivity-measurement-2024", "oecd-ai-workplace-case-studies-2023", "brynjolfsson-generative-ai-work-2025"],
+      "caveats": [
+        "Une hausse mesurée de productivité ne dit pas qui reçoit le surplus créé.",
+        "Les indicateurs de production sont difficiles à interpréter dans certains services et métiers de connaissance.",
+        "Qualité accrue, intensification du travail et réduction des effectifs peuvent coexister."
+      ]
+    },
+    {
+      "id": "verification-options-partage-productivite",
+      "claimId": "claim-productivity-gains-have-distributive-options",
+      "mode": "distribution-and-accounting",
+      "status": "supported",
+      "questionFr": "Les gains de productivité peuvent-ils être distribués autrement qu'en profits ?",
+      "findingFr": "Les indicateurs OCDE distinguent productivité, rémunération horaire et part du travail, et documentent qu'ils peuvent évoluer à des rythmes différents. Cela confirme l'existence d'un problème de distribution. Salaires, temps de travail et profits sont des issues possibles, mais les comptes autorisent aussi baisse des prix, investissement, embauches, fiscalité ou réserves.",
+      "referenceIds": ["oecd-productivity-labour-income-2024", "ilo-productivity-measurement-2024", "insee-working-time-2019"],
+      "caveats": [
+        "Les trois scénarios du clip ne forment pas une décomposition comptable exhaustive.",
+        "Un gain au niveau d'une tâche ne devient pas automatiquement un surplus monétaire au niveau de l'entreprise.",
+        "La moyenne des rémunérations peut progresser sans amélioration pour le salaire médian ou les personnes déplacées."
+      ]
+    },
+    {
+      "id": "verification-35-heures-partage-gains",
+      "claimId": "claim-35-hours-rebalanced-productivity-gains",
+      "mode": "historical-policy-evaluation",
+      "status": "qualified",
+      "questionFr": "Les 35 heures françaises illustrent-elles un partage des gains économiques en temps libéré ?",
+      "findingFr": "L'Insee observe une baisse moyenne d'environ 125 heures annuelles entre 2000 et 2003 pour les salariés à temps complet. Les évaluations estiment aussi près de 350 000 emplois supplémentaires sur 1998-2002, mais via une combinaison de réduction horaire, réorganisations, modération salariale, productivité et aides publiques. Le précédent existe sans constituer un transfert simple et uniforme.",
+      "referenceIds": ["insee-working-time-2019", "insee-rtt-employment-2005"],
+      "caveats": [
+        "La durée légale est un seuil de référence, pas une durée maximale effectivement travaillée.",
+        "La baisse des heures et ses contreparties ont varié selon accords, métiers, statuts et entreprises.",
+        "Les résultats historiques français ne préjugent pas des effets d'une réduction contemporaine liée à l'IA."
       ]
     },
     {
@@ -3540,6 +3801,74 @@
         "Demander quelle voix effective possèdent les travailleurs plutôt que supposer qu'une consultation suffit.",
         "Préciser le pays, le secteur, la période, la technologie et la mesure d'emploi avant toute généralisation.",
         "Présenter les scénarios comme révisables à mesure que l'adoption et les données observées évoluent."
+      ],
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "argument-partager-gains-productivite-ia",
+      "title": "Partager les gains de l'IA plutôt que promettre leur ruissellement",
+      "thesisFr": "Un gain de productivité lié à l'IA n'implique ni licenciement automatique ni amélioration automatique du travail. Il faut séparer sa mesure technique de ses usages possibles — salaires, temps libéré, embauches, prix, investissement ou profits — puis négocier qui décide, qui supporte la transition et quels garde-fous empêchent l'intensification.",
+      "premiseClaimIds": [
+        "claim-ai-fear-is-income-loss",
+        "claim-automation-impact-depends-on-institutions",
+        "claim-productivity-is-payroll-reduction",
+        "claim-productivity-gains-have-distributive-options",
+        "claim-35-hours-rebalanced-productivity-gains"
+      ],
+      "themeIds": ["ia-travail", "economie", "democratie-travail", "impuissance-politique"],
+      "reasoningPattern": "distinguer-le-gain-technique-de-son-partage-negociable",
+      "objections": [
+        {
+          "title": "Les usages du surplus sont plus nombreux",
+          "summaryFr": "Investissement, baisse des prix, embauches, impôts, qualité ou réserves peuvent absorber un gain ; l'opposition salaires-temps-profits n'est pas exhaustive."
+        },
+        {
+          "title": "Réduire les heures peut intensifier le travail",
+          "summaryFr": "Du temps nominalement libéré peut s'accompagner d'objectifs plus serrés, de flexibilité imposée ou d'un contrôle accru."
+        },
+        {
+          "title": "Toutes les entreprises n'ont pas la même marge",
+          "summaryFr": "Une activité exposée à la concurrence ou à faible rentabilité ne peut pas répartir un gain hypothétique comme une entreprise dominante."
+        },
+        {
+          "title": "Les préférences des travailleurs diffèrent",
+          "summaryFr": "Salaire, sécurité de l'emploi, temps libre, autonomie et formation ne sont pas hiérarchisés de la même façon par toutes les personnes."
+        },
+        {
+          "title": "La productivité est parfois difficile à mesurer",
+          "summaryFr": "Dans les services et le travail intellectuel, vitesse, qualité, apprentissage et erreurs ne se résument pas à une quantité produite par heure."
+        }
+      ],
+      "rhetoricalMoves": [
+        {
+          "device": "Distinction entre machine et dépendance au revenu",
+          "effectFr": "Le contraste déplace une peur abstraite de la technique vers la protection concrète de l'emploi et du revenu.",
+          "riskFr": "Il peut minimiser d'autres craintes légitimes liées au sens, à l'autonomie, à la surveillance ou aux compétences.",
+          "segmentIds": ["ag-ia-001"]
+        },
+        {
+          "device": "Expérience de pensée en trois scénarios",
+          "effectFr": "La comparaison salaire, temps et revenu du capital rend immédiatement visible le caractère distributif d'un gain.",
+          "riskFr": "Une triade mémorable peut paraître exhaustive alors qu'elle omet prix, investissement, emploi, fiscalité et qualité.",
+          "segmentIds": ["ag-ia-004", "ag-ia-005"]
+        },
+        {
+          "device": "Précédent historique des 35 heures",
+          "effectFr": "L'exemple montre qu'une règle collective peut convertir une partie d'un changement économique en temps non travaillé.",
+          "riskFr": "Le raccourci peut effacer les accords, aides, contreparties, réorganisations et effets hétérogènes du processus français.",
+          "segmentIds": ["ag-ia-007"]
+        }
+      ],
+      "adaptationConstraints": [
+        "Distinguer production, productivité du travail, masse salariale, emploi, rémunération et revenu du capital.",
+        "Ne présenter ni le licenciement ni l'amélioration des conditions de travail comme conséquence automatique de l'IA.",
+        "Préciser le secteur, la période, le niveau d'analyse et l'indicateur de productivité mobilisé.",
+        "Rendre visibles les usages concurrents d'un surplus au-delà de la seule opposition salaire-profit.",
+        "Inclure autonomie, intensité, qualité, sécurité, formation et voix des travailleurs dans l'évaluation.",
+        "Ne pas qualifier tout gain de productivité de vol ; réserver la critique à une règle de partage explicitée et documentée.",
+        "Traiter les 35 heures comme un précédent complexe, non comme une preuve transposable sans conditions.",
+        "Proposer une négociation collective et des protections universelles plutôt qu'un ciblage politique individuel."
       ],
       "status": "draft",
       "review": null

@@ -44,7 +44,7 @@ test("classe les lacunes thématiques sans score composite", () => {
   assert.equal(queue.themeCoverage.length, corpus.themes.length);
   assert.deepEqual(
     [ai?.argumentCount, ai?.sourceCount, ai?.statusId],
-    [1, 1, "single-source"],
+    [2, 2, "multi-source"],
   );
   assert.equal(ecology?.statusId, "single-source");
   assert.equal(economy?.statusId, "multi-source");
@@ -69,6 +69,17 @@ test("mesure la couverture complète de l'argument sur la gouvernance de l'IA", 
 
   assert.equal(coverage?.claimCount, 4);
   assert.equal(coverage?.verifiedCount, 4);
+  assert.equal(coverage?.coveragePercent, 100);
+});
+
+test("mesure la couverture complète de l'argument sur le partage des gains de l'IA", () => {
+  const queue = buildReviewQueue(corpus);
+  const coverage = queue.argumentCoverage.find(
+    (argument) => argument.argumentId === "argument-partager-gains-productivite-ia",
+  );
+
+  assert.equal(coverage?.claimCount, 5);
+  assert.equal(coverage?.verifiedCount, 5);
   assert.equal(coverage?.coveragePercent, 100);
 });
 
