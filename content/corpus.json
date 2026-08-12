@@ -314,6 +314,56 @@
       "accessedAt": "2026-08-12",
       "kind": "peer-reviewed-political-study",
       "scopeNote": "Analyse contestant l'hypothèse d'un bloc électoral musulman homogène en France ; son champ et ses données précèdent les recompositions électorales récentes."
+    },
+    {
+      "id": "weick-small-wins-1984",
+      "publisher": "American Psychologist — American Psychological Association",
+      "title": "Small wins: Redefining the scale of social problems",
+      "url": "https://doi.org/10.1037/0003-066X.39.1.40",
+      "publishedAt": "1984-01-01",
+      "accessedAt": "2026-08-12",
+      "kind": "peer-reviewed-conceptual-article",
+      "scopeNote": "Article conceptuel proposant de reformuler les grands problèmes en résultats concrets de portée modérée ; il expose une stratégie psychologique et organisationnelle, pas un essai causal démontrant que toute petite victoire s'accumule."
+    },
+    {
+      "id": "van-zomeren-collective-action-2008",
+      "publisher": "Psychological Bulletin — American Psychological Association",
+      "title": "Toward an integrative Social Identity model of Collective Action: A quantitative research synthesis of three socio-psychological perspectives",
+      "url": "https://doi.org/10.1037/0033-2909.134.4.504",
+      "publishedAt": "2008-07-01",
+      "accessedAt": "2026-08-12",
+      "kind": "peer-reviewed-meta-analysis",
+      "scopeNote": "Trois méta-analyses portant sur 182 effets relient injustice perçue, efficacité et identité à l'action collective ; elles décrivent des déterminants psychologiques, pas l'efficacité objective d'une tactique politique donnée."
+    },
+    {
+      "id": "minson-monin-do-gooder-2012",
+      "publisher": "Social Psychological and Personality Science — SAGE",
+      "title": "Do-Gooder Derogation: Disparaging Morally Motivated Minorities to Defuse Anticipated Reproach",
+      "url": "https://doi.org/10.1177/1948550611415695",
+      "publishedAt": "2011-07-18",
+      "accessedAt": "2026-08-12",
+      "kind": "peer-reviewed-experimental-study",
+      "scopeNote": "Deux études sur les réactions de personnes mangeant de la viande à des végétariens relient le dénigrement à l'anticipation d'un reproche moral ; ce paradigme ne mesure ni les conflits internes à la gauche ni la valeur d'une critique de cohérence."
+    },
+    {
+      "id": "bilali-reform-revolution-2026",
+      "publisher": "Group Processes & Intergroup Relations — SAGE",
+      "title": "Reform or revolution? How progress and longstanding injustice narratives shape support for incremental versus radical social change",
+      "url": "https://doi.org/10.1177/13684302261436867",
+      "publishedAt": "2026-05-04",
+      "accessedAt": "2026-08-12",
+      "kind": "peer-reviewed-mixed-experimental-study",
+      "scopeNote": "Une expérience et deux études corrélationnelles américaines montrent que le récit d'injustices durables peut soutenir à la fois le changement incrémental et radical, tandis qu'un récit de progrès peut aussi renforcer le statu quo ; le résultat porte sur le soutien déclaré, pas sur la réussite des mouvements."
+    },
+    {
+      "id": "simpson-radical-flanks-2022",
+      "publisher": "PNAS Nexus — Oxford University Press",
+      "title": "Radical flanks of social movements can increase support for moderate factions",
+      "url": "https://doi.org/10.1093/pnasnexus/pgac110",
+      "publishedAt": "2022-08-04",
+      "accessedAt": "2026-08-12",
+      "kind": "peer-reviewed-preregistered-experiments",
+      "scopeNote": "Deux expériences en ligne sur les mouvements animaliste et climatique observent qu'un flanc aux tactiques radicales peut accroître par contraste le soutien à une faction modérée ; elles ne justifient aucune violence et ne fournissent pas une règle générale de stratégie."
     }
   ],
   "sources": [
@@ -392,11 +442,11 @@
     {
       "id": "dany-raz",
       "name": "Dany & Raz",
-      "status": "unresolved",
-      "kind": "source-a-identifier",
-      "url": null,
+      "status": "identified",
+      "kind": "duo-media",
+      "url": "https://www.youtube.com/channel/UCeQRERCvEY3-ZeQONwnx0zw",
       "languages": ["fr"],
-      "editorialNote": "Le nom ne permet pas encore une identification fiable. Aucun contenu ne doit être attribué sans URL fournie ou preuve supplémentaire."
+      "editorialNote": "La chaîne historique Dany & Raz porte désormais le nom Zawa Prod. L'identifiant de chaîne, l'ancien URL personnalisé et la description de la vidéo de 2022 convergent ; l'analyse attribue cet épisode au duo d'alors sans présumer de la composition actuelle de la production."
     },
     {
       "id": "emmanuel-todd",
@@ -1068,6 +1118,128 @@
           "speakerRole": "host-call-to-action"
         }
       ]
+    },
+    {
+      "id": "dany-raz-anticapitalisme-2022",
+      "sourceId": "dany-raz",
+      "title": "Sommes-nous ANTICAPITALISTES ?",
+      "url": "https://www.youtube.com/watch?v=GHYHQuCt5Oo",
+      "publishedAt": "2022-11-12",
+      "language": "fr",
+      "transcript": {
+        "kind": "youtube-auto-captions",
+        "language": "fr",
+        "acquiredAt": "2026-08-12",
+        "retention": "short-excerpts-only",
+        "acquisitionTool": "yt-dlp metadata and automatic subtitle export",
+        "reliabilityNote": "Sous-titres automatiques français sans diarisation fiable : les extraits sont courts, normalisés avec prudence et attribués au duo comme discussion, sauf lorsqu'ils relèvent explicitement d'un témoignage personnel."
+      },
+      "segments": [
+        {
+          "id": "dany-raz-anti-001",
+          "startMs": 0,
+          "endMs": 22740,
+          "excerpt": "j'ai une idée du système des causes et j'ai une idée de quoi faire",
+          "paraphraseFr": "La discussion oppose l'angoisse sans prise à une compréhension causale accompagnée d'une direction d'action, même encore imprécise.",
+          "speakerRole": "co-host-commentary"
+        },
+        {
+          "id": "dany-raz-anti-002",
+          "startMs": 22740,
+          "endMs": 50130,
+          "excerpt": "l'incantation de renverser le capitalisme paraît tellement impossible [...] les gens ont appris à ne plus espérer ça",
+          "paraphraseFr": "Un des animateurs soutient qu'un horizon répété sans stratégie crédible peut nourrir l'impuissance plutôt que la mobilisation.",
+          "speakerRole": "co-host-commentary"
+        },
+        {
+          "id": "dany-raz-anti-003",
+          "startMs": 421210,
+          "endMs": 441810,
+          "excerpt": "je ne sais pas par quoi le remplacer",
+          "paraphraseFr": "Il assume qu'une critique du capitalisme ne fournit pas encore un modèle de remplacement complet.",
+          "speakerRole": "co-host-personal-position"
+        },
+        {
+          "id": "dany-raz-anti-004",
+          "startMs": 461900,
+          "endMs": 500010,
+          "excerpt": "tu as le droit d'être critique du système actuel",
+          "paraphraseFr": "La discussion refuse le faux dilemme entre disposer d'une alternative totale et approuver l'ordre existant.",
+          "speakerRole": "co-host-commentary"
+        },
+        {
+          "id": "dany-raz-anti-005",
+          "startMs": 752470,
+          "endMs": 795320,
+          "excerpt": "il faut qu'on repense des imaginaires plutôt que de s'appuyer sur des trucs du siècle dernier",
+          "paraphraseFr": "Le duo appelle à renouveler les stratégies et les représentations au lieu de répéter des scénarios historiques comme recettes.",
+          "speakerRole": "co-host-commentary"
+        },
+        {
+          "id": "dany-raz-anti-006",
+          "startMs": 1122700,
+          "endMs": 1142600,
+          "excerpt": "je dois m'adapter [...] je suis critique du système",
+          "paraphraseFr": "Participer à des institutions existantes est présenté comme une contrainte pratique compatible avec leur critique.",
+          "speakerRole": "co-host-personal-position"
+        },
+        {
+          "id": "dany-raz-anti-007",
+          "startMs": 1321800,
+          "endMs": 1347400,
+          "excerpt": "le décalage entre [...] idéologique [...] et le concret",
+          "paraphraseFr": "Le récit de leur organisation sert à déplacer l'évaluation de la conformité symbolique vers les effets matériels, les ressources et les personnes rémunérées.",
+          "speakerRole": "co-host-organizational-testimony"
+        },
+        {
+          "id": "dany-raz-anti-008",
+          "startMs": 1717400,
+          "endMs": 1745700,
+          "excerpt": "plus la situation est désespérante, plus va falloir gratter ce qu'il y a à gratter",
+          "paraphraseFr": "Le mot grattage condense une stratégie de gains partiels lorsque l'objectif maximal semble inaccessible.",
+          "speakerRole": "co-host-commentary"
+        },
+        {
+          "id": "dany-raz-anti-009",
+          "startMs": 1745700,
+          "endMs": 1772600,
+          "excerpt": "quand tu peux pas avoir tout, tu grattes ce que tu peux",
+          "paraphraseFr": "La proposition devient une règle pragmatique : rechercher un bénéfice concret sans prétendre qu'il résout le système entier.",
+          "speakerRole": "co-host-commentary"
+        },
+        {
+          "id": "dany-raz-anti-010",
+          "startMs": 1889300,
+          "endMs": 1909200,
+          "excerpt": "quand tu es face au désespoir, c'est le moment où il faut redoubler d'efforts",
+          "paraphraseFr": "Le duo retourne l'affect de désespoir en injonction à poursuivre une action limitée mais soutenable.",
+          "speakerRole": "co-host-commentary"
+        },
+        {
+          "id": "dany-raz-anti-011",
+          "startMs": 2199500,
+          "endMs": 2222500,
+          "excerpt": "notre maigre contribution [...] ne changera pas le cours des choses",
+          "paraphraseFr": "Le bilan assume une portée limitée tout en revendiquant la création d'un espace public et d'effets utiles pour certaines personnes.",
+          "speakerRole": "co-host-organizational-testimony"
+        },
+        {
+          "id": "dany-raz-anti-012",
+          "startMs": 2328300,
+          "endMs": 2342700,
+          "excerpt": "être toi-même pour aider les autres",
+          "paraphraseFr": "Le soin de sa propre capacité d'agir est présenté comme une condition possible de l'aide, pas comme un substitut à l'action collective.",
+          "speakerRole": "co-host-personal-position"
+        },
+        {
+          "id": "dany-raz-anti-013",
+          "startMs": 2462300,
+          "endMs": 2480100,
+          "excerpt": "ça n'empêche pas l'esprit critique",
+          "paraphraseFr": "La possibilité d'éprouver des attachements et du plaisir dans l'ordre existant est distinguée de son approbation politique.",
+          "speakerRole": "co-host-commentary"
+        }
+      ]
     }
   ],
   "claims": [
@@ -1390,6 +1562,56 @@
       "epistemicNote": "Garde-fou éditorial fondé sur le droit du suffrage et sur l'hétérogénéité documentée des comportements ; il limite la rhétorique collective de la vidéo sans nier les expériences communes.",
       "status": "draft",
       "review": null
+    },
+    {
+      "id": "claim-system-critique-needs-no-complete-blueprint",
+      "episodeId": "dany-raz-anticapitalisme-2022",
+      "segmentIds": ["dany-raz-anti-003", "dany-raz-anti-004", "dany-raz-anti-006", "dany-raz-anti-013"],
+      "type": "logical-normative-claim",
+      "statementFr": "Critiquer une institution n'oblige ni à vivre hors d'elle ni à disposer d'avance d'un modèle de remplacement complet ; la cohérence se juge aussi par les raisons, les arbitrages et les effets des actions proposées.",
+      "epistemicNote": "Clarification argumentative dérivée de la vidéo, non résultat empirique. Elle n'exonère ni les contradictions évitables, ni les conflits d'intérêts, ni l'obligation de rendre compte des moyens employés.",
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "claim-plausible-efficacy-supports-collective-action",
+      "episodeId": "dany-raz-anticapitalisme-2022",
+      "segmentIds": ["dany-raz-anti-001", "dany-raz-anti-002", "dany-raz-anti-010"],
+      "type": "collective-action-psychology-claim",
+      "statementFr": "Une perception crédible de la capacité du groupe à produire un effet fait partie des facteurs associés à l'engagement collectif ; un horizon présenté comme absolument inaccessible peut donc fragiliser la mise en action.",
+      "epistemicNote": "La littérature relie efficacité perçue et action collective, mais l'épisode ne mesure pas son audience et une faible probabilité de succès n'annule ni la valeur expressive ni la portée future d'une mobilisation.",
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "claim-small-wins-can-make-action-tractable",
+      "episodeId": "dany-raz-anticapitalisme-2022",
+      "segmentIds": ["dany-raz-anti-008", "dany-raz-anti-009", "dany-raz-anti-011"],
+      "type": "strategic-hypothesis",
+      "statementFr": "Décomposer un problème massif en résultats concrets, achevables et évaluables peut rendre l'action plus praticable, préserver des capacités et produire des bénéfices réels sans confondre étape locale et solution totale.",
+      "epistemicNote": "Hypothèse stratégique cohérente avec l'article de Weick, qui reste principalement conceptuel. Les petits gains peuvent aussi disperser l'effort, être récupérés ou ne jamais modifier les structures visées.",
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "claim-purity-judgment-can-obscure-material-effects",
+      "episodeId": "dany-raz-anticapitalisme-2022",
+      "segmentIds": ["dany-raz-anti-006", "dany-raz-anti-007", "dany-raz-anti-011"],
+      "type": "rhetorical-and-accountability-claim",
+      "statementFr": "Réduire l'évaluation politique à la pureté personnelle peut détourner l'attention des bénéficiaires, des coûts, des rapports de pouvoir et des effets observables ; inversement, invoquer le pragmatisme ne suffit pas à justifier une pratique.",
+      "epistemicNote": "Synthèse normative. Les études sur le reproche moral documentent un mécanisme de réaction défensive dans d'autres domaines, sans prouver que toute exigence de cohérence militante serait contre-productive.",
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "claim-incremental-and-structural-change-can-coexist",
+      "episodeId": "dany-raz-anticapitalisme-2022",
+      "segmentIds": ["dany-raz-anti-005", "dany-raz-anti-008", "dany-raz-anti-009"],
+      "type": "strategic-safeguard-claim",
+      "statementFr": "Une stratégie démocratique peut poursuivre des gains immédiats et un horizon structurel sans décréter que la réforme, la rupture ou la radicalité possède toujours la même valeur dans tous les contextes.",
+      "epistemicNote": "Garde-fou ajouté à la thèse de la vidéo : les recherches consultées montrent des relations contextuelles et parfois complémentaires entre récits ou factions modérées et radicales, pas une hiérarchie universelle des tactiques.",
+      "status": "draft",
+      "review": null
     }
   ],
   "verifications": [
@@ -1633,6 +1855,66 @@
         "Rejeter l'homogénéité n'interdit pas d'étudier des expériences de discrimination ou des préoccupations partagées.",
         "Le secret du vote protège le choix mais n'empêche pas les pressions sociales en amont.",
         "Aucune préférence politique ne doit être inférée depuis un nom, une pratique ou une appartenance religieuse supposée."
+      ]
+    },
+    {
+      "id": "verification-collective-action-efficacy",
+      "claimId": "claim-plausible-efficacy-supports-collective-action",
+      "mode": "meta-analysis-review",
+      "status": "qualified",
+      "questionFr": "La perception d'une efficacité collective est-elle effectivement liée à la participation à l'action collective ?",
+      "findingFr": "La synthèse de van Zomeren, Postmes et Spears regroupe 182 effets et trouve des contributions propres de l'injustice perçue, de l'identité et de l'efficacité à l'action collective. Elle étaye l'importance psychologique d'une prise crédible, mais ne montre pas qu'il faudrait promettre une victoire ni que la perception correspond toujours à l'effet politique réel.",
+      "referenceIds": ["van-zomeren-collective-action-2008"],
+      "caveats": [
+        "Les études synthétisées portent sur des contextes, groupes et formes d'action hétérogènes.",
+        "Une association avec la participation ne mesure pas le succès institutionnel, matériel ou électoral de l'action.",
+        "Identité, injustice et émotions contribuent aussi à la mobilisation ; l'efficacité n'est pas une condition unique.",
+        "Une action peut avoir une fonction expressive, solidaire ou préparatoire même lorsque sa réussite immédiate paraît faible."
+      ]
+    },
+    {
+      "id": "verification-small-wins-tractability",
+      "claimId": "claim-small-wins-can-make-action-tractable",
+      "mode": "conceptual-strategy-review",
+      "status": "qualified",
+      "questionFr": "La stratégie des petits gains démontre-t-elle qu'une succession d'actions limitées résout un problème systémique ?",
+      "findingFr": "Weick soutient que la formulation de problèmes à une échelle massive peut dépasser les capacités cognitives et susciter un niveau de tension peu propice à l'innovation. Il propose des résultats concrets et achevables de portée modérée. Ce cadre rend le grattage intelligible, mais l'article ne fournit pas une preuve causale que les gains s'additionnent ni qu'ils transforment la structure visée.",
+      "referenceIds": ["weick-small-wins-1984"],
+      "caveats": [
+        "L'article est une proposition conceptuelle de 1984, non une méta-analyse d'interventions militantes.",
+        "Un objectif réduit peut devenir symbolique, être annulé ou absorber des ressources sans effet cumulatif.",
+        "La mesure d'un gain doit inclure ses coûts, ses bénéficiaires, sa durée et ses effets distributifs.",
+        "Décomposer l'action ne dispense pas de conserver une théorie du changement et des critères de révision."
+      ]
+    },
+    {
+      "id": "verification-moral-reproach-scope",
+      "claimId": "claim-purity-judgment-can-obscure-material-effects",
+      "mode": "experimental-analogy-audit",
+      "status": "inconclusive",
+      "questionFr": "Les recherches permettent-elles d'affirmer que les reproches de pureté démobilisent les mouvements politiques ?",
+      "findingFr": "Minson et Monin montrent dans deux études que l'anticipation d'un jugement moral contribue au dénigrement de végétariens par des personnes mangeant de la viande. Ce résultat rend plausible une réaction défensive face à une supériorité morale perçue, mais il ne porte ni sur le militantisme politique, ni sur les plateformes, ni sur les critiques de cohérence adressées à Dany & Raz.",
+      "referenceIds": ["minson-monin-do-gooder-2012"],
+      "caveats": [
+        "Le paradigme végétarien ne représente pas la diversité des désaccords politiques ou organisationnels.",
+        "Une réaction défensive du destinataire ne rend pas le reproche infondé.",
+        "Des exigences fermes de transparence, de non-violence ou de non-discrimination peuvent être indispensables.",
+        "La vidéo caricature parfois ses contradicteurs ; leurs objections réelles ne sont pas documentées dans l'extrait."
+      ]
+    },
+    {
+      "id": "verification-incremental-radical-complementarity",
+      "claimId": "claim-incremental-and-structural-change-can-coexist",
+      "mode": "comparative-strategy-evidence",
+      "status": "qualified",
+      "questionFr": "Les données permettent-elles d'opposer simplement réformes incrémentales et changement radical ?",
+      "findingFr": "Bilali et ses collègues observent qu'un récit d'injustices durables peut accroître simultanément le soutien aux changements incrémental et radical, tandis qu'un récit de progrès peut aussi renforcer le statu quo. Simpson et ses collègues montrent, dans deux expériences, qu'un flanc radical peut accroître par contraste le soutien à une faction modérée. Ces résultats réfutent une opposition psychologique universelle, sans dire quelle combinaison produit un changement durable.",
+      "referenceIds": ["bilali-reform-revolution-2026", "simpson-radical-flanks-2022"],
+      "caveats": [
+        "Les études mesurent surtout attitudes, identification et intentions dans des échantillons américains.",
+        "Le soutien à une faction n'est pas équivalent à une réforme adoptée, une redistribution ou un changement de régime.",
+        "Les effets d'un flanc radical dépendent des tactiques, de la distinction entre factions et du contexte médiatique.",
+        "Aucun résultat ne justifie la violence, la mise en danger d'autrui ni le mépris des règles démocratiques."
       ]
     }
   ],
@@ -2146,6 +2428,97 @@
         "Distinguer raison confessionnelle, argument civique partageable, donnée historique et règle juridique française.",
         "Ne citer aucun parti ou candidat sans actualiser les faits, exposer les alternatives et conserver une présentation contradictoire.",
         "Employer les catégories collectives uniquement pour décrire des données agrégées avec leur incertitude, jamais pour assigner un individu."
+      ],
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "argument-chercher-prises-sans-purete",
+      "title": "Chercher des prises concrètes sans exiger la pureté",
+      "thesisFr": "On peut critiquer un système sans disposer d'un plan total ni prétendre vivre hors de ses contraintes. Pour sortir de l'impuissance, il est utile de distinguer l'horizon structurel, la stratégie intermédiaire et une prochaine prise vérifiable : qui bénéficie, quel coût, quel effet, pendant combien de temps ? Le gain partiel ne remplace pas la transformation ; il doit préserver des capacités, produire un résultat réel et rester révisable.",
+      "premiseClaimIds": [
+        "claim-system-critique-needs-no-complete-blueprint",
+        "claim-plausible-efficacy-supports-collective-action",
+        "claim-small-wins-can-make-action-tractable",
+        "claim-purity-judgment-can-obscure-material-effects",
+        "claim-incremental-and-structural-change-can-coexist"
+      ],
+      "themeIds": ["impuissance-politique", "participation-civique", "economie", "sens-vie"],
+      "reasoningPattern": "relier-horizon-structurel-et-prise-verifiable",
+      "objections": [
+        {
+          "title": "L'incrémentalisme peut stabiliser l'injustice",
+          "summaryFr": "Un petit gain peut légitimer l'institution, retarder une rupture nécessaire ou rendre acceptable une situation qui reste profondément asymétrique."
+        },
+        {
+          "title": "La cohérence personnelle compte parfois",
+          "summaryFr": "Conflits d'intérêts, exploitation, discrimination ou opacité ne deviennent pas secondaires parce qu'une organisation produit aussi des effets utiles."
+        },
+        {
+          "title": "Les radicalités peuvent être complémentaires",
+          "summaryFr": "Des demandes ou factions radicales peuvent déplacer le débat et renforcer des options modérées ; les disqualifier comme irréalistes peut rétrécir le champ du possible."
+        },
+        {
+          "title": "Les plateformes orientent la parole",
+          "summaryFr": "Financement par abonnements, logique d'audience, montage et algorithmes peuvent privilégier conflit, personnalité et fidélisation plutôt qu'exactitude ou organisation durable."
+        },
+        {
+          "title": "Le témoignage de réussite est sélectif",
+          "summaryFr": "L'expérience du duo éclaire un parcours, mais ne mesure ni les personnes qui n'ont pas bénéficié du projet, ni ses effets politiques, ni les alternatives sacrifiées."
+        },
+        {
+          "title": "Une faible efficacité n'annule pas toute action",
+          "summaryFr": "Témoigner, maintenir une mémoire, soutenir un groupe ou préparer une mobilisation future peut compter sans victoire immédiatement mesurable."
+        }
+      ],
+      "rhetoricalMoves": [
+        {
+          "device": "Aveu d'incertitude stratégique",
+          "effectFr": "Dire ne pas connaître le système de remplacement réduit la surpromesse et ouvre un espace entre critique et solution totale.",
+          "riskFr": "L'humilité peut devenir un alibi si elle dispense durablement d'expliciter objectifs, institutions et arbitrages.",
+          "segmentIds": ["dany-raz-anti-002", "dany-raz-anti-003", "dany-raz-anti-004"]
+        },
+        {
+          "device": "Faux dilemme retourné",
+          "effectFr": "Le duo montre qu'utiliser un salaire, une plateforme ou un contrat n'oblige pas à approuver le système qui les organise.",
+          "riskFr": "La réponse peut esquiver une contradiction précise en assimilant toute demande de cohérence à une exigence impossible de pureté.",
+          "segmentIds": ["dany-raz-anti-004", "dany-raz-anti-006", "dany-raz-anti-013"]
+        },
+        {
+          "device": "Métaphore du grattage",
+          "effectFr": "Un verbe concret transforme l'idéal abstrait en recherche de bénéfices limités et atteignables.",
+          "riskFr": "Sans métrique ni horizon, l'image valorise n'importe quelle concession et masque la différence entre soulagement, réforme et transformation.",
+          "segmentIds": ["dany-raz-anti-008", "dany-raz-anti-009"]
+        },
+        {
+          "device": "Témoignage de trajectoire",
+          "effectFr": "Précarité, organisation du travail et création d'un espace médiatique donnent une matérialité au raisonnement.",
+          "riskFr": "Un récit rétrospectif peut sélectionner les réussites, attribuer trop directement les effets au projet et marginaliser les critiques externes.",
+          "segmentIds": ["dany-raz-anti-007", "dany-raz-anti-011", "dany-raz-anti-012"]
+        },
+        {
+          "device": "Provocation et caricature du contradicteur",
+          "effectFr": "L'humour conflictuel maintient l'attention et rend visible une frustration envers les jugements de posture.",
+          "riskFr": "Insultes, homme de paille et mise en scène du chat peuvent transformer une objection stratégique en défaut moral de l'opposant.",
+          "segmentIds": ["dany-raz-anti-005", "dany-raz-anti-007", "dany-raz-anti-010"]
+        },
+        {
+          "device": "Modestie de la contribution",
+          "effectFr": "Reconnaître une portée limitée évite d'assimiler visibilité médiatique et transformation politique générale.",
+          "riskFr": "L'effet revendiqué repose surtout sur des retours d'audience et n'est pas évalué indépendamment.",
+          "segmentIds": ["dany-raz-anti-011"]
+        }
+      ],
+      "adaptationConstraints": [
+        "Ne jamais présenter l'incrémentalisme, la réforme, la rupture ou la radicalité comme tactique universellement supérieure.",
+        "Formuler chaque prise avec un bénéficiaire, un résultat observable, un coût, une durée et une date de réévaluation.",
+        "Conserver séparément l'horizon structurel afin qu'un gain local ne soit pas présenté comme résolution du problème entier.",
+        "Distinguer exigence éthique minimale, contradiction matérielle à corriger et simple conformité symbolique à un groupe.",
+        "Ne pas utiliser la détresse, la précarité ou le sentiment d'impuissance pour humilier, presser ou profiler politiquement une personne.",
+        "Ne jamais encourager violence, sabotage, harcèlement, mise en danger ou action illégale ; décrire les tactiques étudiées sans les prescrire.",
+        "Rendre visibles financement, intérêts, dépendance aux plateformes et critères d'échec de l'action proposée.",
+        "Traiter les témoignages d'audience et les récits personnels comme indices, jamais comme mesure d'impact suffisante.",
+        "Présenter l'objection la plus forte à la stratégie retenue et préciser ce qui conduirait à la modifier ou à l'abandonner."
       ],
       "status": "draft",
       "review": null

@@ -77,7 +77,12 @@
     {
       "argumentId": "argument-vote-levier-sans-assignation",
       "values": { "evidenceValues": 40, "individualSystemic": 76, "deliberationAction": 70, "accessibleTechnical": 52 },
-      "editorialNote": "Argument civique orienté vers l’action, mais encadré par le pluralisme, le secret du vote et la diversité des moyens de participation."
+      "editorialNote": "Argument civique orienté vers l'action, mais encadré par le pluralisme, le secret du vote et la diversité des moyens de participation."
+    },
+    {
+      "argumentId": "argument-chercher-prises-sans-purete",
+      "values": { "evidenceValues": 50, "individualSystemic": 68, "deliberationAction": 88, "accessibleTechnical": 32 },
+      "editorialNote": "Argument pragmatique reliant critique structurelle et prochaine prise mesurable, avec une vigilance explicite contre l'incrémentalisme automatique."
     }
   ]
 }
