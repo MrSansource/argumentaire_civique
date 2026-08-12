@@ -77,3 +77,9 @@ Le premier moteur de factorisation classe les arguments selon quatre coordonnée
 **Statut :** accepté provisoirement
 
 La première file éditoriale est calculée à partir des relations déjà versionnées entre affirmations, arguments et vérifications. Elle distingue l'absence de vérification, les résultats ouverts ou inconclusifs, les conclusions nuancées et les éléments étayés. Cet ordre rend les lacunes visibles mais ne constitue ni un verdict automatique ni une validation : toute promotion de statut reste une décision humaine justifiée dans Git.
+
+## D-014 — Provenance des intervenants avant analyse
+
+**Statut :** accepté
+
+L'import d'une transcription enregistre séparément le diffuseur, les intervenants attribués, le statut de cette attribution et le rôle réel de la source du registre. La création des lots est bloquée lorsque la source est seulement citée, prise comme sujet ou non résolue. Une vidéo collective reste analysable, mais l'attribution de chaque extrait doit être contrôlée dans l'audio avant publication.

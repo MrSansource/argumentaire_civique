@@ -1,6 +1,13 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { chunkSegments, cleanCaptionText, parseTranscript, timestampToMs } from "../scripts/lib/transcript.mjs";
+import {
+  assertTranscriptReadyForAnalysis,
+  chunkSegments,
+  cleanCaptionText,
+  normalizeTranscriptProvenance,
+  parseTranscript,
+  timestampToMs,
+} from "../scripts/lib/transcript.mjs";
 
 test("convertit les horodatages VTT et SRT", () => {
   assert.equal(timestampToMs("00:01:02.345"), 62_345);
@@ -79,4 +86,38 @@ test("regroupe les segments en lots sans perdre leurs identifiants", () => {
 
   assert.equal(chunks.length, 2);
   assert.deepEqual(chunks.flat().map((segment) => segment.id), ["a", "b", "c"]);
+});
+
+test("normalise une provenance attribuée avant analyse", () => {
+  const provenance = normalizeTranscriptProvenance({
+    publisherName: "Chaîne éditrice",
+    publisherUrl: "https://www.youtube.com/@chaine",
+    speakers: ["Intervenante", "Intervenante", "Animateur"],
+    attributionStatus: "mixed",
+    sourceRole: "panelist",
+    attributionNote: "Les intervenants sont nommés dans l'introduction et vérifiés dans l'audio.",
+  });
+
+  assert.deepEqual(provenance.speakers, ["Intervenante", "Animateur"]);
+  assert.equal(provenance.sourceRole, "panelist");
+});
+
+test("refuse d'analyser une vidéo qui cite seulement la source", () => {
+  assert.throws(
+    () => assertTranscriptReadyForAnalysis({
+      provenance: {
+        publisherName: "La France insoumise",
+        publisherUrl: "https://www.youtube.com/channel/UCKHKSD-yanY2ZwwU_4Tgf0w",
+        speakers: ["Membres du pôle militer sans tracts"],
+        attributionStatus: "mixed",
+        sourceRole: "subject-only",
+        attributionNote: "Franck Lepage est seulement cité ; il n'intervient pas dans l'enregistrement.",
+      },
+    }),
+    /n'intervient pas dans la vidéo/,
+  );
+});
+
+test("refuse un ancien transcript sans provenance", () => {
+  assert.throws(() => assertTranscriptReadyForAnalysis({}), /Provenance absente/);
 });

@@ -12,6 +12,7 @@ Transformer des sous-titres accessibles légitimement en candidats analytiques t
 4. Une proposition générée conserve le statut `draft` jusqu'à une relecture humaine.
 5. Les affirmations générales doivent être confrontées à des sources externes indépendantes.
 6. L'analyse d'un style argumentatif ne vaut ni approbation ni réfutation de la thèse.
+7. Le diffuseur, les intervenants et le rôle réel de la source sont vérifiés avant tout lot d'analyse.
 
 ## Étape 1 — Identifier la source
 
@@ -37,12 +38,20 @@ npm run transcript:import -- \
   --title "Titre de la vidéo" \
   --url "https://www.youtube.com/watch?v=..." \
   --language en \
+  --publisher-name "Nom de la chaîne" \
+  --publisher-url "https://www.youtube.com/@chaine" \
+  --speakers "Intervenante|Animateur" \
+  --attribution-status mixed \
+  --source-role panelist \
+  --attribution-note "Intervenants nommés dans l'introduction et contrôlés dans l'audio." \
   --format vtt \
   --method creator-subtitles \
   --auto false
 ```
 
-Le résultat canonique conserve pour chaque segment : `id`, `startMs`, `endMs` et `text`. Les sous-titres roulants de YouTube sont dédupliqués par chevauchement lexical et bornés à 30 secondes ou 90 mots pour préserver des unités analysables.
+Le résultat canonique conserve pour chaque segment : `id`, `startMs`, `endMs` et `text`. Il conserve aussi la provenance : diffuseur, intervenants, statut d'attribution et rôle de la source enregistrée (`speaker`, `panelist`, `publisher`, `subject-only` ou `unresolved`). Les sous-titres roulants de YouTube sont dédupliqués par chevauchement lexical et bornés à 30 secondes ou 90 mots pour préserver des unités analysables.
+
+Une source seulement citée ou prise comme sujet n'est pas un intervenant. Les statuts `subject-only` et `unresolved` bloquent la création des lots. Une vidéo collective peut utiliser `mixed`, mais chaque extrait publié doit encore recevoir un rôle de locuteur contrôlé dans l'audio.
 
 ## Étape 3 — Créer des lots d'analyse
 
@@ -51,6 +60,8 @@ npm run transcript:batch -- --input .workbench/transcripts/identifiant-video.jso
 ```
 
 Le script crée un fichier JSONL dans `.workbench/analysis-batches/`. Chaque lot répète les règles de frontière de confiance et conserve les identifiants de segments.
+
+Les anciens transcripts sans bloc `provenance` doivent être réimportés ou complétés après contrôle avant de pouvoir être redécoupés.
 
 ## Étape 4 — Analyse structurée
 

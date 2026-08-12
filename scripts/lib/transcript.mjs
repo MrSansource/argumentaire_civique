@@ -1,6 +1,68 @@
 const TIMESTAMP_PATTERN = /(?:(\d{1,2}):)?(\d{2}):(\d{2})[.,](\d{3})/;
 const MAX_ROLLING_SEGMENT_WORDS = 90;
 const MAX_ROLLING_SEGMENT_DURATION_MS = 30_000;
+const ATTRIBUTION_STATUSES = new Set(["confirmed", "mixed", "unresolved"]);
+const SOURCE_ROLES = new Set(["speaker", "panelist", "publisher", "subject-only", "unresolved"]);
+
+function isWebUrl(value) {
+  try {
+    return new Set(["http:", "https:"]).has(new URL(value).protocol);
+  } catch {
+    return false;
+  }
+}
+
+export function normalizeTranscriptProvenance(value) {
+  if (!value || typeof value !== "object") {
+    throw new Error("Provenance absente : le diffuseur et les intervenants doivent être vérifiés.");
+  }
+
+  const publisherName = String(value.publisherName ?? "").trim();
+  const publisherUrl = String(value.publisherUrl ?? "").trim();
+  const attributionStatus = String(value.attributionStatus ?? "").trim();
+  const sourceRole = String(value.sourceRole ?? "").trim();
+  const attributionNote = String(value.attributionNote ?? "").trim();
+  const speakers = Array.isArray(value.speakers)
+    ? [...new Set(value.speakers.map((speaker) => String(speaker).trim()).filter(Boolean))]
+    : [];
+
+  if (!publisherName) throw new Error("Le nom du diffuseur est obligatoire.");
+  if (!isWebUrl(publisherUrl)) throw new Error("L'URL du diffuseur doit être une URL web.");
+  if (!ATTRIBUTION_STATUSES.has(attributionStatus)) {
+    throw new Error("Le statut d'attribution doit être confirmed, mixed ou unresolved.");
+  }
+  if (!SOURCE_ROLES.has(sourceRole)) {
+    throw new Error("Le rôle de la source doit être speaker, panelist, publisher, subject-only ou unresolved.");
+  }
+  if (attributionStatus !== "unresolved" && speakers.length === 0) {
+    throw new Error("Au moins un intervenant est requis lorsque l'attribution n'est pas unresolved.");
+  }
+  if (attributionNote.length < 10) {
+    throw new Error("La note d'attribution doit expliquer la vérification effectuée.");
+  }
+
+  return {
+    publisherName,
+    publisherUrl,
+    speakers,
+    attributionStatus,
+    sourceRole,
+    attributionNote,
+  };
+}
+
+export function assertTranscriptReadyForAnalysis(transcript) {
+  const provenance = normalizeTranscriptProvenance(transcript?.provenance);
+  if (provenance.attributionStatus === "unresolved") {
+    throw new Error("Attribution non résolue : aucun lot d'analyse ne peut être créé.");
+  }
+  if (new Set(["subject-only", "unresolved"]).has(provenance.sourceRole)) {
+    throw new Error(
+      "La source enregistrée n'intervient pas dans la vidéo : rattachez-la au bon registre avant l'analyse.",
+    );
+  }
+  return provenance;
+}
 
 export function timestampToMs(value) {
   const match = value.trim().match(TIMESTAMP_PATTERN);
