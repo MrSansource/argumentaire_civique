@@ -104,4 +104,8 @@ Un second cas, l'épisode PaduTeam sur la « dysmorphie financière », éprouve
 
 Un troisième cas, un entretien d'Aurélien Barrau sur l'écologie, teste la distinction entre constat scientifique, moyen technique et finalité normative. Deux affirmations sont confrontées à des évaluations de l'IPBES et du GIEC afin de documenter ce qui est étayé et ce qui demande à être nuancé.
 
+L'analyse de C.S. Joseph traite le MBTI comme un objet de discours plutôt que comme une vérité psychométrique. Elle montre comment une typologie peut glisser d'un vocabulaire d'introspection vers des prédictions morales et des tactiques de pression, puis impose des garde-fous contre l'inférence de profils individuels.
+
+L'épisode de Benjamin Schoendorff sur les valeurs fournit un contrepoint centré sur des préférences explicitement choisies. Son récit autobiographique et ses propositions ACT sont séparés des résultats cliniques, confrontés à une revue des mécanismes de flexibilité psychologique et accompagnés de limites sur les contraintes matérielles, l'auto-coercition et le recours aux soins.
+
 Ces pilotes démontrent la méthode ; ils ne constituent pas à eux seuls une validation des thèses présentées.

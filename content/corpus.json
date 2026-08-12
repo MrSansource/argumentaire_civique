@@ -164,6 +164,26 @@
       "accessedAt": "2026-08-12",
       "kind": "psychometric-review-affiliated-summary",
       "scopeNote": "Synthèse de 193 études rapportant une forte cohérence interne et des convergences avec d'autres instruments ; la page est publiée par une organisation liée au MBTI et signale l'absence d'études de validité structurelle dans son échantillon."
+    },
+    {
+      "id": "macri-rogge-act-mechanisms-2024",
+      "publisher": "Clinical Psychology Review — Elsevier",
+      "title": "Examining domains of psychological flexibility and inflexibility as treatment mechanisms in acceptance and commitment therapy: A comprehensive systematic and meta-analytic review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38615492/",
+      "publishedAt": "2024-06-01",
+      "accessedAt": "2026-08-12",
+      "kind": "systematic-review-meta-analysis",
+      "scopeNote": "Revue de 67 études uniques totalisant 9 123 participants sur les dimensions de flexibilité et d'inflexibilité comme mécanismes de l'ACT ; elle appelle à de meilleures mesures répétées et à l'étude des facteurs non spécifiques."
+    },
+    {
+      "id": "odonohue-act-scientific-status-2023",
+      "publisher": "Behavior Therapy — Elsevier",
+      "title": "The Scientific Status of Acceptance and Commitment Therapy: An Analysis From the Philosophy of Science",
+      "url": "https://doi.org/10.1016/j.beth.2023.07.006",
+      "publishedAt": "2023-11-01",
+      "accessedAt": "2026-08-12",
+      "kind": "peer-reviewed-critical-review",
+      "scopeNote": "Analyse critique de la clarté des construits, de leurs mesures, du statut des valeurs et de la qualité de la recherche ACT ; elle discute la théorie et la littérature, pas cette vidéo ni un cas clinique précis."
     }
   ],
   "sources": [
@@ -224,11 +244,11 @@
     {
       "id": "benjamin-schoendorff",
       "name": "Benjamin Schoendorff",
-      "status": "candidate",
+      "status": "identified",
       "kind": "auteur-multicanal",
       "url": "https://www.youtube.com/channel/UCr4zQkTLMR7gw286o6LTLbA",
       "languages": ["fr"],
-      "editorialNote": "Chaîne candidate « Vos valeurs en action » ; attribution à vérifier avant ingestion."
+      "editorialNote": "Chaîne « Vos valeurs en action » confirmée par le site professionnel de Benjamin Schoendorff. Un épisode grand public sur les valeurs et la flexibilité psychologique est analysé."
     },
     {
       "id": "ismail-mounir",
@@ -640,6 +660,80 @@
           "speakerRole": "host-commentary"
         }
       ]
+    },
+    {
+      "id": "schoendorff-values-action-2018",
+      "sourceId": "benjamin-schoendorff",
+      "title": "Mettez vos valeurs en action",
+      "url": "https://www.youtube.com/watch?v=Tw13wtcxugU",
+      "publishedAt": "2018-10-03",
+      "language": "fr",
+      "transcript": {
+        "kind": "youtube-auto-captions",
+        "language": "fr",
+        "acquiredAt": "2026-08-12",
+        "retention": "short-excerpts-only",
+        "acquisitionTool": "yt-dlp metadata and automatic subtitle export",
+        "reliabilityNote": "Sous-titres automatiques français : les passages publiés sont courts et leur audio reste accessible par un lien horodaté."
+      },
+      "segments": [
+        {
+          "id": "scho-values-001",
+          "startMs": 0,
+          "endMs": 29490,
+          "excerpt": "je n'avais pas besoin d'attendre d'avoir envie d'écrire pour pouvoir écrire",
+          "paraphraseFr": "Schoendorff raconte avoir commencé à écrire sans attendre que l'envie apparaisse.",
+          "speakerRole": "host-commentary"
+        },
+        {
+          "id": "scho-values-002",
+          "startMs": 29490,
+          "endMs": 49630,
+          "excerpt": "la flexibilité psychologique c'est la capacité de faire ce qui est important pour nous quoi qu'il arrive",
+          "paraphraseFr": "Il définit la flexibilité psychologique comme la capacité d'agir vers ce qui importe malgré les circonstances intérieures.",
+          "speakerRole": "host-commentary"
+        },
+        {
+          "id": "scho-values-003",
+          "startMs": 75140,
+          "endMs": 104800,
+          "excerpt": "faire ce qui est important pour nous même en présence d'obstacles",
+          "paraphraseFr": "Il promet d'expliquer comment agir en présence d'un manque d'envie, de pensées ou d'émotions fortes.",
+          "speakerRole": "host-commentary"
+        },
+        {
+          "id": "scho-values-004",
+          "startMs": 104800,
+          "endMs": 131470,
+          "excerpt": "les obstacles intérieurs peuvent nous empêcher de faire ce qui est important pour nous",
+          "paraphraseFr": "Il regroupe pensées, émotions et impulsions sous la catégorie d'obstacles intérieurs à l'action choisie.",
+          "speakerRole": "host-commentary"
+        },
+        {
+          "id": "scho-values-005",
+          "startMs": 131470,
+          "endMs": 161770,
+          "excerpt": "la meilleure manière [...] c'est d'apprendre à les observer d'une manière particulière",
+          "paraphraseFr": "Il recommande l'observation plutôt que la confrontation, l'évitement ou la tentative directe de changement des expériences intérieures.",
+          "speakerRole": "host-commentary"
+        },
+        {
+          "id": "scho-values-006",
+          "startMs": 161770,
+          "endMs": 188600,
+          "excerpt": "si on sait pas où aller on a très peu de chance de s'y rendre",
+          "paraphraseFr": "Une métaphore de destination relie la clarification de ce qui importe à l'orientation des actions.",
+          "speakerRole": "host-commentary"
+        },
+        {
+          "id": "scho-values-007",
+          "startMs": 203870,
+          "endMs": 229500,
+          "excerpt": "un exercice qui sera toujours un exercice d'observation [...] ces exercices sont tellement puissants",
+          "paraphraseFr": "Il présente les exercices comme non prescriptifs tout en leur attribuant une forte puissance pédagogique.",
+          "speakerRole": "host-commentary"
+        }
+      ]
     }
   ],
   "claims": [
@@ -832,6 +926,46 @@
       "epistemicNote": "Règle normative de conception dérivée des risques observés ; demander une préférence n'empêche pas toute influence et exige encore transparence et consentement.",
       "status": "draft",
       "review": null
+    },
+    {
+      "id": "claim-action-does-not-require-readiness",
+      "episodeId": "schoendorff-values-action-2018",
+      "segmentIds": ["scho-values-001", "scho-values-003"],
+      "type": "experiential-conceptual-claim",
+      "statementFr": "Une action jugée importante peut parfois être engagée sans attendre l'apparition de l'envie, de la confiance ou d'un état émotionnel idéal.",
+      "epistemicNote": "Le témoignage illustre une possibilité, mais ne permet pas d'en estimer la fréquence ni les conditions pour d'autres personnes et d'autres difficultés.",
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "claim-psychological-flexibility-definition",
+      "episodeId": "schoendorff-values-action-2018",
+      "segmentIds": ["scho-values-002", "scho-values-004"],
+      "type": "theory-description",
+      "statementFr": "Dans l'ACT présentée ici, la flexibilité psychologique consiste à rester capable d'orienter ses comportements vers ce qui importe en présence d'expériences intérieures difficiles.",
+      "epistemicNote": "Définition théorique simplifiée pour le grand public ; la mesure du construit et ses dimensions font l'objet de débats méthodologiques.",
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "claim-observing-inner-events-supports-action",
+      "episodeId": "schoendorff-values-action-2018",
+      "segmentIds": ["scho-values-004", "scho-values-005"],
+      "type": "therapeutic-process-claim",
+      "statementFr": "Observer pensées et émotions sans chercher d'abord à les supprimer, les éviter ou les confronter peut soutenir une action cohérente avec ses valeurs.",
+      "epistemicNote": "La formulation modale évite de présenter l'observation comme la meilleure réponse universelle ; son intérêt dépend du problème, du contexte et de l'accompagnement.",
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "claim-values-orient-action-without-prescription",
+      "episodeId": "schoendorff-values-action-2018",
+      "segmentIds": ["scho-values-006", "scho-values-007"],
+      "type": "normative-practice-claim",
+      "statementFr": "Clarifier ce qui importe peut orienter l'action sans qu'un intervenant impose à la personne une destination ou une conduite précise.",
+      "epistemicNote": "L'absence d'injonction explicite ne supprime pas les influences sociales, thérapeutiques ou institutionnelles qui façonnent l'expression des valeurs.",
+      "status": "draft",
+      "review": null
     }
   ],
   "verifications": [
@@ -940,6 +1074,21 @@
         "L'absence de preuve dans ces sources ne démontre pas l'inefficacité de toute adaptation conversationnelle.",
         "La conclusion éthique ne dépend pas d'une mesure d'efficacité : obtenir une conformité par inconfort persistant n'est pas un objectif acceptable.",
         "Une préférence déclarée peut elle aussi être instrumentalisée si l'objectif d'influence reste caché."
+      ]
+    },
+    {
+      "id": "verification-psychological-flexibility-process",
+      "claimId": "claim-observing-inner-events-supports-action",
+      "mode": "clinical-evidence-review",
+      "status": "qualified",
+      "questionFr": "Les données disponibles soutiennent-elles l'idée que les processus de flexibilité psychologique contribuent aux effets de l'ACT ?",
+      "findingFr": "La revue de Macri et Rogge associe les interventions ACT à une baisse de plusieurs dimensions d'inflexibilité et à une hausse de l'action engagée et du contact avec les valeurs. Elle trouve des éléments compatibles avec un rôle médiateur, mais recommande des mesures multidimensionnelles répétées et l'étude des facteurs non spécifiques. La thèse d'une méthode universellement meilleure n'est donc pas établie.",
+      "referenceIds": ["macri-rogge-act-mechanisms-2024", "odonohue-act-scientific-status-2023"],
+      "caveats": [
+        "Une amélioration moyenne dans une intervention complète n'identifie pas nécessairement l'observation comme son ingrédient causal unique.",
+        "Les mesures de flexibilité psychologique et leur adéquation à la théorie ACT restent discutées.",
+        "Les résultats cliniques ne transforment pas un court exercice vidéo en traitement autonome adapté à toute situation.",
+        "Les facteurs communs aux psychothérapies, l'alliance et les attentes peuvent aussi contribuer aux résultats."
       ]
     }
   ],
@@ -1236,6 +1385,73 @@
         "Proposer explicitement plusieurs formats de discussion et permettre le refus ou la révision du choix.",
         "Présenter le MBTI comme une typologie contestée et non comme un diagnostic clinique.",
         "Rendre visible l'objectif de la conversation et distinguer adaptation bienveillante, persuasion et pression."
+      ],
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "argument-agir-sans-attendre-etat-ideal",
+      "title": "Agir sans attendre de se sentir prêt",
+      "thesisFr": "L'envie, la confiance ou l'apaisement peuvent faciliter une action sans en être toujours des préconditions. Une démarche respectueuse consiste à clarifier ce qui importe pour la personne, observer les obstacles intérieurs sans les nier, puis choisir un pas réaliste et révisable — sans convertir cette possibilité en obligation de supporter l'épuisement, la violence ou des contraintes matérielles inchangées.",
+      "premiseClaimIds": [
+        "claim-action-does-not-require-readiness",
+        "claim-psychological-flexibility-definition",
+        "claim-observing-inner-events-supports-action",
+        "claim-values-orient-action-without-prescription"
+      ],
+      "themeIds": ["sens-vie", "psychologie-typologies", "impuissance-politique"],
+      "reasoningPattern": "dissocier-action-choisie-et-etat-interieur-ideal",
+      "objections": [
+        {
+          "title": "L'obstacle n'est pas toujours intérieur",
+          "summaryFr": "Manque de temps, pauvreté, discrimination, maladie ou pouvoir hiérarchique peuvent bloquer une action même lorsque la personne accepte ses émotions."
+        },
+        {
+          "title": "Risque d'auto-coercition",
+          "summaryFr": "Agir sans envie peut devenir une nouvelle injonction à la performance si le repos, l'ambivalence et l'abandon d'un objectif ne restent pas des options légitimes."
+        },
+        {
+          "title": "Les valeurs sont socialement façonnées",
+          "summaryFr": "Ce qui paraît important résulte aussi de normes, de loyautés et de rapports de pouvoir ; le présenter comme un choix purement intime masque ces influences."
+        },
+        {
+          "title": "Une méthode parmi d'autres",
+          "summaryFr": "L'ACT dispose d'une base empirique croissante, mais cela ne prouve ni sa supériorité générale ni l'adéquation d'un même exercice à toutes les difficultés."
+        }
+      ],
+      "rhetoricalMoves": [
+        {
+          "device": "Récit de transformation personnelle",
+          "effectFr": "Le passage de l'absence d'écriture à huit livres donne une illustration concrète et crédible de l'action sans envie.",
+          "riskFr": "Une réussite autobiographique peut être reçue comme preuve générale malgré des ressources et contextes inconnus.",
+          "segmentIds": ["scho-values-001", "scho-values-003"]
+        },
+        {
+          "device": "Définition absolue",
+          "effectFr": "La formule « quoi qu'il arrive » rend la flexibilité mémorable et ambitieuse.",
+          "riskFr": "Elle efface les situations où ne pas agir, se protéger ou transformer les conditions externes constitue la réponse appropriée.",
+          "segmentIds": ["scho-values-002"]
+        },
+        {
+          "device": "Métaphore de la destination",
+          "effectFr": "Savoir où aller transforme les valeurs en boussole simple pour organiser des actions successives.",
+          "riskFr": "La métaphore suppose une direction assez stable et identifiable, alors que les valeurs peuvent être conflictuelles ou changeantes.",
+          "segmentIds": ["scho-values-006"]
+        },
+        {
+          "device": "Promesse pédagogique",
+          "effectFr": "L'annonce d'exercices d'observation puissants donne envie de suivre la série tout en affichant une posture non prescriptive.",
+          "riskFr": "La puissance annoncée n'est pas démontrée dans la vidéo et participe aussi à la promotion du programme.",
+          "segmentIds": ["scho-values-007"]
+        }
+      ],
+      "adaptationConstraints": [
+        "Demander à la personne ce qui importe pour elle au lieu de lui attribuer une valeur ou un objectif.",
+        "Distinguer explicitement obstacles intérieurs, contraintes matérielles et rapports de pouvoir.",
+        "Ne jamais utiliser la flexibilité psychologique pour culpabiliser une personne qui ne peut pas agir.",
+        "Présenter le repos, le renoncement ou la modification de l'objectif comme des options possibles.",
+        "Ne pas confondre acceptation d'une émotion avec acceptation d'une violence, d'un abus ou d'une injustice.",
+        "Orienter vers un professionnel lorsque la souffrance, le risque ou le handicap dépasse un exercice généraliste."
       ],
       "status": "draft",
       "review": null
