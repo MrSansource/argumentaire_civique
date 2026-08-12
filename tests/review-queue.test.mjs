@@ -22,14 +22,14 @@ test("construit une file complète et traçable depuis le corpus", () => {
   assert.equal(Object.values(queue.countsByLane).reduce((total, count) => total + count, 0), corpus.claims.length);
 });
 
-test("rend visibles les lacunes actuelles sans les appeler des verdicts", () => {
+test("rend visibles les compteurs de couverture sans les appeler des verdicts", () => {
   const queue = buildReviewQueue(corpus);
   const verifiedClaimIds = new Set(corpus.verifications.map((verification) => verification.claimId));
 
   assert.equal(queue.countsByLane.missing, corpus.claims.length - verifiedClaimIds.size);
   assert.equal(queue.verifiedClaims, verifiedClaimIds.size);
   assert.equal(queue.draftClaims, corpus.claims.filter((claim) => claim.status === "draft").length);
-  assert.ok(queue.countsByLane.missing > 0);
+  assert.equal(queue.countsByLane.missing, 0);
   assert.ok(queue.countsByLane.inconclusive > 0);
   assert.ok(queue.countsByLane.qualified > 0);
   assert.ok(queue.countsByLane.supported > 0);
@@ -120,6 +120,17 @@ test("mesure la couverture complète de l'argument sur les prises sans pureté",
 
   assert.equal(coverage?.claimCount, 5);
   assert.equal(coverage?.verifiedCount, 5);
+  assert.equal(coverage?.coveragePercent, 100);
+});
+
+test("mesure la couverture complète de l'argument sur les rapports sociaux", () => {
+  const queue = buildReviewQueue(corpus);
+  const coverage = queue.argumentCoverage.find(
+    (argument) => argument.argumentId === "argument-nommer-rapports-sociaux",
+  );
+
+  assert.equal(coverage?.claimCount, 4);
+  assert.equal(coverage?.verifiedCount, 4);
   assert.equal(coverage?.coveragePercent, 100);
 });
 

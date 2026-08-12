@@ -704,6 +704,46 @@
       "accessedAt": "2026-08-12",
       "kind": "official-policy-appraisal-guidance",
       "scopeNote": "Guide britannique d'évaluation des politiques publiques séparant justification du changement, objectifs, génération progressive d'options et comparaison de leurs coûts, bénéfices, risques et effets distributifs. Il décrit une méthode d'instruction, pas une théorie générale du militantisme."
+    },
+    {
+      "id": "anct-qpv-twitter-visibility-2022",
+      "publisher": "Observatoire national de la politique de la ville — ANCT",
+      "title": "Les quartiers prioritaires de la politique de la ville sur Twitter : une visibilité croissante, mais inégale et très irrégulière dans le temps",
+      "url": "https://anct.gouv.fr/ressources/publications/comprendre-les-quartiers-prioritaires-de-la-politique-de-la-ville-sur",
+      "publishedAt": "2022-07-25",
+      "accessedAt": "2026-08-12",
+      "kind": "official-observatory-study",
+      "scopeNote": "Étude de la visibilité des QPV sur Twitter : lors des pics de surmédiatisation, les sujets se resserrent autour de l'insécurité et les contenus associatifs, culturels ou institutionnels deviennent moins visibles. Elle étudie une plateforme et non tout usage d'une étiquette territoriale."
+    },
+    {
+      "id": "defenseur-rights-territorial-discrimination-2010",
+      "publisher": "HALDE — catalogue du Défenseur des droits",
+      "title": "Délibération n° 2010-36 relative aux discriminations territoriales",
+      "url": "https://juridique.defenseurdesdroits.fr/index.php?id=391&lvl=notice_display&opac_view=-1",
+      "publishedAt": "2010-02-22",
+      "accessedAt": "2026-08-12",
+      "kind": "official-rights-deliberation",
+      "scopeNote": "Délibération examinant des inégalités d'accès aux ressources publiques et des discriminations liées à l'adresse, dont un effet de réputation du quartier. Elle ne mesure pas l'effet causal des mots « sensible » ou « défavorisé »."
+    },
+    {
+      "id": "unesco-transformative-education-recommendation-2023",
+      "publisher": "UNESCO",
+      "title": "Recommendation on Education for Peace, Human Rights and Sustainable Development",
+      "url": "https://www.unesco.org/en/legal-affairs/recommendation-education-peace-and-human-rights-international-understanding-cooperation-fundamental",
+      "publishedAt": "2023-11-20",
+      "accessedAt": "2026-08-12",
+      "kind": "intergovernmental-education-recommendation",
+      "scopeNote": "Recommandation adoptée par la Conférence générale de l'UNESCO : pensée critique, compréhension des systèmes complexes et des rapports de pouvoir, participation, pluralisme, pédagogies actives et matériaux contextualisés. Elle fixe une orientation normative et non l'effet causal d'un programme précis."
+    },
+    {
+      "id": "coe-democratic-culture-framework-2016",
+      "publisher": "Conseil de l'Europe",
+      "title": "Reference Framework of Competences for Democratic Culture",
+      "url": "https://www.coe.int/en/web/reference-framework-of-competences-for-democratic-culture/",
+      "publishedAt": "2016-04-01",
+      "accessedAt": "2026-08-12",
+      "kind": "intergovernmental-education-framework",
+      "scopeNote": "Cadre approuvé par les ministres européens de l'éducation pour développer valeurs, attitudes, compétences, connaissances et compréhension critique nécessaires à une participation démocratique effective dans des sociétés pluralistes."
     }
   ],
   "sources": [
@@ -759,7 +799,7 @@
       "kind": "auteur-multicanal",
       "url": "https://www.youtube.com/channel/UCjc-o9YKPibPm-OMBK4ImgQ",
       "languages": ["fr"],
-      "editorialNote": "Un extrait direct de conférence est analysé depuis la chaîne Kaina Médias ; les généralisations historiques et politiques restent à vérifier séparément."
+      "editorialNote": "Un extrait direct de conférence est analysé depuis la chaîne Kaina Médias. Ses cadrages territoriaux et éducatifs sont confrontés à des données et référentiels externes ; la conférence n'est pas traitée comme une preuve empirique de leurs effets."
     },
     {
       "id": "benjamin-schoendorff",
@@ -3083,6 +3123,44 @@
         "L'absence provisoire de plan complet ne doit pas devenir un refus permanent de préciser objectifs, moyens, bénéficiaires et critères d'échec.",
         "Participer sous contrainte à un système et tirer activement profit d'un abus évitable sont des situations moralement différentes."
       ]
+    },
+    {
+      "id": "verification-territorial-label-framing",
+      "claimId": "claim-territorial-labels-can-depoliticize",
+      "mode": "official-territorial-framing-evidence",
+      "status": "qualified",
+      "questionFr": "Une étiquette territoriale déficitaire suffit-elle à produire un cadrage dépolitisant ?",
+      "findingFr": "Les sources officielles montrent deux mécanismes compatibles avec le risque décrit : la réputation d'une adresse peut produire des discriminations, et les pics de visibilité des quartiers prioritaires sur Twitter resserrent les sujets autour de l'insécurité en rendant moins visibles les activités associatives, culturelles ou institutionnelles. Elles n'établissent cependant pas qu'un mot particulier dépolitise automatiquement. Une catégorie peut aussi rendre mesurables des inégalités et cibler des moyens publics ; son effet dépend de sa définition, des variables montrées, des acteurs entendus et des causes laissées hors champ.",
+      "referenceIds": [
+        "anct-qpv-twitter-visibility-2022",
+        "defenseur-rights-territorial-discrimination-2010",
+        "insee-segregation-quartiers-2023"
+      ],
+      "caveats": [
+        "L'étude de visibilité porte sur Twitter et ne représente ni tous les médias ni toutes les conversations publiques.",
+        "Une discrimination liée à l'adresse ne prouve pas que l'étiquette administrative en est la cause.",
+        "Les catégories territoriales peuvent servir une allocation compensatrice de ressources autant qu'une stigmatisation.",
+        "L'analyse doit comparer les variables retenues, les récits d'habitants et les mécanismes institutionnels plutôt que juger le terme isolément."
+      ]
+    },
+    {
+      "id": "verification-political-education-connects-causes",
+      "claimId": "claim-political-education-connects-causes",
+      "mode": "democratic-education-framework-review",
+      "status": "qualified",
+      "questionFr": "Les référentiels démocratiques soutiennent-ils une éducation reliant les expériences aux systèmes sociaux et politiques ?",
+      "findingFr": "La recommandation de l'UNESCO demande une pensée analytique capable d'interroger normes et opinions, de comprendre systèmes complexes, rapports de pouvoir et échelles locales à mondiales, avec des pédagogies actives, contextualisées et participatives. Le cadre du Conseil de l'Europe associe participation démocratique, pluralisme, connaissances et compréhension critique du monde, dont la politique, le droit, l'économie et les médias. Ces référentiels convergent avec la thèse retenue, à condition que l'explication des causes reste fondée sur des preuves, contradictoire et ouverte à plusieurs hypothèses.",
+      "referenceIds": [
+        "unesco-transformative-education-recommendation-2023",
+        "coe-democratic-culture-framework-2016"
+      ],
+      "caveats": [
+        "Ces textes sont des cadres normatifs intergouvernementaux, pas des essais contrôlés d'une méthode pédagogique précise.",
+        "Relier une expérience à une structure ne permet pas d'imposer une cause unique ni une identité politique au participant.",
+        "Une pédagogie émancipatrice doit rendre visibles ses sources, accueillir le désaccord et autoriser la révision de son interprétation.",
+        "Les dimensions individuelles, culturelles, institutionnelles et économiques peuvent interagir sans être interchangeables.",
+        "L'art et l'expression culturelle peuvent contribuer à la compétence civique sans devoir se réduire à un message politique explicite."
+      ]
     }
   ],
   "arguments": [
@@ -3322,7 +3400,9 @@
         "Présenter les données territoriales avant toute interprétation des causes ou des intentions.",
         "Reconnaître les effets propres possibles de l'art et des institutions culturelles.",
         "Écarter les généralisations non vérifiées de la vidéo sur les médias, les élections ou la violence.",
-        "Formuler l'éducation politique comme une invitation contradictoire, pas comme un endoctrinement."
+        "Formuler l'éducation politique comme une invitation contradictoire, pas comme un endoctrinement.",
+        "Distinguer une catégorie administrative utile à l'allocation de moyens d'une identité attribuée aux habitants.",
+        "Rendre visibles les sources, les hypothèses causales concurrentes et les conditions qui conduiraient à réviser l'explication proposée."
       ],
       "status": "draft",
       "review": null
