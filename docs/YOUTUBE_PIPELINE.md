@@ -108,4 +108,6 @@ L'analyse de C.S. Joseph traite le MBTI comme un objet de discours plutôt que c
 
 L'épisode de Benjamin Schoendorff sur les valeurs fournit un contrepoint centré sur des préférences explicitement choisies. Son récit autobiographique et ses propositions ACT sont séparés des résultats cliniques, confrontés à une revue des mécanismes de flexibilité psychologique et accompagnés de limites sur les contraintes matérielles, l'auto-coercition et le recours aux soins.
 
+Le cours d'Alexandre Duclos sur les techniques du corps éprouve la méthode sur un exposé mêlant théorie anthropologique et exemples de terrain. L'analyse retient l'apprentissage social et les effets possibles de l'organisation du travail, mais qualifie le déterminisme corporel, laisse l'anecdote de contournement d'un appareil non corroborée et interdit toute inférence identitaire depuis un geste individuel.
+
 Ces pilotes démontrent la méthode ; ils ne constituent pas à eux seuls une validation des thèses présentées.

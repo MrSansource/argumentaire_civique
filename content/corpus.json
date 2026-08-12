@@ -52,6 +52,11 @@
       "id": "culture-pouvoir",
       "label": "Culture et pouvoir",
       "description": "Pratiques culturelles, éducation populaire, légitimité et rapports sociaux."
+    },
+    {
+      "id": "anthropologie-nature-humaine",
+      "label": "Anthropologie et nature humaine",
+      "description": "Apprentissages corporels, socialisation, diversité culturelle et limites des explications naturalisantes."
     }
   ],
   "references": [
@@ -184,6 +189,56 @@
       "accessedAt": "2026-08-12",
       "kind": "peer-reviewed-critical-review",
       "scopeNote": "Analyse critique de la clarté des construits, de leurs mesures, du statut des valeurs et de la qualité de la recherche ACT ; elle discute la théorie et la littérature, pas cette vidéo ni un cas clinique précis."
+    },
+    {
+      "id": "duclos-cetcopra-profile",
+      "publisher": "CETCOPRA — Université Paris 1 Panthéon-Sorbonne",
+      "title": "Alexandre Duclos",
+      "url": "https://cetcopra.pantheonsorbonne.fr/alexandre-duclos",
+      "publishedAt": null,
+      "accessedAt": "2026-08-12",
+      "kind": "institutional-profile",
+      "scopeNote": "Page institutionnelle confirmant les travaux d'Alexandre Duclos en sociologie et anthropologie politiques ainsi que ses recherches sur les politiques de santé ; la date de publication n'est pas indiquée."
+    },
+    {
+      "id": "mauss-techniques-corps-1934",
+      "publisher": "Journal de Psychologie — édition électronique UQAC",
+      "title": "Les techniques du corps",
+      "url": "https://classiques.uqam.ca/classiques/mauss_marcel/socio_et_anthropo/6_Techniques_corps/Techniques_corps.html",
+      "publishedAt": "1936-03-15",
+      "accessedAt": "2026-08-12",
+      "kind": "original-theoretical-text",
+      "scopeNote": "Communication de Marcel Mauss présentée en 1934 et publiée en 1936 ; texte fondateur définissant les techniques corporelles comme des manières traditionnelles et socialement transmises de se servir du corps."
+    },
+    {
+      "id": "adolph-hoch-motor-development-2019",
+      "publisher": "Annual Review of Psychology",
+      "title": "Motor Development: Embodied, Embedded, Enculturated, and Enabling",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30256718/",
+      "publishedAt": "2019-01-04",
+      "accessedAt": "2026-08-12",
+      "kind": "peer-reviewed-review",
+      "scopeNote": "Revue du développement moteur infantile montrant l'interaction entre état du corps, environnement, culture et apprentissage ; son champ ne permet pas de généraliser directement à tout geste adulte."
+    },
+    {
+      "id": "guillemot-work-intensification-2011",
+      "publisher": "Travail et Emploi — Dares",
+      "title": "Travail dans le public et le privé : une intensification parallèle",
+      "url": "https://doi.org/10.4000/travailemploi.5407",
+      "publishedAt": "2011-11-15",
+      "accessedAt": "2026-08-12",
+      "kind": "official-survey-analysis",
+      "scopeNote": "Analyse des enquêtes Conditions de travail de 1984 à 2005, incluant rythmes, horaires et contraintes déclarées par des professionnels hospitaliers ; elle ne mesure pas les gestes précis décrits dans la vidéo."
+    },
+    {
+      "id": "fried-frailty-phenotype-2001",
+      "publisher": "Journal of Gerontology: Medical Sciences",
+      "title": "Frailty in Older Adults: Evidence for a Phenotype",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11253156/",
+      "publishedAt": "2001-03-01",
+      "accessedAt": "2026-08-12",
+      "kind": "peer-reviewed-cohort-study",
+      "scopeNote": "Étude de 5 317 personnes de 65 ans ou plus opérationnalisant un phénotype physique de fragilité par cinq critères ; elle ne vérifie pas l'anecdote de contournement d'un appareil racontée dans la vidéo."
     }
   ],
   "sources": [
@@ -226,11 +281,11 @@
     {
       "id": "alexandre-duclos",
       "name": "Alexandre Duclos",
-      "status": "candidate",
+      "status": "identified",
       "kind": "chaine-createur",
       "url": "https://www.youtube.com/channel/UChMTDpfZ9HcXB0K_MHhd_ag",
       "languages": ["fr", "en"],
-      "editorialNote": "Correspondance de nom et de thèmes anthropologiques ; identité éditoriale à confirmer."
+      "editorialNote": "Identité confirmée par la page institutionnelle du CETCOPRA et le canal public associé. Un cours est analysé comme exposé d'anthropologie, sans transformer ses exemples de terrain en résultats établis."
     },
     {
       "id": "franck-lepage",
@@ -734,6 +789,104 @@
           "speakerRole": "host-commentary"
         }
       ]
+    },
+    {
+      "id": "duclos-techniques-corps-2020",
+      "sourceId": "alexandre-duclos",
+      "title": "Les techniques du corps — Marcel Mauss",
+      "url": "https://www.youtube.com/watch?v=oTfiWN6nsDA",
+      "publishedAt": "2020-04-03",
+      "language": "fr",
+      "transcript": {
+        "kind": "youtube-auto-captions",
+        "language": "fr",
+        "acquiredAt": "2026-08-12",
+        "retention": "short-excerpts-only",
+        "acquisitionTool": "yt-dlp metadata and automatic subtitle export",
+        "reliabilityNote": "Sous-titres automatiques français particulièrement bruités : les extraits ont été raccourcis et normalisés, et doivent être contrôlés dans l'audio horodaté."
+      },
+      "segments": [
+        {
+          "id": "duclos-corps-001",
+          "startMs": 30449,
+          "endMs": 59910,
+          "excerpt": "les manières de se servir de son corps apprises socialement",
+          "paraphraseFr": "Duclos introduit les techniques du corps comme des usages corporels transmis par la vie sociale.",
+          "speakerRole": "teacher-commentary"
+        },
+        {
+          "id": "duclos-corps-002",
+          "startMs": 177290,
+          "endMs": 182789,
+          "excerpt": "se servir socialement de son corps [...] sans s'en apercevoir",
+          "paraphraseFr": "Il insiste sur le caractère souvent non conscient de cet apprentissage.",
+          "speakerRole": "teacher-commentary"
+        },
+        {
+          "id": "duclos-corps-003",
+          "startMs": 182799,
+          "endMs": 209239,
+          "excerpt": "le lieu où on a été élevé, la classe [...] la culture",
+          "paraphraseFr": "Il relie les manières corporelles à plusieurs contextes de socialisation, puis à des différences physiques observables.",
+          "speakerRole": "teacher-commentary"
+        },
+        {
+          "id": "duclos-corps-004",
+          "startMs": 354340,
+          "endMs": 382780,
+          "excerpt": "à chaque poste correspond une manière de vivre son temps et d'utiliser son corps",
+          "paraphraseFr": "À partir d'un terrain hospitalier, il affirme que la position professionnelle organise différemment le temps et l'usage du corps.",
+          "speakerRole": "teacher-fieldwork-account"
+        },
+        {
+          "id": "duclos-corps-005",
+          "startMs": 450610,
+          "endMs": 479730,
+          "excerpt": "un enchaînement parfaitement répété et mesuré à la seconde",
+          "paraphraseFr": "Il décrit le travail de nettoyage comme une séquence gestuelle stabilisée par une contrainte temporelle serrée.",
+          "speakerRole": "teacher-fieldwork-account"
+        },
+        {
+          "id": "duclos-corps-006",
+          "startMs": 518310,
+          "endMs": 548040,
+          "excerpt": "les personnes âgées ont appris à tricher avec l'appareil",
+          "paraphraseFr": "Il rapporte que des personnes évaluées auraient modifié leur performance afin d'apparaître plus fragiles.",
+          "speakerRole": "teacher-fieldwork-account"
+        },
+        {
+          "id": "duclos-corps-007",
+          "startMs": 648250,
+          "endMs": 664130,
+          "excerpt": "confronté à la même contrainte [...] acquérir en bloc une technique du corps",
+          "paraphraseFr": "Il propose qu'une contrainte commune puisse faire apparaître rapidement une manière corporelle partagée.",
+          "speakerRole": "teacher-fieldwork-account"
+        },
+        {
+          "id": "duclos-corps-008",
+          "startMs": 705370,
+          "endMs": 733690,
+          "excerpt": "des stratégies défensives [...] pour s'adapter et résister à cette contrainte",
+          "paraphraseFr": "Il invite à interpréter certaines routines collectives comme des adaptations ou des résistances aux dispositifs de management.",
+          "speakerRole": "teacher-commentary"
+        },
+        {
+          "id": "duclos-corps-009",
+          "startMs": 733690,
+          "endMs": 761890,
+          "excerpt": "tous les gestes [...] sont des gestes appris",
+          "paraphraseFr": "Sa conclusion généralise l'apprentissage social à l'ensemble des gestes significatifs ou ordinaires.",
+          "speakerRole": "teacher-commentary"
+        },
+        {
+          "id": "duclos-corps-010",
+          "startMs": 798899,
+          "endMs": 825959,
+          "excerpt": "ce corps-là témoigne du réel dans lequel il vit",
+          "paraphraseFr": "Il présente l'observation du corps comme un indice des conditions matérielles et organisationnelles vécues.",
+          "speakerRole": "teacher-commentary"
+        }
+      ]
     }
   ],
   "claims": [
@@ -966,6 +1119,46 @@
       "epistemicNote": "L'absence d'injonction explicite ne supprime pas les influences sociales, thérapeutiques ou institutionnelles qui façonnent l'expression des valeurs.",
       "status": "draft",
       "review": null
+    },
+    {
+      "id": "claim-body-techniques-socially-learned",
+      "episodeId": "duclos-techniques-corps-2020",
+      "segmentIds": ["duclos-corps-001", "duclos-corps-002", "duclos-corps-003", "duclos-corps-009"],
+      "type": "theory-description",
+      "statementFr": "Des manières de marcher, dormir, respirer ou travailler sont en partie acquises par imitation, éducation et participation à des milieux sociaux.",
+      "epistemicNote": "Le rôle de la socialisation est documenté, mais la formule finale selon laquelle tous les gestes seraient appris et socialement signifiants dépasse ce que ces exemples établissent.",
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "claim-work-constraints-shape-bodily-routines",
+      "episodeId": "duclos-techniques-corps-2020",
+      "segmentIds": ["duclos-corps-004", "duclos-corps-005", "duclos-corps-007", "duclos-corps-008"],
+      "type": "occupational-organization-claim",
+      "statementFr": "Des contraintes répétées de temps, de tâche et de hiérarchie peuvent stabiliser des routines corporelles collectives au travail.",
+      "epistemicNote": "La vidéo rapporte un terrain et des entretiens sans exposer l'échantillon, le protocole ni les données ; elle illustre un mécanisme possible plutôt qu'une fréquence générale.",
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "claim-measurement-can-produce-strategic-adaptation",
+      "episodeId": "duclos-techniques-corps-2020",
+      "segmentIds": ["duclos-corps-006", "duclos-corps-007"],
+      "type": "measurement-reactivity-claim",
+      "statementFr": "Lorsque le résultat d'une mesure conditionne l'accès à une ressource, les personnes concernées peuvent adapter leur performance au dispositif d'évaluation.",
+      "epistemicNote": "Le mécanisme de réactivité est plausible, mais l'anecdote précise sur l'appareil, les personnes âgées et les professionnelles sociales n'est pas vérifiable depuis la vidéo seule.",
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "claim-body-observation-needs-context-not-essentialism",
+      "episodeId": "duclos-techniques-corps-2020",
+      "segmentIds": ["duclos-corps-003", "duclos-corps-008", "duclos-corps-010"],
+      "type": "normative-safeguard-claim",
+      "statementFr": "Un geste peut inviter à examiner un environnement, un apprentissage ou une contrainte, mais ne permet pas d'inférer à lui seul la classe, la culture, la santé ou l'intention d'une personne.",
+      "epistemicNote": "Garde-fou éditorial dérivé du risque d'essentialisation : l'observation produit une question contextuelle, pas un diagnostic individuel ni une attribution identitaire.",
+      "status": "draft",
+      "review": null
     }
   ],
   "verifications": [
@@ -1089,6 +1282,51 @@
         "Les mesures de flexibilité psychologique et leur adéquation à la théorie ACT restent discutées.",
         "Les résultats cliniques ne transforment pas un court exercice vidéo en traitement autonome adapté à toute situation.",
         "Les facteurs communs aux psychothérapies, l'alliance et les attentes peuvent aussi contribuer aux résultats."
+      ]
+    },
+    {
+      "id": "verification-body-techniques-social-learning",
+      "claimId": "claim-body-techniques-socially-learned",
+      "mode": "theory-and-development-review",
+      "status": "qualified",
+      "questionFr": "Les travaux disponibles soutiennent-ils l'idée que l'usage du corps est socialement appris ?",
+      "findingFr": "Le texte de Mauss fonde explicitement l'étude des manières traditionnelles de se servir du corps. Une revue contemporaine du développement moteur décrit conjointement un corps qui rend certaines actions possibles, un environnement qui les contraint et une culture qui façonne les conduites. L'apprentissage social est donc un cadre étayé, mais pas une explication exclusive de tout mouvement.",
+      "referenceIds": ["mauss-techniques-corps-1934", "adolph-hoch-motor-development-2019"],
+      "caveats": [
+        "Mauss propose un programme théorique et des observations historiques, pas une estimation expérimentale de la part sociale de chaque geste.",
+        "La revue contemporaine porte principalement sur le développement moteur des nourrissons.",
+        "Morphologie, développement, douleur, handicap, outils, tâche et environnement physique contribuent aussi aux mouvements.",
+        "Une régularité entre groupes ne permet pas de déduire l'appartenance ou l'histoire d'un individu depuis son corps."
+      ]
+    },
+    {
+      "id": "verification-work-constraints-bodily-routines",
+      "claimId": "claim-work-constraints-shape-bodily-routines",
+      "mode": "official-work-conditions-comparison",
+      "status": "qualified",
+      "questionFr": "Les données de conditions de travail confirment-elles que les postes hospitaliers sont exposés à des contraintes temporelles différenciées ?",
+      "findingFr": "L'analyse Dares des enquêtes Conditions de travail distingue, selon les professions hospitalières, des horaires, normes journalières, demandes du public et obligations de se dépêcher. Elle soutient l'existence de contraintes organisationnelles différenciées, sans démontrer la séquence gestuelle précise ni la hiérarchie exacte racontées dans le cours.",
+      "referenceIds": ["guillemot-work-intensification-2011"],
+      "caveats": [
+        "Les données analysées s'arrêtent en 2005 et ne décrivent pas l'établissement observé par Duclos.",
+        "Les contraintes sont déclarées dans une enquête ; les gestes corporels ne sont pas mesurés directement.",
+        "Une profession ou un diplôme n'impose pas une routine uniforme à toutes les personnes.",
+        "La comparaison public-privé de l'article n'est pas le cœur de la thèse retenue ici."
+      ]
+    },
+    {
+      "id": "verification-frailty-measurement-scope",
+      "claimId": "claim-measurement-can-produce-strategic-adaptation",
+      "mode": "measurement-scope-audit",
+      "status": "inconclusive",
+      "questionFr": "La littérature sur la fragilité vérifie-t-elle le contournement du dispositif rapporté dans la vidéo ?",
+      "findingFr": "L'étude de Fried opérationnalise un phénotype physique à partir de perte de poids, épuisement, faiblesse, lenteur de marche et faible activité. Elle montre qu'un indicateur vise un périmètre défini et ne résume pas toute vulnérabilité sociale ou clinique. En revanche, elle ne documente ni l'appareil décrit par Duclos ni le contournement rapporté : cette anecdote reste non corroborée.",
+      "referenceIds": ["fried-frailty-phenotype-2001"],
+      "caveats": [
+        "La vidéo ne nomme pas assez précisément l'instrument, son seuil ni la règle d'attribution pour reproduire l'analyse.",
+        "Une inadéquation entre mesure et besoin perçu ne prouve ni fraude généralisée ni intention trompeuse.",
+        "Le phénotype de Fried a été étudié dans une cohorte donnée et ne valide pas tous les dispositifs ultérieurs.",
+        "L'accès aux droits peut dépendre de plusieurs évaluations, décisions professionnelles et règles locales."
       ]
     }
   ],
@@ -1452,6 +1690,77 @@
         "Présenter le repos, le renoncement ou la modification de l'objectif comme des options possibles.",
         "Ne pas confondre acceptation d'une émotion avec acceptation d'une violence, d'un abus ou d'une injustice.",
         "Orienter vers un professionnel lorsque la souffrance, le risque ou le handicap dépasse un exercice généraliste."
+      ],
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "argument-lire-gestes-comme-adaptations",
+      "title": "Lire les gestes comme adaptations, pas comme essences",
+      "thesisFr": "Les pratiques corporelles peuvent conserver la trace d'apprentissages, d'outils, de rythmes et de rapports de travail. Les observer peut donc ouvrir une enquête sur le contexte — à condition de ne jamais transformer un geste isolé en diagnostic de classe, de culture, de personnalité, de santé ou d'intention.",
+      "premiseClaimIds": [
+        "claim-body-techniques-socially-learned",
+        "claim-work-constraints-shape-bodily-routines",
+        "claim-measurement-can-produce-strategic-adaptation",
+        "claim-body-observation-needs-context-not-essentialism"
+      ],
+      "themeIds": ["anthropologie-nature-humaine", "culture-pouvoir", "psychologie-typologies"],
+      "reasoningPattern": "passer-de-lindice-corporel-a-lenquete-contextuelle",
+      "objections": [
+        {
+          "title": "Le mouvement n'est pas seulement social",
+          "summaryFr": "Développement, morphologie, douleur, handicap, fatigue, environnement physique et propriétés de la tâche contribuent aussi aux gestes observés."
+        },
+        {
+          "title": "Variabilité entre individus",
+          "summaryFr": "Des pratiques fréquentes dans un milieu ne permettent pas de reconnaître l'origine, la classe ou le métier d'une personne particulière."
+        },
+        {
+          "title": "Risque de stéréotype savant",
+          "summaryFr": "Une lecture sociologique peut devenir une assignation si l'observateur privilégie son interprétation au récit et au consentement de la personne."
+        },
+        {
+          "title": "Terrain insuffisamment documenté",
+          "summaryFr": "Le cours expose des exemples d'enquête sans préciser l'échantillon, les méthodes de recueil ni les données permettant d'en évaluer la portée."
+        },
+        {
+          "title": "Toute adaptation n'est pas résistance",
+          "summaryFr": "Une routine peut faciliter la coopération, réduire l'effort, répondre à une consigne ou exprimer une habitude sans constituer une opposition politique."
+        }
+      ],
+      "rhetoricalMoves": [
+        {
+          "device": "Exemples corporels familiers",
+          "effectFr": "Marcher, dormir ou respirer rendent immédiatement visible une dimension sociale ordinairement inaperçue.",
+          "riskFr": "L'évidence des exemples peut faire accepter trop vite la conclusion plus forte selon laquelle tout geste serait appris.",
+          "segmentIds": ["duclos-corps-001", "duclos-corps-002", "duclos-corps-009"]
+        },
+        {
+          "device": "Hiérarchie du temps incorporée",
+          "effectFr": "Le contraste entre postes et rythmes traduit une organisation abstraite du travail en expériences corporelles concrètes.",
+          "riskFr": "Une scène de terrain peut être généralisée à tous les hôpitaux ou assimilée à une loi mécanique entre diplôme et corps.",
+          "segmentIds": ["duclos-corps-004", "duclos-corps-005"]
+        },
+        {
+          "device": "Récit de contournement",
+          "effectFr": "L'apprentissage rapide face à un appareil illustre de manière mémorable la réactivité aux indicateurs administratifs.",
+          "riskFr": "Sans identification du dispositif ni données publiées, le récit peut susciter une suspicion indue envers les personnes âgées ou les professionnelles sociales.",
+          "segmentIds": ["duclos-corps-006", "duclos-corps-007"]
+        },
+        {
+          "device": "Métaphore du corps témoin",
+          "effectFr": "Elle invite à relier souffrance, charge et organisation plutôt qu'à psychologiser immédiatement un comportement.",
+          "riskFr": "Le corps ne livre pas seul une interprétation univoque du réel et ne remplace ni la parole des personnes ni l'enquête.",
+          "segmentIds": ["duclos-corps-010"]
+        }
+      ],
+      "adaptationConstraints": [
+        "Ne jamais inférer la classe, l'origine, la culture, la santé, la personnalité ou l'intention d'une personne depuis un geste.",
+        "Demander le récit de la personne et examiner l'organisation du travail avant de proposer une interprétation.",
+        "Séparer systématiquement observation, expérience rapportée, hypothèse causale et conclusion normative.",
+        "Inclure les facteurs biologiques, matériels, ergonomiques, développementaux et liés au handicap.",
+        "Ne pas romantiser comme résistance toute adaptation à une contrainte ni culpabiliser les stratégies de protection.",
+        "Interdire l'usage des conduites corporelles pour construire un profil politique individuel ou cibler une persuasion."
       ],
       "status": "draft",
       "review": null

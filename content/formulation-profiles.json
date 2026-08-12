@@ -68,6 +68,11 @@
       "argumentId": "argument-agir-sans-attendre-etat-ideal",
       "values": { "evidenceValues": 86, "individualSystemic": 14, "deliberationAction": 78, "accessibleTechnical": 24 },
       "editorialNote": "Point d’entrée personnel, accessible et orienté vers une action choisie à partir des valeurs."
+    },
+    {
+      "argumentId": "argument-lire-gestes-comme-adaptations",
+      "values": { "evidenceValues": 34, "individualSystemic": 72, "deliberationAction": 38, "accessibleTechnical": 58 },
+      "editorialNote": "Lecture contextuelle des gestes, fondée sur la socialisation et l’organisation du travail, avec une visée surtout interprétative."
     }
   ]
 }

@@ -77,7 +77,7 @@ export type CorpusReference = {
   publisher: string;
   title: string;
   url: string;
-  publishedAt: string;
+  publishedAt: string | null;
   accessedAt: string;
   kind: string;
   scopeNote: string;
