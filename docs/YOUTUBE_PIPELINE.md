@@ -114,6 +114,8 @@ La vidéo `Economic Update: Capitalism vs. Democracy` de Democracy at Work sert 
 
 Un second cas, l'épisode PaduTeam sur la « dysmorphie financière », éprouve le pipeline sur des sous-titres automatiques français et un registre polémique. L'analyse distingue les affirmations empiriques, la critique de cadrage et les procédés rhétoriques, avec leurs risques.
 
+Le thème IA et travail est ouvert avec un court extrait de Democracy At Work disposant de sous-titres créateur. L'analyse conserve le recadrage institutionnel de l'automatisation, mais qualifie explicitement les affirmations absolues sur le motif unique du profit et le nombre d'emplois supprimés à partir d'études de l'OCDE, de l'OIT et de travaux évalués par les pairs.
+
 Un troisième cas, un entretien d'Aurélien Barrau sur l'écologie, teste la distinction entre constat scientifique, moyen technique et finalité normative. Deux affirmations sont confrontées à des évaluations de l'IPBES et du GIEC afin de documenter ce qui est étayé et ce qui demande à être nuancé.
 
 L'analyse de C.S. Joseph traite le MBTI comme un objet de discours plutôt que comme une vérité psychométrique. Elle montre comment une typologie peut glisser d'un vocabulaire d'introspection vers des prédictions morales et des tactiques de pression, puis impose des garde-fous contre l'inférence de profils individuels.

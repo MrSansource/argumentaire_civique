@@ -40,6 +40,11 @@
   ],
   "profiles": [
     {
+      "argumentId": "argument-gouverner-ia-plutot-que-la-subir",
+      "values": { "evidenceValues": 20, "individualSystemic": 90, "deliberationAction": 64, "accessibleTechnical": 76 },
+      "editorialNote": "Argument institutionnel et empirique pour distinguer capacités techniques, décisions de déploiement et effets distributifs sur le travail."
+    },
+    {
       "argumentId": "argument-democratie-lieu-travail",
       "values": { "evidenceValues": 48, "individualSystemic": 92, "deliberationAction": 62, "accessibleTechnical": 56 },
       "editorialNote": "Argument institutionnel et normatif, orienté vers une transformation de la gouvernance du travail."

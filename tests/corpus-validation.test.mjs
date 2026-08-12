@@ -43,14 +43,18 @@ test("un extrait trop long est refusé", () => {
 
 test("un procédé rhétorique doit rester lié à un passage source", () => {
   const invalidCorpus = structuredClone(corpus);
-  invalidCorpus.arguments[1].rhetoricalMoves[0].segmentIds = ["segment-inconnu"];
+  const argument = invalidCorpus.arguments.find((item) => item.rhetoricalMoves?.length);
+  argument.rhetoricalMoves[0].segmentIds = ["segment-inconnu"];
 
   assert.match(validateCorpus(invalidCorpus).join("\n"), /segment inconnu/);
 });
 
 test("les sous-titres automatiques publient une note de fiabilité", () => {
   const invalidCorpus = structuredClone(corpus);
-  delete invalidCorpus.episodes[1].transcript.reliabilityNote;
+  const episode = invalidCorpus.episodes.find(
+    (item) => item.transcript.kind === "youtube-auto-captions",
+  );
+  delete episode.transcript.reliabilityNote;
 
   assert.match(validateCorpus(invalidCorpus).join("\n"), /note de fiabilité absente/);
 });

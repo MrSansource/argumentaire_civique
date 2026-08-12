@@ -744,6 +744,66 @@
       "accessedAt": "2026-08-12",
       "kind": "intergovernmental-education-framework",
       "scopeNote": "Cadre approuvé par les ministres européens de l'éducation pour développer valeurs, attitudes, compétences, connaissances et compréhension critique nécessaires à une participation démocratique effective dans des sociétés pluralistes."
+    },
+    {
+      "id": "oecd-ai-workplace-surveys-2023",
+      "publisher": "OCDE",
+      "title": "The impact of AI on the workplace: Main findings from the OECD AI surveys of employers and workers",
+      "url": "https://doi.org/10.1787/ea0a0fe1-en",
+      "publishedAt": "2023-03-27",
+      "accessedAt": "2026-08-12",
+      "kind": "intergovernmental-employer-worker-survey",
+      "scopeNote": "Enquêtes auprès de 5 334 travailleurs et 2 053 entreprises ayant adopté l'IA dans la finance et l'industrie manufacturière de sept pays. Elles documentent usages déclarés, productivité, emploi, conditions de travail, formation et consultation, sans couvrir tous les secteurs ni établir seules des effets causaux."
+    },
+    {
+      "id": "oecd-ai-workplace-case-studies-2023",
+      "publisher": "OCDE",
+      "title": "The impact of AI on the workplace: Evidence from OECD case studies of AI implementation",
+      "url": "https://doi.org/10.1787/2247ce58-en",
+      "publishedAt": "2023-03-27",
+      "accessedAt": "2026-08-12",
+      "kind": "intergovernmental-qualitative-study",
+      "scopeNote": "Près de 100 études de cas dans la finance et l'industrie manufacturière de huit pays. Elles décrivent réorganisation des tâches, sécurité, pénibilité, compétences et intensité du travail ; leur méthode qualitative ne permet pas d'estimer un effet moyen sur l'emploi."
+    },
+    {
+      "id": "oecd-ai-social-dialogue-2023",
+      "publisher": "OCDE",
+      "title": "Social dialogue and collective bargaining in the age of artificial intelligence",
+      "url": "https://www.oecd.org/en/publications/2023/07/oecd-employment-outlook-2023_904bcef3/full-report/social-dialogue-and-collective-bargaining-in-the-age-of-artificial-intelligence_5828691a.html",
+      "publishedAt": "2023-07-11",
+      "accessedAt": "2026-08-12",
+      "kind": "intergovernmental-evidence-review",
+      "scopeNote": "Chapitre des Perspectives de l'emploi 2023 combinant littérature, enquêtes OCDE et données d'établissements sur la voix des travailleurs. Les associations entre consultation et résultats positifs ne démontrent pas à elles seules une causalité."
+    },
+    {
+      "id": "acemoglu-restrepo-robots-jobs-2020",
+      "publisher": "Journal of Political Economy",
+      "title": "Robots and Jobs: Evidence from US Labor Markets",
+      "url": "https://doi.org/10.1086/705716",
+      "publishedAt": "2020-06-01",
+      "accessedAt": "2026-08-12",
+      "kind": "peer-reviewed-labor-economics-study",
+      "scopeNote": "Étude de l'exposition aux robots industriels dans les zones d'emploi américaines entre 1990 et 2007. Elle estime des effets locaux négatifs sur emploi et salaires, mais ne porte ni sur toute automatisation, ni sur l'IA générative, ni sur le nombre brut mondial d'emplois supprimés."
+    },
+    {
+      "id": "ilo-generative-ai-jobs-2023",
+      "publisher": "Organisation internationale du Travail",
+      "title": "Generative AI and Jobs: A global analysis of potential effects on job quantity and quality",
+      "url": "https://www.ilo.org/publications/generative-ai-and-jobs-global-analysis-potential-effects-job-quantity-and",
+      "publishedAt": "2023-08-21",
+      "accessedAt": "2026-08-12",
+      "kind": "intergovernmental-task-exposure-study",
+      "scopeNote": "Estimation mondiale de l'exposition des tâches à l'IA générative à partir de GPT-4 et de classifications professionnelles. Elle conclut que l'augmentation des tâches est plus probable que l'automatisation complète, mais mesure un potentiel technique plutôt que des effets d'emploi observés."
+    },
+    {
+      "id": "brynjolfsson-generative-ai-work-2025",
+      "publisher": "The Quarterly Journal of Economics",
+      "title": "Generative AI at Work",
+      "url": "https://doi.org/10.1093/qje/qjae044",
+      "publishedAt": "2025-05-01",
+      "accessedAt": "2026-08-12",
+      "kind": "peer-reviewed-field-study",
+      "scopeNote": "Déploiement échelonné d'un assistant génératif auprès d'agents de support client. L'étude observe un gain de productivité moyen, surtout chez les moins expérimentés ; ce contexte unique ne permet pas de généraliser à tous les métiers ni aux effets agrégés sur l'emploi."
     }
   ],
   "sources": [
@@ -754,7 +814,7 @@
       "kind": "organisation-media",
       "url": "https://www.youtube.com/@democracyatwrk",
       "languages": ["en"],
-      "editorialNote": "Chaîne identifiée. Un épisode pilote sur la démocratie au travail est relié à des vérifications philosophiques, juridiques françaises et européennes ; les conclusions normatives restent discutables."
+      "editorialNote": "Chaîne identifiée. Deux épisodes sont analysés : démocratie au travail, puis automatisation et emploi. Le second distingue décisions de déploiement et capacités techniques ; ses absolus sur le profit et le volume d'emplois supprimés sont explicitement qualifiés par des recherches externes."
     },
     {
       "id": "paduteam",
@@ -898,6 +958,79 @@
           "endMs": 444800,
           "excerpt": "if you're going to call yourself a democracy, you would have had to have a democratic workplace",
           "paraphraseFr": "Sa conclusion normative lie la cohérence démocratique d'une société à celle de ses lieux de travail."
+        }
+      ]
+    },
+    {
+      "id": "daw-automation-job-loss-2022",
+      "sourceId": "democracy-at-work",
+      "title": "What You Need to Understand About Automation & Job Loss — Economic Update with Richard Wolff",
+      "url": "https://www.youtube.com/watch?v=E0V5BjLDfVo",
+      "publishedAt": "2022-07-12",
+      "language": "en",
+      "provenance": {
+        "publisherName": "Democracy At Work",
+        "publisherUrl": "https://www.youtube.com/channel/UCK-6FjMu9OI8i0Fo6bkW0VA",
+        "speakers": ["Richard D. Wolff"],
+        "attributionStatus": "confirmed",
+        "sourceRole": "publisher",
+        "attributionNote": "Democracy At Work identifie cette vidéo comme un extrait d'Economic Update présenté par Richard D. Wolff."
+      },
+      "transcript": {
+        "kind": "creator-subtitles",
+        "language": "en",
+        "acquiredAt": "2026-08-12",
+        "retention": "short-excerpts-only",
+        "acquisitionTool": "yt-dlp metadata and creator subtitle export"
+      },
+      "segments": [
+        {
+          "id": "daw-auto-001",
+          "startMs": 33520,
+          "endMs": 41040,
+          "excerpt": "jobs are gone is because they've been replaced by machines. It's what economists call automation",
+          "paraphraseFr": "Wolff attribue d'abord une partie des pertes d'emplois à leur remplacement par des machines, qu'il nomme automatisation.",
+          "speakerRole": "host-commentary"
+        },
+        {
+          "id": "daw-auto-002",
+          "startMs": 84000,
+          "endMs": 96560,
+          "excerpt": "machines don't come into the business on their own. Somebody brings the machine. Somebody buys the machine",
+          "paraphraseFr": "Il déplace l'attention de la machine vers l'organisation qui décide de l'acheter et de l'introduire.",
+          "speakerRole": "host-commentary"
+        },
+        {
+          "id": "daw-auto-003",
+          "startMs": 97200,
+          "endMs": 108000,
+          "excerpt": "the only reason machines are brought in to replace workers is if it's more profitable to have a machine than a worker",
+          "paraphraseFr": "Il affirme de manière absolue que le remplacement du travail par une machine répond à une comparaison de profitabilité.",
+          "speakerRole": "host-commentary"
+        },
+        {
+          "id": "daw-auto-wages",
+          "startMs": 117600,
+          "endMs": 132880,
+          "excerpt": "workers are in driving up their wages so that they can have the American Dream, the greater the incentive of their employer to replace them",
+          "paraphraseFr": "Il avance qu'une hausse des salaires accroît l'incitation de l'employeur à remplacer le travail par une machine.",
+          "speakerRole": "host-commentary"
+        },
+        {
+          "id": "daw-auto-004",
+          "startMs": 125280,
+          "endMs": 150560,
+          "excerpt": "Millions of jobs were automated out of existence. Workers were replaced by machines. Workers were replaced by computers, by robots, by artificial intelligence.",
+          "paraphraseFr": "Il avance qu'en plusieurs décennies, des millions d'emplois auraient disparu sous l'effet conjoint des machines, ordinateurs, robots et de l'IA.",
+          "speakerRole": "host-commentary"
+        },
+        {
+          "id": "daw-auto-005",
+          "startMs": 164320,
+          "endMs": 173520,
+          "excerpt": "It had to do with profit because that's the system we live in, and that's how it works.",
+          "paraphraseFr": "Il clôt l'extrait en opposant une explication par la recherche du profit à un récit de remplacement démographique.",
+          "speakerRole": "host-commentary"
         }
       ]
     },
@@ -2002,6 +2135,46 @@
       "review": null
     },
     {
+      "id": "claim-automation-is-deployment-decision",
+      "episodeId": "daw-automation-job-loss-2022",
+      "segmentIds": ["daw-auto-002"],
+      "type": "institutional-framing-claim",
+      "statementFr": "L'automatisation au travail doit être analysée comme une décision de déploiement prise par des organisations, et non comme une action autonome de la machine.",
+      "epistemicNote": "Ce recadrage identifie une capacité de décision, mais fournisseurs, régulateurs, clients, travailleurs et concurrence influencent aussi les choix de l'entreprise.",
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "claim-automation-only-profit-motive",
+      "episodeId": "daw-automation-job-loss-2022",
+      "segmentIds": ["daw-auto-003", "daw-auto-005"],
+      "type": "causal-economic-claim",
+      "statementFr": "Le remplacement de travailleurs par des machines serait décidé exclusivement lorsqu'il est plus profitable que le maintien du travail humain.",
+      "epistemicNote": "Le motif économique est plausible, mais l'exclusivité annoncée exige d'examiner sécurité, qualité, réglementation, pénibilité, compétences et horizons de décision.",
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "claim-wages-increase-automation-incentive",
+      "episodeId": "daw-automation-job-loss-2022",
+      "segmentIds": ["daw-auto-wages"],
+      "type": "causal-economic-claim",
+      "statementFr": "Une hausse du coût du travail accroîtrait l'incitation des employeurs à remplacer certaines tâches ou certains postes par des machines.",
+      "epistemicNote": "Mécanisme théorique à distinguer d'une mesure empirique de son ampleur, de la création de nouvelles tâches et des effets nets sur l'emploi.",
+      "status": "draft",
+      "review": null
+    },
+    {
+      "id": "claim-millions-jobs-automated-away",
+      "episodeId": "daw-automation-job-loss-2022",
+      "segmentIds": ["daw-auto-001", "daw-auto-004"],
+      "type": "aggregate-empirical-claim",
+      "statementFr": "Des millions d'emplois auraient disparu en quelques décennies sous l'effet combiné de l'automatisation, de l'informatique, des robots et de l'intelligence artificielle.",
+      "epistemicNote": "L'énoncé ne précise ni territoire, ni période exacte, ni mesure brute ou nette ; il agrège des technologies dont les effets doivent être séparés.",
+      "status": "draft",
+      "review": null
+    },
+    {
       "id": "claim-income-evaluation-is-contextual",
       "episodeId": "paduteam-pauvrete-dans-la-tete-2026",
       "segmentIds": ["padu-pdt-001"],
@@ -2473,6 +2646,62 @@
     }
   ],
   "verifications": [
+    {
+      "id": "verification-automation-decision-organisationnelle",
+      "claimId": "claim-automation-is-deployment-decision",
+      "mode": "institutional-and-empirical",
+      "status": "supported",
+      "questionFr": "Les effets de l'IA au travail dépendent-ils de décisions d'adoption et de modalités organisationnelles plutôt que d'une causalité technique autonome ?",
+      "findingFr": "Les enquêtes et études de cas de l'OCDE décrivent des entreprises qui choisissent des usages, réorganisent des tâches, forment ou consultent leurs travailleurs. Elles étayent le recadrage institutionnel : une capacité technique ne détermine pas seule son mode de déploiement ni la distribution de ses effets.",
+      "referenceIds": ["oecd-ai-workplace-surveys-2023", "oecd-ai-workplace-case-studies-2023", "oecd-ai-social-dialogue-2023"],
+      "caveats": [
+        "L'entreprise n'est pas l'unique acteur : fournisseurs, droit, concurrence, demande et infrastructures contraignent aussi ses choix.",
+        "Une association entre consultation et résultats positifs ne démontre pas à elle seule que la consultation les cause.",
+        "Les études OCDE retenues portent surtout sur la finance et l'industrie manufacturière dans des pays à revenu élevé."
+      ]
+    },
+    {
+      "id": "verification-automation-motif-profit-exclusif",
+      "claimId": "claim-automation-only-profit-motive",
+      "mode": "employer-survey-and-case-study",
+      "status": "qualified",
+      "questionFr": "Le remplacement du travail humain par l'IA ou l'automatisation répond-il uniquement à une comparaison de profitabilité ?",
+      "findingFr": "Productivité et coûts de personnel comptent dans l'adoption, mais les travaux de l'OCDE documentent aussi qualité, sécurité, réduction de tâches pénibles, maintenance, compétences et réorganisation. La recherche de profit peut englober plusieurs de ces objectifs ; les sources ne justifient cependant pas le mot « uniquement ».",
+      "referenceIds": ["oecd-ai-workplace-surveys-2023", "oecd-ai-workplace-case-studies-2023", "brynjolfsson-generative-ai-work-2025"],
+      "caveats": [
+        "Les motifs déclarés peuvent différer des calculs effectivement utilisés dans une décision d'investissement.",
+        "Un gain de sécurité ou de qualité peut aussi avoir une valeur économique et ne s'oppose pas nécessairement au profit.",
+        "L'étude de support client ne permet pas de généraliser à toutes les technologies ni à tous les secteurs."
+      ]
+    },
+    {
+      "id": "verification-salaires-incitation-automatisation",
+      "claimId": "claim-wages-increase-automation-incentive",
+      "mode": "labor-economics",
+      "status": "inconclusive",
+      "questionFr": "Une hausse des salaires provoque-t-elle effectivement davantage de substitution du travail par des machines ?",
+      "findingFr": "La logique de substitution par les coûts est cohérente avec certains modèles, et l'étude américaine sur les robots trouve des effets négatifs de l'exposition robotique sur emploi et salaires. Mais elle teste surtout le sens robots vers marché du travail, pas le sens hausse des salaires vers adoption ; les références retenues ne quantifient donc pas l'affirmation exacte.",
+      "referenceIds": ["acemoglu-restrepo-robots-jobs-2020", "oecd-ai-workplace-surveys-2023"],
+      "caveats": [
+        "La causalité peut aller dans plusieurs sens et dépendre du prix du capital, de la demande, des compétences et de la réglementation.",
+        "Une entreprise peut automatiser des tâches tout en augmentant l'emploi total si sa production ou de nouvelles tâches se développent.",
+        "Les robots industriels de 1990 à 2007 ne représentent pas l'ensemble des systèmes d'IA actuels."
+      ]
+    },
+    {
+      "id": "verification-millions-emplois-automatises",
+      "claimId": "claim-millions-jobs-automated-away",
+      "mode": "scope-and-employment-audit",
+      "status": "inconclusive",
+      "questionFr": "Peut-on attribuer précisément des millions d'emplois disparus à l'ensemble machines, informatique, robots et IA sur plusieurs décennies ?",
+      "findingFr": "Des pertes locales liées aux robots industriels sont documentées, mais l'énoncé cumule déplacements de tâches, suppressions brutes, effets nets et technologies hétérogènes sans territoire défini. L'OIT estime en outre que l'IA générative devrait plus souvent transformer des tâches qu'automatiser des emplois entiers. Les sources retenues ne permettent pas de valider le chiffre global.",
+      "referenceIds": ["acemoglu-restrepo-robots-jobs-2020", "ilo-generative-ai-jobs-2023", "oecd-ai-workplace-case-studies-2023"],
+      "caveats": [
+        "L'absence de validation d'un chiffre agrégé ne signifie pas qu'aucun travailleur ni territoire ne subit de déplacement.",
+        "Une estimation d'exposition technique n'est pas une prévision d'emploi et dépend des choix d'adoption.",
+        "Les créations de tâches et d'emplois, les ajustements de production et les délais doivent être séparés des suppressions brutes."
+      ]
+    },
     {
       "id": "verification-rendement-diplome-generations",
       "claimId": "claim-young-graduates-economic-compression",
@@ -3252,6 +3481,69 @@
     }
   ],
   "arguments": [
+    {
+      "id": "argument-gouverner-ia-plutot-que-la-subir",
+      "title": "Gouverner l'IA au travail plutôt que la personnifier",
+      "thesisFr": "Une discussion rigoureuse sur l'IA au travail ne commence ni par l'annonce d'un chômage de masse inévitable ni par l'idée d'une technologie qui agirait seule. Elle identifie qui choisit l'outil, quelles tâches changent réellement, les motifs du déploiement, les personnes qui supportent les risques et celles qui captent les gains, puis ouvre ces décisions à une consultation effective des travailleurs.",
+      "premiseClaimIds": [
+        "claim-automation-is-deployment-decision",
+        "claim-automation-only-profit-motive",
+        "claim-wages-increase-automation-incentive",
+        "claim-millions-jobs-automated-away"
+      ],
+      "themeIds": ["ia-travail", "economie", "democratie-travail", "impuissance-politique"],
+      "reasoningPattern": "replacer-la-technologie-dans-ses-decisions-et-effets-distributifs",
+      "objections": [
+        {
+          "title": "Les décisions sont distribuées",
+          "summaryFr": "Un employeur ne contrôle pas seul les trajectoires techniques : fournisseurs, concurrence, clients, infrastructures et règles publiques façonnent les options disponibles."
+        },
+        {
+          "title": "L'automatisation peut améliorer le travail",
+          "summaryFr": "Sécurité, réduction de la pénibilité, qualité et assistance aux moins expérimentés peuvent justifier un déploiement sans suppression d'emploi."
+        },
+        {
+          "title": "La consultation n'annule pas le conflit",
+          "summaryFr": "Informer ou consulter ne garantit ni un pouvoir de codécision, ni un partage équitable des gains, ni l'absence d'intensification du travail."
+        },
+        {
+          "title": "Les effets nets restent incertains",
+          "summaryFr": "Des tâches peuvent disparaître tandis que d'autres se créent ; l'effet sur l'emploi dépend du secteur, de la demande, du rythme d'adoption et des institutions."
+        }
+      ],
+      "rhetoricalMoves": [
+        {
+          "device": "Dépersonnification de la machine",
+          "effectFr": "La série de verbes acheter, apporter et décider rend visibles les acteurs humains derrière un changement présenté comme technique.",
+          "riskFr": "Le procédé peut concentrer toute la causalité sur l'employeur et sous-estimer les contraintes économiques, juridiques et techniques qui structurent sa décision.",
+          "segmentIds": ["daw-auto-002"]
+        },
+        {
+          "device": "Cause unique formulée comme évidence",
+          "effectFr": "Le mot « only » transforme une explication économique en règle simple et mémorable.",
+          "riskFr": "Cette simplicité écarte les motifs non réductibles à un remplacement direct du travail et dépasse les éléments empiriques disponibles.",
+          "segmentIds": ["daw-auto-003"]
+        },
+        {
+          "device": "Redirection d'un bouc émissaire vers un mécanisme",
+          "effectFr": "La conclusion remplace un récit identitaire de perte d'emploi par une question sur les incitations du système économique.",
+          "riskFr": "Opposer deux récits peut conduire à négliger commerce, politiques publiques, demande, formation et hétérogénéité territoriale.",
+          "segmentIds": ["daw-auto-005"]
+        }
+      ],
+      "adaptationConstraints": [
+        "Distinguer systématiquement tâches exposées, postes supprimés, emplois créés et effet net sur l'emploi.",
+        "Ne pas annoncer de chômage de masse à partir d'un indice d'exposition technique ou d'un cas sectoriel.",
+        "Ne pas présenter l'IA comme un acteur autonome doté d'intentions.",
+        "Nommer les décideurs et les contraintes sans attribuer un motif unique à toutes les entreprises.",
+        "Examiner productivité, qualité, sécurité, pénibilité, autonomie, intensité du travail et répartition des gains.",
+        "Demander quelle voix effective possèdent les travailleurs plutôt que supposer qu'une consultation suffit.",
+        "Préciser le pays, le secteur, la période, la technologie et la mesure d'emploi avant toute généralisation.",
+        "Présenter les scénarios comme révisables à mesure que l'adoption et les données observées évoluent."
+      ],
+      "status": "draft",
+      "review": null
+    },
     {
       "id": "argument-democratie-lieu-travail",
       "title": "Étendre l'exigence démocratique au lieu de travail",

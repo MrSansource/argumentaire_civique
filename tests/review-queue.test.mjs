@@ -44,27 +44,48 @@ test("classe les lacunes thématiques sans score composite", () => {
   assert.equal(queue.themeCoverage.length, corpus.themes.length);
   assert.deepEqual(
     [ai?.argumentCount, ai?.sourceCount, ai?.statusId],
-    [0, 0, "empty"],
+    [1, 1, "single-source"],
   );
   assert.equal(ecology?.statusId, "single-source");
   assert.equal(economy?.statusId, "multi-source");
   assert.equal(Object.hasOwn(economy ?? {}, "score"), false);
+
+  const corpusWithEmptyAi = structuredClone(corpus);
+  corpusWithEmptyAi.arguments = corpusWithEmptyAi.arguments.map((argument) => ({
+    ...argument,
+    themeIds: argument.themeIds.filter((themeId) => themeId !== "ia-travail"),
+  }));
+  const emptyAi = buildReviewQueue(corpusWithEmptyAi).themeCoverage.find(
+    (theme) => theme.themeId === "ia-travail",
+  );
+  assert.equal(emptyAi?.statusId, "empty");
 });
 
-test("compte des objets distincts pour chaque thème", () => {
+test("mesure la couverture complète de l'argument sur la gouvernance de l'IA", () => {
   const queue = buildReviewQueue(corpus);
-  const workDemocracy = queue.themeCoverage.find(
-    (theme) => theme.themeId === "democratie-travail",
+  const coverage = queue.argumentCoverage.find(
+    (argument) => argument.argumentId === "argument-gouverner-ia-plutot-que-la-subir",
+  );
+
+  assert.equal(coverage?.claimCount, 4);
+  assert.equal(coverage?.verifiedCount, 4);
+  assert.equal(coverage?.coveragePercent, 100);
+});
+
+test("compte des objets distincts pour un thème", () => {
+  const queue = buildReviewQueue(corpus);
+  const ecology = queue.themeCoverage.find(
+    (theme) => theme.themeId === "ecologie",
   );
 
   assert.deepEqual(
     {
-      arguments: workDemocracy?.argumentCount,
-      claims: workDemocracy?.claimCount,
-      sources: workDemocracy?.sourceCount,
-      references: workDemocracy?.referenceCount,
+      arguments: ecology?.argumentCount,
+      claims: ecology?.claimCount,
+      sources: ecology?.sourceCount,
+      references: ecology?.referenceCount,
     },
-    { arguments: 1, claims: 3, sources: 1, references: 5 },
+    { arguments: 1, claims: 4, sources: 1, references: 6 },
   );
 });
 
