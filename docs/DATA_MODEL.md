@@ -10,6 +10,10 @@ Le modèle est factorisé. Il évite une table contenant un texte pour chaque cr
 
 Document, jeu de données, vidéo, transcription ou page web. Contient l'auteur, la date, l'URL, le type, la licence et la date de consultation.
 
+### Épisode et provenance
+
+Une vidéo publiée distingue la source du registre, le diffuseur effectif et les personnes qui parlent. Son statut d'attribution vaut `confirmed` pour un intervenant unique contrôlé ou `mixed` pour un entretien, un panel ou une discussion à plusieurs voix. Le rôle de la source (`speaker`, `panelist` ou `publisher`) interdit de publier comme parole d'un auteur une vidéo qui ne ferait que le citer ou parler de lui.
+
 ### Extrait
 
 Passage ou segment précisément localisé dans une source. Il permet de rattacher une affirmation à une preuve vérifiable.
@@ -91,7 +95,7 @@ Les valeurs de 0 à 100 ne sont ni des probabilités d'efficacité, ni des mesur
 
 ## Implémentation pilote
 
-Le fichier `content/corpus.json` constitue la première représentation portable du modèle. Il contient les sources repérées, des épisodes pilotes, de courts segments horodatés, des affirmations candidates, des arguments structurés et, lorsque c'est pertinent, leurs procédés rhétoriques.
+Le fichier `content/corpus.json` constitue la première représentation portable du modèle. Il contient les sources repérées, des épisodes pilotes avec leur provenance, de courts segments horodatés, des affirmations candidates, des arguments structurés et, lorsque c'est pertinent, leurs procédés rhétoriques.
 
 La transcription complète n'est jamais un champ du corpus publié. Elle reste dans `.workbench/` pendant le traitement, puis seuls les extraits nécessaires et leurs paraphrases sont promus.
 

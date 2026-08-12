@@ -28,6 +28,18 @@ export type CorpusSegment = {
   speakerRole?: string;
 };
 
+export type EpisodeAttributionStatus = "confirmed" | "mixed";
+export type EpisodeSourceRole = "speaker" | "panelist" | "publisher";
+
+export type EpisodeProvenance = {
+  publisherName: string;
+  publisherUrl: string;
+  speakers: string[];
+  attributionStatus: EpisodeAttributionStatus;
+  sourceRole: EpisodeSourceRole;
+  attributionNote: string;
+};
+
 export type CorpusEpisode = {
   id: string;
   sourceId: string;
@@ -35,6 +47,7 @@ export type CorpusEpisode = {
   url: string;
   publishedAt: string;
   language: string;
+  provenance: EpisodeProvenance;
   segments: CorpusSegment[];
 };
 

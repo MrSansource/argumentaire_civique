@@ -11,6 +11,22 @@ test("le corpus publié respecte les invariants éditoriaux", () => {
   assert.deepEqual(validateCorpus(corpus), []);
 });
 
+test("chaque épisode publié distingue diffuseur et intervenants", () => {
+  for (const episode of corpus.episodes) {
+    assert.ok(episode.provenance.publisherName);
+    assert.ok(episode.provenance.publisherUrl);
+    assert.ok(episode.provenance.speakers.length);
+    assert.ok(episode.provenance.attributionNote);
+  }
+});
+
+test("une source seulement prise comme sujet ne peut pas être publiée", () => {
+  const invalidCorpus = structuredClone(corpus);
+  invalidCorpus.episodes[0].provenance.sourceRole = "subject-only";
+
+  assert.match(validateCorpus(invalidCorpus).join("\n"), /rôle de source non publiable/);
+});
+
 test("une affirmation sans segment est refusée", () => {
   const invalidCorpus = structuredClone(corpus);
   invalidCorpus.claims[0].segmentIds = [];

@@ -9,6 +9,8 @@ const ALLOWED_VERIFICATION_STATUSES = new Set([
   "contradicted",
   "inconclusive",
 ]);
+const ALLOWED_EPISODE_ATTRIBUTION_STATUSES = new Set(["confirmed", "mixed"]);
+const ALLOWED_EPISODE_SOURCE_ROLES = new Set(["speaker", "panelist", "publisher"]);
 
 export function validateCorpus(corpus) {
   const errors = [];
@@ -84,6 +86,28 @@ export function validateCorpus(corpus) {
     }
     if (Object.hasOwn(episode, "fullTranscript")) {
       errors.push(`Épisode ${episode.id} : fullTranscript est interdit dans le corpus publié.`);
+    }
+    const provenance = episode.provenance;
+    if (!provenance?.publisherName || !provenance.attributionNote) {
+      errors.push(`Épisode ${episode.id} : diffuseur ou note d'attribution absent.`);
+    }
+    try {
+      new URL(provenance?.publisherUrl);
+    } catch {
+      errors.push(`Épisode ${episode.id} : URL du diffuseur invalide.`);
+    }
+    if (
+      !Array.isArray(provenance?.speakers) ||
+      !provenance.speakers.length ||
+      provenance.speakers.some((speaker) => typeof speaker !== "string" || !speaker.trim())
+    ) {
+      errors.push(`Épisode ${episode.id} : au moins un intervenant attribué est requis.`);
+    }
+    if (!ALLOWED_EPISODE_ATTRIBUTION_STATUSES.has(provenance?.attributionStatus)) {
+      errors.push(`Épisode ${episode.id} : statut d'attribution public invalide.`);
+    }
+    if (!ALLOWED_EPISODE_SOURCE_ROLES.has(provenance?.sourceRole)) {
+      errors.push(`Épisode ${episode.id} : rôle de source non publiable.`);
     }
     if (episode.transcript?.retention !== "short-excerpts-only") {
       errors.push(`Épisode ${episode.id} : la rétention doit être short-excerpts-only.`);

@@ -92,6 +92,7 @@ Le modèle doit répondre `insufficient_evidence` lorsqu'aucun segment ne soutie
 
 Le relecteur écoute les passages horodatés, corrige les sous-titres si nécessaire et ne conserve dans `content/corpus.json` que :
 
+- le diffuseur, les intervenants attribués, le statut d'attribution et le rôle publiable de la source ;
 - de courts extraits ;
 - une paraphrase française ;
 - les affirmations candidates réellement présentes ;
@@ -105,7 +106,7 @@ npm run corpus:validate
 npm test
 ```
 
-Le validateur refuse notamment les références inexistantes, les extraits trop longs, les arguments sans objection et les contenus déclarés validés sans relecteur.
+Le validateur refuse notamment une provenance absente ou non publiable, les références inexistantes, les extraits trop longs, les arguments sans objection et les contenus déclarés validés sans relecteur.
 
 ## Corpus pilote
 

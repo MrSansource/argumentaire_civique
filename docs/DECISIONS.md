@@ -83,3 +83,5 @@ La première file éditoriale est calculée à partir des relations déjà versi
 **Statut :** accepté
 
 L'import d'une transcription enregistre séparément le diffuseur, les intervenants attribués, le statut de cette attribution et le rôle réel de la source du registre. La création des lots est bloquée lorsque la source est seulement citée, prise comme sujet ou non résolue. Une vidéo collective reste analysable, mais l'attribution de chaque extrait doit être contrôlée dans l'audio avant publication.
+
+Le corpus public reprend cette séparation au niveau de chaque épisode. Il n'accepte que les rôles `speaker`, `panelist` et `publisher`, rend le diffuseur et les intervenants visibles dans l'explorateur et refuse les rôles `subject-only` ou `unresolved` à la validation.

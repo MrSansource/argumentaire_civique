@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "updatedAt": "2026-08-12",
   "publicationPolicy": {
     "fullTranscriptsCommitted": false,
@@ -855,6 +855,14 @@
       "url": "https://www.youtube.com/watch?v=NdPPfB636jg",
       "publishedAt": "2021-05-10",
       "language": "en",
+      "provenance": {
+        "publisherName": "Democracy At Work",
+        "publisherUrl": "https://www.youtube.com/channel/UCK-6FjMu9OI8i0Fo6bkW0VA",
+        "speakers": ["Richard D. Wolff"],
+        "attributionStatus": "confirmed",
+        "sourceRole": "publisher",
+        "attributionNote": "Épisode produit et diffusé par Democracy At Work, présenté par Richard D. Wolff."
+      },
       "transcript": {
         "kind": "creator-subtitles",
         "language": "en",
@@ -900,6 +908,14 @@
       "url": "https://www.youtube.com/watch?v=H4LMqFLFZSw",
       "publishedAt": "2026-08-06",
       "language": "fr",
+      "provenance": {
+        "publisherName": "PaduTeam",
+        "publisherUrl": "https://www.youtube.com/channel/UCbbmy1wFvL1Xq0G9I-mLtQg",
+        "speakers": ["Padu", "Chris"],
+        "attributionStatus": "mixed",
+        "sourceRole": "publisher",
+        "attributionNote": "Discussion publiée par PaduTeam ; l'introduction nomme Chris comme interlocuteur et les sous-titres ne séparent pas les voix."
+      },
       "transcript": {
         "kind": "youtube-auto-captions",
         "language": "fr",
@@ -966,6 +982,14 @@
       "url": "https://www.youtube.com/watch?v=y5UkC45Bnzs",
       "publishedAt": "2023-12-08",
       "language": "fr",
+      "provenance": {
+        "publisherName": "Aurelien Barrau",
+        "publisherUrl": "https://www.youtube.com/channel/UCwgqYNmYaij2_8hq_tOFyZw",
+        "speakers": ["Aurélien Barrau", "Équipe du Grand Face-à-face"],
+        "attributionStatus": "mixed",
+        "sourceRole": "speaker",
+        "attributionNote": "Entretien du Grand Face-à-face republié sur la chaîne d'Aurélien Barrau ; les passages retenus sont attribués à l'invité."
+      },
       "transcript": {
         "kind": "youtube-auto-captions",
         "language": "fr",
@@ -1056,6 +1080,14 @@
       "url": "https://www.youtube.com/watch?v=4_yI0t2ZxlM",
       "publishedAt": "2017-12-18",
       "language": "fr",
+      "provenance": {
+        "publisherName": "Kaina Médias",
+        "publisherUrl": "https://www.youtube.com/channel/UCVaf4lWHLTn1na11DdhcUuQ",
+        "speakers": ["Franck Lepage"],
+        "attributionStatus": "confirmed",
+        "sourceRole": "speaker",
+        "attributionNote": "Kaina Médias présente explicitement la captation comme une conférence gesticulée de Franck Lepage."
+      },
       "transcript": {
         "kind": "youtube-auto-captions",
         "language": "fr",
@@ -1138,6 +1170,14 @@
       "url": "https://www.youtube.com/watch?v=NoM14YF2wTs",
       "publishedAt": "2018-03-14",
       "language": "en",
+      "provenance": {
+        "publisherName": "C.S. Joseph",
+        "publisherUrl": "https://www.youtube.com/channel/UCELhS3lbQQ8GVa2UeoVXAkQ",
+        "speakers": ["C.S. Joseph"],
+        "attributionStatus": "confirmed",
+        "sourceRole": "speaker",
+        "attributionNote": "Monologue publié sur la chaîne de C.S. Joseph et présenté comme la suite de sa série sur les fonctions cognitives."
+      },
       "transcript": {
         "kind": "youtube-auto-captions",
         "language": "en",
@@ -1228,6 +1268,14 @@
       "url": "https://www.youtube.com/watch?v=Tw13wtcxugU",
       "publishedAt": "2018-10-03",
       "language": "fr",
+      "provenance": {
+        "publisherName": "Vos valeurs en action",
+        "publisherUrl": "https://www.youtube.com/channel/UCr4zQkTLMR7gw286o6LTLbA",
+        "speakers": ["Benjamin Schoendorff"],
+        "attributionStatus": "confirmed",
+        "sourceRole": "speaker",
+        "attributionNote": "La description de la chaîne attribue cette présentation de la flexibilité psychologique à Benjamin Schoendorff."
+      },
       "transcript": {
         "kind": "youtube-auto-captions",
         "language": "fr",
@@ -1302,6 +1350,14 @@
       "url": "https://www.youtube.com/watch?v=oTfiWN6nsDA",
       "publishedAt": "2020-04-03",
       "language": "fr",
+      "provenance": {
+        "publisherName": "Alexandre Duclos",
+        "publisherUrl": "https://www.youtube.com/channel/UChMTDpfZ9HcXB0K_MHhd_ag",
+        "speakers": ["Alexandre Duclos"],
+        "attributionStatus": "confirmed",
+        "sourceRole": "speaker",
+        "attributionNote": "Cours publié sur la chaîne d'Alexandre Duclos et décrit comme une introduction à la sociologie pour l'IFSI de Chartres."
+      },
       "transcript": {
         "kind": "youtube-auto-captions",
         "language": "fr",
@@ -1400,6 +1456,14 @@
       "url": "https://www.youtube.com/watch?v=F04WFy6viy4",
       "publishedAt": "2024-06-21",
       "language": "fr",
+      "provenance": {
+        "publisherName": "Ismaïl Mounir",
+        "publisherUrl": "https://www.youtube.com/channel/UCScD33YfKR7OsWbNnILyOKQ",
+        "speakers": ["Ismaïl Mounir"],
+        "attributionStatus": "confirmed",
+        "sourceRole": "speaker",
+        "attributionNote": "Monologue publié sur la chaîne d'Ismaïl Mounir ; la description présente son argument sur le vote aux législatives françaises."
+      },
       "transcript": {
         "kind": "youtube-auto-captions",
         "language": "fr",
@@ -1506,6 +1570,14 @@
       "url": "https://www.youtube.com/watch?v=GHYHQuCt5Oo",
       "publishedAt": "2022-11-12",
       "language": "fr",
+      "provenance": {
+        "publisherName": "Zawa Prod",
+        "publisherUrl": "https://www.youtube.com/channel/UCeQRERCvEY3-ZeQONwnx0zw",
+        "speakers": ["Dany", "Raz"],
+        "attributionStatus": "mixed",
+        "sourceRole": "speaker",
+        "attributionNote": "Discussion de Dany et Raz publiée par la chaîne aujourd'hui nommée Zawa Prod ; les sous-titres automatiques ne séparent pas les deux voix."
+      },
       "transcript": {
         "kind": "youtube-auto-captions",
         "language": "fr",
@@ -1628,6 +1700,14 @@
       "url": "https://www.youtube.com/watch?v=m1x_HjDJQU8",
       "publishedAt": "2022-04-16",
       "language": "fr",
+      "provenance": {
+        "publisherName": "ÉLUCID",
+        "publisherUrl": "https://www.youtube.com/channel/UCkgO4A3Fzm5D9Xu1Y_4vCKQ",
+        "speakers": ["Emmanuel Todd", "Journaliste d'Élucid"],
+        "attributionStatus": "mixed",
+        "sourceRole": "speaker",
+        "attributionNote": "Entretien diffusé par Élucid ; les passages publiés sont des réponses d'Emmanuel Todd, contrôlées contre les relances du journaliste."
+      },
       "transcript": {
         "kind": "youtube-auto-captions",
         "language": "fr",
@@ -1750,6 +1830,14 @@
       "url": "https://www.youtube.com/watch?v=2J9Inz9kAZ0",
       "publishedAt": "2021-09-12",
       "language": "fr",
+      "provenance": {
+        "publisherName": "Livre Noir (chaîne désormais nommée Frontières)",
+        "publisherUrl": "https://www.youtube.com/channel/UCysox6U9HnqgCiJ-Pd-Jy_w",
+        "speakers": ["Juan Branco", "Journaliste de Livre Noir"],
+        "attributionStatus": "mixed",
+        "sourceRole": "speaker",
+        "attributionNote": "Entretien publié sous la marque Livre Noir en 2021 ; les passages retenus sont attribués à Juan Branco, pas à l'intervieweur."
+      },
       "transcript": {
         "kind": "youtube-auto-captions",
         "language": "fr",

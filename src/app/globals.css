@@ -929,7 +929,26 @@ footer .brand-mark {
 }
 
 .evidence-list strong {
+  display: block;
   font-size: 12px;
+}
+
+.evidence-attribution,
+.evidence-publisher {
+  display: block;
+  color: var(--muted);
+  font-size: 10px;
+  line-height: 1.45;
+}
+
+.evidence-attribution {
+  margin-top: 3px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.evidence-publisher {
+  margin-top: 8px;
 }
 
 .evidence-list p {

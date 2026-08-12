@@ -43,6 +43,12 @@ const verificationModeLabels: Record<string, string> = {
   discourse: "Analyse du discours",
 };
 
+const sourceRoleLabels = {
+  speaker: "source intervenante",
+  panelist: "source membre du panel",
+  publisher: "source éditrice",
+} as const;
+
 export function CorpusExplorer({
   argumentsList,
   claims,
@@ -270,7 +276,13 @@ export function CorpusExplorer({
                         <span>{formatTimestamp(segment.startMs)}</span>
                         <div>
                           <strong>{source?.name ?? "Source inconnue"}</strong>
+                          <small className="evidence-attribution">
+                            {sourceRoleLabels[episode.provenance.sourceRole]} · {episode.provenance.speakers.join(", ")}
+                          </small>
                           <p>{segment.paraphraseFr}</p>
+                          <small className="evidence-publisher">
+                            Diffusé par {episode.provenance.publisherName} · {episode.provenance.attributionNote}
+                          </small>
                         </div>
                       </a>
                     ))}
