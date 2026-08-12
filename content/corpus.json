@@ -684,6 +684,26 @@
       "accessedAt": "2026-08-12",
       "kind": "official-european-legislation",
       "scopeNote": "Le règlement relève la fiabilité, la spécificité et la généralisation limitées des systèmes inférant émotions ou intentions depuis des données biométriques, et interdit certains usages au travail et dans l'éducation. Il encadre des systèmes d'IA, non toute observation humaine informelle."
+    },
+    {
+      "id": "sep-informal-logic-2026",
+      "publisher": "Stanford Encyclopedia of Philosophy",
+      "title": "Informal Logic",
+      "url": "https://plato.stanford.edu/entries/logic-informal/",
+      "publishedAt": "2026-01-28",
+      "accessedAt": "2026-08-12",
+      "kind": "peer-reviewed-philosophy-reference",
+      "scopeNote": "Synthèse des méthodes d'évaluation des arguments ordinaires. Elle distingue l'attaque contre la personne de l'examen des prémisses et inférences, tout en reconnaissant que crédibilité, compétence et conflit d'intérêts peuvent parfois être pertinents."
+    },
+    {
+      "id": "uk-green-book-appraisal-2026",
+      "publisher": "HM Treasury",
+      "title": "The Green Book 2026",
+      "url": "https://www.gov.uk/government/publications/the-green-book-appraisal-and-evaluation-in-central-government/the-green-book-2026",
+      "publishedAt": "2026-02-05",
+      "accessedAt": "2026-08-12",
+      "kind": "official-policy-appraisal-guidance",
+      "scopeNote": "Guide britannique d'évaluation des politiques publiques séparant justification du changement, objectifs, génération progressive d'options et comparaison de leurs coûts, bénéfices, risques et effets distributifs. Il décrit une méthode d'instruction, pas une théorie générale du militantisme."
     }
   ],
   "sources": [
@@ -3043,6 +3063,25 @@
         "Le règlement européen cité s'applique aux systèmes d'IA et ne régit pas directement toute interprétation humaine.",
         "Aucune des sources ne valide une déduction individuelle de classe sociale ou de culture depuis un geste isolé.",
         "Un indice corporel préoccupant peut justifier une question ou une évaluation professionnelle appropriée, jamais un diagnostic improvisé."
+      ]
+    },
+    {
+      "id": "verification-critique-without-complete-blueprint",
+      "claimId": "claim-system-critique-needs-no-complete-blueprint",
+      "mode": "informal-logic-and-policy-appraisal-review",
+      "status": "qualified",
+      "questionFr": "Une critique d'un système est-elle réfutée si son auteur y participe ou ne fournit pas immédiatement un modèle complet de remplacement ?",
+      "findingFr": "La logique informelle distingue l'examen d'une thèse de l'attaque contre la personne qui la soutient : signaler une participation incohérente ne montre pas, à lui seul, que les prémisses ou l'inférence de la critique sont fausses. Le Green Book sépare de son côté la justification d'un changement, la définition d'objectifs puis la génération et l'évaluation progressive d'options. Une critique peut donc être recevable avant un plan complet. Dès qu'elle devient proposition d'action, toutefois, alternatives, coûts, bénéfices, risques, effets distributifs et conflits d'intérêts redeviennent pertinents.",
+      "referenceIds": [
+        "sep-informal-logic-2026",
+        "uk-green-book-appraisal-2026"
+      ],
+      "caveats": [
+        "Une contradiction personnelle peut légitimement affecter la crédibilité, révéler un conflit d'intérêts ou contredire une prétention d'exemplarité.",
+        "Montrer qu'une institution produit un dommage ne suffit pas à établir que toute solution proposée serait préférable au statu quo.",
+        "Le Green Book concerne l'évaluation publique britannique et fournit ici une analogie méthodologique, non une norme applicable à tout débat militant.",
+        "L'absence provisoire de plan complet ne doit pas devenir un refus permanent de préciser objectifs, moyens, bénéficiaires et critères d'échec.",
+        "Participer sous contrainte à un système et tirer activement profit d'un abus évitable sont des situations moralement différentes."
       ]
     }
   ],
