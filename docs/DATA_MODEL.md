@@ -38,6 +38,10 @@ Description sourcée d'un choix de langage ou de cadrage. Elle sépare l'effet r
 
 Présentation d'un argument selon un registre, une longueur, un niveau de technicité et un contexte de dialogue. Elle ne modifie pas les faits sous-jacents.
 
+### Profil de formulation
+
+Annotation éditoriale continue d'un argument sur des axes de présentation. Le pilote utilise quatre spectres : faits/valeurs, individuel/systémique, comprendre/agir et accessible/technique. Ces coordonnées décrivent le contenu, jamais une personne. Elles permettent un classement par proximité lorsque le lecteur règle lui-même la discussion recherchée.
+
 ### Dimension et catégorie
 
 Une dimension est une nomenclature versionnée. Ses catégories documentent leurs définitions, limites, sources et statut scientifique.
@@ -78,6 +82,12 @@ Le pilote utilise la table Insee 2026 par groupe d'âge et sexe statistique : 28
 ## Conséquence
 
 La génération à la demande sélectionne des arguments validés, récupère leurs preuves et applique des règles de formulation explicites. Elle ne fabrique pas une vérité différente pour chaque public.
+
+## Factorisation des formulations
+
+Le fichier `content/formulation-profiles.json` sépare les coordonnées éditoriales du corpus argumentaire. Le moteur calcule une distance euclidienne normalisée sur les quatre axes et affiche les axes les plus proches pour rendre le classement explicable.
+
+Les valeurs de 0 à 100 ne sont ni des probabilités d'efficacité, ni des mesures psychométriques, ni des attributs d'un interlocuteur. Les réglages sont choisis localement par le lecteur, ne sont pas persistés et peuvent être remis à l'équilibre à tout moment. Un filtre thématique peut réduire le corpus avant le calcul, sans modifier les arguments.
 
 ## Implémentation pilote
 

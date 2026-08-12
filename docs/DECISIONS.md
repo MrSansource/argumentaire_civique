@@ -65,3 +65,9 @@ Chaque nomenclature est versionnée et classée comme active, planifiée, réser
 **Statut :** accepté provisoirement
 
 Le premier flux de contribution produit un objet JSON local et ouvre, sur demande explicite, une issue GitHub préremplie. Cette solution rend la proposition, la discussion et l'historique publics sans collecter d'identité dans l'application ni introduire une base de données et une authentification avant d'avoir observé les besoins éditoriaux réels.
+
+## D-012 — Proximité de formulation contrôlée par le lecteur
+
+**Statut :** accepté provisoirement
+
+Le premier moteur de factorisation classe les arguments selon quatre coordonnées éditoriales. Les réglages décrivent la discussion souhaitée et sont manipulés explicitement dans le navigateur ; aucune caractéristique personnelle n'est inférée ou persistée. Le score affiché est une proximité géométrique explicable, pas une prédiction de persuasion. Toute future génération de texte devra conserver les mêmes faits, objections, vérifications et garde-fous.

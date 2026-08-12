@@ -12,6 +12,10 @@ Les caractéristiques liées à la santé, l'origine, la religion, la sexualité
 
 Une typologie controversée peut être conservée comme objet culturel ou hypothèse, jamais comme diagnostic. Chaque nomenclature doit exposer son statut scientifique, ses sources, ses critiques et ses usages autorisés.
 
+## Adaptation explicite
+
+Les préférences de formulation doivent être choisies par l'utilisateur pour la discussion en cours. Le système ne doit pas les déduire d'un texte, d'un comportement, d'une identité ou d'une caractéristique démographique. Un score de proximité entre un réglage et un argument décrit le corpus ; il ne mesure ni la personne ni sa susceptibilité à être convaincue.
+
 ## Transparence
 
 Chaque contenu distingue :

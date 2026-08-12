@@ -9,6 +9,7 @@
     "lint": "eslint",
     "test": "node --test tests/*.test.mjs",
     "corpus:validate": "node scripts/validate-corpus.mjs",
+    "formulations:validate": "node scripts/validate-formulations.mjs",
     "population:validate": "node scripts/validate-population.mjs",
     "transcript:import": "node scripts/import-transcript.mjs",
     "transcript:batch": "node scripts/create-analysis-batches.mjs"

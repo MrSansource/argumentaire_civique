@@ -18,6 +18,7 @@ export default function Home() {
           <a href="#methode">Méthode</a>
           <a href="#dimensions">Dimensions</a>
           <a href="/population">Population</a>
+          <a href="/composer">Composer</a>
           <a href="/contribuer">Contribuer</a>
         </nav>
         <a
@@ -55,6 +56,9 @@ export default function Home() {
           </a>
           <a className="button button-secondary" href="/population">
             Tester les croisements
+          </a>
+          <a className="button button-secondary" href="/composer">
+            Composer une discussion
           </a>
           <a className="button button-secondary" href="/contribuer">
             Proposer un contenu

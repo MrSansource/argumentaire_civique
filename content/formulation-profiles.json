@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-08-12",
+  "policy": {
+    "userControlled": true,
+    "scoresAreEditorial": true,
+    "individualInferenceAllowed": false,
+    "sensitiveTargetingAllowed": false,
+    "persistSelections": false
+  },
+  "axes": [
+    {
+      "id": "evidenceValues",
+      "label": "Point d’entrée",
+      "lowLabel": "Faits et preuves",
+      "highLabel": "Valeurs et finalités",
+      "description": "Choisit entre commencer par ce qui est observable ou par ce qui est jugé souhaitable."
+    },
+    {
+      "id": "individualSystemic",
+      "label": "Échelle d’analyse",
+      "lowLabel": "Expérience individuelle",
+      "highLabel": "Institutions et systèmes",
+      "description": "Indique l’échelle que la discussion doit éclairer en premier."
+    },
+    {
+      "id": "deliberationAction",
+      "label": "Intention",
+      "lowLabel": "Comprendre et questionner",
+      "highLabel": "Choisir et agir",
+      "description": "Distingue une exploration contradictoire d’une recherche de prochaine étape."
+    },
+    {
+      "id": "accessibleTechnical",
+      "label": "Niveau de détail",
+      "lowLabel": "Accessible et concret",
+      "highLabel": "Technique et détaillé",
+      "description": "Règle la densité conceptuelle souhaitée sans modifier les faits."
+    }
+  ],
+  "profiles": [
+    {
+      "argumentId": "argument-democratie-lieu-travail",
+      "values": { "evidenceValues": 48, "individualSystemic": 92, "deliberationAction": 62, "accessibleTechnical": 56 },
+      "editorialNote": "Argument institutionnel et normatif, orienté vers une transformation de la gouvernance du travail."
+    },
+    {
+      "argumentId": "argument-tester-materiel-avant-psychologiser",
+      "values": { "evidenceValues": 18, "individualSystemic": 74, "deliberationAction": 34, "accessibleTechnical": 72 },
+      "editorialNote": "Diagnostic différentiel qui commence par les données matérielles et demande une discussion assez détaillée."
+    },
+    {
+      "argumentId": "argument-definir-finalites-avant-optimiser",
+      "values": { "evidenceValues": 78, "individualSystemic": 84, "deliberationAction": 46, "accessibleTechnical": 58 },
+      "editorialNote": "Argument systémique centré sur les finalités collectives avant le choix des moyens techniques."
+    },
+    {
+      "argumentId": "argument-nommer-rapports-sociaux",
+      "values": { "evidenceValues": 42, "individualSystemic": 88, "deliberationAction": 52, "accessibleTechnical": 66 },
+      "editorialNote": "Lecture structurelle des inégalités qui combine cadrage politique et données territoriales."
+    },
+    {
+      "argumentId": "argument-demander-preferences-sans-inferer-type",
+      "values": { "evidenceValues": 52, "individualSystemic": 32, "deliberationAction": 28, "accessibleTechnical": 48 },
+      "editorialNote": "Argument de méthode pour clarifier une conversation sans assigner une identité psychologique."
+    },
+    {
+      "argumentId": "argument-agir-sans-attendre-etat-ideal",
+      "values": { "evidenceValues": 86, "individualSystemic": 14, "deliberationAction": 78, "accessibleTechnical": 24 },
+      "editorialNote": "Point d’entrée personnel, accessible et orienté vers une action choisie à partir des valeurs."
+    }
+  ]
+}

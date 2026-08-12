@@ -162,7 +162,7 @@ export function CorpusExplorer({
             );
 
             return (
-              <article key={argument.id} className="argument-card">
+              <article key={argument.id} id={argument.id} className="argument-card">
                 <div className="argument-meta">
                   <span className={`status-pill status-${argument.status}`}>
                     {statusLabels[argument.status]}
