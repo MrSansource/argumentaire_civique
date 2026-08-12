@@ -496,6 +496,16 @@
       "scopeNote": "Article fondateur montrant que les corrélations calculées entre unités agrégées ne peuvent pas être substituées aux relations entre individus ; ses calculs historiques ont fait l'objet de corrections ultérieures sans annuler ce principe."
     },
     {
+      "id": "ipsos-second-round-motives-2017",
+      "publisher": "Ipsos & Sopra Steria pour France Télévisions et Radio France",
+      "title": "2nd tour présidentielle 2017 : comprendre le vote des Français",
+      "url": "https://www.ipsos.com/fr-fr/2nd-tour-presidentielle-2017-comprendre-le-vote-des-francais",
+      "publishedAt": "2017-05-07",
+      "accessedAt": "2026-08-12",
+      "kind": "representative-election-survey",
+      "scopeNote": "Enquête en ligne par quotas menée du 4 au 6 mai 2017 auprès de 4 838 inscrits ; mesure le vote prévu, le vote de premier tour déclaré et le principal motif choisi dans une liste, dont l'opposition à Marine Le Pen."
+    },
+    {
       "id": "ademe-climate-representations-2022",
       "publisher": "ADEME — Agence de la transition écologique",
       "title": "Baromètre Les représentations sociales du changement climatique 2022",
@@ -715,7 +725,7 @@
       "kind": "auteur-multicanal",
       "url": "https://emmanueltodd.substack.com/",
       "languages": ["fr"],
-      "editorialNote": "Auteur identifié par sa publication personnelle et par l'entretien Élucid retenu. Ses interventions restent diffusées par de nombreux médias : chaque épisode doit être attribué à son diffuseur et ses modèles historiques, cartes et prédictions contrôlés séparément."
+      "editorialNote": "Auteur identifié par sa publication personnelle et par l'entretien Élucid retenu. Ses interventions restent diffusées par de nombreux médias : chaque épisode doit être attribué à son diffuseur et ses modèles historiques, cartes et prédictions contrôlés séparément. Les passages de la corrélation territoriale au transfert d'électeurs ou au motif psychologique sont confrontés aux règles de l'inférence écologique et aux enquêtes individuelles disponibles."
     },
     {
       "id": "juan-branco",
@@ -2714,6 +2724,21 @@
       ]
     },
     {
+      "id": "verification-aggregate-correlation-voter-motive",
+      "claimId": "claim-aggregate-correlation-does-not-establish-motive",
+      "mode": "ecological-inference-and-motive-survey-audit",
+      "status": "supported",
+      "questionFr": "Une corrélation départementale entre deux scrutins suffit-elle à établir le transfert et le motif des mêmes électeurs ?",
+      "findingFr": "Non. Une corrélation entre résultats départementaux décrit la co-variation de territoires et ne relie pas les bulletins des mêmes personnes entre deux tours ou deux élections. L'enquête Ipsos menée auprès de 4 838 inscrits en mai 2017 apporte une mesure individuelle distincte : 43 % des électeurs déclarant un vote Macron au second tour choisissaient l'opposition à Marine Le Pen comme principal motif, proportion portée à 71 % parmi ceux déclarant avoir voté Mélenchon au premier tour. Le vote-barrage est donc une hypothèse fortement étayée pour une partie de cet électorat, mais ni le coefficient territorial ni l'enquête ne justifient d'en faire le motif unique de chaque électeur.",
+      "referenceIds": ["robinson-ecological-correlations-1950", "ipsos-second-round-motives-2017"],
+      "caveats": [
+        "L'enquête Ipsos est un sondage en ligne par quotas et non un appariement administratif des bulletins entre les deux tours.",
+        "Le vote de premier tour et le motif sont déclarés ; mémoire, désirabilité sociale et liste de réponses peuvent influencer les résultats.",
+        "La question impose un motif principal parmi quatre choix et ne mesure pas toute la pluralité des raisons d'un vote.",
+        "Le coefficient de 0,93 cité dans la vidéo n'est pas reproductible sans connaître exactement les variables, pondérations, unités et traitements utilisés."
+      ]
+    },
+    {
       "id": "verification-joint-voter-profile",
       "claimId": "claim-marginal-tables-do-not-establish-joint-voter-type",
       "mode": "survey-table-structure-audit",
@@ -3610,6 +3635,8 @@
         "Confronter les résultats territoriaux à des enquêtes individuelles avant de parler des caractéristiques ou motivations des électeurs.",
         "Distinguer explicitement association, capacité prédictive agrégée, explication causale et motif déclaré.",
         "Ne pas transformer des tableaux marginaux séparés en profil conjoint sans analyse croisée sur les mêmes observations.",
+        "Ne jamais présenter un coefficient territorial comme la mesure d'un transfert individuel entre scrutins.",
+        "Pour parler de motivations, publier la question posée, les réponses proposées, la base interrogée et la pluralité des motifs observés.",
         "Actualiser l'analyse pour chaque scrutin et documenter les changements de candidatures, d'offre politique, de participation et de contexte.",
         "Ne fournir aucun conseil visant un candidat ou un électorat actuel à partir de ces résultats historiques.",
         "Respecter les exigences de consentement, de transparence et de protection des opinions politiques rappelées par la CNIL.",

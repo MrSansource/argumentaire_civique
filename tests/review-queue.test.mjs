@@ -79,6 +79,17 @@ test("mesure la couverture complète de l'argument sur le diagnostic matériel",
   assert.equal(coverage?.coveragePercent, 100);
 });
 
+test("mesure la couverture complète de l'argument sur les cartes électorales", () => {
+  const queue = buildReviewQueue(corpus);
+  const coverage = queue.argumentCoverage.find(
+    (argument) => argument.argumentId === "argument-lire-cartes-sans-fabriquer-electeur",
+  );
+
+  assert.equal(coverage?.claimCount, 6);
+  assert.equal(coverage?.verifiedCount, 6);
+  assert.equal(coverage?.coveragePercent, 100);
+});
+
 test("ordonne la file de la situation la plus prudente à la plus étayée", () => {
   const queue = buildReviewQueue(corpus);
   const rankByLane = new Map(REVIEW_LANES.map((lane, index) => [lane.id, index]));
