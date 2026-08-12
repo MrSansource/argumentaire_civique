@@ -20,6 +20,7 @@ export default function ComposerPage() {
         <nav aria-label="Navigation de l’atelier">
           <Link href="/explorer">Corpus</Link>
           <Link href="/population">Population</Link>
+          <Link href="/relecture">Relire</Link>
         </nav>
         <Link className="github-link" href="/">← Retour au manifeste</Link>
       </header>

@@ -16,6 +16,11 @@ export default function ExplorerPage() {
           <span className="brand-mark">AC</span>
           <span>Argumentaire civique</span>
         </Link>
+        <nav aria-label="Navigation du corpus">
+          <Link href="/relecture">Relire</Link>
+          <Link href="/composer">Composer</Link>
+          <Link href="/contribuer">Contribuer</Link>
+        </nav>
         <Link className="github-link" href="/">
           ← Retour au manifeste
         </Link>

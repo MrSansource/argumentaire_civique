@@ -23,6 +23,7 @@ export default function PopulationPage() {
         </Link>
         <nav aria-label="Navigation du laboratoire">
           <Link href="/explorer">Corpus</Link>
+          <Link href="/relecture">Relire</Link>
           <a href="#matrice">Matrice</a>
           <a href="#echelle">Échelle</a>
           <a href="#dimensions-population">Dimensions</a>

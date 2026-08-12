@@ -71,3 +71,9 @@ Le premier flux de contribution produit un objet JSON local et ouvre, sur demand
 **Statut :** accepté provisoirement
 
 Le premier moteur de factorisation classe les arguments selon quatre coordonnées éditoriales. Les réglages décrivent la discussion souhaitée et sont manipulés explicitement dans le navigateur ; aucune caractéristique personnelle n'est inférée ou persistée. Le score affiché est une proximité géométrique explicable, pas une prédiction de persuasion. Toute future génération de texte devra conserver les mêmes faits, objections, vérifications et garde-fous.
+
+## D-013 — File de révision dérivée du corpus
+
+**Statut :** accepté provisoirement
+
+La première file éditoriale est calculée à partir des relations déjà versionnées entre affirmations, arguments et vérifications. Elle distingue l'absence de vérification, les résultats ouverts ou inconclusifs, les conclusions nuancées et les éléments étayés. Cet ordre rend les lacunes visibles mais ne constitue ni un verdict automatique ni une validation : toute promotion de statut reste une décision humaine justifiée dans Git.

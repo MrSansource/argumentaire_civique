@@ -96,3 +96,7 @@ Le fichier `content/corpus.json` constitue la première représentation portable
 La transcription complète n'est jamais un champ du corpus publié. Elle reste dans `.workbench/` pendant le traitement, puis seuls les extraits nécessaires et leurs paraphrases sont promus.
 
 Les invariants sont vérifiés par `scripts/validate-corpus.mjs` et `scripts/validate-population.mjs` avant publication. Une base de données remplacera éventuellement ces fichiers lorsque les workflows d'édition seront stabilisés.
+
+## File de révision
+
+La route `/relecture` dérive une file de travail sans dupliquer d'état dans le corpus. Chaque affirmation est classée selon la situation de vérification la plus prudente : contradiction, question ouverte, absence de vérification, résultat inconclusif, conclusion nuancée ou étayage. La couverture d'un argument mesure uniquement le nombre de prémisses reliées à au moins une vérification externe ; elle ne mesure ni sa vérité ni sa force persuasive.

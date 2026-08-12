@@ -21,6 +21,7 @@ export default function ContributionPage() {
         <nav aria-label="Navigation de contribution">
           <Link href="/explorer">Corpus</Link>
           <Link href="/population">Population</Link>
+          <Link href="/relecture">Relire</Link>
           <a href="#regles">Règles</a>
         </nav>
         <Link className="github-link" href="/">← Retour au manifeste</Link>
