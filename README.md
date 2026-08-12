@@ -7,6 +7,7 @@ Le projet est dans une phase de prototype. Le site rend visibles sa méthode, se
 ## Modules disponibles
 
 - `/explorer` : parcourir les sources, affirmations, arguments, objections et vérifications externes ;
+- `/relecture` : prioriser les affirmations à revoir et repérer les thèmes absents ou dépendants d'une seule source ;
 - `/population` : comparer une table Insee directement publiée à une estimation sous hypothèse d'indépendance et aux bornes logiques permises par les marges.
 - `/contribuer` : préparer une proposition structurée, l'exporter localement ou ouvrir une issue GitHub préremplie pour relecture.
 

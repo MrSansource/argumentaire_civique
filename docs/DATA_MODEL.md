@@ -104,3 +104,5 @@ Les invariants sont vérifiés par `scripts/validate-corpus.mjs` et `scripts/val
 ## File de révision
 
 La route `/relecture` dérive une file de travail sans dupliquer d'état dans le corpus. Chaque affirmation est classée selon la situation de vérification la plus prudente : contradiction, question ouverte, absence de vérification, résultat inconclusif, conclusion nuancée ou étayage. La couverture d'un argument mesure uniquement le nombre de prémisses reliées à au moins une vérification externe ; elle ne mesure ni sa vérité ni sa force persuasive.
+
+La même route calcule une couverture thématique à partir du nombre d'arguments, d'affirmations, de sources distinctes et de références. Elle place d'abord les thèmes vides, puis ceux qui ne dépendent que d'une source. Aucun score composite n'est produit : ces volumes orientent l'enrichissement, mais ne mesurent ni la qualité, ni l'équilibre idéologique, ni la représentativité du corpus.

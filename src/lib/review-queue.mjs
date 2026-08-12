@@ -45,6 +45,24 @@ export const REVIEW_LANES = [
 
 const laneById = new Map(REVIEW_LANES.map((lane, index) => [lane.id, { ...lane, rank: index }]));
 
+const THEME_COVERAGE_STATUSES = {
+  empty: {
+    rank: 0,
+    label: "À ouvrir",
+    nextAction: "Ajouter un premier argument sourcé avant de chercher à varier les formulations.",
+  },
+  "single-source": {
+    rank: 1,
+    label: "Une seule source",
+    nextAction: "Confronter ce thème à une deuxième source distincte et à ses objections.",
+  },
+  "multi-source": {
+    rank: 2,
+    label: "Plusieurs sources",
+    nextAction: "Vérifier les angles encore absents sans interpréter le volume comme un gage de qualité.",
+  },
+};
+
 export function classifyReviewLane(verifications) {
   const statuses = new Set(verifications.map((verification) => verification.status));
   const lane = REVIEW_LANES.find((candidate) => statuses.has(candidate.id))
@@ -148,10 +166,52 @@ export function buildReviewQueue(corpus) {
     left.coveragePercent - right.coveragePercent || left.title.localeCompare(right.title, "fr"),
   );
 
+  const claimById = new Map(corpus.claims.map((claim) => [claim.id, claim]));
+  const themeCoverage = corpus.themes.map((theme) => {
+    const themeArguments = corpus.arguments.filter((argument) => argument.themeIds.includes(theme.id));
+    const claimIds = new Set(themeArguments.flatMap((argument) => argument.premiseClaimIds));
+    const episodeIds = new Set(
+      [...claimIds].map((claimId) => claimById.get(claimId)?.episodeId).filter(Boolean),
+    );
+    const sourceIds = new Set(
+      [...episodeIds].map((episodeId) => episodeById.get(episodeId)?.sourceId).filter(Boolean),
+    );
+    const referenceIds = new Set(
+      [...claimIds].flatMap((claimId) =>
+        (verificationsByClaim.get(claimId) ?? []).flatMap((verification) => verification.referenceIds),
+      ),
+    );
+    const statusId = themeArguments.length === 0
+      ? "empty"
+      : sourceIds.size === 1
+        ? "single-source"
+        : "multi-source";
+    const status = THEME_COVERAGE_STATUSES[statusId];
+
+    return {
+      themeId: theme.id,
+      label: theme.label,
+      description: theme.description,
+      argumentCount: themeArguments.length,
+      claimCount: claimIds.size,
+      sourceCount: sourceIds.size,
+      referenceCount: referenceIds.size,
+      statusId,
+      statusLabel: status.label,
+      statusRank: status.rank,
+      nextAction: status.nextAction,
+    };
+  }).sort((left, right) =>
+    left.statusRank - right.statusRank
+      || left.argumentCount - right.argumentCount
+      || left.label.localeCompare(right.label, "fr"),
+  );
+
   return {
     items,
     countsByLane,
     argumentCoverage,
+    themeCoverage,
     totalClaims: items.length,
     verifiedClaims: items.filter((item) => item.verifications.length > 0).length,
     draftClaims: items.filter((item) => item.reviewStatus === "draft").length,

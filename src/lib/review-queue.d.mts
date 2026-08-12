@@ -4,6 +4,7 @@ import type {
   CorpusEpisode,
   CorpusReference,
   CorpusSource,
+  CorpusTheme,
   CorpusVerification,
 } from "./corpus";
 
@@ -59,6 +60,19 @@ export type ReviewQueue = {
     laneId: ReviewLaneId;
     laneShortLabel: string;
   }>;
+  themeCoverage: Array<{
+    themeId: string;
+    label: string;
+    description: string;
+    argumentCount: number;
+    claimCount: number;
+    sourceCount: number;
+    referenceCount: number;
+    statusId: "empty" | "single-source" | "multi-source";
+    statusLabel: string;
+    statusRank: number;
+    nextAction: string;
+  }>;
   totalClaims: number;
   verifiedClaims: number;
   draftClaims: number;
@@ -73,4 +87,5 @@ export function buildReviewQueue(corpus: {
   references: CorpusReference[];
   verifications: CorpusVerification[];
   arguments: CorpusArgument[];
+  themes: CorpusTheme[];
 }): ReviewQueue;

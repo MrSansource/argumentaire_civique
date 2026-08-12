@@ -1271,6 +1271,122 @@ footer .brand-mark {
   text-align: right;
 }
 
+.review-theme-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-top: 24px;
+  border-top: 1px solid var(--line);
+  border-left: 1px solid var(--line);
+}
+
+.review-theme-card {
+  min-height: 310px;
+  padding: 22px;
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.35);
+}
+
+.review-theme-card > div:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.review-theme-card > div:first-child span {
+  padding: 6px 9px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.review-theme-empty > div:first-child span {
+  border-color: #a43a16;
+  background: rgba(233, 93, 42, 0.1);
+  color: #a43a16;
+}
+
+.review-theme-single-source > div:first-child span {
+  border-color: rgba(160, 104, 24, 0.48);
+  background: rgba(221, 164, 61, 0.12);
+  color: #7f5618;
+}
+
+.review-theme-multi-source > div:first-child span {
+  border-color: rgba(23, 63, 50, 0.35);
+  background: rgba(23, 63, 50, 0.08);
+  color: var(--green);
+}
+
+.review-theme-card small {
+  color: var(--muted);
+  font-family: var(--font-geist-mono), monospace;
+  font-size: 9px;
+}
+
+.review-theme-card h3 {
+  margin: 28px 0 10px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 1.05;
+}
+
+.review-theme-card > p {
+  min-height: 54px;
+  margin: 0;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.review-theme-card dl {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 24px 0 18px;
+  border-top: 1px solid var(--line);
+}
+
+.review-theme-card dl div {
+  padding-top: 12px;
+}
+
+.review-theme-card dt {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 22px;
+}
+
+.review-theme-card dd {
+  margin: 3px 0 0;
+  color: var(--muted);
+  font-size: 9px;
+}
+
+.review-theme-card .review-theme-action {
+  min-height: 54px;
+}
+
+.review-theme-card > a {
+  display: inline-block;
+  margin-top: 14px;
+  border-bottom: 1px solid var(--ink);
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.review-theme-card > a:hover {
+  border-color: var(--orange);
+  color: var(--orange);
+}
+
+.review-coverage {
+  margin-top: 100px;
+}
+
 .review-coverage-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -2933,6 +3049,10 @@ footer .brand-mark {
   }
 
   .review-coverage-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .review-theme-grid {
     grid-template-columns: 1fr;
   }
 

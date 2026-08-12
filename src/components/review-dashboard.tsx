@@ -95,6 +95,36 @@ export function ReviewDashboard({ queue, sources }: Props) {
       </aside>
 
       <div className="review-workspace">
+        <section className="review-theme-coverage" aria-labelledby="theme-coverage-title">
+          <div className="review-section-heading">
+            <div>
+              <p className="section-kicker">Largeur du corpus</p>
+              <h2 id="theme-coverage-title">Où élargir le corpus.</h2>
+            </div>
+            <p>Ces compteurs montrent des volumes et la diversité des sources, jamais la qualité ni la représentativité d&apos;un thème.</p>
+          </div>
+          <div className="review-theme-grid">
+            {queue.themeCoverage.map((theme) => (
+              <article key={theme.themeId} className={`review-theme-card review-theme-${theme.statusId}`}>
+                <div>
+                  <span>{theme.statusLabel}</span>
+                  <small>{theme.themeId}</small>
+                </div>
+                <h3>{theme.label}</h3>
+                <p>{theme.description}</p>
+                <dl>
+                  <div><dt>{theme.argumentCount}</dt><dd>arguments</dd></div>
+                  <div><dt>{theme.sourceCount}</dt><dd>sources</dd></div>
+                  <div><dt>{theme.claimCount}</dt><dd>affirmations</dd></div>
+                  <div><dt>{theme.referenceCount}</dt><dd>références</dd></div>
+                </dl>
+                <p className="review-theme-action">{theme.nextAction}</p>
+                <a href="/contribuer">Proposer une piste →</a>
+              </article>
+            ))}
+          </div>
+        </section>
+
         <section className="review-coverage" aria-labelledby="coverage-title">
           <div className="review-section-heading">
             <div>

@@ -35,6 +35,39 @@ test("rend visibles les compteurs de couverture sans les appeler des verdicts", 
   assert.ok(queue.countsByLane.supported > 0);
 });
 
+test("classe les lacunes thématiques sans score composite", () => {
+  const queue = buildReviewQueue(corpus);
+  const ai = queue.themeCoverage.find((theme) => theme.themeId === "ia-travail");
+  const ecology = queue.themeCoverage.find((theme) => theme.themeId === "ecologie");
+  const economy = queue.themeCoverage.find((theme) => theme.themeId === "economie");
+
+  assert.equal(queue.themeCoverage.length, corpus.themes.length);
+  assert.deepEqual(
+    [ai?.argumentCount, ai?.sourceCount, ai?.statusId],
+    [0, 0, "empty"],
+  );
+  assert.equal(ecology?.statusId, "single-source");
+  assert.equal(economy?.statusId, "multi-source");
+  assert.equal(Object.hasOwn(economy ?? {}, "score"), false);
+});
+
+test("compte des objets distincts pour chaque thème", () => {
+  const queue = buildReviewQueue(corpus);
+  const workDemocracy = queue.themeCoverage.find(
+    (theme) => theme.themeId === "democratie-travail",
+  );
+
+  assert.deepEqual(
+    {
+      arguments: workDemocracy?.argumentCount,
+      claims: workDemocracy?.claimCount,
+      sources: workDemocracy?.sourceCount,
+      references: workDemocracy?.referenceCount,
+    },
+    { arguments: 1, claims: 3, sources: 1, references: 5 },
+  );
+});
+
 test("mesure la couverture complète de l'argument sur la démocratie au travail", () => {
   const queue = buildReviewQueue(corpus);
   const coverage = queue.argumentCoverage.find(
