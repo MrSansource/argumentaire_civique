@@ -634,6 +634,36 @@
       "accessedAt": "2026-08-12",
       "kind": "official-european-legislation",
       "scopeNote": "Cadre minimal européen pour l'information et la consultation des salariés, notamment sur l'activité, l'emploi et les décisions susceptibles de modifier substantiellement l'organisation du travail ; les modalités et seuils dépendent des droits nationaux."
+    },
+    {
+      "id": "myers-briggs-type-dynamics-processes",
+      "publisher": "Myers & Briggs Foundation",
+      "title": "The Processes of Type Dynamics",
+      "url": "https://www.myersbriggs.org/unique-features-of-myers-briggs/type-dynamics-processes/home.htm",
+      "publishedAt": null,
+      "accessedAt": "2026-08-12",
+      "kind": "publisher-affiliated-theory-description",
+      "scopeNote": "Présentation officielle du modèle interne : Fi cherche à accorder actions et pensées avec des valeurs personnelles, et les processus sont ordonnés en positions dominante, auxiliaire, tertiaire et inférieure. Cette source affiliée décrit la théorie sans en établir la validité externe."
+    },
+    {
+      "id": "myers-briggs-professional-ethical-use",
+      "publisher": "Myers & Briggs Foundation",
+      "title": "Using Type as a Professional",
+      "url": "https://www.myersbriggs.org/using-type-as-a-professional/home.htm",
+      "publishedAt": null,
+      "accessedAt": "2026-08-12",
+      "kind": "publisher-affiliated-ethical-guidance",
+      "scopeNote": "L'organisation liée au MBTI présente l'entretien d'interprétation et la vérification par la personne de son type de meilleur ajustement comme des exigences éthiques. Cette procédure professionnelle ne vaut ni validation indépendante ni règle juridique générale."
+    },
+    {
+      "id": "cnil-profiling-automated-decision-2018",
+      "publisher": "CNIL",
+      "title": "Profilage et décision entièrement automatisée",
+      "url": "https://www.cnil.fr/fr/profilage-et-decision-entierement-automatisee",
+      "publishedAt": "2018-05-29",
+      "accessedAt": "2026-08-12",
+      "kind": "official-data-protection-guidance",
+      "scopeNote": "La CNIL définit le profilage comme l'évaluation individualisée visant notamment à analyser ou prédire préférences et comportement, et signale les risques d'erreur, de stéréotype et d'enfermement dans des choix. Les restrictions propres aux décisions entièrement automatisées ne s'appliquent pas à toute conversation ordinaire."
     }
   ],
   "sources": [
@@ -662,7 +692,7 @@
       "kind": "chaine-createur",
       "url": "https://www.youtube.com/channel/UCELhS3lbQQ8GVa2UeoVXAkQ",
       "languages": ["en"],
-      "editorialNote": "Un épisode est analysé comme discours sur le MBTI et la persuasion. Il ne constitue pas une validation scientifique de la typologie ni de ses prédictions comportementales."
+      "editorialNote": "Un épisode est analysé comme discours sur le MBTI et la persuasion. Son vocabulaire est comparé à la présentation officielle du modèle, puis ses prédictions à des travaux psychométriques indépendants. Ni la typologie ni des tactiques de conformité fondées sur un type attribué ne sont tenues pour validées."
     },
     {
       "id": "aurelien-barrau",
@@ -2934,6 +2964,46 @@
         "Les effets sur l'efficacité, l'égalité, l'autonomie et la participation politique dépendent du dispositif étudié.",
         "L'expression « pleinement démocratique » relève d'un critère normatif et non d'un classement institutionnel officiel."
       ]
+    },
+    {
+      "id": "verification-fi-theory-description",
+      "claimId": "claim-fi-models-moral-judgment",
+      "mode": "internal-theory-and-independent-validity-review",
+      "status": "qualified",
+      "questionFr": "La description de Fi comme jugement personnel du bien et du mal correspond-elle au modèle MBTI publié ?",
+      "findingFr": "La Myers & Briggs Foundation décrit Fi comme la recherche d'un accord entre actions, pensées et valeurs personnelles, et place ce processus dans une hiérarchie propre à chaque type. L'épisode emploie donc un vocabulaire reconnaissable du modèle. En revanche, réduire Fi à la conscience morale, ou déduire d'une position de fonction qu'une personne manquerait de moralité, dépasse cette définition et n'est pas validé par les évaluations psychométriques indépendantes consultées.",
+      "referenceIds": [
+        "myers-briggs-type-dynamics-processes",
+        "mccrae-costa-mbti-five-factor-1989",
+        "stein-swan-mbti-theory-2019"
+      ],
+      "caveats": [
+        "La présentation de la Myers & Briggs Foundation est une source affiliée décrivant son propre modèle.",
+        "La cohérence interne d'un vocabulaire théorique ne démontre pas sa validité externe.",
+        "Le terme Feeling possède dans le modèle un sens technique différent de son usage courant.",
+        "Le modèle affirme que chacun utilise tous les processus ; leur ordre ne constitue pas une hiérarchie morale."
+      ]
+    },
+    {
+      "id": "verification-preference-choice-over-inferred-type",
+      "claimId": "claim-explicit-preferences-before-personality-labels",
+      "mode": "autonomy-profiling-and-psychometric-safeguard-review",
+      "status": "qualified",
+      "questionFr": "Le projet doit-il demander un format préféré plutôt qu'inférer un type de personnalité ?",
+      "findingFr": "Même le cadre professionnel promu par la Myers & Briggs Foundation prévoit une interprétation et la vérification par la personne de son type de meilleur ajustement, plutôt qu'une attribution unilatérale. La CNIL avertit qu'un profilage individualisé des préférences peut produire erreurs, stéréotypes et enfermement. Demander un format contextuel, révisable et non conservé par défaut constitue donc un garde-fou proportionné, sans suffire à rendre transparente ou légitime toute tentative d'influence.",
+      "referenceIds": [
+        "myers-briggs-professional-ethical-use",
+        "cnil-profiling-automated-decision-2018",
+        "quebec-psychologists-ethics-code-2025",
+        "stein-swan-mbti-theory-2019"
+      ],
+      "caveats": [
+        "Les règles juridiques relatives au profilage s'appliquent lorsqu'un traitement de données personnelles répond aux conditions prévues par le droit, pas automatiquement à toute conversation.",
+        "Une préférence déclarée peut encore servir une manipulation si l'objectif réel de l'échange reste caché.",
+        "Les choix sont contextuels et doivent pouvoir changer sans justification.",
+        "Le code québécois cité encadre les psychologues ; il éclaire l'autonomie sans régir directement un site civique généraliste.",
+        "Aucun choix de format ne doit être converti en prédiction de valeurs, de vulnérabilité ou d'opinion politique."
+      ]
     }
   ],
   "arguments": [
@@ -3240,7 +3310,10 @@
         "Ne jamais provoquer ou prolonger l'inconfort pour obtenir une conformité.",
         "Proposer explicitement plusieurs formats de discussion et permettre le refus ou la révision du choix.",
         "Présenter le MBTI comme une typologie contestée et non comme un diagnostic clinique.",
-        "Rendre visible l'objectif de la conversation et distinguer adaptation bienveillante, persuasion et pression."
+        "Rendre visible l'objectif de la conversation et distinguer adaptation bienveillante, persuasion et pression.",
+        "Présenter un choix de format comme une préférence contextuelle, jamais comme le révélateur d'une identité stable.",
+        "Ne pas conserver une préférence au-delà de la session sans nécessité documentée, information claire et base légale appropriée.",
+        "Si une préférence est conservée, documenter sa finalité, sa durée, ses accès et les moyens de rectification, d'opposition ou d'effacement."
       ],
       "status": "draft",
       "review": null
