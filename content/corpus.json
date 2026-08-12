@@ -196,6 +196,36 @@
       "scopeNote": "Analyse critique de la clarté des construits, de leurs mesures, du statut des valeurs et de la qualité de la recherche ACT ; elle discute la théorie et la littérature, pas cette vidéo ni un cas clinique précis."
     },
     {
+      "id": "hayes-act-model-processes-2006",
+      "publisher": "Behaviour Research and Therapy — Elsevier",
+      "title": "Acceptance and Commitment Therapy: Model, processes and outcomes",
+      "url": "https://doi.org/10.1016/j.brat.2005.06.006",
+      "publishedAt": "2006-01-01",
+      "accessedAt": "2026-08-12",
+      "kind": "foundational-peer-reviewed-model-review",
+      "scopeNote": "Article fondateur décrivant la flexibilité psychologique, les valeurs choisies et l'action engagée dans le modèle ACT ; il synthétise une littérature alors encore immature et ne prouve pas à lui seul l'efficacité actuelle ni l'adéquation à un cas individuel."
+    },
+    {
+      "id": "paliliunas-values-committed-action-rct-2018",
+      "publisher": "Behavior Analysis in Practice",
+      "title": "A Randomized Control Trial to Evaluate the Use of Acceptance and Commitment Therapy (ACT) to Increase Academic Performance and Psychological Flexibility in Graduate Students",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30363765/",
+      "publishedAt": "2018-05-07",
+      "accessedAt": "2026-08-12",
+      "kind": "small-randomized-active-control-trial",
+      "scopeNote": "Essai randomisé auprès de 34 étudiants diplômés comparant six semaines de clarification des valeurs et d'action engagée à des conseils d'étude ; certains résultats scolaires et de flexibilité s'améliorent, mais pas significativement le stress ni la cohérence déclarée avec les valeurs."
+    },
+    {
+      "id": "quebec-psychologists-ethics-code-2025",
+      "publisher": "Légis Québec",
+      "title": "Code de déontologie des psychologues",
+      "url": "https://www.legisquebec.gouv.qc.ca/fr/document/rc/C-26%2C%20r.%20212%20/",
+      "publishedAt": null,
+      "accessedAt": "2026-08-12",
+      "kind": "official-professional-regulation",
+      "scopeNote": "Texte officiel à jour au 1er décembre 2025 : respect de la dignité et de la liberté, prise en compte des demandes et attentes, consentement libre et éclairé, possibilité de refuser ou cesser les services et obligation de modération dans les affirmations d'efficacité."
+    },
+    {
       "id": "duclos-cetcopra-profile",
       "publisher": "CETCOPRA — Université Paris 1 Panthéon-Sorbonne",
       "title": "Alexandre Duclos",
@@ -588,7 +618,7 @@
       "kind": "auteur-multicanal",
       "url": "https://www.youtube.com/channel/UCr4zQkTLMR7gw286o6LTLbA",
       "languages": ["fr"],
-      "editorialNote": "Chaîne « Vos valeurs en action » confirmée par le site professionnel de Benjamin Schoendorff. Un épisode grand public sur les valeurs et la flexibilité psychologique est analysé."
+      "editorialNote": "Chaîne « Vos valeurs en action » confirmée par le site professionnel de Benjamin Schoendorff. Un épisode grand public est relié au modèle ACT, à une méta-analyse, à une critique méthodologique, à un petit essai randomisé et aux obligations d'autonomie professionnelle au Québec."
     },
     {
       "id": "ismail-mounir",
@@ -2288,6 +2318,63 @@
       ]
     },
     {
+      "id": "verification-action-without-ideal-readiness",
+      "claimId": "claim-action-does-not-require-readiness",
+      "mode": "theory-and-small-trial-audit",
+      "status": "qualified",
+      "questionFr": "Peut-on soutenir qu'une action importante n'exige pas toujours un état émotionnel idéal ?",
+      "findingFr": "Le modèle ACT définit l'action engagée comme la persistance ou le changement de comportement au service de valeurs choisies, y compris lorsque des expériences intérieures difficiles sont présentes. Un petit essai randomisé auprès de 34 étudiants diplômés a associé un programme de valeurs et d'action engagée à de meilleurs résultats scolaires et scores de flexibilité que des conseils d'étude. Il illustre une possibilité encadrée, mais ne mesure pas directement l'envie ou la confiance comme préconditions et ne justifie aucune injonction générale à agir malgré la détresse.",
+      "referenceIds": [
+        "hayes-act-model-processes-2006",
+        "paliliunas-values-committed-action-rct-2018",
+        "macri-rogge-act-mechanisms-2024"
+      ],
+      "caveats": [
+        "L'essai porte sur un petit échantillon spécialisé, une intervention de six semaines et un objectif académique précis.",
+        "Le stress perçu et la cohérence déclarée avec les valeurs ne se sont pas améliorés significativement dans cet essai.",
+        "Une action possible en présence d'inconfort n'est ni souhaitable ni sûre dans toute situation.",
+        "Douleur, épuisement, violence, risque suicidaire, handicap et contrainte matérielle appellent une évaluation différente et parfois une protection ou un soin."
+      ]
+    },
+    {
+      "id": "verification-psychological-flexibility-definition",
+      "claimId": "claim-psychological-flexibility-definition",
+      "mode": "foundational-model-and-measurement-review",
+      "status": "supported",
+      "questionFr": "La vidéo décrit-elle fidèlement la flexibilité psychologique dans le modèle ACT ?",
+      "findingFr": "L'article fondateur définit la flexibilité psychologique comme la capacité à contacter le présent et à persister ou changer de comportement lorsque cela sert des finalités valorisées ; il relie ce construit à six processus, dont acceptation, valeurs et action engagée. La formulation de la vidéo est donc fidèle au modèle ACT. Cette fidélité théorique ne résout toutefois pas les débats sur la mesure du construit, ses mécanismes causaux ou sa distinction avec des facteurs communs à d'autres thérapies.",
+      "referenceIds": [
+        "hayes-act-model-processes-2006",
+        "macri-rogge-act-mechanisms-2024",
+        "odonohue-act-scientific-status-2023"
+      ],
+      "caveats": [
+        "Il s'agit d'une définition interne à un modèle thérapeutique, pas d'une propriété directement observable chez une personne.",
+        "Les questionnaires historiques ont parfois mêlé évitement expérientiel, détresse et flexibilité globale.",
+        "Les six processus ne sont pas nécessairement indépendants ni mesurés avec la même qualité.",
+        "Un score de flexibilité ne doit servir ni au diagnostic sauvage ni au ciblage politique."
+      ]
+    },
+    {
+      "id": "verification-values-without-imposition",
+      "claimId": "claim-values-orient-action-without-prescription",
+      "mode": "model-and-professional-ethics-audit",
+      "status": "qualified",
+      "questionFr": "La clarification des valeurs peut-elle orienter l'action sans imposer la finalité de l'intervenant ?",
+      "findingFr": "Dans le modèle ACT, les valeurs sont présentées comme des qualités d'action choisies et les exercices cherchent notamment à distinguer choix personnel, évitement et conformité sociale. Le code québécois impose par ailleurs le respect de la liberté, la prise en compte des attentes et un consentement révocable. Ces principes soutiennent une posture non prescriptive, sans rendre l'intervention neutre : les questions, catégories, institutions et rapports de pouvoir influencent toujours ce qui peut être formulé comme une valeur.",
+      "referenceIds": [
+        "hayes-act-model-processes-2006",
+        "quebec-psychologists-ethics-code-2025",
+        "odonohue-act-scientific-status-2023"
+      ],
+      "caveats": [
+        "Le code déontologique encadre les psychologues au Québec ; il ne réglemente pas toute vidéo, tout coach ni tout usage militant.",
+        "Une valeur déclarée peut être ambivalente, contradictoire, socialement contrainte ou changer avec le temps.",
+        "Respecter l'autonomie n'interdit pas de discuter les conséquences pour autrui, la sécurité ou le droit.",
+        "Un intervenant doit rendre visibles ses propres finalités et accepter le refus, le repos ou la révision de l'objectif."
+      ]
+    },
+    {
       "id": "verification-body-techniques-social-learning",
       "claimId": "claim-body-techniques-socially-learned",
       "mode": "theory-and-development-review",
@@ -3057,6 +3144,9 @@
         "Ne jamais utiliser la flexibilité psychologique pour culpabiliser une personne qui ne peut pas agir.",
         "Présenter le repos, le renoncement ou la modification de l'objectif comme des options possibles.",
         "Ne pas confondre acceptation d'une émotion avec acceptation d'une violence, d'un abus ou d'une injustice.",
+        "Présenter la flexibilité psychologique comme un construit du modèle ACT dont les mesures et mécanismes restent discutés.",
+        "Ne pas transformer l'action en présence d'inconfort en consigne lorsque la douleur, l'épuisement ou le danger signalent un besoin de protection.",
+        "Ne jamais présenter un exercice vidéo comme un diagnostic, une psychothérapie ou un substitut à des soins adaptés.",
         "Orienter vers un professionnel lorsque la souffrance, le risque ou le handicap dépasse un exercice généraliste."
       ],
       "status": "draft",
