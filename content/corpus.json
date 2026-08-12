@@ -664,6 +664,26 @@
       "accessedAt": "2026-08-12",
       "kind": "official-data-protection-guidance",
       "scopeNote": "La CNIL définit le profilage comme l'évaluation individualisée visant notamment à analyser ou prédire préférences et comportement, et signale les risques d'erreur, de stéréotype et d'enfermement dans des choix. Les restrictions propres aux décisions entièrement automatisées ne s'appliquent pas à toute conversation ordinaire."
+    },
+    {
+      "id": "patterson-nonverbal-misconceptions-2023",
+      "publisher": "Perspectives on Psychological Science",
+      "title": "Four Misconceptions About Nonverbal Communication",
+      "url": "https://doi.org/10.1177/17456916221148142",
+      "publishedAt": "2023-02-15",
+      "accessedAt": "2026-08-12",
+      "kind": "peer-reviewed-theory-review",
+      "scopeNote": "Revue critique de quatre conceptions courantes de la communication non verbale. Elle récuse l'idée d'un langage corporel simplement décodable et recommande une approche systémique, interactive et attentive au contexte physique et aux cadres culturels."
+    },
+    {
+      "id": "eurlex-ai-act-biometric-inference-2024",
+      "publisher": "Union européenne",
+      "title": "Règlement (UE) 2024/1689 établissant des règles harmonisées concernant l'intelligence artificielle",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/fra",
+      "publishedAt": "2024-07-12",
+      "accessedAt": "2026-08-12",
+      "kind": "official-european-legislation",
+      "scopeNote": "Le règlement relève la fiabilité, la spécificité et la généralisation limitées des systèmes inférant émotions ou intentions depuis des données biométriques, et interdit certains usages au travail et dans l'éducation. Il encadre des systèmes d'IA, non toute observation humaine informelle."
     }
   ],
   "sources": [
@@ -3003,6 +3023,26 @@
         "Les choix sont contextuels et doivent pouvoir changer sans justification.",
         "Le code québécois cité encadre les psychologues ; il éclaire l'autonomie sans régir directement un site civique généraliste.",
         "Aucun choix de format ne doit être converti en prédiction de valeurs, de vulnérabilité ou d'opinion politique."
+      ]
+    },
+    {
+      "id": "verification-body-observation-context-safeguard",
+      "claimId": "claim-body-observation-needs-context-not-essentialism",
+      "mode": "nonverbal-inference-and-rights-review",
+      "status": "qualified",
+      "questionFr": "Un geste isolé permet-il d'attribuer de façon fiable une identité, un état de santé ou une intention à une personne ?",
+      "findingFr": "La littérature sur le développement moteur montre que corps, environnement, culture et apprentissage contribuent conjointement aux conduites : un geste peut donc ouvrir une enquête sur le contexte. Mais la revue de Patterson et ses collègues récuse l'idée d'un langage corporel composé de signes univoques et insiste sur les interactions entre indices et situation. Le règlement européen sur l'IA relève en outre les limites scientifiques des inférences d'émotions ou d'intentions depuis des données biométriques. Ces éléments soutiennent le garde-fou : une observation isolée ne suffit pas à attribuer une classe, une culture, une santé ou une intention individuelles.",
+      "referenceIds": [
+        "adolph-hoch-motor-development-2019",
+        "patterson-nonverbal-misconceptions-2023",
+        "eurlex-ai-act-biometric-inference-2024"
+      ],
+      "caveats": [
+        "Certaines actions permettent des inférences probabilistes dans des tâches expérimentales définies ; cela ne crée pas un dictionnaire général du corps.",
+        "La revue sur le développement moteur porte surtout sur les nourrissons et ne quantifie pas chaque déterminant d'un geste adulte.",
+        "Le règlement européen cité s'applique aux systèmes d'IA et ne régit pas directement toute interprétation humaine.",
+        "Aucune des sources ne valide une déduction individuelle de classe sociale ou de culture depuis un geste isolé.",
+        "Un indice corporel préoccupant peut justifier une question ou une évaluation professionnelle appropriée, jamais un diagnostic improvisé."
       ]
     }
   ],

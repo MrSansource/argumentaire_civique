@@ -101,6 +101,17 @@ test("mesure la couverture complète de l'argument sur les préférences convers
   assert.equal(coverage?.coveragePercent, 100);
 });
 
+test("mesure la couverture complète de l'argument sur l'observation des gestes", () => {
+  const queue = buildReviewQueue(corpus);
+  const coverage = queue.argumentCoverage.find(
+    (argument) => argument.argumentId === "argument-lire-gestes-comme-adaptations",
+  );
+
+  assert.equal(coverage?.claimCount, 4);
+  assert.equal(coverage?.verifiedCount, 4);
+  assert.equal(coverage?.coveragePercent, 100);
+});
+
 test("ordonne la file de la situation la plus prudente à la plus étayée", () => {
   const queue = buildReviewQueue(corpus);
   const rankByLane = new Map(REVIEW_LANES.map((lane, index) => [lane.id, index]));
