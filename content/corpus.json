@@ -474,6 +474,56 @@
       "accessedAt": "2026-08-12",
       "kind": "international-open-source-investigation-protocol",
       "scopeNote": "Guide de collecte, préservation, analyse et présentation d'informations numériques ouvertes ; son standard vise les enquêtes internationales et distingue explicitement information publique et élément doté d'une valeur probante."
+    },
+    {
+      "id": "sep-democracy-2024",
+      "publisher": "Stanford Encyclopedia of Philosophy",
+      "title": "Democracy",
+      "url": "https://plato.stanford.edu/entries/democracy/",
+      "publishedAt": "2024-06-18",
+      "accessedAt": "2026-08-12",
+      "kind": "peer-reviewed-philosophy-reference",
+      "scopeNote": "Synthèse de théorie démocratique normative : elle définit très généralement la démocratie comme une décision collective comportant une forme d'égalité entre participants, tout en soulignant la pluralité des justifications, domaines et formes institutionnelles."
+    },
+    {
+      "id": "sep-economic-democracy-2026",
+      "publisher": "Stanford Encyclopedia of Philosophy",
+      "title": "Economic Democracy",
+      "url": "https://plato.stanford.edu/entries/economic-democracy/",
+      "publishedAt": "2026-05-14",
+      "accessedAt": "2026-08-12",
+      "kind": "peer-reviewed-philosophy-reference",
+      "scopeNote": "Cartographie académique des arguments pour et contre l'extension des principes démocratiques à l'économie et au travail ; elle distingue modèles participatifs, représentatifs, codétermination et coopératives, ainsi que leurs objections et conditions de faisabilité."
+    },
+    {
+      "id": "legifrance-company-board-powers-2024",
+      "publisher": "Légifrance",
+      "title": "Code de commerce, article L225-35",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000049720576",
+      "publishedAt": "2024-06-15",
+      "accessedAt": "2026-08-12",
+      "kind": "official-legislation",
+      "scopeNote": "Pour les sociétés anonymes françaises à conseil d'administration, le conseil détermine les orientations de l'activité et règle les affaires de la société, sous réserve des pouvoirs attribués aux assemblées d'actionnaires."
+    },
+    {
+      "id": "legifrance-employee-board-representation-2021",
+      "publisher": "Légifrance",
+      "title": "Code de commerce, article L225-27-1",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000042339592",
+      "publishedAt": "2021-01-01",
+      "accessedAt": "2026-08-12",
+      "kind": "official-legislation",
+      "scopeNote": "Certaines grandes sociétés françaises doivent compter un ou deux administrateurs représentant les salariés selon la taille du conseil ; ce droit de représentation ne donne pas à l'ensemble des travailleurs un pouvoir égal sur chaque décision."
+    },
+    {
+      "id": "eurlex-worker-information-consultation-2002",
+      "publisher": "Union européenne",
+      "title": "Directive 2002/14/CE établissant un cadre relatif à l'information et la consultation des travailleurs",
+      "url": "https://eur-lex.europa.eu/eli/dir/2002/14/oj",
+      "publishedAt": "2002-03-11",
+      "accessedAt": "2026-08-12",
+      "kind": "official-european-legislation",
+      "scopeNote": "Cadre minimal européen pour l'information et la consultation des salariés, notamment sur l'activité, l'emploi et les décisions susceptibles de modifier substantiellement l'organisation du travail ; les modalités et seuils dépendent des droits nationaux."
     }
   ],
   "sources": [
@@ -484,7 +534,7 @@
       "kind": "organisation-media",
       "url": "https://www.youtube.com/@democracyatwrk",
       "languages": ["en"],
-      "editorialNote": "Chaîne identifiée. Les propos restent à distinguer des faits externes et à confronter à d'autres sources."
+      "editorialNote": "Chaîne identifiée. Un épisode pilote sur la démocratie au travail est relié à des vérifications philosophiques, juridiques françaises et européennes ; les conclusions normatives restent discutables."
     },
     {
       "id": "paduteam",
@@ -2593,6 +2643,55 @@
         "La possibilité de réponse ne rend pas une accusation initiale exacte ou proportionnée.",
         "Ce garde-fou demande une revue humaine avant toute publication concernant une personne identifiable."
       ]
+    },
+    {
+      "id": "verification-democracy-participation-definition",
+      "claimId": "claim-democracy-participation-definition",
+      "mode": "normative-conceptual-review",
+      "status": "qualified",
+      "questionFr": "La démocratie se définit-elle nécessairement par la participation de toutes les personnes affectées ?",
+      "findingFr": "La Stanford Encyclopedia of Philosophy retient comme définition très générale une décision collective comportant une forme d'égalité entre participants. Faire participer toute personne directement affectée est une justification défendue dans la théorie démocratique, mais ni son périmètre ni sa traduction institutionnelle ne font l'objet d'une définition unique. La formule de la vidéo est donc une position normative reconnaissable, pas une définition consensuelle exhaustive.",
+      "referenceIds": ["sep-democracy-2024", "sep-economic-democracy-2026"],
+      "caveats": [
+        "Être affecté par une décision ne détermine pas à lui seul qui doit voter, avec quel poids ni sur quelles matières.",
+        "La démocratie peut combiner participation directe, représentation, droits fondamentaux, contrôle et délibération.",
+        "Une définition philosophique ne décrit pas automatiquement les institutions existantes ni leurs effets.",
+        "L'extension du domaine démocratique à l'entreprise exige un argument supplémentaire."
+      ]
+    },
+    {
+      "id": "verification-workplace-decision-concentration",
+      "claimId": "claim-workplace-decision-concentration",
+      "mode": "comparative-corporate-governance-audit",
+      "status": "qualified",
+      "questionFr": "Les travailleurs sont-ils exclus des décisions clés dans l'entreprise capitaliste ordinaire ?",
+      "findingFr": "Dans la société anonyme française, le conseil d'administration détermine les orientations de l'activité, ce qui confirme une concentration formelle du pouvoir stratégique. Mais le droit européen impose des mécanismes d'information et de consultation, et le droit français prévoit des administrateurs représentant les salariés dans certaines grandes sociétés. La description d'une exclusion totale est donc trop générale : la voix des travailleurs existe à des degrés très variables, sans équivaloir le plus souvent à un pouvoir égal sur toutes les décisions.",
+      "referenceIds": [
+        "legifrance-company-board-powers-2024",
+        "legifrance-employee-board-representation-2021",
+        "eurlex-worker-information-consultation-2002"
+      ],
+      "caveats": [
+        "Les règles citées concernent l'Union européenne et, pour le conseil d'administration, certaines formes et tailles de sociétés françaises.",
+        "Information, consultation, négociation collective, droit de veto, codétermination et autogestion sont des pouvoirs distincts.",
+        "La gouvernance réelle dépend aussi des statuts, accords collectifs, conventions sectorielles et pratiques internes.",
+        "Les coopératives, entreprises publiques, associations et sociétés de personnes ne suivent pas toutes le même modèle."
+      ]
+    },
+    {
+      "id": "verification-democracy-requires-workplace-democracy",
+      "claimId": "claim-democracy-requires-workplace-democracy",
+      "mode": "normative-argument-scope-review",
+      "status": "qualified",
+      "questionFr": "Une société doit-elle démocratiser les lieux de travail pour pouvoir se dire pleinement démocratique ?",
+      "findingFr": "La démocratie économique constitue un courant théorique explicite qui étend l'égalité politique aux institutions économiques et défend notamment un raisonnement parallèle entre État et entreprise. La littérature de synthèse recense toutefois des objections à cette analogie, plusieurs modèles de participation et des arbitrages de faisabilité. La conclusion de la vidéo est donc cohérente avec une conception étendue de la démocratie, mais elle ne découle pas d'un fait juridique ou d'une définition unique du régime démocratique.",
+      "referenceIds": ["sep-democracy-2024", "sep-economic-democracy-2026"],
+      "caveats": [
+        "La similarité entre autorité politique et autorité économique est précisément l'un des points contestés.",
+        "Défendre davantage de voix au travail ne détermine pas un modèle unique de gouvernance.",
+        "Les effets sur l'efficacité, l'égalité, l'autonomie et la participation politique dépendent du dispositif étudié.",
+        "L'expression « pleinement démocratique » relève d'un critère normatif et non d'un classement institutionnel officiel."
+      ]
     }
   ],
   "arguments": [
@@ -2624,6 +2723,10 @@
       "adaptationConstraints": [
         "Présenter l'argument comme un raisonnement discutable, pas comme un fait établi.",
         "Faire apparaître au moins une objection avant toute formulation persuasive.",
+        "Distinguer information, consultation, négociation, codétermination et autogestion.",
+        "Préciser le pays, la forme juridique et la taille de l'entreprise avant de décrire son pouvoir de décision.",
+        "Ne pas présenter l'exclusion de toute voix salariée comme une propriété universelle des entreprises.",
+        "Présenter l'extension de la démocratie au travail comme une thèse normative défendue et contestée.",
         "Ne pas cibler une personne selon son origine, sa santé ou une inférence psychologique."
       ],
       "status": "draft",

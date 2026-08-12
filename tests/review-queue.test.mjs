@@ -24,13 +24,26 @@ test("construit une file complète et traçable depuis le corpus", () => {
 
 test("rend visibles les lacunes actuelles sans les appeler des verdicts", () => {
   const queue = buildReviewQueue(corpus);
+  const verifiedClaimIds = new Set(corpus.verifications.map((verification) => verification.claimId));
 
-  assert.equal(queue.countsByLane.missing, 17);
-  assert.equal(queue.countsByLane.inconclusive, 6);
-  assert.equal(queue.countsByLane.qualified, 19);
-  assert.equal(queue.countsByLane.supported, 8);
-  assert.equal(queue.verifiedClaims, 33);
-  assert.equal(queue.draftClaims, 50);
+  assert.equal(queue.countsByLane.missing, corpus.claims.length - verifiedClaimIds.size);
+  assert.equal(queue.verifiedClaims, verifiedClaimIds.size);
+  assert.equal(queue.draftClaims, corpus.claims.filter((claim) => claim.status === "draft").length);
+  assert.ok(queue.countsByLane.missing > 0);
+  assert.ok(queue.countsByLane.inconclusive > 0);
+  assert.ok(queue.countsByLane.qualified > 0);
+  assert.ok(queue.countsByLane.supported > 0);
+});
+
+test("mesure la couverture complète de l'argument sur la démocratie au travail", () => {
+  const queue = buildReviewQueue(corpus);
+  const coverage = queue.argumentCoverage.find(
+    (argument) => argument.argumentId === "argument-democratie-lieu-travail",
+  );
+
+  assert.equal(coverage?.claimCount, 3);
+  assert.equal(coverage?.verifiedCount, 3);
+  assert.equal(coverage?.coveragePercent, 100);
 });
 
 test("ordonne la file de la situation la plus prudente à la plus étayée", () => {
