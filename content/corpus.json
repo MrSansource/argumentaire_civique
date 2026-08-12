@@ -156,6 +156,36 @@
       "scopeNote": "Évaluation de la diversité des valeurs de la nature, de leur représentation inégale dans les décisions et des méthodes permettant de les rendre explicites sans les réduire à une mesure unique."
     },
     {
+      "id": "iyengar-poverty-framing-1990",
+      "publisher": "Political Behavior — Springer",
+      "title": "Framing Responsibility for Political Issues: The Case of Poverty",
+      "url": "https://doi.org/10.1007/BF00992330",
+      "publishedAt": "1990-03-01",
+      "accessedAt": "2026-08-12",
+      "kind": "peer-reviewed-framing-study",
+      "scopeNote": "Étude américaine classique reliant des présentations épisodiques ou thématiques de la pauvreté aux attributions individuelles ou sociales de responsabilité ; elle ne porte pas sur l'intention des producteurs du cadrage."
+    },
+    {
+      "id": "feezell-glazier-boydstun-framing-2019",
+      "publisher": "Politics, Groups, and Identities — Taylor & Francis",
+      "title": "Framing, identity, and responsibility: do episodic vs. thematic framing effects vary by target population?",
+      "url": "https://doi.org/10.1080/21565503.2019.1584751",
+      "publishedAt": "2019-02-27",
+      "accessedAt": "2026-08-12",
+      "kind": "peer-reviewed-survey-experiment",
+      "scopeNote": "Expérience en ligne américaine auprès de 1 655 personnes ; reproduit pour la pauvreté un déplacement des attributions selon le cadrage, mais montre que cet effet ne se généralise pas automatiquement à tous les sujets."
+    },
+    {
+      "id": "piff-poverty-attributions-2020",
+      "publisher": "Nature Human Behaviour",
+      "title": "Shifting attributions for poverty motivates opposition to inequality and enhances egalitarianism",
+      "url": "https://doi.org/10.1038/s41562-020-0835-8",
+      "publishedAt": "2020-03-16",
+      "accessedAt": "2026-08-12",
+      "kind": "peer-reviewed-multistudy-experiment",
+      "scopeNote": "Cinq études, dont trois expériences, sur le lien entre attributions situationnelles de la pauvreté, attitudes envers les inégalités et comportements égalitaires ; les interventions ne reproduisent pas le débat médiatique français étudié ici."
+    },
+    {
       "id": "insee-segregation-quartiers-2023",
       "publisher": "Insee",
       "title": "En 15 ans, les disparités entre quartiers, mesurées selon le revenu, se sont accentuées dans la plupart des grandes villes",
@@ -613,7 +643,7 @@
       "kind": "chaine-createur",
       "url": "https://www.youtube.com/channel/UCbbmy1wFvL1Xq0G9I-mLtQg",
       "languages": ["fr"],
-      "editorialNote": "Un épisode pilote est analysé. Son registre polémique est traité comme un objet rhétorique, distinct d'une vérification factuelle."
+      "editorialNote": "Un épisode pilote est analysé. Son registre polémique est traité comme un objet rhétorique, distinct d'une vérification factuelle. Les effets possibles d'un cadrage individualisant sont confrontés à des expériences de communication politique ; les intentions attribuées à une classe sociale ne sont pas retenues comme faits."
     },
     {
       "id": "cs-joseph",
@@ -2263,6 +2293,36 @@
       ]
     },
     {
+      "id": "verification-psychological-framing-material-conditions",
+      "claimId": "claim-social-problems-psychologized",
+      "mode": "political-communication-framing-review",
+      "status": "qualified",
+      "questionFr": "Un cadrage centré sur l'individu peut-il rendre moins visibles les causes économiques et sociales de la pauvreté ?",
+      "findingFr": "Des expériences américaines sur la pauvreté montrent qu'une présentation centrée sur un cas individuel favorise davantage l'attribution de responsabilité à la personne, tandis qu'un cadrage thématique et contextualisé favorise davantage l'attribution à la société ou aux institutions. Cela étaye la possibilité d'un effet d'occultation relative. Ces travaux portent toutefois sur l'opposition entre cadrages épisodique et thématique, pas directement sur toute explication psychologique ni sur l'article français commenté par PaduTeam.",
+      "referenceIds": ["iyengar-poverty-framing-1990", "feezell-glazier-boydstun-framing-2019"],
+      "caveats": [
+        "Un récit individuel peut aussi rendre une contrainte structurelle concrète s'il fournit son contexte.",
+        "Un cadrage psychologique n'est pas nécessairement individualisant, et un cadrage thématique n'est pas nécessairement structurel.",
+        "Les résultats proviennent d'expériences américaines et leur transfert au paysage médiatique français doit être testé.",
+        "Montrer qu'un déterminant devient moins saillant ne démontre pas qu'il est absent du raisonnement du public."
+      ]
+    },
+    {
+      "id": "verification-attribution-shifts-political-discussion",
+      "claimId": "claim-psychologization-deflects-conflict",
+      "mode": "attribution-and-policy-effects-review",
+      "status": "qualified",
+      "questionFr": "Déplacer l'explication de la pauvreté vers l'individu peut-il modifier les réponses politiques envisagées ?",
+      "findingFr": "Les études de cadrage relient les attributions individuelles ou sociales de la pauvreté à des jugements différents sur la responsabilité publique. D'autres expériences montrent qu'accroître les attributions situationnelles peut augmenter le soutien à la redistribution et réduire l'acceptation des inégalités. Le niveau d'explication peut donc orienter la discussion vers les conduites individuelles ou vers les institutions. En revanche, ces effets ne prouvent ni une intention de détourner la colère sociale ni l'homogénéité politique d'un groupe qualifié de bourgeois.",
+      "referenceIds": ["iyengar-poverty-framing-1990", "feezell-glazier-boydstun-framing-2019", "piff-poverty-attributions-2020"],
+      "caveats": [
+        "Un effet politique observé ne renseigne pas à lui seul sur l'intention de l'auteur, du média ou de sa classe sociale.",
+        "Les attitudes déclarées et les comportements expérimentaux ne prédisent pas parfaitement une décision électorale ou institutionnelle réelle.",
+        "Les causes individuelles et structurelles peuvent agir simultanément et appeler des réponses complémentaires.",
+        "L'effet dépend du public, du sujet, du contenu précis et de la crédibilité de la source."
+      ]
+    },
+    {
       "id": "verification-crise-ecologique-multifactorielle",
       "claimId": "claim-ecological-crisis-multiple-drivers",
       "mode": "empirical",
@@ -2949,7 +3009,11 @@
         "Commencer par des questions vérifiables sur revenus, logement et dépenses contraintes.",
         "Ne jamais présenter une inférence psychologique ou une appartenance de classe comme un diagnostic individuel.",
         "Conserver l'objection selon laquelle facteurs matériels et psychologiques peuvent coexister.",
-        "Éviter le sarcasme dans une reformulation destinée à ouvrir le dialogue."
+        "Éviter le sarcasme dans une reformulation destinée à ouvrir le dialogue.",
+        "Distinguer explicitement l'effet possible d'un cadrage de l'intention supposée de son auteur.",
+        "Ne pas utiliser la critique de la psychologisation pour décourager une personne de demander une aide psychologique.",
+        "Préciser si le message étudié individualise la cause, la responsabilité ou seulement la forme du récit.",
+        "Présenter les résultats américains comme des indices transférables à tester, pas comme une preuve directe sur les médias français."
       ],
       "status": "draft",
       "review": null
