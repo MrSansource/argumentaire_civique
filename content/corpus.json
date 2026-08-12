@@ -116,6 +116,46 @@
       "scopeNote": "Synthèse mondiale des options d'atténuation ; évalue conjointement technologies, infrastructures, institutions, comportements et risques d'effet rebond."
     },
     {
+      "id": "sep-scientific-objectivity-2020",
+      "publisher": "Stanford Encyclopedia of Philosophy",
+      "title": "Scientific Objectivity",
+      "url": "https://plato.stanford.edu/entries/scientific-objectivity/",
+      "publishedAt": "2020-10-30",
+      "accessedAt": "2026-08-12",
+      "kind": "peer-reviewed-philosophy-reference",
+      "scopeNote": "Synthèse des débats sur l'objectivité, l'idéal de neutralité axiologique et les rôles distincts des valeurs épistémiques et contextuelles dans la recherche et son application."
+    },
+    {
+      "id": "ipcc-ar6-wg3-chapter-1-2022",
+      "publisher": "GIEC",
+      "title": "AR6 Working Group III — Chapter 1: Introduction and Framing",
+      "url": "https://www.ipcc.ch/report/ar6/wg3/chapter/chapter-1/",
+      "publishedAt": "2022-04-04",
+      "accessedAt": "2026-08-12",
+      "kind": "intergovernmental-assessment",
+      "scopeNote": "Cadre de l'évaluation des trajectoires d'atténuation ; précise le rôle des scénarios, des choix humains, des incertitudes profondes, de l'équité et des paramètres éthiques."
+    },
+    {
+      "id": "ipcc-ar6-wg2-chapter-18-2022",
+      "publisher": "GIEC",
+      "title": "AR6 Working Group II — Chapter 18: Climate Resilient Development Pathways",
+      "url": "https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-18/",
+      "publishedAt": "2022-02-28",
+      "accessedAt": "2026-08-12",
+      "kind": "intergovernmental-assessment",
+      "scopeNote": "Évalue plusieurs trajectoires de développement résilient, leurs arbitrages, leurs effets distributifs et le rôle des valeurs, visions du monde et rapports de pouvoir."
+    },
+    {
+      "id": "ipbes-values-assessment-spm-2022",
+      "publisher": "IPBES",
+      "title": "Summary for Policymakers of the Methodological Assessment Report on the Diverse Values and Valuation of Nature",
+      "url": "https://doi.org/10.5281/zenodo.6522392",
+      "publishedAt": "2022-07-11",
+      "accessedAt": "2026-08-12",
+      "kind": "intergovernmental-methodological-assessment",
+      "scopeNote": "Évaluation de la diversité des valeurs de la nature, de leur représentation inégale dans les décisions et des méthodes permettant de les rendre explicites sans les réduire à une mesure unique."
+    },
+    {
       "id": "insee-segregation-quartiers-2023",
       "publisher": "Insee",
       "title": "En 15 ans, les disparités entre quartiers, mesurées selon le revenu, se sont accentuées dans la plupart des grandes villes",
@@ -591,7 +631,7 @@
       "kind": "chaine-createur",
       "url": "https://www.youtube.com/channel/UCwgqYNmYaij2_8hq_tOFyZw",
       "languages": ["fr", "en"],
-      "editorialNote": "Un entretien pilote est analysé sur l'écologie, les limites de la technique et la distinction entre faits et valeurs."
+      "editorialNote": "Un entretien pilote est analysé sur l'écologie, les limites de la technique et la distinction entre faits et valeurs. Les propositions sur les finalités collectives sont confrontées à la philosophie des sciences et aux évaluations du GIEC et de l'IPBES, sans transformer une position normative en constat scientifique."
     },
     {
       "id": "alexandre-duclos",
@@ -2249,6 +2289,36 @@
       ]
     },
     {
+      "id": "verification-science-and-collective-ends",
+      "claimId": "claim-science-does-not-set-ends",
+      "mode": "philosophy-of-science-and-scenario-audit",
+      "status": "qualified",
+      "questionFr": "Les résultats scientifiques peuvent-ils déterminer seuls les finalités collectives ?",
+      "findingFr": "Le GIEC présente ses trajectoires comme des scénarios dépendant de choix humains, de conventions et d'incertitudes, et montre que des paramètres éthiques modifient les arbitrages. La philosophie des sciences distingue en outre la solidité factuelle des résultats de la sélection des problèmes, des seuils de décision et de leurs usages. Les connaissances scientifiques peuvent donc exclure des options irréalisables, estimer leurs conséquences et révéler des contradictions, mais elles ne choisissent pas seules la répartition des risques, les critères de justice ni les modes de vie souhaités.",
+      "referenceIds": ["sep-scientific-objectivity-2020", "ipcc-ar6-wg3-chapter-1-2022"],
+      "caveats": [
+        "Cette distinction ne met pas les faits établis et les préférences politiques sur un pied d'égalité.",
+        "Les droits, les lois et les accords déjà adoptés fournissent des engagements normatifs qui orientent légitimement l'expertise.",
+        "Les experts peuvent identifier des options dominées, incompatibles ou très risquées sans imposer une conception exhaustive de la vie bonne.",
+        "Reconnaître la présence de valeurs dans la recherche appliquée n'autorise pas à déformer les résultats pour servir une préférence politique."
+      ]
+    },
+    {
+      "id": "verification-ecological-policy-values",
+      "claimId": "claim-ecological-action-requires-values",
+      "mode": "intergovernmental-values-and-equity-assessment",
+      "status": "qualified",
+      "questionFr": "Une politique écologique cohérente doit-elle expliciter ses valeurs et ses critères de justice ?",
+      "findingFr": "Le GIEC décrit plusieurs trajectoires possibles dont les bénéfices, coûts et risques diffèrent selon les groupes, et relie leur caractère juste à la manière dont intérêts, valeurs et visions du monde sont arbitrés. L'IPBES constate que les décisions privilégient souvent un sous-ensemble de valeurs de la nature et fournit des méthodes pour rendre leur pluralité visible. Ces travaux étayent l'exigence de transparence sur les finalités et les effets distributifs, sans imposer le vocabulaire de Barrau ni un monde désirable unique.",
+      "referenceIds": ["ipcc-ar6-wg2-chapter-18-2022", "ipbes-values-assessment-spm-2022"],
+      "caveats": [
+        "Des valeurs explicites peuvent rester incompatibles ; leur mise au jour ne produit pas automatiquement un consensus.",
+        "La pluralité des valeurs de la nature ne signifie pas que toutes peuvent être agrégées dans une mesure commune.",
+        "Des mesures sans regret peuvent être prises dans l'urgence sans attendre un accord complet sur toutes les finalités.",
+        "Les principes invoqués doivent être traduits en critères, droits, institutions, budgets et mécanismes de responsabilité."
+      ]
+    },
+    {
       "id": "verification-structure-materielle-quartiers",
       "claimId": "claim-territorial-inequality-has-material-structure",
       "mode": "empirical",
@@ -2944,7 +3014,11 @@
         "Reconnaître explicitement que technologies et transformations systémiques peuvent être complémentaires.",
         "Traduire chaque valeur invoquée en critère de décision discutable et vérifiable.",
         "Éviter les généralisations homogènes sur des civilisations ou des cultures.",
-        "Séparer les faits écologiques vérifiés des métaphores destinées à mobiliser."
+        "Séparer les faits écologiques vérifiés des métaphores destinées à mobiliser.",
+        "Ne jamais opposer science et valeurs comme si l'une pouvait remplacer l'autre.",
+        "Présenter plusieurs trajectoires compatibles avec les contraintes scientifiques et leurs effets distributifs.",
+        "Ne pas retarder les mesures sans regret sous prétexte d'attendre un accord total sur le monde souhaitable.",
+        "Distinguer la pluralité des valeurs d'un relativisme où toutes les affirmations factuelles se valent."
       ],
       "status": "draft",
       "review": null
